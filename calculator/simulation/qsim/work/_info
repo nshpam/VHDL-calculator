@@ -1,0 +1,479 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/intelFPGA_lite/20.1/calculator/simulation/qsim
+Eadderandsubtractor
+Z1 w1668349259
+Z2 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z3 DPx8 cyclonev 18 cyclonev_atom_pack 0 22 3HQPc5MVbmOPN?>a5EBYj2
+Z4 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+Z5 DPx8 cyclonev 19 cyclonev_components 0 22 jZ]H46BQLgIP5mfRTO`3B1
+Z6 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z7 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+Z8 DPx12 altera_lnsim 23 altera_lnsim_components 0 22 ^Ch;U@;bMk1;>A2B<UV`k2
+!i122 20
+R0
+Z9 8calculator.vho
+Z10 Fcalculator.vho
+l0
+L37 1
+VGJUdohzAi>?:@<h_fbOoV0
+!s100 WM36R7E<T7Rf@;Ad@_5130
+Z11 OV;C;2020.1;71
+32
+Z12 !s110 1668349263
+!i10b 1
+Z13 !s108 1668349262.000000
+Z14 !s90 -work|work|calculator.vho|
+Z15 !s107 calculator.vho|
+!i113 1
+Z16 o-work work
+Z17 tExplicit 1 CvgOpt 0
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+DEx4 work 18 adderandsubtractor 0 22 GJUdohzAi>?:@<h_fbOoV0
+!i122 20
+l111
+L48 510
+VX2ng7JATBF=^9MURG89__2
+!s100 Le:g7WcYVeIe[lN_Wd?Rg0
+R11
+32
+R12
+!i10b 1
+R13
+R14
+R15
+!i113 1
+R16
+R17
+Eadderandsubtractor_vhd_vec_tst
+Z18 w1668349257
+R6
+R7
+!i122 21
+R0
+Z19 8Waveform3.vwf.vht
+Z20 FWaveform3.vwf.vht
+l0
+Z21 L32 1
+ViCd4G<nfAA6d@FNcVo?SZ2
+!s100 EQEKFEP:doiTUo=<]6=2g1
+R11
+32
+R12
+!i10b 1
+Z22 !s108 1668349263.000000
+Z23 !s90 -work|work|Waveform3.vwf.vht|
+Z24 !s107 Waveform3.vwf.vht|
+!i113 1
+R16
+R17
+Aadderandsubtractor_arch
+R6
+R7
+DEx4 work 30 adderandsubtractor_vhd_vec_tst 0 22 iCd4G<nfAA6d@FNcVo?SZ2
+!i122 21
+l53
+L34 98
+VLSegVzZ:SG0^dHeDVGn;^3
+!s100 KXJ2ZPiSRm[LiSk2KWmHI2
+R11
+32
+R12
+!i10b 1
+R22
+R23
+R24
+!i113 1
+R16
+R17
+Ebcdthreedigittosevensegment
+Z25 w1668441209
+R3
+R5
+R8
+R2
+Z26 DPx6 altera 11 dffeas_pack 0 22 dc5N=DKXMMTVYdUQ@D3FA2
+R4
+R6
+R7
+Z27 DPx6 altera 28 altera_primitives_components 0 22 ca:ehlQAg4;_gVV:^8MAg3
+!i122 78
+R0
+R9
+R10
+l0
+Z28 L39 1
+VL3m@SIi?WzRU:UMT2mzik0
+!s100 J4M]Y`JiVeC2RPWVj4V_O3
+R11
+32
+Z29 !s110 1668441212
+!i10b 1
+Z30 !s108 1668441212.000000
+R14
+R15
+!i113 1
+R16
+R17
+Astructure
+R3
+R5
+R8
+R2
+R26
+R4
+R6
+R7
+R27
+DEx4 work 27 bcdthreedigittosevensegment 0 22 L3m@SIi?WzRU:UMT2mzik0
+!i122 78
+l921
+L56 8131
+V>4fmfi^nRggM[;5i9VH3j2
+!s100 b5Z<V=4UOz]ZBV>5`9o9C1
+R11
+32
+R29
+!i10b 1
+R30
+R14
+R15
+!i113 1
+R16
+R17
+Ebcdthreedigittosevensegment_vhd_vec_tst
+Z31 w1668441206
+R6
+R7
+!i122 79
+R0
+Z32 8Waveform8.vwf.vht
+Z33 FWaveform8.vwf.vht
+l0
+R21
+V:gfTD:bRB?90^;FJF=EM61
+!s100 DlO?mm9I^IndI<V4hkbPW1
+R11
+32
+Z34 !s110 1668441213
+!i10b 1
+Z35 !s108 1668441213.000000
+Z36 !s90 -work|work|Waveform8.vwf.vht|
+Z37 !s107 Waveform8.vwf.vht|
+!i113 1
+R16
+R17
+Abcdthreedigittosevensegment_arch
+R6
+R7
+DEx4 work 39 bcdthreedigittosevensegment_vhd_vec_tst 0 22 :gfTD:bRB?90^;FJF=EM61
+!i122 79
+l65
+L34 206
+VX48M9Lg`B@aGk40eBoP@<3
+!s100 bc`eKW92kKFBz9Eb_]DVY2
+R11
+32
+R34
+!i10b 1
+R35
+R36
+R37
+!i113 1
+R16
+R17
+Ecalculator
+Z38 w1668488874
+Z39 DPx8 cyclonev 18 cyclonev_atom_pack 0 22 OGn598C_0mX<WSGfCb?AK2
+Z40 DPx8 cyclonev 19 cyclonev_components 0 22 CcdNAEi>PYH4@n><]NQ]V2
+Z41 DPx12 altera_lnsim 23 altera_lnsim_components 0 22 QZo1Vh6en2ZO3=hNmAfQ>0
+R2
+Z42 DPx6 altera 11 dffeas_pack 0 22 :S1C`o89Vbe5bV6`:6CaB3
+R4
+R6
+Z43 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z44 DPx6 altera 28 altera_primitives_components 0 22 z?[99Tn<@QGNik3V1c6ah1
+Z45 dE:/calculator/simulation/qsim
+R9
+R10
+l0
+L38
+VRXM8Ze=iJKZeWZG@fa[in0
+!s100 :gP7P7_257XO81j0Bdn411
+Z46 OV;C;10.5b;63
+32
+!s110 1668488873
+!i10b 1
+Z47 !s108 1668488873.000000
+R14
+R15
+!i113 1
+R16
+R17
+Astructure
+R39
+R40
+R41
+R2
+R42
+R4
+R6
+R43
+R44
+DEx4 work 10 calculator 0 22 RXM8Ze=iJKZeWZG@fa[in0
+l2170
+L59
+V_27HjhLHUF13=@;bRPVFc1
+!s100 7VHeK]X@XSR>TY__foTeO1
+R46
+32
+!s110 1668488874
+!i10b 1
+R47
+R14
+R15
+!i113 1
+R16
+R17
+Ecalculator_vhd_vec_tst
+Z48 w1668488870
+R6
+R43
+R45
+Z49 8Waveform1.vwf.vht
+Z50 FWaveform1.vwf.vht
+l0
+L31
+VIV87;lo1ll6b2icX>ifZ`0
+!s100 Rn4@GH5GC6z?J`EeC4odY3
+R46
+32
+Z51 !s110 1668488880
+!i10b 1
+Z52 !s108 1668488876.000000
+Z53 !s90 -work|work|Waveform1.vwf.vht|
+Z54 !s107 Waveform1.vwf.vht|
+!i113 1
+R16
+R17
+Acalculator_arch
+R6
+R43
+Z55 DEx4 work 22 calculator_vhd_vec_tst 0 22 IV87;lo1ll6b2icX>ifZ`0
+l72
+L33
+V5:8k4Io<;ajeO7ZI[mn;n1
+!s100 zD_go;I1R0UbMHC:k@6on3
+R46
+32
+R51
+!i10b 1
+R52
+R53
+R54
+!i113 1
+R16
+R17
+Edivision
+Z56 w1668482462
+R39
+R40
+R41
+R2
+R42
+R4
+R6
+R43
+R44
+R45
+R9
+R10
+l0
+L38
+VbM=@:c=?h`:m2RTBiJE_F0
+!s100 QM2F=DQnTUO?1^:PI>^Sn0
+R46
+32
+Z57 !s110 1668482461
+!i10b 1
+Z58 !s108 1668482461.000000
+R14
+R15
+!i113 1
+R16
+R17
+Astructure
+R39
+R40
+R41
+R2
+R42
+R4
+R6
+R43
+R44
+DEx4 work 8 division 0 22 bM=@:c=?h`:m2RTBiJE_F0
+l291
+L51
+VmMYR<PJk3Q>O`jH95`?2B0
+!s100 4Niz7VQCMz8We`QZULDOL2
+R46
+32
+R57
+!i10b 1
+R58
+R14
+R15
+!i113 1
+R16
+R17
+Edivision_vhd_vec_tst
+Z59 w1668482458
+R6
+R43
+R45
+Z60 8Waveform2.vwf.vht
+Z61 FWaveform2.vwf.vht
+l0
+L31
+V3>EDd_EJeBQSmSchS0eb[2
+!s100 LikXX;<ZWF`a93HfRaGX21
+R46
+32
+R57
+!i10b 1
+R58
+Z62 !s90 -work|work|Waveform2.vwf.vht|
+Z63 !s107 Waveform2.vwf.vht|
+!i113 1
+R16
+R17
+Adivision_arch
+R6
+R43
+DEx4 work 20 division_vhd_vec_tst 0 22 3>EDd_EJeBQSmSchS0eb[2
+l56
+L33
+VY1Pn=<4nX3d6Q6ec;C@ZV1
+!s100 Xi90o2>G;=gCf_QOz3Ke;1
+R46
+32
+R57
+!i10b 1
+R58
+R62
+R63
+!i113 1
+R16
+R17
+Emultiplication
+Z64 w1668347344
+R3
+R5
+R8
+R2
+R26
+R4
+R6
+R7
+R27
+!i122 6
+R0
+R9
+R10
+l0
+R28
+V[b5;D3oY;Em:0Ygd20eBe3
+!s100 a0ZJMJV_NmkC;k`K2z:h:2
+R11
+32
+Z65 !s110 1668347347
+!i10b 1
+Z66 !s108 1668347347.000000
+R14
+R15
+!i113 1
+R16
+R17
+Astructure
+R3
+R5
+R8
+R2
+R26
+R4
+R6
+R7
+R27
+DEx4 work 14 multiplication 0 22 [b5;D3oY;Em:0Ygd20eBe3
+!i122 6
+l240
+L51 2739
+VZE<N?9d4KZ8]l_z:>iGKG2
+!s100 IfJC;4dWo9M?]Z8Of<d`l2
+R11
+32
+R65
+!i10b 1
+R66
+R14
+R15
+!i113 1
+R16
+R17
+Emultiplication_vhd_vec_tst
+Z67 w1668347342
+R6
+R7
+!i122 7
+R0
+R49
+R50
+l0
+R21
+V0j`Na<;4UKO8LnRBQ3]6<3
+!s100 OIN]KkEjU4V82<YifLS`12
+R11
+32
+Z68 !s110 1668347348
+!i10b 1
+R66
+R53
+R54
+!i113 1
+R16
+R17
+Amultiplication_arch
+R6
+R7
+DEx4 work 26 multiplication_vhd_vec_tst 0 22 0j`Na<;4UKO8LnRBQ3]6<3
+!i122 7
+l55
+L34 122
+VC>10mITNLY?zZ7FZNI67H3
+!s100 <:SXWS[D_Xe3J^UE;lEB50
+R11
+32
+R68
+!i10b 1
+R66
+R53
+R54
+!i113 1
+R16
+R17
