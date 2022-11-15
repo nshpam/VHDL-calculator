@@ -1,6 +1,6 @@
 Analysis & Synthesis report for calculator
-Tue Nov 15 12:21:57 2022
-Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Standard Edition
+Wed Nov 16 00:49:30 2022
+Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 
 
 ---------------------
@@ -39,9 +39,9 @@ Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Standard Edition
 ----------------
 ; Legal Notice ;
 ----------------
-Copyright (C) 2018  Intel Corporation. All rights reserved.
+Copyright (C) 2020  Intel Corporation. All rights reserved.
 Your use of Intel Corporation's design tools, logic functions 
-and other software and tools, and its AMPP partner logic 
+and other software and tools, and any partner logic 
 functions, and any output files from any of the foregoing 
 (including device programming or simulation files), and any 
 associated documentation or information are expressly subject 
@@ -51,31 +51,32 @@ the Intel FPGA IP License Agreement, or other applicable license
 agreement, including, without limitation, that your use is for
 the sole purpose of programming logic devices manufactured by
 Intel and sold by Intel or its authorized distributors.  Please
-refer to the applicable agreement for further details.
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
 
 
 
-+-----------------------------------------------------------------------------------+
-; Analysis & Synthesis Summary                                                      ;
-+---------------------------------+-------------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Tue Nov 15 12:21:56 2022           ;
-; Quartus Prime Version           ; 18.1.0 Build 625 09/12/2018 SJ Standard Edition ;
-; Revision Name                   ; calculator                                      ;
-; Top-level Entity Name           ; calculator                                      ;
-; Family                          ; Cyclone V                                       ;
-; Logic utilization (in ALMs)     ; N/A                                             ;
-; Total registers                 ; 260                                             ;
-; Total pins                      ; 79                                              ;
-; Total virtual pins              ; 0                                               ;
-; Total block memory bits         ; 0                                               ;
-; Total DSP Blocks                ; 0                                               ;
-; Total HSSI RX PCSs              ; 0                                               ;
-; Total HSSI PMA RX Deserializers ; 0                                               ;
-; Total HSSI TX PCSs              ; 0                                               ;
-; Total HSSI PMA TX Serializers   ; 0                                               ;
-; Total PLLs                      ; 0                                               ;
-; Total DLLs                      ; 0                                               ;
-+---------------------------------+-------------------------------------------------+
++-------------------------------------------------------------------------------+
+; Analysis & Synthesis Summary                                                  ;
++---------------------------------+---------------------------------------------+
+; Analysis & Synthesis Status     ; Successful - Wed Nov 16 00:49:30 2022       ;
+; Quartus Prime Version           ; 20.1.1 Build 720 11/11/2020 SJ Lite Edition ;
+; Revision Name                   ; calculator                                  ;
+; Top-level Entity Name           ; calculator                                  ;
+; Family                          ; Cyclone V                                   ;
+; Logic utilization (in ALMs)     ; N/A                                         ;
+; Total registers                 ; 260                                         ;
+; Total pins                      ; 79                                          ;
+; Total virtual pins              ; 0                                           ;
+; Total block memory bits         ; 0                                           ;
+; Total DSP Blocks                ; 0                                           ;
+; Total HSSI RX PCSs              ; 0                                           ;
+; Total HSSI PMA RX Deserializers ; 0                                           ;
+; Total HSSI TX PCSs              ; 0                                           ;
+; Total HSSI PMA TX Serializers   ; 0                                           ;
+; Total PLLs                      ; 0                                           ;
+; Total DLLs                      ; 0                                           ;
++---------------------------------+---------------------------------------------+
 
 
 +---------------------------------------------------------------------------------------------------------------------------+
@@ -170,47 +171,43 @@ refer to the applicable agreement for further details.
 +----------------------------+-------------+
 ; Processors                 ; Number      ;
 +----------------------------+-------------+
-; Number detected on machine ; 6           ;
-; Maximum allowed            ; 6           ;
+; Number detected on machine ; 4           ;
+; Maximum allowed            ; 2           ;
 ;                            ;             ;
 ; Average used               ; 1.00        ;
-; Maximum used               ; 6           ;
+; Maximum used               ; 2           ;
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
 ;     Processor 2            ;   0.0%      ;
-;     Processor 3            ;   0.0%      ;
-;     Processor 4            ;   0.0%      ;
-;     Processor 5            ;   0.0%      ;
-;     Processor 6            ;   0.0%      ;
 +----------------------------+-------------+
 
 
-+---------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                              ;
-+----------------------------------+-----------------+------------------------------+-----------------------------------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type                    ; File Name with Absolute Path                                          ; Library ;
-+----------------------------------+-----------------+------------------------------+-----------------------------------------------------------------------+---------+
-; multiplication.vhd               ; yes             ; User VHDL File               ; E:/calculator/multiplication.vhd                                      ;         ;
-; calculator.vhd                   ; yes             ; User VHDL File               ; E:/calculator/calculator.vhd                                          ;         ;
-; division.vhd                     ; yes             ; User VHDL File               ; E:/calculator/division.vhd                                            ;         ;
-; adderandsubtractor.vhd           ; yes             ; User VHDL File               ; E:/calculator/adderandsubtractor.vhd                                  ;         ;
-; bcdthreedigittosevensegment.vhd  ; yes             ; User VHDL File               ; E:/calculator/bcdthreedigittosevensegment.vhd                         ;         ;
-; bcdtosevensegment.vhd            ; yes             ; User VHDL File               ; E:/calculator/bcdtosevensegment.vhd                                   ;         ;
-; lpm_divide.tdf                   ; yes             ; Megafunction                 ; c:/intelfpga/18.1/quartus/libraries/megafunctions/lpm_divide.tdf      ;         ;
-; abs_divider.inc                  ; yes             ; Megafunction                 ; c:/intelfpga/18.1/quartus/libraries/megafunctions/abs_divider.inc     ;         ;
-; sign_div_unsign.inc              ; yes             ; Megafunction                 ; c:/intelfpga/18.1/quartus/libraries/megafunctions/sign_div_unsign.inc ;         ;
-; aglobal181.inc                   ; yes             ; Megafunction                 ; c:/intelfpga/18.1/quartus/libraries/megafunctions/aglobal181.inc      ;         ;
-; db/lpm_divide_u4m.tdf            ; yes             ; Auto-Generated Megafunction  ; E:/calculator/db/lpm_divide_u4m.tdf                                   ;         ;
-; db/sign_div_unsign_1nh.tdf       ; yes             ; Auto-Generated Megafunction  ; E:/calculator/db/sign_div_unsign_1nh.tdf                              ;         ;
-; db/alt_u_div_82f.tdf             ; yes             ; Auto-Generated Megafunction  ; E:/calculator/db/alt_u_div_82f.tdf                                    ;         ;
-; db/lpm_divide_ebm.tdf            ; yes             ; Auto-Generated Megafunction  ; E:/calculator/db/lpm_divide_ebm.tdf                                   ;         ;
-; db/sign_div_unsign_klh.tdf       ; yes             ; Auto-Generated Megafunction  ; E:/calculator/db/sign_div_unsign_klh.tdf                              ;         ;
-; db/alt_u_div_eve.tdf             ; yes             ; Auto-Generated Megafunction  ; E:/calculator/db/alt_u_div_eve.tdf                                    ;         ;
-; db/lpm_divide_hbm.tdf            ; yes             ; Auto-Generated Megafunction  ; E:/calculator/db/lpm_divide_hbm.tdf                                   ;         ;
-; db/sign_div_unsign_nlh.tdf       ; yes             ; Auto-Generated Megafunction  ; E:/calculator/db/sign_div_unsign_nlh.tdf                              ;         ;
-; db/alt_u_div_kve.tdf             ; yes             ; Auto-Generated Megafunction  ; E:/calculator/db/alt_u_div_kve.tdf                                    ;         ;
-+----------------------------------+-----------------+------------------------------+-----------------------------------------------------------------------+---------+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                   ;
++----------------------------------+-----------------+------------------------------+----------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type                    ; File Name with Absolute Path                                               ; Library ;
++----------------------------------+-----------------+------------------------------+----------------------------------------------------------------------------+---------+
+; multiplication.vhd               ; yes             ; User VHDL File               ; E:/calculator/multiplication.vhd                                           ;         ;
+; calculator.vhd                   ; yes             ; User VHDL File               ; E:/calculator/calculator.vhd                                               ;         ;
+; division.vhd                     ; yes             ; User VHDL File               ; E:/calculator/division.vhd                                                 ;         ;
+; adderandsubtractor.vhd           ; yes             ; User VHDL File               ; E:/calculator/adderandsubtractor.vhd                                       ;         ;
+; bcdthreedigittosevensegment.vhd  ; yes             ; User VHDL File               ; E:/calculator/bcdthreedigittosevensegment.vhd                              ;         ;
+; bcdtosevensegment.vhd            ; yes             ; User VHDL File               ; E:/calculator/bcdtosevensegment.vhd                                        ;         ;
+; lpm_divide.tdf                   ; yes             ; Megafunction                 ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/lpm_divide.tdf      ;         ;
+; abs_divider.inc                  ; yes             ; Megafunction                 ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/abs_divider.inc     ;         ;
+; sign_div_unsign.inc              ; yes             ; Megafunction                 ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/sign_div_unsign.inc ;         ;
+; aglobal201.inc                   ; yes             ; Megafunction                 ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/aglobal201.inc      ;         ;
+; db/lpm_divide_u4m.tdf            ; yes             ; Auto-Generated Megafunction  ; E:/calculator/db/lpm_divide_u4m.tdf                                        ;         ;
+; db/sign_div_unsign_1nh.tdf       ; yes             ; Auto-Generated Megafunction  ; E:/calculator/db/sign_div_unsign_1nh.tdf                                   ;         ;
+; db/alt_u_div_82f.tdf             ; yes             ; Auto-Generated Megafunction  ; E:/calculator/db/alt_u_div_82f.tdf                                         ;         ;
+; db/lpm_divide_ebm.tdf            ; yes             ; Auto-Generated Megafunction  ; E:/calculator/db/lpm_divide_ebm.tdf                                        ;         ;
+; db/sign_div_unsign_klh.tdf       ; yes             ; Auto-Generated Megafunction  ; E:/calculator/db/sign_div_unsign_klh.tdf                                   ;         ;
+; db/alt_u_div_eve.tdf             ; yes             ; Auto-Generated Megafunction  ; E:/calculator/db/alt_u_div_eve.tdf                                         ;         ;
+; db/lpm_divide_hbm.tdf            ; yes             ; Auto-Generated Megafunction  ; E:/calculator/db/lpm_divide_hbm.tdf                                        ;         ;
+; db/sign_div_unsign_nlh.tdf       ; yes             ; Auto-Generated Megafunction  ; E:/calculator/db/sign_div_unsign_nlh.tdf                                   ;         ;
+; db/alt_u_div_kve.tdf             ; yes             ; Auto-Generated Megafunction  ; E:/calculator/db/alt_u_div_kve.tdf                                         ;         ;
++----------------------------------+-----------------+------------------------------+----------------------------------------------------------------------------+---------+
 
 
 +--------------------------------------------------------------+
@@ -667,7 +664,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:04     ;
+; Top            ; 00:00:03     ;
 +----------------+--------------+
 
 
@@ -676,89 +673,89 @@ Note: In order to hide this table in the UI and the text report file, please set
 +-------------------------------+
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
-    Info: Version 18.1.0 Build 625 09/12/2018 SJ Standard Edition
-    Info: Processing started: Tue Nov 15 12:21:36 2022
+    Info: Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+    Info: Processing started: Wed Nov 16 00:49:12 2022
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off calculator -c calculator
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
-Info (20030): Parallel compilation is enabled and will use 6 of the 6 processors detected
+Info (20030): Parallel compilation is enabled and will use 2 of the 2 processors detected
 Info (12021): Found 2 design units, including 1 entities, in source file multiplication.vhd
     Info (12022): Found design unit 1: multiplication-behavioral File: E:/calculator/multiplication.vhd Line: 14
     Info (12023): Found entity 1: multiplication File: E:/calculator/multiplication.vhd Line: 6
 Info (12021): Found 2 design units, including 1 entities, in source file calculator.vhd
-    Info (12022): Found design unit 1: calculator-Behaviral File: E:/calculator/calculator.vhd Line: 19
-    Info (12023): Found entity 1: calculator File: E:/calculator/calculator.vhd Line: 7
+    Info (12022): Found design unit 1: calculator-Behaviral File: E:/calculator/calculator.vhd Line: 25
+    Info (12023): Found entity 1: calculator File: E:/calculator/calculator.vhd Line: 5
 Info (12021): Found 2 design units, including 1 entities, in source file division.vhd
     Info (12022): Found design unit 1: division-behavioral File: E:/calculator/division.vhd Line: 16
     Info (12023): Found entity 1: division File: E:/calculator/division.vhd Line: 6
 Info (12021): Found 4 design units, including 2 entities, in source file adderandsubtractor.vhd
-    Info (12022): Found design unit 1: fulladder-data_flow File: E:/calculator/adderandsubtractor.vhd Line: 12
-    Info (12022): Found design unit 2: adderandsubtractor-behavioral File: E:/calculator/adderandsubtractor.vhd Line: 34
-    Info (12023): Found entity 1: fulladder File: E:/calculator/adderandsubtractor.vhd Line: 6
-    Info (12023): Found entity 2: adderandsubtractor File: E:/calculator/adderandsubtractor.vhd Line: 25
+    Info (12022): Found design unit 1: fulladder-data_flow File: E:/calculator/adderandsubtractor.vhd Line: 14
+    Info (12022): Found design unit 2: adderandsubtractor-behavioral File: E:/calculator/adderandsubtractor.vhd Line: 40
+    Info (12023): Found entity 1: fulladder File: E:/calculator/adderandsubtractor.vhd Line: 7
+    Info (12023): Found entity 2: adderandsubtractor File: E:/calculator/adderandsubtractor.vhd Line: 30
 Info (12021): Found 2 design units, including 1 entities, in source file bcdthreedigittosevensegment.vhd
-    Info (12022): Found design unit 1: bcdthreedigittosevensegment-Behavioral File: E:/calculator/bcdthreedigittosevensegment.vhd Line: 26
+    Info (12022): Found design unit 1: bcdthreedigittosevensegment-Behavioral File: E:/calculator/bcdthreedigittosevensegment.vhd Line: 30
     Info (12023): Found entity 1: bcdthreedigittosevensegment File: E:/calculator/bcdthreedigittosevensegment.vhd Line: 5
 Info (12021): Found 2 design units, including 1 entities, in source file bcdtosevensegment.vhd
     Info (12022): Found design unit 1: bcdtosevensegment-data_process File: E:/calculator/bcdtosevensegment.vhd Line: 13
     Info (12023): Found entity 1: bcdtosevensegment File: E:/calculator/bcdtosevensegment.vhd Line: 4
 Info (12127): Elaborating entity "calculator" for the top level hierarchy
-Info (12129): Elaborating entity "adderandsubtractor" using architecture "A:behavioral" for hierarchy "adderandsubtractor:addandsub_function" File: E:/calculator/calculator.vhd Line: 76
-Info (12128): Elaborating entity "fulladder" for hierarchy "adderandsubtractor:addandsub_function|fulladder:\eq_compar:0:sum" File: E:/calculator/adderandsubtractor.vhd Line: 46
-Info (12129): Elaborating entity "multiplication" using architecture "A:behavioral" for hierarchy "multiplication:multiplication_function" File: E:/calculator/calculator.vhd Line: 85
-Info (12129): Elaborating entity "division" using architecture "A:behavioral" for hierarchy "division:division_function" File: E:/calculator/calculator.vhd Line: 96
-Info (12129): Elaborating entity "bcdthreedigittosevensegment" using architecture "A:behavioral" for hierarchy "bcdthreedigittosevensegment:convert_binary" File: E:/calculator/calculator.vhd Line: 235
-Warning (10492): VHDL Process Statement warning at bcdthreedigittosevensegment.vhd(90): signal "int_data_1" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: E:/calculator/bcdthreedigittosevensegment.vhd Line: 90
-Warning (10492): VHDL Process Statement warning at bcdthreedigittosevensegment.vhd(91): signal "int_data_2" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: E:/calculator/bcdthreedigittosevensegment.vhd Line: 91
-Warning (10492): VHDL Process Statement warning at bcdthreedigittosevensegment.vhd(92): signal "int_data_3" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: E:/calculator/bcdthreedigittosevensegment.vhd Line: 92
-Warning (10492): VHDL Process Statement warning at bcdthreedigittosevensegment.vhd(94): signal "int_r_1" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: E:/calculator/bcdthreedigittosevensegment.vhd Line: 94
-Warning (10492): VHDL Process Statement warning at bcdthreedigittosevensegment.vhd(95): signal "int_r_2" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: E:/calculator/bcdthreedigittosevensegment.vhd Line: 95
-Warning (10492): VHDL Process Statement warning at bcdthreedigittosevensegment.vhd(96): signal "int_r_3" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: E:/calculator/bcdthreedigittosevensegment.vhd Line: 96
-Info (12129): Elaborating entity "bcdtosevensegment" using architecture "A:data_process" for hierarchy "bcdtosevensegment:seven_seg_display_1" File: E:/calculator/calculator.vhd Line: 258
+Info (12129): Elaborating entity "adderandsubtractor" using architecture "A:behavioral" for hierarchy "adderandsubtractor:addandsub_function" File: E:/calculator/calculator.vhd Line: 71
+Info (12128): Elaborating entity "fulladder" for hierarchy "adderandsubtractor:addandsub_function|fulladder:\eq_compar:0:sum" File: E:/calculator/adderandsubtractor.vhd Line: 57
+Info (12129): Elaborating entity "multiplication" using architecture "A:behavioral" for hierarchy "multiplication:multiplication_function" File: E:/calculator/calculator.vhd Line: 80
+Info (12129): Elaborating entity "division" using architecture "A:behavioral" for hierarchy "division:division_function" File: E:/calculator/calculator.vhd Line: 91
+Info (12129): Elaborating entity "bcdthreedigittosevensegment" using architecture "A:behavioral" for hierarchy "bcdthreedigittosevensegment:convert_binary" File: E:/calculator/calculator.vhd Line: 245
+Warning (10492): VHDL Process Statement warning at bcdthreedigittosevensegment.vhd(100): signal "int_data_1" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: E:/calculator/bcdthreedigittosevensegment.vhd Line: 100
+Warning (10492): VHDL Process Statement warning at bcdthreedigittosevensegment.vhd(101): signal "int_data_2" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: E:/calculator/bcdthreedigittosevensegment.vhd Line: 101
+Warning (10492): VHDL Process Statement warning at bcdthreedigittosevensegment.vhd(102): signal "int_data_3" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: E:/calculator/bcdthreedigittosevensegment.vhd Line: 102
+Warning (10492): VHDL Process Statement warning at bcdthreedigittosevensegment.vhd(104): signal "int_r_1" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: E:/calculator/bcdthreedigittosevensegment.vhd Line: 104
+Warning (10492): VHDL Process Statement warning at bcdthreedigittosevensegment.vhd(105): signal "int_r_2" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: E:/calculator/bcdthreedigittosevensegment.vhd Line: 105
+Warning (10492): VHDL Process Statement warning at bcdthreedigittosevensegment.vhd(106): signal "int_r_3" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: E:/calculator/bcdthreedigittosevensegment.vhd Line: 106
+Info (12129): Elaborating entity "bcdtosevensegment" using architecture "A:data_process" for hierarchy "bcdtosevensegment:seven_seg_display_1" File: E:/calculator/calculator.vhd Line: 266
 Info (278001): Inferred 8 megafunctions from design logic
-    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "bcdthreedigittosevensegment:convert_binary|Mod0" File: E:/calculator/bcdthreedigittosevensegment.vhd Line: 80
-    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "bcdthreedigittosevensegment:convert_binary|Div0" File: E:/calculator/bcdthreedigittosevensegment.vhd Line: 81
-    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "bcdthreedigittosevensegment:convert_binary|Mod1" File: E:/calculator/bcdthreedigittosevensegment.vhd Line: 81
-    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "bcdthreedigittosevensegment:convert_binary|Div1" File: E:/calculator/bcdthreedigittosevensegment.vhd Line: 82
-    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "bcdthreedigittosevensegment:convert_binary|Mod2" File: E:/calculator/bcdthreedigittosevensegment.vhd Line: 84
-    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "bcdthreedigittosevensegment:convert_binary|Div2" File: E:/calculator/bcdthreedigittosevensegment.vhd Line: 85
-    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "bcdthreedigittosevensegment:convert_binary|Mod3" File: E:/calculator/bcdthreedigittosevensegment.vhd Line: 85
-    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "bcdthreedigittosevensegment:convert_binary|Div3" File: E:/calculator/bcdthreedigittosevensegment.vhd Line: 86
-Info (12130): Elaborated megafunction instantiation "bcdthreedigittosevensegment:convert_binary|lpm_divide:Mod0" File: E:/calculator/bcdthreedigittosevensegment.vhd Line: 80
-Info (12133): Instantiated megafunction "bcdthreedigittosevensegment:convert_binary|lpm_divide:Mod0" with the following parameter: File: E:/calculator/bcdthreedigittosevensegment.vhd Line: 80
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "bcdthreedigittosevensegment:convert_binary|Mod0" File: E:/calculator/bcdthreedigittosevensegment.vhd Line: 87
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "bcdthreedigittosevensegment:convert_binary|Div0" File: E:/calculator/bcdthreedigittosevensegment.vhd Line: 88
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "bcdthreedigittosevensegment:convert_binary|Mod1" File: E:/calculator/bcdthreedigittosevensegment.vhd Line: 88
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "bcdthreedigittosevensegment:convert_binary|Div1" File: E:/calculator/bcdthreedigittosevensegment.vhd Line: 89
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "bcdthreedigittosevensegment:convert_binary|Mod2" File: E:/calculator/bcdthreedigittosevensegment.vhd Line: 92
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "bcdthreedigittosevensegment:convert_binary|Div2" File: E:/calculator/bcdthreedigittosevensegment.vhd Line: 93
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "bcdthreedigittosevensegment:convert_binary|Mod3" File: E:/calculator/bcdthreedigittosevensegment.vhd Line: 93
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "bcdthreedigittosevensegment:convert_binary|Div3" File: E:/calculator/bcdthreedigittosevensegment.vhd Line: 94
+Info (12130): Elaborated megafunction instantiation "bcdthreedigittosevensegment:convert_binary|lpm_divide:Mod0" File: E:/calculator/bcdthreedigittosevensegment.vhd Line: 87
+Info (12133): Instantiated megafunction "bcdthreedigittosevensegment:convert_binary|lpm_divide:Mod0" with the following parameter: File: E:/calculator/bcdthreedigittosevensegment.vhd Line: 87
     Info (12134): Parameter "LPM_WIDTHN" = "10"
     Info (12134): Parameter "LPM_WIDTHD" = "10"
     Info (12134): Parameter "LPM_NREPRESENTATION" = "UNSIGNED"
     Info (12134): Parameter "LPM_DREPRESENTATION" = "UNSIGNED"
 Info (12021): Found 1 design units, including 1 entities, in source file db/lpm_divide_u4m.tdf
-    Info (12023): Found entity 1: lpm_divide_u4m File: E:/calculator/db/lpm_divide_u4m.tdf Line: 24
+    Info (12023): Found entity 1: lpm_divide_u4m File: E:/calculator/db/lpm_divide_u4m.tdf Line: 25
 Info (12021): Found 1 design units, including 1 entities, in source file db/sign_div_unsign_1nh.tdf
-    Info (12023): Found entity 1: sign_div_unsign_1nh File: E:/calculator/db/sign_div_unsign_1nh.tdf Line: 24
+    Info (12023): Found entity 1: sign_div_unsign_1nh File: E:/calculator/db/sign_div_unsign_1nh.tdf Line: 25
 Info (12021): Found 1 design units, including 1 entities, in source file db/alt_u_div_82f.tdf
-    Info (12023): Found entity 1: alt_u_div_82f File: E:/calculator/db/alt_u_div_82f.tdf Line: 22
-Info (12130): Elaborated megafunction instantiation "bcdthreedigittosevensegment:convert_binary|lpm_divide:Div0" File: E:/calculator/bcdthreedigittosevensegment.vhd Line: 81
-Info (12133): Instantiated megafunction "bcdthreedigittosevensegment:convert_binary|lpm_divide:Div0" with the following parameter: File: E:/calculator/bcdthreedigittosevensegment.vhd Line: 81
+    Info (12023): Found entity 1: alt_u_div_82f File: E:/calculator/db/alt_u_div_82f.tdf Line: 23
+Info (12130): Elaborated megafunction instantiation "bcdthreedigittosevensegment:convert_binary|lpm_divide:Div0" File: E:/calculator/bcdthreedigittosevensegment.vhd Line: 88
+Info (12133): Instantiated megafunction "bcdthreedigittosevensegment:convert_binary|lpm_divide:Div0" with the following parameter: File: E:/calculator/bcdthreedigittosevensegment.vhd Line: 88
     Info (12134): Parameter "LPM_WIDTHN" = "10"
     Info (12134): Parameter "LPM_WIDTHD" = "4"
     Info (12134): Parameter "LPM_NREPRESENTATION" = "UNSIGNED"
     Info (12134): Parameter "LPM_DREPRESENTATION" = "UNSIGNED"
 Info (12021): Found 1 design units, including 1 entities, in source file db/lpm_divide_ebm.tdf
-    Info (12023): Found entity 1: lpm_divide_ebm File: E:/calculator/db/lpm_divide_ebm.tdf Line: 24
+    Info (12023): Found entity 1: lpm_divide_ebm File: E:/calculator/db/lpm_divide_ebm.tdf Line: 25
 Info (12021): Found 1 design units, including 1 entities, in source file db/sign_div_unsign_klh.tdf
-    Info (12023): Found entity 1: sign_div_unsign_klh File: E:/calculator/db/sign_div_unsign_klh.tdf Line: 24
+    Info (12023): Found entity 1: sign_div_unsign_klh File: E:/calculator/db/sign_div_unsign_klh.tdf Line: 25
 Info (12021): Found 1 design units, including 1 entities, in source file db/alt_u_div_eve.tdf
-    Info (12023): Found entity 1: alt_u_div_eve File: E:/calculator/db/alt_u_div_eve.tdf Line: 22
-Info (12130): Elaborated megafunction instantiation "bcdthreedigittosevensegment:convert_binary|lpm_divide:Div1" File: E:/calculator/bcdthreedigittosevensegment.vhd Line: 82
-Info (12133): Instantiated megafunction "bcdthreedigittosevensegment:convert_binary|lpm_divide:Div1" with the following parameter: File: E:/calculator/bcdthreedigittosevensegment.vhd Line: 82
+    Info (12023): Found entity 1: alt_u_div_eve File: E:/calculator/db/alt_u_div_eve.tdf Line: 23
+Info (12130): Elaborated megafunction instantiation "bcdthreedigittosevensegment:convert_binary|lpm_divide:Div1" File: E:/calculator/bcdthreedigittosevensegment.vhd Line: 89
+Info (12133): Instantiated megafunction "bcdthreedigittosevensegment:convert_binary|lpm_divide:Div1" with the following parameter: File: E:/calculator/bcdthreedigittosevensegment.vhd Line: 89
     Info (12134): Parameter "LPM_WIDTHN" = "10"
     Info (12134): Parameter "LPM_WIDTHD" = "7"
     Info (12134): Parameter "LPM_NREPRESENTATION" = "UNSIGNED"
     Info (12134): Parameter "LPM_DREPRESENTATION" = "UNSIGNED"
 Info (12021): Found 1 design units, including 1 entities, in source file db/lpm_divide_hbm.tdf
-    Info (12023): Found entity 1: lpm_divide_hbm File: E:/calculator/db/lpm_divide_hbm.tdf Line: 24
+    Info (12023): Found entity 1: lpm_divide_hbm File: E:/calculator/db/lpm_divide_hbm.tdf Line: 25
 Info (12021): Found 1 design units, including 1 entities, in source file db/sign_div_unsign_nlh.tdf
-    Info (12023): Found entity 1: sign_div_unsign_nlh File: E:/calculator/db/sign_div_unsign_nlh.tdf Line: 24
+    Info (12023): Found entity 1: sign_div_unsign_nlh File: E:/calculator/db/sign_div_unsign_nlh.tdf Line: 25
 Info (12021): Found 1 design units, including 1 entities, in source file db/alt_u_div_kve.tdf
-    Info (12023): Found entity 1: alt_u_div_kve File: E:/calculator/db/alt_u_div_kve.tdf Line: 22
+    Info (12023): Found entity 1: alt_u_div_kve File: E:/calculator/db/alt_u_div_kve.tdf Line: 23
 Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
@@ -767,9 +764,9 @@ Info (21057): Implemented 1060 device resources after synthesis - the final reso
     Info (21059): Implemented 64 output pins
     Info (21061): Implemented 981 logic cells
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 7 warnings
-    Info: Peak virtual memory: 4881 megabytes
-    Info: Processing ended: Tue Nov 15 12:21:57 2022
-    Info: Elapsed time: 00:00:21
-    Info: Total CPU time (on all processors): 00:00:31
+    Info: Peak virtual memory: 4851 megabytes
+    Info: Processing ended: Wed Nov 16 00:49:30 2022
+    Info: Elapsed time: 00:00:18
+    Info: Total CPU time (on all processors): 00:00:26
 
 

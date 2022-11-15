@@ -1,6 +1,6 @@
--- Copyright (C) 2018  Intel Corporation. All rights reserved.
+-- Copyright (C) 2020  Intel Corporation. All rights reserved.
 -- Your use of Intel Corporation's design tools, logic functions 
--- and other software and tools, and its AMPP partner logic 
+-- and other software and tools, and any partner logic 
 -- functions, and any output files from any of the foregoing 
 -- (including device programming or simulation files), and any 
 -- associated documentation or information are expressly subject 
@@ -10,7 +10,8 @@
 -- agreement, including, without limitation, that your use is for
 -- the sole purpose of programming logic devices manufactured by
 -- Intel and sold by Intel or its authorized distributors.  Please
--- refer to the applicable agreement for further details.
+-- refer to the applicable agreement for further details, at
+-- https://fpgasoftware.intel.com/eula.
 
 -- *****************************************************************************
 -- This file contains a Vhdl test bench with test vectors .The test vectors     
@@ -18,7 +19,7 @@
 -- the top level entity of the current Quartus project .The user can use this   
 -- testbench to simulate his design using a third-party simulation tool .       
 -- *****************************************************************************
--- Generated on "11/15/2022 12:07:48"
+-- Generated on "11/16/2022 00:51:45"
                                                              
 -- Vhdl Test Bench(with test vectors) for design  :          calculator
 -- 
@@ -199,7 +200,15 @@ BEGIN
 	START_main <= '0';
 	WAIT FOR 20000 ps;
 	START_main <= '1';
-	WAIT FOR 740000 ps;
+	WAIT FOR 250000 ps;
+	START_main <= '0';
+	WAIT FOR 20000 ps;
+	START_main <= '1';
+	WAIT FOR 230000 ps;
+	START_main <= '0';
+	WAIT FOR 30000 ps;
+	START_main <= '1';
+	WAIT FOR 210000 ps;
 	START_main <= '0';
 	WAIT FOR 30000 ps;
 	START_main <= '1';

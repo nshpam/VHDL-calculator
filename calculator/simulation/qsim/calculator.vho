@@ -1,6 +1,6 @@
--- Copyright (C) 2018  Intel Corporation. All rights reserved.
+-- Copyright (C) 2020  Intel Corporation. All rights reserved.
 -- Your use of Intel Corporation's design tools, logic functions 
--- and other software and tools, and its AMPP partner logic 
+-- and other software and tools, and any partner logic 
 -- functions, and any output files from any of the foregoing 
 -- (including device programming or simulation files), and any 
 -- associated documentation or information are expressly subject 
@@ -10,13 +10,14 @@
 -- agreement, including, without limitation, that your use is for
 -- the sole purpose of programming logic devices manufactured by
 -- Intel and sold by Intel or its authorized distributors.  Please
--- refer to the applicable agreement for further details.
+-- refer to the applicable agreement for further details, at
+-- https://fpgasoftware.intel.com/eula.
 
 -- VENDOR "Altera"
 -- PROGRAM "Quartus Prime"
--- VERSION "Version 18.1.0 Build 625 09/12/2018 SJ Standard Edition"
+-- VERSION "Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition"
 
--- DATE "11/15/2022 12:07:51"
+-- DATE "11/16/2022 00:51:48"
 
 -- 
 -- Device: Altera 5CEBA4F23C7 Package FBGA484
@@ -167,56 +168,56 @@ SIGNAL \division_function|Add2~77_sumout\ : std_logic;
 SIGNAL \division_function|Add2~78\ : std_logic;
 SIGNAL \division_function|Add2~81_sumout\ : std_logic;
 SIGNAL \division_function|Add2~82\ : std_logic;
-SIGNAL \division_function|Add2~105_sumout\ : std_logic;
-SIGNAL \division_function|Add2~106\ : std_logic;
-SIGNAL \division_function|Add2~113_sumout\ : std_logic;
-SIGNAL \division_function|Add2~114\ : std_logic;
-SIGNAL \division_function|Add2~41_sumout\ : std_logic;
-SIGNAL \division_function|Add2~42\ : std_logic;
 SIGNAL \division_function|Add2~121_sumout\ : std_logic;
 SIGNAL \division_function|Add2~122\ : std_logic;
 SIGNAL \division_function|Add2~53_sumout\ : std_logic;
 SIGNAL \division_function|Add2~54\ : std_logic;
-SIGNAL \division_function|Add2~117_sumout\ : std_logic;
-SIGNAL \division_function|Add2~118\ : std_logic;
-SIGNAL \division_function|Add2~61_sumout\ : std_logic;
-SIGNAL \division_function|Add2~62\ : std_logic;
+SIGNAL \division_function|Add2~57_sumout\ : std_logic;
+SIGNAL \division_function|Add2~58\ : std_logic;
+SIGNAL \division_function|Add2~105_sumout\ : std_logic;
+SIGNAL \division_function|Add2~106\ : std_logic;
 SIGNAL \division_function|Add2~65_sumout\ : std_logic;
 SIGNAL \division_function|Add2~66\ : std_logic;
 SIGNAL \division_function|Add2~69_sumout\ : std_logic;
 SIGNAL \division_function|Add2~70\ : std_logic;
 SIGNAL \division_function|Add2~73_sumout\ : std_logic;
 SIGNAL \division_function|Add2~74\ : std_logic;
-SIGNAL \division_function|Add2~29_sumout\ : std_logic;
-SIGNAL \division_function|Add2~30\ : std_logic;
 SIGNAL \division_function|Add2~45_sumout\ : std_logic;
 SIGNAL \division_function|Add2~46\ : std_logic;
-SIGNAL \division_function|Add2~49_sumout\ : std_logic;
-SIGNAL \division_function|Add2~50\ : std_logic;
+SIGNAL \division_function|Add2~29_sumout\ : std_logic;
+SIGNAL \division_function|Add2~30\ : std_logic;
+SIGNAL \division_function|Add2~33_sumout\ : std_logic;
+SIGNAL \division_function|Add2~34\ : std_logic;
+SIGNAL \division_function|Add2~37_sumout\ : std_logic;
+SIGNAL \division_function|Add2~38\ : std_logic;
+SIGNAL \division_function|Add2~41_sumout\ : std_logic;
+SIGNAL \division_function|Add2~42\ : std_logic;
+SIGNAL \division_function|Add2~13_sumout\ : std_logic;
+SIGNAL \division_function|Add2~14\ : std_logic;
 SIGNAL \division_function|Add2~85_sumout\ : std_logic;
 SIGNAL \division_function|Add2~86\ : std_logic;
+SIGNAL \division_function|Add2~89_sumout\ : std_logic;
+SIGNAL \division_function|Add2~90\ : std_logic;
 SIGNAL \division_function|Add2~93_sumout\ : std_logic;
 SIGNAL \division_function|Add2~94\ : std_logic;
 SIGNAL \division_function|Add2~97_sumout\ : std_logic;
 SIGNAL \division_function|Add2~98\ : std_logic;
-SIGNAL \division_function|Add2~109_sumout\ : std_logic;
-SIGNAL \division_function|Add2~110\ : std_logic;
 SIGNAL \division_function|Add2~101_sumout\ : std_logic;
 SIGNAL \division_function|Add2~102\ : std_logic;
-SIGNAL \division_function|Add2~89_sumout\ : std_logic;
-SIGNAL \division_function|Add2~90\ : std_logic;
-SIGNAL \division_function|Add2~37_sumout\ : std_logic;
-SIGNAL \division_function|Add2~38\ : std_logic;
-SIGNAL \division_function|Add2~33_sumout\ : std_logic;
-SIGNAL \division_function|Add2~34\ : std_logic;
-SIGNAL \division_function|Add2~57_sumout\ : std_logic;
-SIGNAL \division_function|Add2~58\ : std_logic;
-SIGNAL \division_function|Add2~5_sumout\ : std_logic;
-SIGNAL \division_function|Add2~6\ : std_logic;
+SIGNAL \division_function|Add2~113_sumout\ : std_logic;
+SIGNAL \division_function|Add2~114\ : std_logic;
+SIGNAL \division_function|Add2~117_sumout\ : std_logic;
+SIGNAL \division_function|Add2~118\ : std_logic;
+SIGNAL \division_function|Add2~61_sumout\ : std_logic;
+SIGNAL \division_function|Add2~62\ : std_logic;
+SIGNAL \division_function|Add2~109_sumout\ : std_logic;
+SIGNAL \division_function|Add2~110\ : std_logic;
 SIGNAL \division_function|Add2~9_sumout\ : std_logic;
 SIGNAL \division_function|Add2~10\ : std_logic;
-SIGNAL \division_function|Add2~13_sumout\ : std_logic;
-SIGNAL \division_function|Add2~14\ : std_logic;
+SIGNAL \division_function|Add2~5_sumout\ : std_logic;
+SIGNAL \division_function|Add2~6\ : std_logic;
+SIGNAL \division_function|Add2~49_sumout\ : std_logic;
+SIGNAL \division_function|Add2~50\ : std_logic;
 SIGNAL \division_function|Add2~17_sumout\ : std_logic;
 SIGNAL \division_function|Add2~18\ : std_logic;
 SIGNAL \division_function|Add2~21_sumout\ : std_logic;
@@ -233,60 +234,40 @@ SIGNAL \division_function|LessThan0~5_combout\ : std_logic;
 SIGNAL \division_function|DONE~0_combout\ : std_logic;
 SIGNAL \division_function|DONE~q\ : std_logic;
 SIGNAL \multiplication_function|Add1~125_sumout\ : std_logic;
-SIGNAL \multiplication_function|bit_counter[17]~0_combout\ : std_logic;
+SIGNAL \multiplication_function|bit_counter[5]~0_combout\ : std_logic;
 SIGNAL \multiplication_function|Add1~126\ : std_logic;
-SIGNAL \multiplication_function|Add1~77_sumout\ : std_logic;
-SIGNAL \multiplication_function|Add1~78\ : std_logic;
 SIGNAL \multiplication_function|Add1~81_sumout\ : std_logic;
 SIGNAL \multiplication_function|Add1~82\ : std_logic;
-SIGNAL \multiplication_function|Add1~25_sumout\ : std_logic;
-SIGNAL \multiplication_function|Add1~26\ : std_logic;
-SIGNAL \multiplication_function|Add1~89_sumout\ : std_logic;
-SIGNAL \multiplication_function|Add1~90\ : std_logic;
-SIGNAL \multiplication_function|Add1~109_sumout\ : std_logic;
-SIGNAL \multiplication_function|Add1~110\ : std_logic;
-SIGNAL \multiplication_function|Add1~113_sumout\ : std_logic;
-SIGNAL \multiplication_function|Add1~114\ : std_logic;
-SIGNAL \multiplication_function|Add1~117_sumout\ : std_logic;
-SIGNAL \multiplication_function|Add1~118\ : std_logic;
-SIGNAL \multiplication_function|Add1~101_sumout\ : std_logic;
-SIGNAL \multiplication_function|Add1~102\ : std_logic;
-SIGNAL \multiplication_function|Add1~21_sumout\ : std_logic;
-SIGNAL \multiplication_function|Add1~22\ : std_logic;
-SIGNAL \multiplication_function|Add1~17_sumout\ : std_logic;
-SIGNAL \multiplication_function|Add1~18\ : std_logic;
-SIGNAL \multiplication_function|Add1~13_sumout\ : std_logic;
-SIGNAL \multiplication_function|Add1~14\ : std_logic;
-SIGNAL \multiplication_function|Add1~9_sumout\ : std_logic;
-SIGNAL \multiplication_function|Add1~10\ : std_logic;
-SIGNAL \multiplication_function|Add1~41_sumout\ : std_logic;
-SIGNAL \multiplication_function|Add1~42\ : std_logic;
-SIGNAL \multiplication_function|Add1~5_sumout\ : std_logic;
-SIGNAL \multiplication_function|Add1~6\ : std_logic;
-SIGNAL \multiplication_function|Add1~49_sumout\ : std_logic;
-SIGNAL \multiplication_function|Add1~50\ : std_logic;
+SIGNAL \multiplication_function|Add1~77_sumout\ : std_logic;
+SIGNAL \multiplication_function|Add1~78\ : std_logic;
 SIGNAL \multiplication_function|Add1~121_sumout\ : std_logic;
 SIGNAL \multiplication_function|Add1~122\ : std_logic;
+SIGNAL \multiplication_function|Add1~53_sumout\ : std_logic;
+SIGNAL \multiplication_function|Add1~54\ : std_logic;
+SIGNAL \multiplication_function|Add1~57_sumout\ : std_logic;
+SIGNAL \multiplication_function|Add1~58\ : std_logic;
+SIGNAL \multiplication_function|Add1~61_sumout\ : std_logic;
+SIGNAL \multiplication_function|Add1~62\ : std_logic;
+SIGNAL \multiplication_function|Add1~65_sumout\ : std_logic;
+SIGNAL \multiplication_function|Add1~66\ : std_logic;
+SIGNAL \multiplication_function|Add1~69_sumout\ : std_logic;
+SIGNAL \multiplication_function|Add1~70\ : std_logic;
+SIGNAL \multiplication_function|Add1~73_sumout\ : std_logic;
+SIGNAL \multiplication_function|Add1~74\ : std_logic;
+SIGNAL \multiplication_function|Add1~29_sumout\ : std_logic;
+SIGNAL \multiplication_function|Add1~30\ : std_logic;
+SIGNAL \multiplication_function|Add1~101_sumout\ : std_logic;
+SIGNAL \multiplication_function|Add1~102\ : std_logic;
+SIGNAL \multiplication_function|Add1~49_sumout\ : std_logic;
+SIGNAL \multiplication_function|Add1~50\ : std_logic;
 SIGNAL \multiplication_function|Add1~45_sumout\ : std_logic;
 SIGNAL \multiplication_function|Add1~46\ : std_logic;
+SIGNAL \multiplication_function|Add1~41_sumout\ : std_logic;
+SIGNAL \multiplication_function|Add1~42\ : std_logic;
 SIGNAL \multiplication_function|Add1~37_sumout\ : std_logic;
 SIGNAL \multiplication_function|Add1~38\ : std_logic;
 SIGNAL \multiplication_function|Add1~33_sumout\ : std_logic;
 SIGNAL \multiplication_function|Add1~34\ : std_logic;
-SIGNAL \multiplication_function|Add1~29_sumout\ : std_logic;
-SIGNAL \multiplication_function|Add1~30\ : std_logic;
-SIGNAL \multiplication_function|Add1~73_sumout\ : std_logic;
-SIGNAL \multiplication_function|Add1~74\ : std_logic;
-SIGNAL \multiplication_function|Add1~69_sumout\ : std_logic;
-SIGNAL \multiplication_function|Add1~70\ : std_logic;
-SIGNAL \multiplication_function|Add1~65_sumout\ : std_logic;
-SIGNAL \multiplication_function|Add1~66\ : std_logic;
-SIGNAL \multiplication_function|Add1~61_sumout\ : std_logic;
-SIGNAL \multiplication_function|Add1~62\ : std_logic;
-SIGNAL \multiplication_function|Add1~57_sumout\ : std_logic;
-SIGNAL \multiplication_function|Add1~58\ : std_logic;
-SIGNAL \multiplication_function|Add1~53_sumout\ : std_logic;
-SIGNAL \multiplication_function|Add1~54\ : std_logic;
 SIGNAL \multiplication_function|Add1~105_sumout\ : std_logic;
 SIGNAL \multiplication_function|Add1~106\ : std_logic;
 SIGNAL \multiplication_function|Add1~85_sumout\ : std_logic;
@@ -295,6 +276,26 @@ SIGNAL \multiplication_function|Add1~97_sumout\ : std_logic;
 SIGNAL \multiplication_function|Add1~98\ : std_logic;
 SIGNAL \multiplication_function|Add1~93_sumout\ : std_logic;
 SIGNAL \multiplication_function|Add1~94\ : std_logic;
+SIGNAL \multiplication_function|Add1~117_sumout\ : std_logic;
+SIGNAL \multiplication_function|Add1~118\ : std_logic;
+SIGNAL \multiplication_function|Add1~89_sumout\ : std_logic;
+SIGNAL \multiplication_function|Add1~90\ : std_logic;
+SIGNAL \multiplication_function|Add1~5_sumout\ : std_logic;
+SIGNAL \multiplication_function|Add1~6\ : std_logic;
+SIGNAL \multiplication_function|Add1~9_sumout\ : std_logic;
+SIGNAL \multiplication_function|Add1~10\ : std_logic;
+SIGNAL \multiplication_function|Add1~13_sumout\ : std_logic;
+SIGNAL \multiplication_function|Add1~14\ : std_logic;
+SIGNAL \multiplication_function|Add1~17_sumout\ : std_logic;
+SIGNAL \multiplication_function|Add1~18\ : std_logic;
+SIGNAL \multiplication_function|Add1~21_sumout\ : std_logic;
+SIGNAL \multiplication_function|Add1~22\ : std_logic;
+SIGNAL \multiplication_function|Add1~25_sumout\ : std_logic;
+SIGNAL \multiplication_function|Add1~26\ : std_logic;
+SIGNAL \multiplication_function|Add1~109_sumout\ : std_logic;
+SIGNAL \multiplication_function|Add1~110\ : std_logic;
+SIGNAL \multiplication_function|Add1~113_sumout\ : std_logic;
+SIGNAL \multiplication_function|Add1~114\ : std_logic;
 SIGNAL \multiplication_function|Add1~1_sumout\ : std_logic;
 SIGNAL \multiplication_function|LessThan0~0_combout\ : std_logic;
 SIGNAL \multiplication_function|LessThan0~1_combout\ : std_logic;
@@ -354,7 +355,7 @@ SIGNAL \division_function|Add1~21_sumout\ : std_logic;
 SIGNAL \division_function|Add0~18\ : std_logic;
 SIGNAL \division_function|Add0~19\ : std_logic;
 SIGNAL \division_function|Add0~21_sumout\ : std_logic;
-SIGNAL \division_function|Remainder[7]~0_combout\ : std_logic;
+SIGNAL \division_function|Remainder[6]~0_combout\ : std_logic;
 SIGNAL \division_function|Add1~22\ : std_logic;
 SIGNAL \division_function|Add1~25_sumout\ : std_logic;
 SIGNAL \division_function|Add0~22\ : std_logic;
@@ -384,9 +385,8 @@ SIGNAL \division_function|Add0~41_sumout\ : std_logic;
 SIGNAL \division_function|Selector0~0_combout\ : std_logic;
 SIGNAL \division_function|Quotient[0]~0_combout\ : std_logic;
 SIGNAL \division_function|bit_counter[16]~0_combout\ : std_logic;
-SIGNAL \Result[0]~0_combout\ : std_logic;
-SIGNAL \Result[0]~1_combout\ : std_logic;
-SIGNAL \addandsub_function|eq_compar:0:sum|sum~0_combout\ : std_logic;
+SIGNAL \Result[2]~0_combout\ : std_logic;
+SIGNAL \Result[2]~1_combout\ : std_logic;
 SIGNAL \multiplication_function|Data_A~0_combout\ : std_logic;
 SIGNAL \multiplication_function|Add0~1_sumout\ : std_logic;
 SIGNAL \multiplication_function|Data_B~0_combout\ : std_logic;
@@ -397,9 +397,9 @@ SIGNAL \multiplication_function|Data_B~4_combout\ : std_logic;
 SIGNAL \multiplication_function|Data_B~5_combout\ : std_logic;
 SIGNAL \multiplication_function|Mux0~0_combout\ : std_logic;
 SIGNAL \multiplication_function|Data_Product[0]~0_combout\ : std_logic;
-SIGNAL \multiplication_function|R[1]~0_combout\ : std_logic;
+SIGNAL \multiplication_function|R[9]~0_combout\ : std_logic;
 SIGNAL \Result~2_combout\ : std_logic;
-SIGNAL \Result[0]~3_combout\ : std_logic;
+SIGNAL \Result[2]~3_combout\ : std_logic;
 SIGNAL \Result[0]~reg0_q\ : std_logic;
 SIGNAL \Mode~0_combout\ : std_logic;
 SIGNAL \Mode~q\ : std_logic;
@@ -432,29 +432,30 @@ SIGNAL \multiplication_function|Add0~17_sumout\ : std_logic;
 SIGNAL \Result~7_combout\ : std_logic;
 SIGNAL \Result[4]~reg0_q\ : std_logic;
 SIGNAL \addandsub_function|eq_compar:4:sum|C_out~combout\ : std_logic;
-SIGNAL \multiplication_function|Add0~18\ : std_logic;
-SIGNAL \multiplication_function|Add0~21_sumout\ : std_logic;
 SIGNAL \Result~8_combout\ : std_logic;
 SIGNAL \Result~9_combout\ : std_logic;
 SIGNAL \Result~10_combout\ : std_logic;
+SIGNAL \multiplication_function|Add0~18\ : std_logic;
+SIGNAL \multiplication_function|Add0~21_sumout\ : std_logic;
 SIGNAL \Result~11_combout\ : std_logic;
+SIGNAL \Result~12_combout\ : std_logic;
 SIGNAL \Result[5]~reg0_q\ : std_logic;
 SIGNAL \multiplication_function|Add0~22\ : std_logic;
 SIGNAL \multiplication_function|Add0~25_sumout\ : std_logic;
-SIGNAL \Result~12_combout\ : std_logic;
 SIGNAL \Result~13_combout\ : std_logic;
+SIGNAL \Result~14_combout\ : std_logic;
 SIGNAL \Result[6]~reg0_q\ : std_logic;
 SIGNAL \multiplication_function|Add0~26\ : std_logic;
 SIGNAL \multiplication_function|Add0~29_sumout\ : std_logic;
-SIGNAL \Result~14_combout\ : std_logic;
+SIGNAL \Result~15_combout\ : std_logic;
 SIGNAL \Result[7]~reg0_q\ : std_logic;
 SIGNAL \multiplication_function|Add0~30\ : std_logic;
 SIGNAL \multiplication_function|Add0~33_sumout\ : std_logic;
-SIGNAL \Result~15_combout\ : std_logic;
+SIGNAL \Result~16_combout\ : std_logic;
 SIGNAL \Result[8]~reg0_q\ : std_logic;
 SIGNAL \multiplication_function|Add0~34\ : std_logic;
 SIGNAL \multiplication_function|Add0~37_sumout\ : std_logic;
-SIGNAL \Result~16_combout\ : std_logic;
+SIGNAL \Result~17_combout\ : std_logic;
 SIGNAL \Result[9]~reg0_q\ : std_logic;
 SIGNAL \Remainder~0_combout\ : std_logic;
 SIGNAL \Remainder[0]~reg0_q\ : std_logic;
@@ -467,8 +468,6 @@ SIGNAL \Remainder[6]~reg0_q\ : std_logic;
 SIGNAL \Remainder[7]~reg0_q\ : std_logic;
 SIGNAL \Remainder[8]~reg0_q\ : std_logic;
 SIGNAL \Remainder[9]~reg0_q\ : std_logic;
-SIGNAL \Result_input~0_combout\ : std_logic;
-SIGNAL \Result_input[9]~4_combout\ : std_logic;
 SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|add_sub_3_result_int[0]~18\ : std_logic;
 SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|add_sub_3_result_int[0]~19\ : std_logic;
 SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|add_sub_3_result_int[1]~14\ : std_logic;
@@ -486,7 +485,6 @@ SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|add_sub_3_result_int[
 SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|StageOut[31]~30_combout\ : std_logic;
 SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|StageOut[31]~31_combout\ : std_logic;
 SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|add_sub_3_result_int[0]~17_sumout\ : std_logic;
-SIGNAL \Result_input~6_combout\ : std_logic;
 SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|op_5~26_cout\ : std_logic;
 SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|op_5~22\ : std_logic;
 SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|op_5~18\ : std_logic;
@@ -503,7 +501,6 @@ SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|op_5~13_sumout\ : std
 SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|StageOut[30]~34_combout\ : std_logic;
 SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|op_5~17_sumout\ : std_logic;
 SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|op_5~21_sumout\ : std_logic;
-SIGNAL \Result_input~5_combout\ : std_logic;
 SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|op_6~30_cout\ : std_logic;
 SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|op_6~26\ : std_logic;
 SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|op_6~22\ : std_logic;
@@ -525,7 +522,6 @@ SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|op_6~17_sumout\ : std
 SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|StageOut[40]~40_combout\ : std_logic;
 SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|op_6~21_sumout\ : std_logic;
 SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|op_6~25_sumout\ : std_logic;
-SIGNAL \Result_input~3_combout\ : std_logic;
 SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|op_7~14_cout\ : std_logic;
 SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|op_7~6\ : std_logic;
 SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|op_7~34\ : std_logic;
@@ -551,7 +547,6 @@ SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|op_7~29_sumout\ : std
 SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|StageOut[50]~45_combout\ : std_logic;
 SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|op_7~33_sumout\ : std_logic;
 SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|op_7~5_sumout\ : std_logic;
-SIGNAL \Result_input~2_combout\ : std_logic;
 SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|op_8~18_cout\ : std_logic;
 SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|op_8~6\ : std_logic;
 SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|op_8~10\ : std_logic;
@@ -580,7 +575,6 @@ SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|op_8~37_sumout\ : std
 SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|StageOut[60]~3_combout\ : std_logic;
 SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|op_8~9_sumout\ : std_logic;
 SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|op_8~5_sumout\ : std_logic;
-SIGNAL \Result_input~1_combout\ : std_logic;
 SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|op_9~22_cout\ : std_logic;
 SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|op_9~6\ : std_logic;
 SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|op_9~10\ : std_logic;
@@ -634,7 +628,7 @@ SIGNAL \check_zero_divisor~0_combout\ : std_logic;
 SIGNAL \check_zero_divisor~1_combout\ : std_logic;
 SIGNAL \check_zero_divisor~2_combout\ : std_logic;
 SIGNAL \check_zero_divisor~q\ : std_logic;
-SIGNAL \convert_binary|int_r_2[0]~0_combout\ : std_logic;
+SIGNAL \convert_binary|int_r_2[2]~0_combout\ : std_logic;
 SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|op_10~9_sumout\ : std_logic;
 SIGNAL \convert_binary|int_data_1~0_combout\ : std_logic;
 SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|op_10~13_sumout\ : std_logic;
@@ -1502,69 +1496,265 @@ SIGNAL \DONE_main~0_combout\ : std_logic;
 SIGNAL \DONE_main~reg0_q\ : std_logic;
 SIGNAL \multiplication_function|Data_B\ : std_logic_vector(4 DOWNTO 0);
 SIGNAL \convert_binary|int_data_1\ : std_logic_vector(31 DOWNTO 0);
-SIGNAL \seven_seg_display_3|seven_seg\ : std_logic_vector(6 DOWNTO 0);
 SIGNAL \convert_binary|int_data_2\ : std_logic_vector(31 DOWNTO 0);
 SIGNAL \multiplication_function|Data_Product\ : std_logic_vector(9 DOWNTO 0);
 SIGNAL \multiplication_function|R\ : std_logic_vector(9 DOWNTO 0);
 SIGNAL \convert_binary|int_data_3\ : std_logic_vector(31 DOWNTO 0);
 SIGNAL \convert_binary|int_r_1\ : std_logic_vector(31 DOWNTO 0);
 SIGNAL \multiplication_function|bit_counter\ : std_logic_vector(31 DOWNTO 0);
-SIGNAL \seven_seg_display_5|seven_seg\ : std_logic_vector(6 DOWNTO 0);
 SIGNAL \division_function|bit_counter\ : std_logic_vector(31 DOWNTO 0);
+SIGNAL \seven_seg_display_2|seven_seg\ : std_logic_vector(6 DOWNTO 0);
 SIGNAL \convert_binary|int_r_2\ : std_logic_vector(31 DOWNTO 0);
 SIGNAL \convert_binary|int_r_3\ : std_logic_vector(31 DOWNTO 0);
 SIGNAL \division_function|Remainder\ : std_logic_vector(10 DOWNTO 0);
 SIGNAL \multiplication_function|Data_A\ : std_logic_vector(9 DOWNTO 0);
 SIGNAL \division_function|Divisor\ : std_logic_vector(10 DOWNTO 0);
 SIGNAL \seven_seg_display_1|seven_seg\ : std_logic_vector(6 DOWNTO 0);
-SIGNAL Op : std_logic_vector(1 DOWNTO 0);
-SIGNAL \seven_seg_display_2|seven_seg\ : std_logic_vector(6 DOWNTO 0);
+SIGNAL \seven_seg_display_3|seven_seg\ : std_logic_vector(6 DOWNTO 0);
 SIGNAL \seven_seg_display_4|seven_seg\ : std_logic_vector(6 DOWNTO 0);
+SIGNAL \seven_seg_display_5|seven_seg\ : std_logic_vector(6 DOWNTO 0);
 SIGNAL \seven_seg_display_6|seven_seg\ : std_logic_vector(6 DOWNTO 0);
 SIGNAL \division_function|Q\ : std_logic_vector(4 DOWNTO 0);
 SIGNAL Data_A_aas : std_logic_vector(4 DOWNTO 0);
 SIGNAL Data_B_aas : std_logic_vector(4 DOWNTO 0);
 SIGNAL \division_function|R\ : std_logic_vector(10 DOWNTO 0);
 SIGNAL \division_function|Quotient\ : std_logic_vector(4 DOWNTO 0);
-SIGNAL Result_input : std_logic_vector(9 DOWNTO 0);
+SIGNAL Op : std_logic_vector(1 DOWNTO 0);
 SIGNAL Remainder_input : std_logic_vector(9 DOWNTO 0);
-SIGNAL \convert_binary|Div3|auto_generated|divider|divider|ALT_INV_op_8~25_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_7~29_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_8~33_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_9~37_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_add_sub_4_result_int[1]~17_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_6~17_sumout\ : std_logic;
-SIGNAL \convert_binary|Div2|auto_generated|divider|divider|ALT_INV_op_9~21_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_7~29_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_8~33_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_9~37_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_add_sub_3_result_int[0]~17_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_5~17_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_6~17_sumout\ : std_logic;
-SIGNAL \convert_binary|Div1|auto_generated|divider|divider|ALT_INV_add_sub_6_result_int[1]~25_sumout\ : std_logic;
-SIGNAL \convert_binary|Div1|auto_generated|divider|divider|ALT_INV_op_9~21_sumout\ : std_logic;
-SIGNAL \convert_binary|Div1|auto_generated|divider|divider|ALT_INV_op_8~25_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_7~29_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_8~33_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_9~37_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_add_sub_4_result_int[1]~17_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_6~17_sumout\ : std_logic;
-SIGNAL \convert_binary|Div0|auto_generated|divider|divider|ALT_INV_op_9~21_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_7~29_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_8~33_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_9~37_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_add_sub_3_result_int[0]~17_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_5~17_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_6~17_sumout\ : std_logic;
-SIGNAL \convert_binary|Div3|auto_generated|divider|divider|ALT_INV_add_sub_6_result_int[2]~21_sumout\ : std_logic;
-SIGNAL \convert_binary|Div3|auto_generated|divider|divider|ALT_INV_op_9~17_sumout\ : std_logic;
-SIGNAL \convert_binary|Div3|auto_generated|divider|divider|ALT_INV_op_8~21_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_7~25_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_8~29_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_9~33_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_add_sub_4_result_int[2]~13_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_6~13_sumout\ : std_logic;
-SIGNAL \convert_binary|Div2|auto_generated|divider|divider|ALT_INV_op_5~25_sumout\ : std_logic;
+SIGNAL \ALT_INV_Result[9]~reg0_q\ : std_logic;
+SIGNAL \ALT_INV_Result[8]~reg0_q\ : std_logic;
+SIGNAL \ALT_INV_Result[7]~reg0_q\ : std_logic;
+SIGNAL \ALT_INV_Result[6]~reg0_q\ : std_logic;
+SIGNAL \ALT_INV_Result[5]~reg0_q\ : std_logic;
+SIGNAL \ALT_INV_Result[4]~reg0_q\ : std_logic;
+SIGNAL \ALT_INV_Result[3]~reg0_q\ : std_logic;
+SIGNAL \ALT_INV_Result[2]~reg0_q\ : std_logic;
+SIGNAL \ALT_INV_Result[1]~reg0_q\ : std_logic;
+SIGNAL \ALT_INV_Result[0]~reg0_q\ : std_logic;
+SIGNAL \convert_binary|Div3|auto_generated|divider|divider|ALT_INV_op_9~33_sumout\ : std_logic;
+SIGNAL \convert_binary|Div1|auto_generated|divider|divider|ALT_INV_op_9~33_sumout\ : std_logic;
+SIGNAL \convert_binary|Div3|auto_generated|divider|divider|ALT_INV_op_9~29_sumout\ : std_logic;
+SIGNAL \convert_binary|Div3|auto_generated|divider|divider|ALT_INV_op_8~33_sumout\ : std_logic;
+SIGNAL \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_6~25_sumout\ : std_logic;
+SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_6~25_sumout\ : std_logic;
+SIGNAL \convert_binary|Div1|auto_generated|divider|divider|ALT_INV_op_9~29_sumout\ : std_logic;
+SIGNAL \convert_binary|Div1|auto_generated|divider|divider|ALT_INV_op_8~33_sumout\ : std_logic;
+SIGNAL \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_6~25_sumout\ : std_logic;
+SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_6~25_sumout\ : std_logic;
+SIGNAL \convert_binary|Div3|auto_generated|divider|divider|ALT_INV_add_sub_6_result_int[0]~29_sumout\ : std_logic;
+SIGNAL \convert_binary|Div3|auto_generated|divider|divider|ALT_INV_op_9~25_sumout\ : std_logic;
+SIGNAL \convert_binary|Div3|auto_generated|divider|divider|ALT_INV_op_8~29_sumout\ : std_logic;
+SIGNAL \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_7~33_sumout\ : std_logic;
+SIGNAL \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_8~37_sumout\ : std_logic;
+SIGNAL \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_9~41_sumout\ : std_logic;
+SIGNAL \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_add_sub_4_result_int[0]~21_sumout\ : std_logic;
+SIGNAL \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_6~21_sumout\ : std_logic;
+SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_7~33_sumout\ : std_logic;
+SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_8~37_sumout\ : std_logic;
+SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_9~41_sumout\ : std_logic;
+SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_5~21_sumout\ : std_logic;
+SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_6~21_sumout\ : std_logic;
+SIGNAL \convert_binary|Div1|auto_generated|divider|divider|ALT_INV_add_sub_6_result_int[0]~29_sumout\ : std_logic;
+SIGNAL \convert_binary|Div1|auto_generated|divider|divider|ALT_INV_op_9~25_sumout\ : std_logic;
+SIGNAL \convert_binary|Div1|auto_generated|divider|divider|ALT_INV_op_8~29_sumout\ : std_logic;
+SIGNAL \multiplication_function|ALT_INV_Data_Product\ : std_logic_vector(9 DOWNTO 0);
+SIGNAL \division_function|ALT_INV_state.s1~q\ : std_logic;
+SIGNAL \division_function|ALT_INV_bit_counter\ : std_logic_vector(31 DOWNTO 0);
+SIGNAL \convert_binary|ALT_INV_int_r_3\ : std_logic_vector(3 DOWNTO 0);
+SIGNAL \convert_binary|ALT_INV_int_r_2\ : std_logic_vector(3 DOWNTO 0);
+SIGNAL \convert_binary|ALT_INV_int_r_1\ : std_logic_vector(3 DOWNTO 0);
+SIGNAL \convert_binary|ALT_INV_int_data_3\ : std_logic_vector(3 DOWNTO 0);
+SIGNAL \convert_binary|ALT_INV_int_data_2\ : std_logic_vector(3 DOWNTO 0);
+SIGNAL \convert_binary|ALT_INV_int_data_1\ : std_logic_vector(3 DOWNTO 0);
+SIGNAL \ALT_INV_state~q\ : std_logic;
+SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_7~5_sumout\ : std_logic;
+SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_7~1_sumout\ : std_logic;
+SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_10~13_sumout\ : std_logic;
+SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_9~9_sumout\ : std_logic;
+SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_8~5_sumout\ : std_logic;
+SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_8~1_sumout\ : std_logic;
+SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_10~9_sumout\ : std_logic;
+SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_9~5_sumout\ : std_logic;
+SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_9~1_sumout\ : std_logic;
+SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_10~5_sumout\ : std_logic;
+SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_10~1_sumout\ : std_logic;
+SIGNAL \convert_binary|Div1|auto_generated|divider|divider|ALT_INV_add_sub_6_result_int[7]~1_sumout\ : std_logic;
+SIGNAL \convert_binary|Div1|auto_generated|divider|divider|ALT_INV_op_8~1_sumout\ : std_logic;
+SIGNAL \convert_binary|Div1|auto_generated|divider|divider|ALT_INV_op_9~1_sumout\ : std_logic;
+SIGNAL \convert_binary|Div1|auto_generated|divider|divider|ALT_INV_op_10~1_sumout\ : std_logic;
+SIGNAL \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_10~17_sumout\ : std_logic;
+SIGNAL \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_9~13_sumout\ : std_logic;
+SIGNAL \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_8~9_sumout\ : std_logic;
+SIGNAL \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_7~5_sumout\ : std_logic;
+SIGNAL \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_7~1_sumout\ : std_logic;
+SIGNAL \convert_binary|Div0|auto_generated|divider|divider|ALT_INV_op_7~1_sumout\ : std_logic;
+SIGNAL \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_10~13_sumout\ : std_logic;
+SIGNAL \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_9~9_sumout\ : std_logic;
+SIGNAL \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_8~5_sumout\ : std_logic;
+SIGNAL \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_8~1_sumout\ : std_logic;
+SIGNAL \convert_binary|Div0|auto_generated|divider|divider|ALT_INV_op_8~1_sumout\ : std_logic;
+SIGNAL \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_10~9_sumout\ : std_logic;
+SIGNAL \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_9~5_sumout\ : std_logic;
+SIGNAL \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_9~1_sumout\ : std_logic;
+SIGNAL \convert_binary|Div0|auto_generated|divider|divider|ALT_INV_op_9~1_sumout\ : std_logic;
+SIGNAL \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_10~5_sumout\ : std_logic;
+SIGNAL \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_10~1_sumout\ : std_logic;
+SIGNAL \convert_binary|Div0|auto_generated|divider|divider|ALT_INV_op_10~1_sumout\ : std_logic;
+SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_10~17_sumout\ : std_logic;
+SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_9~13_sumout\ : std_logic;
+SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_8~9_sumout\ : std_logic;
+SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_7~5_sumout\ : std_logic;
+SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_7~1_sumout\ : std_logic;
+SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_10~13_sumout\ : std_logic;
+SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_9~9_sumout\ : std_logic;
+SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_8~5_sumout\ : std_logic;
+SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_8~1_sumout\ : std_logic;
+SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_10~9_sumout\ : std_logic;
+SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_9~5_sumout\ : std_logic;
+SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_9~1_sumout\ : std_logic;
+SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_10~5_sumout\ : std_logic;
+SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_10~1_sumout\ : std_logic;
+SIGNAL \division_function|ALT_INV_Remainder\ : std_logic_vector(10 DOWNTO 0);
+SIGNAL \multiplication_function|ALT_INV_bit_counter\ : std_logic_vector(31 DOWNTO 0);
+SIGNAL \ALT_INV_Start_division~q\ : std_logic;
+SIGNAL \convert_binary|Div3|auto_generated|divider|divider|ALT_INV_add_sub_6_result_int[7]~1_sumout\ : std_logic;
+SIGNAL \convert_binary|Div3|auto_generated|divider|divider|ALT_INV_op_8~1_sumout\ : std_logic;
+SIGNAL \convert_binary|Div3|auto_generated|divider|divider|ALT_INV_op_9~1_sumout\ : std_logic;
+SIGNAL \convert_binary|Div3|auto_generated|divider|divider|ALT_INV_op_10~1_sumout\ : std_logic;
+SIGNAL \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_10~17_sumout\ : std_logic;
+SIGNAL \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_9~13_sumout\ : std_logic;
+SIGNAL \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_8~9_sumout\ : std_logic;
+SIGNAL \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_7~5_sumout\ : std_logic;
+SIGNAL \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_7~1_sumout\ : std_logic;
+SIGNAL \convert_binary|Div2|auto_generated|divider|divider|ALT_INV_op_7~1_sumout\ : std_logic;
+SIGNAL \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_10~13_sumout\ : std_logic;
+SIGNAL \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_9~9_sumout\ : std_logic;
+SIGNAL \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_8~5_sumout\ : std_logic;
+SIGNAL \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_8~1_sumout\ : std_logic;
+SIGNAL \convert_binary|Div2|auto_generated|divider|divider|ALT_INV_op_8~1_sumout\ : std_logic;
+SIGNAL \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_10~9_sumout\ : std_logic;
+SIGNAL \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_9~5_sumout\ : std_logic;
+SIGNAL \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_9~1_sumout\ : std_logic;
+SIGNAL \convert_binary|Div2|auto_generated|divider|divider|ALT_INV_op_9~1_sumout\ : std_logic;
+SIGNAL \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_10~5_sumout\ : std_logic;
+SIGNAL \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_10~1_sumout\ : std_logic;
+SIGNAL \convert_binary|Div2|auto_generated|divider|divider|ALT_INV_op_10~1_sumout\ : std_logic;
+SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_10~17_sumout\ : std_logic;
+SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_9~13_sumout\ : std_logic;
+SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_8~9_sumout\ : std_logic;
+SIGNAL \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_8~13_sumout\ : std_logic;
+SIGNAL \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_9~17_sumout\ : std_logic;
+SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_7~9_sumout\ : std_logic;
+SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_8~13_sumout\ : std_logic;
+SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_9~17_sumout\ : std_logic;
+SIGNAL \division_function|ALT_INV_Add0~17_sumout\ : std_logic;
+SIGNAL \division_function|ALT_INV_Add0~13_sumout\ : std_logic;
+SIGNAL \division_function|ALT_INV_Add0~9_sumout\ : std_logic;
+SIGNAL \division_function|ALT_INV_Add0~5_sumout\ : std_logic;
+SIGNAL \division_function|ALT_INV_Add0~1_sumout\ : std_logic;
+SIGNAL \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_7~17_sumout\ : std_logic;
+SIGNAL \convert_binary|Div0|auto_generated|divider|divider|ALT_INV_add_sub_3_result_int[1]~9_sumout\ : std_logic;
+SIGNAL \convert_binary|Div0|auto_generated|divider|divider|ALT_INV_op_6~17_sumout\ : std_logic;
+SIGNAL \convert_binary|Div0|auto_generated|divider|divider|ALT_INV_op_5~13_sumout\ : std_logic;
+SIGNAL \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_8~21_sumout\ : std_logic;
+SIGNAL \convert_binary|Div0|auto_generated|divider|divider|ALT_INV_op_5~9_sumout\ : std_logic;
+SIGNAL \convert_binary|Div0|auto_generated|divider|divider|ALT_INV_add_sub_3_result_int[0]~5_sumout\ : std_logic;
+SIGNAL \convert_binary|Div0|auto_generated|divider|divider|ALT_INV_add_sub_3_result_int[4]~1_sumout\ : std_logic;
+SIGNAL \convert_binary|Div0|auto_generated|divider|divider|ALT_INV_op_7~17_sumout\ : std_logic;
+SIGNAL \convert_binary|Div0|auto_generated|divider|divider|ALT_INV_op_6~13_sumout\ : std_logic;
+SIGNAL \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_9~25_sumout\ : std_logic;
+SIGNAL \convert_binary|Div0|auto_generated|divider|divider|ALT_INV_op_6~9_sumout\ : std_logic;
+SIGNAL \convert_binary|Div0|auto_generated|divider|divider|ALT_INV_op_5~5_sumout\ : std_logic;
+SIGNAL \convert_binary|Div0|auto_generated|divider|divider|ALT_INV_op_5~1_sumout\ : std_logic;
+SIGNAL \convert_binary|Div0|auto_generated|divider|divider|ALT_INV_op_8~13_sumout\ : std_logic;
+SIGNAL \convert_binary|Div0|auto_generated|divider|divider|ALT_INV_op_7~13_sumout\ : std_logic;
+SIGNAL \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_add_sub_4_result_int[4]~5_sumout\ : std_logic;
+SIGNAL \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_add_sub_4_result_int[5]~1_sumout\ : std_logic;
+SIGNAL \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_6~5_sumout\ : std_logic;
+SIGNAL \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_6~1_sumout\ : std_logic;
+SIGNAL \convert_binary|Div0|auto_generated|divider|divider|ALT_INV_op_7~9_sumout\ : std_logic;
+SIGNAL \convert_binary|Div0|auto_generated|divider|divider|ALT_INV_op_6~5_sumout\ : std_logic;
+SIGNAL \convert_binary|Div0|auto_generated|divider|divider|ALT_INV_op_6~1_sumout\ : std_logic;
+SIGNAL \convert_binary|Div0|auto_generated|divider|divider|ALT_INV_op_9~9_sumout\ : std_logic;
+SIGNAL \convert_binary|Div0|auto_generated|divider|divider|ALT_INV_op_8~9_sumout\ : std_logic;
+SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_7~17_sumout\ : std_logic;
+SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_8~21_sumout\ : std_logic;
+SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_9~25_sumout\ : std_logic;
+SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_add_sub_3_result_int[4]~5_sumout\ : std_logic;
+SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_add_sub_3_result_int[3]~1_sumout\ : std_logic;
+SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_5~5_sumout\ : std_logic;
+SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_5~1_sumout\ : std_logic;
+SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_6~5_sumout\ : std_logic;
+SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_6~1_sumout\ : std_logic;
+SIGNAL \division_function|ALT_INV_Divisor\ : std_logic_vector(9 DOWNTO 0);
+SIGNAL \multiplication_function|ALT_INV_Data_A\ : std_logic_vector(9 DOWNTO 0);
+SIGNAL \division_function|ALT_INV_Add0~41_sumout\ : std_logic;
+SIGNAL \division_function|ALT_INV_Add1~41_sumout\ : std_logic;
+SIGNAL \convert_binary|Div3|auto_generated|divider|divider|ALT_INV_add_sub_6_result_int[6]~5_sumout\ : std_logic;
+SIGNAL \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_7~9_sumout\ : std_logic;
+SIGNAL \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_8~13_sumout\ : std_logic;
+SIGNAL \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_9~17_sumout\ : std_logic;
+SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_7~9_sumout\ : std_logic;
+SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_8~13_sumout\ : std_logic;
+SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_9~17_sumout\ : std_logic;
+SIGNAL \convert_binary|Div1|auto_generated|divider|divider|ALT_INV_add_sub_6_result_int[6]~5_sumout\ : std_logic;
+SIGNAL \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_7~9_sumout\ : std_logic;
+SIGNAL \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_9~29_sumout\ : std_logic;
+SIGNAL \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_add_sub_4_result_int[3]~9_sumout\ : std_logic;
+SIGNAL \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_6~9_sumout\ : std_logic;
+SIGNAL \convert_binary|Div0|auto_generated|divider|divider|ALT_INV_op_7~21_sumout\ : std_logic;
+SIGNAL \convert_binary|Div0|auto_generated|divider|divider|ALT_INV_op_9~13_sumout\ : std_logic;
+SIGNAL \convert_binary|Div0|auto_generated|divider|divider|ALT_INV_op_8~17_sumout\ : std_logic;
+SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_7~21_sumout\ : std_logic;
+SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_8~25_sumout\ : std_logic;
+SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_9~29_sumout\ : std_logic;
+SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_add_sub_3_result_int[2]~9_sumout\ : std_logic;
+SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_5~9_sumout\ : std_logic;
+SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_6~9_sumout\ : std_logic;
+SIGNAL \convert_binary|Div3|auto_generated|divider|divider|ALT_INV_op_8~13_sumout\ : std_logic;
+SIGNAL \convert_binary|Div3|auto_generated|divider|divider|ALT_INV_add_sub_6_result_int[5]~13_sumout\ : std_logic;
+SIGNAL \convert_binary|Div3|auto_generated|divider|divider|ALT_INV_add_sub_6_result_int[4]~9_sumout\ : std_logic;
+SIGNAL \convert_binary|Div3|auto_generated|divider|divider|ALT_INV_op_9~9_sumout\ : std_logic;
+SIGNAL \convert_binary|Div3|auto_generated|divider|divider|ALT_INV_op_8~9_sumout\ : std_logic;
+SIGNAL \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_7~17_sumout\ : std_logic;
+SIGNAL \convert_binary|Div2|auto_generated|divider|divider|ALT_INV_add_sub_3_result_int[1]~9_sumout\ : std_logic;
+SIGNAL \convert_binary|Div2|auto_generated|divider|divider|ALT_INV_op_6~17_sumout\ : std_logic;
+SIGNAL \convert_binary|Div2|auto_generated|divider|divider|ALT_INV_op_5~13_sumout\ : std_logic;
+SIGNAL \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_8~21_sumout\ : std_logic;
+SIGNAL \convert_binary|Div2|auto_generated|divider|divider|ALT_INV_op_5~9_sumout\ : std_logic;
+SIGNAL \convert_binary|Div2|auto_generated|divider|divider|ALT_INV_add_sub_3_result_int[0]~5_sumout\ : std_logic;
+SIGNAL \convert_binary|Div2|auto_generated|divider|divider|ALT_INV_add_sub_3_result_int[4]~1_sumout\ : std_logic;
+SIGNAL \convert_binary|Div2|auto_generated|divider|divider|ALT_INV_op_7~17_sumout\ : std_logic;
+SIGNAL \convert_binary|Div2|auto_generated|divider|divider|ALT_INV_op_6~13_sumout\ : std_logic;
+SIGNAL \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_9~25_sumout\ : std_logic;
+SIGNAL \convert_binary|Div2|auto_generated|divider|divider|ALT_INV_op_6~9_sumout\ : std_logic;
+SIGNAL \convert_binary|Div2|auto_generated|divider|divider|ALT_INV_op_5~5_sumout\ : std_logic;
+SIGNAL \convert_binary|Div2|auto_generated|divider|divider|ALT_INV_op_5~1_sumout\ : std_logic;
+SIGNAL \convert_binary|Div2|auto_generated|divider|divider|ALT_INV_op_8~13_sumout\ : std_logic;
+SIGNAL \convert_binary|Div2|auto_generated|divider|divider|ALT_INV_op_7~13_sumout\ : std_logic;
+SIGNAL \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_add_sub_4_result_int[4]~5_sumout\ : std_logic;
+SIGNAL \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_add_sub_4_result_int[5]~1_sumout\ : std_logic;
+SIGNAL \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_6~5_sumout\ : std_logic;
+SIGNAL \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_6~1_sumout\ : std_logic;
+SIGNAL \convert_binary|Div2|auto_generated|divider|divider|ALT_INV_op_7~9_sumout\ : std_logic;
+SIGNAL \convert_binary|Div2|auto_generated|divider|divider|ALT_INV_op_6~5_sumout\ : std_logic;
+SIGNAL \convert_binary|Div2|auto_generated|divider|divider|ALT_INV_op_6~1_sumout\ : std_logic;
+SIGNAL \convert_binary|Div2|auto_generated|divider|divider|ALT_INV_op_9~9_sumout\ : std_logic;
+SIGNAL \convert_binary|Div2|auto_generated|divider|divider|ALT_INV_op_8~9_sumout\ : std_logic;
+SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_7~17_sumout\ : std_logic;
+SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_8~21_sumout\ : std_logic;
+SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_9~25_sumout\ : std_logic;
+SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_add_sub_3_result_int[4]~5_sumout\ : std_logic;
+SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_add_sub_3_result_int[3]~1_sumout\ : std_logic;
+SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_5~5_sumout\ : std_logic;
+SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_5~1_sumout\ : std_logic;
+SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_6~5_sumout\ : std_logic;
+SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_6~1_sumout\ : std_logic;
+SIGNAL \convert_binary|Div1|auto_generated|divider|divider|ALT_INV_op_8~13_sumout\ : std_logic;
+SIGNAL \convert_binary|Div1|auto_generated|divider|divider|ALT_INV_add_sub_6_result_int[5]~13_sumout\ : std_logic;
+SIGNAL \convert_binary|Div1|auto_generated|divider|divider|ALT_INV_add_sub_6_result_int[4]~9_sumout\ : std_logic;
+SIGNAL \convert_binary|Div1|auto_generated|divider|divider|ALT_INV_op_9~9_sumout\ : std_logic;
+SIGNAL \convert_binary|Div1|auto_generated|divider|divider|ALT_INV_op_8~9_sumout\ : std_logic;
 SIGNAL \convert_binary|Div2|auto_generated|divider|divider|ALT_INV_add_sub_3_result_int[2]~17_sumout\ : std_logic;
 SIGNAL \convert_binary|Div2|auto_generated|divider|divider|ALT_INV_op_9~17_sumout\ : std_logic;
 SIGNAL \convert_binary|Div2|auto_generated|divider|divider|ALT_INV_op_8~21_sumout\ : std_logic;
@@ -1616,231 +1806,6 @@ SIGNAL \convert_binary|Div1|auto_generated|divider|divider|ALT_INV_op_8~17_sumou
 SIGNAL \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_7~21_sumout\ : std_logic;
 SIGNAL \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_8~25_sumout\ : std_logic;
 SIGNAL \convert_binary|Div0|auto_generated|divider|divider|ALT_INV_add_sub_3_result_int[3]~13_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_9~29_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_add_sub_4_result_int[3]~9_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_6~9_sumout\ : std_logic;
-SIGNAL \convert_binary|Div0|auto_generated|divider|divider|ALT_INV_op_7~21_sumout\ : std_logic;
-SIGNAL \convert_binary|Div0|auto_generated|divider|divider|ALT_INV_op_9~13_sumout\ : std_logic;
-SIGNAL \convert_binary|Div0|auto_generated|divider|divider|ALT_INV_op_8~17_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_7~21_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_8~25_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_9~29_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_add_sub_3_result_int[2]~9_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_5~9_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_6~9_sumout\ : std_logic;
-SIGNAL \division_function|ALT_INV_bit_counter\ : std_logic_vector(31 DOWNTO 0);
-SIGNAL \convert_binary|Div3|auto_generated|divider|divider|ALT_INV_op_8~13_sumout\ : std_logic;
-SIGNAL \convert_binary|Div3|auto_generated|divider|divider|ALT_INV_add_sub_6_result_int[5]~13_sumout\ : std_logic;
-SIGNAL \convert_binary|Div3|auto_generated|divider|divider|ALT_INV_add_sub_6_result_int[4]~9_sumout\ : std_logic;
-SIGNAL \convert_binary|Div3|auto_generated|divider|divider|ALT_INV_op_9~9_sumout\ : std_logic;
-SIGNAL \convert_binary|Div3|auto_generated|divider|divider|ALT_INV_op_8~9_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_7~17_sumout\ : std_logic;
-SIGNAL \convert_binary|Div2|auto_generated|divider|divider|ALT_INV_add_sub_3_result_int[1]~9_sumout\ : std_logic;
-SIGNAL \convert_binary|Div2|auto_generated|divider|divider|ALT_INV_op_6~17_sumout\ : std_logic;
-SIGNAL \convert_binary|Div2|auto_generated|divider|divider|ALT_INV_op_5~13_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_8~21_sumout\ : std_logic;
-SIGNAL \convert_binary|Div2|auto_generated|divider|divider|ALT_INV_op_5~9_sumout\ : std_logic;
-SIGNAL \convert_binary|Div2|auto_generated|divider|divider|ALT_INV_add_sub_3_result_int[0]~5_sumout\ : std_logic;
-SIGNAL \convert_binary|Div2|auto_generated|divider|divider|ALT_INV_add_sub_3_result_int[4]~1_sumout\ : std_logic;
-SIGNAL \convert_binary|Div2|auto_generated|divider|divider|ALT_INV_op_7~17_sumout\ : std_logic;
-SIGNAL \convert_binary|Div2|auto_generated|divider|divider|ALT_INV_op_6~13_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_9~25_sumout\ : std_logic;
-SIGNAL \convert_binary|Div2|auto_generated|divider|divider|ALT_INV_op_6~9_sumout\ : std_logic;
-SIGNAL \convert_binary|Div2|auto_generated|divider|divider|ALT_INV_op_5~5_sumout\ : std_logic;
-SIGNAL \convert_binary|Div2|auto_generated|divider|divider|ALT_INV_op_5~1_sumout\ : std_logic;
-SIGNAL \convert_binary|Div2|auto_generated|divider|divider|ALT_INV_op_8~13_sumout\ : std_logic;
-SIGNAL \convert_binary|Div2|auto_generated|divider|divider|ALT_INV_op_7~13_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_add_sub_4_result_int[4]~5_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_add_sub_4_result_int[5]~1_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_6~5_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_6~1_sumout\ : std_logic;
-SIGNAL \convert_binary|Div2|auto_generated|divider|divider|ALT_INV_op_7~9_sumout\ : std_logic;
-SIGNAL \convert_binary|Div2|auto_generated|divider|divider|ALT_INV_op_6~5_sumout\ : std_logic;
-SIGNAL \convert_binary|Div2|auto_generated|divider|divider|ALT_INV_op_6~1_sumout\ : std_logic;
-SIGNAL \convert_binary|Div2|auto_generated|divider|divider|ALT_INV_op_9~9_sumout\ : std_logic;
-SIGNAL \convert_binary|Div2|auto_generated|divider|divider|ALT_INV_op_8~9_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_7~17_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_8~21_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_9~25_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_add_sub_3_result_int[4]~5_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_add_sub_3_result_int[3]~1_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_5~5_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_5~1_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_6~5_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_6~1_sumout\ : std_logic;
-SIGNAL \convert_binary|Div1|auto_generated|divider|divider|ALT_INV_op_8~13_sumout\ : std_logic;
-SIGNAL \convert_binary|Div1|auto_generated|divider|divider|ALT_INV_add_sub_6_result_int[5]~13_sumout\ : std_logic;
-SIGNAL \convert_binary|Div1|auto_generated|divider|divider|ALT_INV_add_sub_6_result_int[4]~9_sumout\ : std_logic;
-SIGNAL \convert_binary|Div1|auto_generated|divider|divider|ALT_INV_op_9~9_sumout\ : std_logic;
-SIGNAL \convert_binary|Div1|auto_generated|divider|divider|ALT_INV_op_8~9_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_7~17_sumout\ : std_logic;
-SIGNAL \convert_binary|Div0|auto_generated|divider|divider|ALT_INV_add_sub_3_result_int[1]~9_sumout\ : std_logic;
-SIGNAL \convert_binary|Div0|auto_generated|divider|divider|ALT_INV_op_6~17_sumout\ : std_logic;
-SIGNAL \convert_binary|Div0|auto_generated|divider|divider|ALT_INV_op_5~13_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_8~21_sumout\ : std_logic;
-SIGNAL \convert_binary|Div0|auto_generated|divider|divider|ALT_INV_op_5~9_sumout\ : std_logic;
-SIGNAL \convert_binary|Div0|auto_generated|divider|divider|ALT_INV_add_sub_3_result_int[0]~5_sumout\ : std_logic;
-SIGNAL \convert_binary|Div0|auto_generated|divider|divider|ALT_INV_add_sub_3_result_int[4]~1_sumout\ : std_logic;
-SIGNAL \convert_binary|Div0|auto_generated|divider|divider|ALT_INV_op_7~17_sumout\ : std_logic;
-SIGNAL \convert_binary|Div0|auto_generated|divider|divider|ALT_INV_op_6~13_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_9~25_sumout\ : std_logic;
-SIGNAL \convert_binary|Div0|auto_generated|divider|divider|ALT_INV_op_6~9_sumout\ : std_logic;
-SIGNAL \convert_binary|Div0|auto_generated|divider|divider|ALT_INV_op_5~5_sumout\ : std_logic;
-SIGNAL \convert_binary|Div0|auto_generated|divider|divider|ALT_INV_op_5~1_sumout\ : std_logic;
-SIGNAL \convert_binary|Div0|auto_generated|divider|divider|ALT_INV_op_8~13_sumout\ : std_logic;
-SIGNAL \convert_binary|Div0|auto_generated|divider|divider|ALT_INV_op_7~13_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_add_sub_4_result_int[4]~5_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_add_sub_4_result_int[5]~1_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_6~5_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_6~1_sumout\ : std_logic;
-SIGNAL \convert_binary|Div0|auto_generated|divider|divider|ALT_INV_op_7~9_sumout\ : std_logic;
-SIGNAL \convert_binary|Div0|auto_generated|divider|divider|ALT_INV_op_6~5_sumout\ : std_logic;
-SIGNAL \convert_binary|Div0|auto_generated|divider|divider|ALT_INV_op_6~1_sumout\ : std_logic;
-SIGNAL \convert_binary|Div0|auto_generated|divider|divider|ALT_INV_op_9~9_sumout\ : std_logic;
-SIGNAL \convert_binary|Div0|auto_generated|divider|divider|ALT_INV_op_8~9_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_7~17_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_8~21_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_9~25_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_add_sub_3_result_int[4]~5_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_add_sub_3_result_int[3]~1_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_5~5_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_5~1_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_6~5_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_6~1_sumout\ : std_logic;
-SIGNAL \division_function|ALT_INV_Divisor\ : std_logic_vector(9 DOWNTO 0);
-SIGNAL \multiplication_function|ALT_INV_Data_A\ : std_logic_vector(9 DOWNTO 0);
-SIGNAL \division_function|ALT_INV_Add0~41_sumout\ : std_logic;
-SIGNAL \division_function|ALT_INV_Add1~41_sumout\ : std_logic;
-SIGNAL \convert_binary|Div3|auto_generated|divider|divider|ALT_INV_add_sub_6_result_int[6]~5_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_7~9_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_8~13_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_9~17_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_7~9_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_8~13_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_9~17_sumout\ : std_logic;
-SIGNAL \convert_binary|Div1|auto_generated|divider|divider|ALT_INV_add_sub_6_result_int[6]~5_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_7~9_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_8~13_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_9~17_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_7~9_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_8~13_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_9~17_sumout\ : std_logic;
-SIGNAL \division_function|ALT_INV_Add0~17_sumout\ : std_logic;
-SIGNAL \division_function|ALT_INV_Add0~13_sumout\ : std_logic;
-SIGNAL \division_function|ALT_INV_Add0~9_sumout\ : std_logic;
-SIGNAL \division_function|ALT_INV_Add0~5_sumout\ : std_logic;
-SIGNAL \division_function|ALT_INV_Add0~1_sumout\ : std_logic;
-SIGNAL \multiplication_function|ALT_INV_bit_counter\ : std_logic_vector(31 DOWNTO 0);
-SIGNAL \ALT_INV_Start_division~q\ : std_logic;
-SIGNAL \division_function|ALT_INV_Remainder\ : std_logic_vector(10 DOWNTO 0);
-SIGNAL \convert_binary|Div3|auto_generated|divider|divider|ALT_INV_add_sub_6_result_int[7]~1_sumout\ : std_logic;
-SIGNAL \convert_binary|Div3|auto_generated|divider|divider|ALT_INV_op_8~1_sumout\ : std_logic;
-SIGNAL \convert_binary|Div3|auto_generated|divider|divider|ALT_INV_op_9~1_sumout\ : std_logic;
-SIGNAL \convert_binary|Div3|auto_generated|divider|divider|ALT_INV_op_10~1_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_10~17_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_9~13_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_8~9_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_7~5_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_7~1_sumout\ : std_logic;
-SIGNAL \convert_binary|Div2|auto_generated|divider|divider|ALT_INV_op_7~1_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_10~13_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_9~9_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_8~5_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_8~1_sumout\ : std_logic;
-SIGNAL \convert_binary|Div2|auto_generated|divider|divider|ALT_INV_op_8~1_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_10~9_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_9~5_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_9~1_sumout\ : std_logic;
-SIGNAL \convert_binary|Div2|auto_generated|divider|divider|ALT_INV_op_9~1_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_10~5_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_10~1_sumout\ : std_logic;
-SIGNAL \convert_binary|Div2|auto_generated|divider|divider|ALT_INV_op_10~1_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_10~17_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_9~13_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_8~9_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_7~5_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_7~1_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_10~13_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_9~9_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_8~5_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_8~1_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_10~9_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_9~5_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_9~1_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_10~5_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_10~1_sumout\ : std_logic;
-SIGNAL \convert_binary|Div1|auto_generated|divider|divider|ALT_INV_add_sub_6_result_int[7]~1_sumout\ : std_logic;
-SIGNAL \convert_binary|Div1|auto_generated|divider|divider|ALT_INV_op_8~1_sumout\ : std_logic;
-SIGNAL \convert_binary|Div1|auto_generated|divider|divider|ALT_INV_op_9~1_sumout\ : std_logic;
-SIGNAL \convert_binary|Div1|auto_generated|divider|divider|ALT_INV_op_10~1_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_10~17_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_9~13_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_8~9_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_7~5_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_7~1_sumout\ : std_logic;
-SIGNAL \convert_binary|ALT_INV_int_r_3\ : std_logic_vector(3 DOWNTO 0);
-SIGNAL \convert_binary|ALT_INV_int_r_2\ : std_logic_vector(3 DOWNTO 0);
-SIGNAL \convert_binary|ALT_INV_int_r_1\ : std_logic_vector(3 DOWNTO 0);
-SIGNAL \convert_binary|ALT_INV_int_data_3\ : std_logic_vector(3 DOWNTO 0);
-SIGNAL \convert_binary|ALT_INV_int_data_2\ : std_logic_vector(3 DOWNTO 0);
-SIGNAL \convert_binary|ALT_INV_int_data_1\ : std_logic_vector(3 DOWNTO 0);
-SIGNAL \ALT_INV_state~q\ : std_logic;
-SIGNAL \convert_binary|Div0|auto_generated|divider|divider|ALT_INV_op_7~1_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_10~13_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_9~9_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_8~5_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_8~1_sumout\ : std_logic;
-SIGNAL \convert_binary|Div0|auto_generated|divider|divider|ALT_INV_op_8~1_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_10~9_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_9~5_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_9~1_sumout\ : std_logic;
-SIGNAL \convert_binary|Div0|auto_generated|divider|divider|ALT_INV_op_9~1_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_10~5_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_10~1_sumout\ : std_logic;
-SIGNAL \convert_binary|Div0|auto_generated|divider|divider|ALT_INV_op_10~1_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_10~17_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_9~13_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_8~9_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_7~5_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_7~1_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_10~13_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_9~9_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_8~5_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_8~1_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_10~9_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_9~5_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_9~1_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_10~5_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_10~1_sumout\ : std_logic;
-SIGNAL \multiplication_function|ALT_INV_Data_Product\ : std_logic_vector(9 DOWNTO 0);
-SIGNAL \division_function|ALT_INV_state.s1~q\ : std_logic;
-SIGNAL \ALT_INV_Result[5]~reg0_q\ : std_logic;
-SIGNAL \convert_binary|Div3|auto_generated|divider|divider|ALT_INV_op_9~33_sumout\ : std_logic;
-SIGNAL \convert_binary|Div1|auto_generated|divider|divider|ALT_INV_op_9~33_sumout\ : std_logic;
-SIGNAL \convert_binary|Div3|auto_generated|divider|divider|ALT_INV_op_9~29_sumout\ : std_logic;
-SIGNAL \convert_binary|Div3|auto_generated|divider|divider|ALT_INV_op_8~33_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_6~25_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_6~25_sumout\ : std_logic;
-SIGNAL \convert_binary|Div1|auto_generated|divider|divider|ALT_INV_op_9~29_sumout\ : std_logic;
-SIGNAL \convert_binary|Div1|auto_generated|divider|divider|ALT_INV_op_8~33_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_6~25_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_6~25_sumout\ : std_logic;
-SIGNAL \convert_binary|Div3|auto_generated|divider|divider|ALT_INV_add_sub_6_result_int[0]~29_sumout\ : std_logic;
-SIGNAL \convert_binary|Div3|auto_generated|divider|divider|ALT_INV_op_9~25_sumout\ : std_logic;
-SIGNAL \convert_binary|Div3|auto_generated|divider|divider|ALT_INV_op_8~29_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_7~33_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_8~37_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_9~41_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_add_sub_4_result_int[0]~21_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_6~21_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_7~33_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_8~37_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_9~41_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_5~21_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_6~21_sumout\ : std_logic;
-SIGNAL \convert_binary|Div1|auto_generated|divider|divider|ALT_INV_add_sub_6_result_int[0]~29_sumout\ : std_logic;
-SIGNAL \convert_binary|Div1|auto_generated|divider|divider|ALT_INV_op_9~25_sumout\ : std_logic;
-SIGNAL \convert_binary|Div1|auto_generated|divider|divider|ALT_INV_op_8~29_sumout\ : std_logic;
 SIGNAL \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_7~33_sumout\ : std_logic;
 SIGNAL \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_8~37_sumout\ : std_logic;
 SIGNAL \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_9~41_sumout\ : std_logic;
@@ -1853,7 +1818,45 @@ SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_5~21_sumou
 SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_6~21_sumout\ : std_logic;
 SIGNAL \convert_binary|Div3|auto_generated|divider|divider|ALT_INV_add_sub_6_result_int[1]~25_sumout\ : std_logic;
 SIGNAL \convert_binary|Div3|auto_generated|divider|divider|ALT_INV_op_9~21_sumout\ : std_logic;
+SIGNAL \convert_binary|Div3|auto_generated|divider|divider|ALT_INV_op_8~25_sumout\ : std_logic;
+SIGNAL \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_7~29_sumout\ : std_logic;
+SIGNAL \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_8~33_sumout\ : std_logic;
+SIGNAL \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_9~37_sumout\ : std_logic;
+SIGNAL \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_add_sub_4_result_int[1]~17_sumout\ : std_logic;
+SIGNAL \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_6~17_sumout\ : std_logic;
+SIGNAL \convert_binary|Div2|auto_generated|divider|divider|ALT_INV_op_9~21_sumout\ : std_logic;
+SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_7~29_sumout\ : std_logic;
+SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_8~33_sumout\ : std_logic;
+SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_9~37_sumout\ : std_logic;
+SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_add_sub_3_result_int[0]~17_sumout\ : std_logic;
+SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_5~17_sumout\ : std_logic;
+SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_6~17_sumout\ : std_logic;
+SIGNAL \convert_binary|Div1|auto_generated|divider|divider|ALT_INV_add_sub_6_result_int[1]~25_sumout\ : std_logic;
+SIGNAL \convert_binary|Div1|auto_generated|divider|divider|ALT_INV_op_9~21_sumout\ : std_logic;
+SIGNAL \convert_binary|Div1|auto_generated|divider|divider|ALT_INV_op_8~25_sumout\ : std_logic;
+SIGNAL \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_7~29_sumout\ : std_logic;
+SIGNAL \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_8~33_sumout\ : std_logic;
+SIGNAL \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_9~37_sumout\ : std_logic;
+SIGNAL \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_add_sub_4_result_int[1]~17_sumout\ : std_logic;
+SIGNAL \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_6~17_sumout\ : std_logic;
+SIGNAL \convert_binary|Div0|auto_generated|divider|divider|ALT_INV_op_9~21_sumout\ : std_logic;
+SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_7~29_sumout\ : std_logic;
+SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_8~33_sumout\ : std_logic;
+SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_9~37_sumout\ : std_logic;
+SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_add_sub_3_result_int[0]~17_sumout\ : std_logic;
+SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_5~17_sumout\ : std_logic;
+SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_6~17_sumout\ : std_logic;
+SIGNAL \convert_binary|Div3|auto_generated|divider|divider|ALT_INV_add_sub_6_result_int[2]~21_sumout\ : std_logic;
+SIGNAL \convert_binary|Div3|auto_generated|divider|divider|ALT_INV_op_9~17_sumout\ : std_logic;
+SIGNAL \convert_binary|Div3|auto_generated|divider|divider|ALT_INV_op_8~21_sumout\ : std_logic;
+SIGNAL \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_7~25_sumout\ : std_logic;
+SIGNAL \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_8~29_sumout\ : std_logic;
+SIGNAL \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_9~33_sumout\ : std_logic;
+SIGNAL \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_add_sub_4_result_int[2]~13_sumout\ : std_logic;
+SIGNAL \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_6~13_sumout\ : std_logic;
+SIGNAL \convert_binary|Div2|auto_generated|divider|divider|ALT_INV_op_5~25_sumout\ : std_logic;
 SIGNAL \multiplication_function|ALT_INV_R\ : std_logic_vector(9 DOWNTO 0);
+SIGNAL \ALT_INV_Result~11_combout\ : std_logic;
 SIGNAL \ALT_INV_Result~10_combout\ : std_logic;
 SIGNAL \ALT_INV_Result~9_combout\ : std_logic;
 SIGNAL \ALT_INV_Result~8_combout\ : std_logic;
@@ -1869,11 +1872,16 @@ SIGNAL \addandsub_function|eq_compar:2:sum|ALT_INV_sum~combout\ : std_logic;
 SIGNAL \addandsub_function|eq_compar:1:sum|ALT_INV_C_out~combout\ : std_logic;
 SIGNAL \addandsub_function|eq_compar:1:sum|ALT_INV_sum~combout\ : std_logic;
 SIGNAL \ALT_INV_Mode~q\ : std_logic;
-SIGNAL \addandsub_function|eq_compar:0:sum|ALT_INV_sum~0_combout\ : std_logic;
-SIGNAL \ALT_INV_Result[0]~1_combout\ : std_logic;
-SIGNAL \ALT_INV_Result[0]~0_combout\ : std_logic;
+SIGNAL \ALT_INV_Result[2]~1_combout\ : std_logic;
+SIGNAL \ALT_INV_Result[2]~0_combout\ : std_logic;
 SIGNAL \ALT_INV_DONE_main~reg0_q\ : std_logic;
 SIGNAL \ALT_INV_COUT~reg0_q\ : std_logic;
+SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_StageOut[44]~8_combout\ : std_logic;
+SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_StageOut[55]~7_combout\ : std_logic;
+SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_StageOut[66]~6_combout\ : std_logic;
+SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_StageOut[77]~5_combout\ : std_logic;
+SIGNAL \ALT_INV_check_zero_divisor~1_combout\ : std_logic;
+SIGNAL \ALT_INV_check_zero_divisor~0_combout\ : std_logic;
 SIGNAL \multiplication_function|ALT_INV_Mux0~0_combout\ : std_logic;
 SIGNAL \multiplication_function|ALT_INV_Data_B\ : std_logic_vector(4 DOWNTO 0);
 SIGNAL \division_function|ALT_INV_Selector11~0_combout\ : std_logic;
@@ -1890,9 +1898,8 @@ SIGNAL \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_StageOut[60]~
 SIGNAL \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_StageOut[70]~1_combout\ : std_logic;
 SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_StageOut[71]~4_combout\ : std_logic;
 SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_StageOut[60]~3_combout\ : std_logic;
-SIGNAL ALT_INV_Result_input : std_logic_vector(9 DOWNTO 0);
 SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_StageOut[70]~1_combout\ : std_logic;
-SIGNAL \convert_binary|ALT_INV_int_r_2[0]~0_combout\ : std_logic;
+SIGNAL \convert_binary|ALT_INV_int_r_2[2]~0_combout\ : std_logic;
 SIGNAL \ALT_INV_check_zero_divisor~q\ : std_logic;
 SIGNAL ALT_INV_Op : std_logic_vector(1 DOWNTO 0);
 SIGNAL \multiplication_function|ALT_INV_LessThan0~5_combout\ : std_logic;
@@ -1911,6 +1918,50 @@ SIGNAL \division_function|ALT_INV_LessThan0~0_combout\ : std_logic;
 SIGNAL \division_function|ALT_INV_state.s0~q\ : std_logic;
 SIGNAL \multiplication_function|ALT_INV_DONE~q\ : std_logic;
 SIGNAL \division_function|ALT_INV_DONE~q\ : std_logic;
+SIGNAL \convert_binary|Div3|auto_generated|divider|divider|ALT_INV_StageOut[51]~9_combout\ : std_logic;
+SIGNAL \convert_binary|Div3|auto_generated|divider|divider|ALT_INV_StageOut[51]~8_combout\ : std_logic;
+SIGNAL \convert_binary|Div3|auto_generated|divider|divider|ALT_INV_StageOut[51]~7_combout\ : std_logic;
+SIGNAL \convert_binary|Div3|auto_generated|divider|divider|ALT_INV_StageOut[60]~6_combout\ : std_logic;
+SIGNAL \convert_binary|Div2|auto_generated|divider|divider|ALT_INV_StageOut[16]~18_combout\ : std_logic;
+SIGNAL \convert_binary|Div2|auto_generated|divider|divider|ALT_INV_StageOut[16]~17_combout\ : std_logic;
+SIGNAL \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_StageOut[76]~15_combout\ : std_logic;
+SIGNAL \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_StageOut[65]~14_combout\ : std_logic;
+SIGNAL \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_StageOut[54]~13_combout\ : std_logic;
+SIGNAL \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_StageOut[54]~12_combout\ : std_logic;
+SIGNAL \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_StageOut[76]~11_combout\ : std_logic;
+SIGNAL \convert_binary|Div2|auto_generated|divider|divider|ALT_INV_StageOut[36]~16_combout\ : std_logic;
+SIGNAL \convert_binary|Div2|auto_generated|divider|divider|ALT_INV_StageOut[30]~15_combout\ : std_logic;
+SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_StageOut[76]~22_combout\ : std_logic;
+SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_StageOut[65]~21_combout\ : std_logic;
+SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_StageOut[54]~20_combout\ : std_logic;
+SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_StageOut[43]~19_combout\ : std_logic;
+SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_StageOut[32]~18_combout\ : std_logic;
+SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_StageOut[32]~17_combout\ : std_logic;
+SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_StageOut[54]~16_combout\ : std_logic;
+SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_StageOut[76]~15_combout\ : std_logic;
+SIGNAL \convert_binary|Div1|auto_generated|divider|divider|ALT_INV_StageOut[60]~10_combout\ : std_logic;
+SIGNAL \convert_binary|Div1|auto_generated|divider|divider|ALT_INV_StageOut[51]~9_combout\ : std_logic;
+SIGNAL \convert_binary|Div1|auto_generated|divider|divider|ALT_INV_StageOut[51]~8_combout\ : std_logic;
+SIGNAL \convert_binary|Div1|auto_generated|divider|divider|ALT_INV_StageOut[51]~7_combout\ : std_logic;
+SIGNAL \convert_binary|Div1|auto_generated|divider|divider|ALT_INV_StageOut[60]~6_combout\ : std_logic;
+SIGNAL \convert_binary|Div0|auto_generated|divider|divider|ALT_INV_StageOut[16]~18_combout\ : std_logic;
+SIGNAL \convert_binary|Div0|auto_generated|divider|divider|ALT_INV_StageOut[16]~17_combout\ : std_logic;
+SIGNAL \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_StageOut[76]~15_combout\ : std_logic;
+SIGNAL \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_StageOut[65]~14_combout\ : std_logic;
+SIGNAL \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_StageOut[54]~13_combout\ : std_logic;
+SIGNAL \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_StageOut[54]~12_combout\ : std_logic;
+SIGNAL \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_StageOut[76]~11_combout\ : std_logic;
+SIGNAL \convert_binary|Div0|auto_generated|divider|divider|ALT_INV_StageOut[36]~16_combout\ : std_logic;
+SIGNAL \convert_binary|Div0|auto_generated|divider|divider|ALT_INV_StageOut[30]~15_combout\ : std_logic;
+SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_StageOut[76]~22_combout\ : std_logic;
+SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_StageOut[65]~21_combout\ : std_logic;
+SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_StageOut[54]~20_combout\ : std_logic;
+SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_StageOut[43]~19_combout\ : std_logic;
+SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_StageOut[32]~18_combout\ : std_logic;
+SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_StageOut[32]~17_combout\ : std_logic;
+SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_StageOut[54]~16_combout\ : std_logic;
+SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_StageOut[76]~15_combout\ : std_logic;
+SIGNAL \division_function|ALT_INV_Selector11~1_combout\ : std_logic;
 SIGNAL \convert_binary|Div3|auto_generated|divider|divider|ALT_INV_StageOut[53]~5_combout\ : std_logic;
 SIGNAL \convert_binary|Div3|auto_generated|divider|divider|ALT_INV_StageOut[53]~4_combout\ : std_logic;
 SIGNAL \convert_binary|Div3|auto_generated|divider|divider|ALT_INV_StageOut[61]~3_combout\ : std_logic;
@@ -1981,26 +2032,6 @@ SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_StageOut[55]~
 SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_StageOut[44]~11_combout\ : std_logic;
 SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_StageOut[33]~10_combout\ : std_logic;
 SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_StageOut[33]~9_combout\ : std_logic;
-SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_StageOut[44]~8_combout\ : std_logic;
-SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_StageOut[55]~7_combout\ : std_logic;
-SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_StageOut[66]~6_combout\ : std_logic;
-SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_StageOut[77]~5_combout\ : std_logic;
-SIGNAL \ALT_INV_check_zero_divisor~1_combout\ : std_logic;
-SIGNAL \ALT_INV_check_zero_divisor~0_combout\ : std_logic;
-SIGNAL \ALT_INV_input_B[0]~input_o\ : std_logic;
-SIGNAL \ALT_INV_input_A[0]~input_o\ : std_logic;
-SIGNAL \ALT_INV_input_B[1]~input_o\ : std_logic;
-SIGNAL \ALT_INV_input_A[1]~input_o\ : std_logic;
-SIGNAL \ALT_INV_input_B[2]~input_o\ : std_logic;
-SIGNAL \ALT_INV_input_A[2]~input_o\ : std_logic;
-SIGNAL \ALT_INV_input_B[3]~input_o\ : std_logic;
-SIGNAL \ALT_INV_input_A[3]~input_o\ : std_logic;
-SIGNAL \ALT_INV_input_B[4]~input_o\ : std_logic;
-SIGNAL \ALT_INV_input_A[4]~input_o\ : std_logic;
-SIGNAL \ALT_INV_START_main~input_o\ : std_logic;
-SIGNAL \ALT_INV_RST_main~input_o\ : std_logic;
-SIGNAL \ALT_INV_Operation[1]~input_o\ : std_logic;
-SIGNAL \ALT_INV_Operation[0]~input_o\ : std_logic;
 SIGNAL \convert_binary|Div3|auto_generated|divider|divider|ALT_INV_StageOut[56]~21_combout\ : std_logic;
 SIGNAL \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_StageOut[72]~34_combout\ : std_logic;
 SIGNAL \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_StageOut[61]~33_combout\ : std_logic;
@@ -2122,50 +2153,20 @@ SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_StageOut[31]~
 SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_StageOut[42]~24_combout\ : std_logic;
 SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_StageOut[64]~23_combout\ : std_logic;
 SIGNAL \convert_binary|Div3|auto_generated|divider|divider|ALT_INV_StageOut[60]~10_combout\ : std_logic;
-SIGNAL \convert_binary|Div3|auto_generated|divider|divider|ALT_INV_StageOut[51]~9_combout\ : std_logic;
-SIGNAL \convert_binary|Div3|auto_generated|divider|divider|ALT_INV_StageOut[51]~8_combout\ : std_logic;
-SIGNAL \convert_binary|Div3|auto_generated|divider|divider|ALT_INV_StageOut[51]~7_combout\ : std_logic;
-SIGNAL \convert_binary|Div3|auto_generated|divider|divider|ALT_INV_StageOut[60]~6_combout\ : std_logic;
-SIGNAL \convert_binary|Div2|auto_generated|divider|divider|ALT_INV_StageOut[16]~18_combout\ : std_logic;
-SIGNAL \convert_binary|Div2|auto_generated|divider|divider|ALT_INV_StageOut[16]~17_combout\ : std_logic;
-SIGNAL \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_StageOut[76]~15_combout\ : std_logic;
-SIGNAL \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_StageOut[65]~14_combout\ : std_logic;
-SIGNAL \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_StageOut[54]~13_combout\ : std_logic;
-SIGNAL \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_StageOut[54]~12_combout\ : std_logic;
-SIGNAL \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_StageOut[76]~11_combout\ : std_logic;
-SIGNAL \convert_binary|Div2|auto_generated|divider|divider|ALT_INV_StageOut[36]~16_combout\ : std_logic;
-SIGNAL \convert_binary|Div2|auto_generated|divider|divider|ALT_INV_StageOut[30]~15_combout\ : std_logic;
-SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_StageOut[76]~22_combout\ : std_logic;
-SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_StageOut[65]~21_combout\ : std_logic;
-SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_StageOut[54]~20_combout\ : std_logic;
-SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_StageOut[43]~19_combout\ : std_logic;
-SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_StageOut[32]~18_combout\ : std_logic;
-SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_StageOut[32]~17_combout\ : std_logic;
-SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_StageOut[54]~16_combout\ : std_logic;
-SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_StageOut[76]~15_combout\ : std_logic;
-SIGNAL \convert_binary|Div1|auto_generated|divider|divider|ALT_INV_StageOut[60]~10_combout\ : std_logic;
-SIGNAL \convert_binary|Div1|auto_generated|divider|divider|ALT_INV_StageOut[51]~9_combout\ : std_logic;
-SIGNAL \convert_binary|Div1|auto_generated|divider|divider|ALT_INV_StageOut[51]~8_combout\ : std_logic;
-SIGNAL \convert_binary|Div1|auto_generated|divider|divider|ALT_INV_StageOut[51]~7_combout\ : std_logic;
-SIGNAL \convert_binary|Div1|auto_generated|divider|divider|ALT_INV_StageOut[60]~6_combout\ : std_logic;
-SIGNAL \convert_binary|Div0|auto_generated|divider|divider|ALT_INV_StageOut[16]~18_combout\ : std_logic;
-SIGNAL \convert_binary|Div0|auto_generated|divider|divider|ALT_INV_StageOut[16]~17_combout\ : std_logic;
-SIGNAL \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_StageOut[76]~15_combout\ : std_logic;
-SIGNAL \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_StageOut[65]~14_combout\ : std_logic;
-SIGNAL \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_StageOut[54]~13_combout\ : std_logic;
-SIGNAL \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_StageOut[54]~12_combout\ : std_logic;
-SIGNAL \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_StageOut[76]~11_combout\ : std_logic;
-SIGNAL \convert_binary|Div0|auto_generated|divider|divider|ALT_INV_StageOut[36]~16_combout\ : std_logic;
-SIGNAL \convert_binary|Div0|auto_generated|divider|divider|ALT_INV_StageOut[30]~15_combout\ : std_logic;
-SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_StageOut[76]~22_combout\ : std_logic;
-SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_StageOut[65]~21_combout\ : std_logic;
-SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_StageOut[54]~20_combout\ : std_logic;
-SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_StageOut[43]~19_combout\ : std_logic;
-SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_StageOut[32]~18_combout\ : std_logic;
-SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_StageOut[32]~17_combout\ : std_logic;
-SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_StageOut[54]~16_combout\ : std_logic;
-SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_StageOut[76]~15_combout\ : std_logic;
-SIGNAL \division_function|ALT_INV_Selector11~1_combout\ : std_logic;
+SIGNAL \ALT_INV_input_B[0]~input_o\ : std_logic;
+SIGNAL \ALT_INV_input_A[0]~input_o\ : std_logic;
+SIGNAL \ALT_INV_input_B[1]~input_o\ : std_logic;
+SIGNAL \ALT_INV_input_A[1]~input_o\ : std_logic;
+SIGNAL \ALT_INV_input_B[2]~input_o\ : std_logic;
+SIGNAL \ALT_INV_input_A[2]~input_o\ : std_logic;
+SIGNAL \ALT_INV_input_B[3]~input_o\ : std_logic;
+SIGNAL \ALT_INV_input_A[3]~input_o\ : std_logic;
+SIGNAL \ALT_INV_input_B[4]~input_o\ : std_logic;
+SIGNAL \ALT_INV_input_A[4]~input_o\ : std_logic;
+SIGNAL \ALT_INV_START_main~input_o\ : std_logic;
+SIGNAL \ALT_INV_RST_main~input_o\ : std_logic;
+SIGNAL \ALT_INV_Operation[1]~input_o\ : std_logic;
+SIGNAL \ALT_INV_Operation[0]~input_o\ : std_logic;
 
 BEGIN
 
@@ -2188,94 +2189,278 @@ DONE_main <= ww_DONE_main;
 ww_devoe <= devoe;
 ww_devclrn <= devclrn;
 ww_devpor <= devpor;
-\convert_binary|Div3|auto_generated|divider|divider|ALT_INV_op_8~25_sumout\ <= NOT \convert_binary|Div3|auto_generated|divider|divider|op_8~25_sumout\;
-\convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_7~29_sumout\ <= NOT \convert_binary|Mod3|auto_generated|divider|divider|op_7~29_sumout\;
-\convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_8~33_sumout\ <= NOT \convert_binary|Mod3|auto_generated|divider|divider|op_8~33_sumout\;
-\convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_9~37_sumout\ <= NOT \convert_binary|Mod3|auto_generated|divider|divider|op_9~37_sumout\;
-\convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_add_sub_4_result_int[1]~17_sumout\ <= NOT \convert_binary|Mod3|auto_generated|divider|divider|add_sub_4_result_int[1]~17_sumout\;
-\convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_6~17_sumout\ <= NOT \convert_binary|Mod3|auto_generated|divider|divider|op_6~17_sumout\;
-\convert_binary|Div2|auto_generated|divider|divider|ALT_INV_op_9~21_sumout\ <= NOT \convert_binary|Div2|auto_generated|divider|divider|op_9~21_sumout\;
-\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_7~29_sumout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|op_7~29_sumout\;
-\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_8~33_sumout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|op_8~33_sumout\;
-\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_9~37_sumout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|op_9~37_sumout\;
-\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_add_sub_3_result_int[0]~17_sumout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|add_sub_3_result_int[0]~17_sumout\;
-\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_5~17_sumout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|op_5~17_sumout\;
-\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_6~17_sumout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|op_6~17_sumout\;
-\convert_binary|Div1|auto_generated|divider|divider|ALT_INV_add_sub_6_result_int[1]~25_sumout\ <= NOT \convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[1]~25_sumout\;
-\convert_binary|Div1|auto_generated|divider|divider|ALT_INV_op_9~21_sumout\ <= NOT \convert_binary|Div1|auto_generated|divider|divider|op_9~21_sumout\;
-\convert_binary|Div1|auto_generated|divider|divider|ALT_INV_op_8~25_sumout\ <= NOT \convert_binary|Div1|auto_generated|divider|divider|op_8~25_sumout\;
-\convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_7~29_sumout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|op_7~29_sumout\;
-\convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_8~33_sumout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|op_8~33_sumout\;
-\convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_9~37_sumout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|op_9~37_sumout\;
-\convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_add_sub_4_result_int[1]~17_sumout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|add_sub_4_result_int[1]~17_sumout\;
-\convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_6~17_sumout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|op_6~17_sumout\;
-\convert_binary|Div0|auto_generated|divider|divider|ALT_INV_op_9~21_sumout\ <= NOT \convert_binary|Div0|auto_generated|divider|divider|op_9~21_sumout\;
-\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_7~29_sumout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|op_7~29_sumout\;
-\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_8~33_sumout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|op_8~33_sumout\;
-\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_9~37_sumout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|op_9~37_sumout\;
-\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_add_sub_3_result_int[0]~17_sumout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|add_sub_3_result_int[0]~17_sumout\;
-\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_5~17_sumout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|op_5~17_sumout\;
-\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_6~17_sumout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|op_6~17_sumout\;
-\convert_binary|Div3|auto_generated|divider|divider|ALT_INV_add_sub_6_result_int[2]~21_sumout\ <= NOT \convert_binary|Div3|auto_generated|divider|divider|add_sub_6_result_int[2]~21_sumout\;
-\convert_binary|Div3|auto_generated|divider|divider|ALT_INV_op_9~17_sumout\ <= NOT \convert_binary|Div3|auto_generated|divider|divider|op_9~17_sumout\;
-\convert_binary|Div3|auto_generated|divider|divider|ALT_INV_op_8~21_sumout\ <= NOT \convert_binary|Div3|auto_generated|divider|divider|op_8~21_sumout\;
-\convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_7~25_sumout\ <= NOT \convert_binary|Mod3|auto_generated|divider|divider|op_7~25_sumout\;
-\convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_8~29_sumout\ <= NOT \convert_binary|Mod3|auto_generated|divider|divider|op_8~29_sumout\;
-\convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_9~33_sumout\ <= NOT \convert_binary|Mod3|auto_generated|divider|divider|op_9~33_sumout\;
-\convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_add_sub_4_result_int[2]~13_sumout\ <= NOT \convert_binary|Mod3|auto_generated|divider|divider|add_sub_4_result_int[2]~13_sumout\;
-\convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_6~13_sumout\ <= NOT \convert_binary|Mod3|auto_generated|divider|divider|op_6~13_sumout\;
-\convert_binary|Div2|auto_generated|divider|divider|ALT_INV_op_5~25_sumout\ <= NOT \convert_binary|Div2|auto_generated|divider|divider|op_5~25_sumout\;
-\convert_binary|Div2|auto_generated|divider|divider|ALT_INV_add_sub_3_result_int[2]~17_sumout\ <= NOT \convert_binary|Div2|auto_generated|divider|divider|add_sub_3_result_int[2]~17_sumout\;
-\convert_binary|Div2|auto_generated|divider|divider|ALT_INV_op_9~17_sumout\ <= NOT \convert_binary|Div2|auto_generated|divider|divider|op_9~17_sumout\;
-\convert_binary|Div2|auto_generated|divider|divider|ALT_INV_op_8~21_sumout\ <= NOT \convert_binary|Div2|auto_generated|divider|divider|op_8~21_sumout\;
-\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_7~25_sumout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|op_7~25_sumout\;
-\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_8~29_sumout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|op_8~29_sumout\;
-\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_9~33_sumout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|op_9~33_sumout\;
-\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_add_sub_3_result_int[1]~13_sumout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|add_sub_3_result_int[1]~13_sumout\;
-\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_5~13_sumout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|op_5~13_sumout\;
-\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_6~13_sumout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|op_6~13_sumout\;
-\convert_binary|Div1|auto_generated|divider|divider|ALT_INV_add_sub_6_result_int[2]~21_sumout\ <= NOT \convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[2]~21_sumout\;
-\convert_binary|Div1|auto_generated|divider|divider|ALT_INV_op_9~17_sumout\ <= NOT \convert_binary|Div1|auto_generated|divider|divider|op_9~17_sumout\;
-\convert_binary|Div1|auto_generated|divider|divider|ALT_INV_op_8~21_sumout\ <= NOT \convert_binary|Div1|auto_generated|divider|divider|op_8~21_sumout\;
-\convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_7~25_sumout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|op_7~25_sumout\;
-\convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_8~29_sumout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|op_8~29_sumout\;
-\convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_9~33_sumout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|op_9~33_sumout\;
-\convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_add_sub_4_result_int[2]~13_sumout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|add_sub_4_result_int[2]~13_sumout\;
-\convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_6~13_sumout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|op_6~13_sumout\;
-\convert_binary|Div0|auto_generated|divider|divider|ALT_INV_op_5~25_sumout\ <= NOT \convert_binary|Div0|auto_generated|divider|divider|op_5~25_sumout\;
-\convert_binary|Div0|auto_generated|divider|divider|ALT_INV_add_sub_3_result_int[2]~17_sumout\ <= NOT \convert_binary|Div0|auto_generated|divider|divider|add_sub_3_result_int[2]~17_sumout\;
-\convert_binary|Div0|auto_generated|divider|divider|ALT_INV_op_9~17_sumout\ <= NOT \convert_binary|Div0|auto_generated|divider|divider|op_9~17_sumout\;
-\convert_binary|Div0|auto_generated|divider|divider|ALT_INV_op_8~21_sumout\ <= NOT \convert_binary|Div0|auto_generated|divider|divider|op_8~21_sumout\;
-\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_7~25_sumout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|op_7~25_sumout\;
-\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_8~29_sumout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|op_8~29_sumout\;
-\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_9~33_sumout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|op_9~33_sumout\;
-\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_add_sub_3_result_int[1]~13_sumout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|add_sub_3_result_int[1]~13_sumout\;
-\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_5~13_sumout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|op_5~13_sumout\;
-\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_6~13_sumout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|op_6~13_sumout\;
-\convert_binary|Div3|auto_generated|divider|divider|ALT_INV_add_sub_6_result_int[3]~17_sumout\ <= NOT \convert_binary|Div3|auto_generated|divider|divider|add_sub_6_result_int[3]~17_sumout\;
-\convert_binary|Div3|auto_generated|divider|divider|ALT_INV_op_9~13_sumout\ <= NOT \convert_binary|Div3|auto_generated|divider|divider|op_9~13_sumout\;
-\convert_binary|Div3|auto_generated|divider|divider|ALT_INV_op_8~17_sumout\ <= NOT \convert_binary|Div3|auto_generated|divider|divider|op_8~17_sumout\;
-\convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_7~21_sumout\ <= NOT \convert_binary|Mod3|auto_generated|divider|divider|op_7~21_sumout\;
-\convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_8~25_sumout\ <= NOT \convert_binary|Mod3|auto_generated|divider|divider|op_8~25_sumout\;
-\convert_binary|Div2|auto_generated|divider|divider|ALT_INV_add_sub_3_result_int[3]~13_sumout\ <= NOT \convert_binary|Div2|auto_generated|divider|divider|add_sub_3_result_int[3]~13_sumout\;
-\convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_9~29_sumout\ <= NOT \convert_binary|Mod3|auto_generated|divider|divider|op_9~29_sumout\;
-\convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_add_sub_4_result_int[3]~9_sumout\ <= NOT \convert_binary|Mod3|auto_generated|divider|divider|add_sub_4_result_int[3]~9_sumout\;
-\convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_6~9_sumout\ <= NOT \convert_binary|Mod3|auto_generated|divider|divider|op_6~9_sumout\;
-\convert_binary|Div2|auto_generated|divider|divider|ALT_INV_op_7~21_sumout\ <= NOT \convert_binary|Div2|auto_generated|divider|divider|op_7~21_sumout\;
-\convert_binary|Div2|auto_generated|divider|divider|ALT_INV_op_9~13_sumout\ <= NOT \convert_binary|Div2|auto_generated|divider|divider|op_9~13_sumout\;
-\convert_binary|Div2|auto_generated|divider|divider|ALT_INV_op_8~17_sumout\ <= NOT \convert_binary|Div2|auto_generated|divider|divider|op_8~17_sumout\;
-\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_7~21_sumout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|op_7~21_sumout\;
-\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_8~25_sumout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|op_8~25_sumout\;
-\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_9~29_sumout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|op_9~29_sumout\;
-\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_add_sub_3_result_int[2]~9_sumout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|add_sub_3_result_int[2]~9_sumout\;
-\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_5~9_sumout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|op_5~9_sumout\;
-\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_6~9_sumout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|op_6~9_sumout\;
-\convert_binary|Div1|auto_generated|divider|divider|ALT_INV_add_sub_6_result_int[3]~17_sumout\ <= NOT \convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[3]~17_sumout\;
-\convert_binary|Div1|auto_generated|divider|divider|ALT_INV_op_9~13_sumout\ <= NOT \convert_binary|Div1|auto_generated|divider|divider|op_9~13_sumout\;
-\convert_binary|Div1|auto_generated|divider|divider|ALT_INV_op_8~17_sumout\ <= NOT \convert_binary|Div1|auto_generated|divider|divider|op_8~17_sumout\;
-\convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_7~21_sumout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|op_7~21_sumout\;
-\convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_8~25_sumout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|op_8~25_sumout\;
-\convert_binary|Div0|auto_generated|divider|divider|ALT_INV_add_sub_3_result_int[3]~13_sumout\ <= NOT \convert_binary|Div0|auto_generated|divider|divider|add_sub_3_result_int[3]~13_sumout\;
+\ALT_INV_Result[9]~reg0_q\ <= NOT \Result[9]~reg0_q\;
+\ALT_INV_Result[8]~reg0_q\ <= NOT \Result[8]~reg0_q\;
+\ALT_INV_Result[7]~reg0_q\ <= NOT \Result[7]~reg0_q\;
+\ALT_INV_Result[6]~reg0_q\ <= NOT \Result[6]~reg0_q\;
+\ALT_INV_Result[5]~reg0_q\ <= NOT \Result[5]~reg0_q\;
+\ALT_INV_Result[4]~reg0_q\ <= NOT \Result[4]~reg0_q\;
+\ALT_INV_Result[3]~reg0_q\ <= NOT \Result[3]~reg0_q\;
+\ALT_INV_Result[2]~reg0_q\ <= NOT \Result[2]~reg0_q\;
+\ALT_INV_Result[1]~reg0_q\ <= NOT \Result[1]~reg0_q\;
+\ALT_INV_Result[0]~reg0_q\ <= NOT \Result[0]~reg0_q\;
+\convert_binary|Div3|auto_generated|divider|divider|ALT_INV_op_9~33_sumout\ <= NOT \convert_binary|Div3|auto_generated|divider|divider|op_9~33_sumout\;
+\convert_binary|Div1|auto_generated|divider|divider|ALT_INV_op_9~33_sumout\ <= NOT \convert_binary|Div1|auto_generated|divider|divider|op_9~33_sumout\;
+\convert_binary|Div3|auto_generated|divider|divider|ALT_INV_op_9~29_sumout\ <= NOT \convert_binary|Div3|auto_generated|divider|divider|op_9~29_sumout\;
+\convert_binary|Div3|auto_generated|divider|divider|ALT_INV_op_8~33_sumout\ <= NOT \convert_binary|Div3|auto_generated|divider|divider|op_8~33_sumout\;
+\convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_6~25_sumout\ <= NOT \convert_binary|Mod3|auto_generated|divider|divider|op_6~25_sumout\;
+\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_6~25_sumout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|op_6~25_sumout\;
+\convert_binary|Div1|auto_generated|divider|divider|ALT_INV_op_9~29_sumout\ <= NOT \convert_binary|Div1|auto_generated|divider|divider|op_9~29_sumout\;
+\convert_binary|Div1|auto_generated|divider|divider|ALT_INV_op_8~33_sumout\ <= NOT \convert_binary|Div1|auto_generated|divider|divider|op_8~33_sumout\;
+\convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_6~25_sumout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|op_6~25_sumout\;
+\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_6~25_sumout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|op_6~25_sumout\;
+\convert_binary|Div3|auto_generated|divider|divider|ALT_INV_add_sub_6_result_int[0]~29_sumout\ <= NOT \convert_binary|Div3|auto_generated|divider|divider|add_sub_6_result_int[0]~29_sumout\;
+\convert_binary|Div3|auto_generated|divider|divider|ALT_INV_op_9~25_sumout\ <= NOT \convert_binary|Div3|auto_generated|divider|divider|op_9~25_sumout\;
+\convert_binary|Div3|auto_generated|divider|divider|ALT_INV_op_8~29_sumout\ <= NOT \convert_binary|Div3|auto_generated|divider|divider|op_8~29_sumout\;
+\convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_7~33_sumout\ <= NOT \convert_binary|Mod3|auto_generated|divider|divider|op_7~33_sumout\;
+\convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_8~37_sumout\ <= NOT \convert_binary|Mod3|auto_generated|divider|divider|op_8~37_sumout\;
+\convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_9~41_sumout\ <= NOT \convert_binary|Mod3|auto_generated|divider|divider|op_9~41_sumout\;
+\convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_add_sub_4_result_int[0]~21_sumout\ <= NOT \convert_binary|Mod3|auto_generated|divider|divider|add_sub_4_result_int[0]~21_sumout\;
+\convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_6~21_sumout\ <= NOT \convert_binary|Mod3|auto_generated|divider|divider|op_6~21_sumout\;
+\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_7~33_sumout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|op_7~33_sumout\;
+\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_8~37_sumout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|op_8~37_sumout\;
+\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_9~41_sumout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|op_9~41_sumout\;
+\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_5~21_sumout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|op_5~21_sumout\;
+\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_6~21_sumout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|op_6~21_sumout\;
+\convert_binary|Div1|auto_generated|divider|divider|ALT_INV_add_sub_6_result_int[0]~29_sumout\ <= NOT \convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[0]~29_sumout\;
+\convert_binary|Div1|auto_generated|divider|divider|ALT_INV_op_9~25_sumout\ <= NOT \convert_binary|Div1|auto_generated|divider|divider|op_9~25_sumout\;
+\convert_binary|Div1|auto_generated|divider|divider|ALT_INV_op_8~29_sumout\ <= NOT \convert_binary|Div1|auto_generated|divider|divider|op_8~29_sumout\;
+\multiplication_function|ALT_INV_Data_Product\(0) <= NOT \multiplication_function|Data_Product\(0);
+\division_function|ALT_INV_state.s1~q\ <= NOT \division_function|state.s1~q\;
+\division_function|ALT_INV_bit_counter\(3) <= NOT \division_function|bit_counter\(3);
+\division_function|ALT_INV_bit_counter\(22) <= NOT \division_function|bit_counter\(22);
+\division_function|ALT_INV_bit_counter\(21) <= NOT \division_function|bit_counter\(21);
+\division_function|ALT_INV_bit_counter\(24) <= NOT \division_function|bit_counter\(24);
+\division_function|ALT_INV_bit_counter\(6) <= NOT \division_function|bit_counter\(6);
+\division_function|ALT_INV_bit_counter\(20) <= NOT \division_function|bit_counter\(20);
+\division_function|ALT_INV_bit_counter\(19) <= NOT \division_function|bit_counter\(19);
+\division_function|ALT_INV_bit_counter\(18) <= NOT \division_function|bit_counter\(18);
+\division_function|ALT_INV_bit_counter\(17) <= NOT \division_function|bit_counter\(17);
+\division_function|ALT_INV_bit_counter\(16) <= NOT \division_function|bit_counter\(16);
+\division_function|ALT_INV_bit_counter\(2) <= NOT \division_function|bit_counter\(2);
+\division_function|ALT_INV_bit_counter\(1) <= NOT \division_function|bit_counter\(1);
+\division_function|ALT_INV_bit_counter\(9) <= NOT \division_function|bit_counter\(9);
+\division_function|ALT_INV_bit_counter\(8) <= NOT \division_function|bit_counter\(8);
+\division_function|ALT_INV_bit_counter\(7) <= NOT \division_function|bit_counter\(7);
+\division_function|ALT_INV_bit_counter\(23) <= NOT \division_function|bit_counter\(23);
+\division_function|ALT_INV_bit_counter\(5) <= NOT \division_function|bit_counter\(5);
+\division_function|ALT_INV_bit_counter\(4) <= NOT \division_function|bit_counter\(4);
+\division_function|ALT_INV_bit_counter\(27) <= NOT \division_function|bit_counter\(27);
+\division_function|ALT_INV_bit_counter\(10) <= NOT \division_function|bit_counter\(10);
+\division_function|ALT_INV_bit_counter\(14) <= NOT \division_function|bit_counter\(14);
+\division_function|ALT_INV_bit_counter\(13) <= NOT \division_function|bit_counter\(13);
+\division_function|ALT_INV_bit_counter\(12) <= NOT \division_function|bit_counter\(12);
+\division_function|ALT_INV_bit_counter\(11) <= NOT \division_function|bit_counter\(11);
+\division_function|ALT_INV_bit_counter\(30) <= NOT \division_function|bit_counter\(30);
+\division_function|ALT_INV_bit_counter\(29) <= NOT \division_function|bit_counter\(29);
+\division_function|ALT_INV_bit_counter\(28) <= NOT \division_function|bit_counter\(28);
+\division_function|ALT_INV_bit_counter\(15) <= NOT \division_function|bit_counter\(15);
+\division_function|ALT_INV_bit_counter\(25) <= NOT \division_function|bit_counter\(25);
+\division_function|ALT_INV_bit_counter\(26) <= NOT \division_function|bit_counter\(26);
+\division_function|ALT_INV_bit_counter\(31) <= NOT \division_function|bit_counter\(31);
+\convert_binary|ALT_INV_int_r_3\(2) <= NOT \convert_binary|int_r_3\(2);
+\convert_binary|ALT_INV_int_r_3\(0) <= NOT \convert_binary|int_r_3\(0);
+\convert_binary|ALT_INV_int_r_2\(2) <= NOT \convert_binary|int_r_2\(2);
+\convert_binary|ALT_INV_int_r_2\(0) <= NOT \convert_binary|int_r_2\(0);
+\convert_binary|ALT_INV_int_r_1\(2) <= NOT \convert_binary|int_r_1\(2);
+\convert_binary|ALT_INV_int_r_1\(0) <= NOT \convert_binary|int_r_1\(0);
+\convert_binary|ALT_INV_int_data_3\(2) <= NOT \convert_binary|int_data_3\(2);
+\convert_binary|ALT_INV_int_data_3\(0) <= NOT \convert_binary|int_data_3\(0);
+\convert_binary|ALT_INV_int_data_2\(2) <= NOT \convert_binary|int_data_2\(2);
+\convert_binary|ALT_INV_int_data_2\(0) <= NOT \convert_binary|int_data_2\(0);
+\convert_binary|ALT_INV_int_data_1\(2) <= NOT \convert_binary|int_data_1\(2);
+\convert_binary|ALT_INV_int_data_1\(0) <= NOT \convert_binary|int_data_1\(0);
+\ALT_INV_state~q\ <= NOT \state~q\;
+\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_7~5_sumout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|op_7~5_sumout\;
+\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_7~1_sumout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|op_7~1_sumout\;
+\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_10~13_sumout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|op_10~13_sumout\;
+\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_9~9_sumout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|op_9~9_sumout\;
+\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_8~5_sumout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|op_8~5_sumout\;
+\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_8~1_sumout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|op_8~1_sumout\;
+\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_10~9_sumout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|op_10~9_sumout\;
+\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_9~5_sumout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|op_9~5_sumout\;
+\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_9~1_sumout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|op_9~1_sumout\;
+\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_10~5_sumout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|op_10~5_sumout\;
+\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_10~1_sumout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|op_10~1_sumout\;
+\convert_binary|Div1|auto_generated|divider|divider|ALT_INV_add_sub_6_result_int[7]~1_sumout\ <= NOT \convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[7]~1_sumout\;
+\convert_binary|Div1|auto_generated|divider|divider|ALT_INV_op_8~1_sumout\ <= NOT \convert_binary|Div1|auto_generated|divider|divider|op_8~1_sumout\;
+\convert_binary|Div1|auto_generated|divider|divider|ALT_INV_op_9~1_sumout\ <= NOT \convert_binary|Div1|auto_generated|divider|divider|op_9~1_sumout\;
+\convert_binary|Div1|auto_generated|divider|divider|ALT_INV_op_10~1_sumout\ <= NOT \convert_binary|Div1|auto_generated|divider|divider|op_10~1_sumout\;
+\convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_10~17_sumout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|op_10~17_sumout\;
+\convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_9~13_sumout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|op_9~13_sumout\;
+\convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_8~9_sumout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|op_8~9_sumout\;
+\convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_7~5_sumout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|op_7~5_sumout\;
+\convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_7~1_sumout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|op_7~1_sumout\;
+\convert_binary|Div0|auto_generated|divider|divider|ALT_INV_op_7~1_sumout\ <= NOT \convert_binary|Div0|auto_generated|divider|divider|op_7~1_sumout\;
+\convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_10~13_sumout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|op_10~13_sumout\;
+\convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_9~9_sumout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|op_9~9_sumout\;
+\convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_8~5_sumout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|op_8~5_sumout\;
+\convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_8~1_sumout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|op_8~1_sumout\;
+\convert_binary|Div0|auto_generated|divider|divider|ALT_INV_op_8~1_sumout\ <= NOT \convert_binary|Div0|auto_generated|divider|divider|op_8~1_sumout\;
+\convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_10~9_sumout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|op_10~9_sumout\;
+\convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_9~5_sumout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|op_9~5_sumout\;
+\convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_9~1_sumout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|op_9~1_sumout\;
+\convert_binary|Div0|auto_generated|divider|divider|ALT_INV_op_9~1_sumout\ <= NOT \convert_binary|Div0|auto_generated|divider|divider|op_9~1_sumout\;
+\convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_10~5_sumout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|op_10~5_sumout\;
+\convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_10~1_sumout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|op_10~1_sumout\;
+\convert_binary|Div0|auto_generated|divider|divider|ALT_INV_op_10~1_sumout\ <= NOT \convert_binary|Div0|auto_generated|divider|divider|op_10~1_sumout\;
+\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_10~17_sumout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|op_10~17_sumout\;
+\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_9~13_sumout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|op_9~13_sumout\;
+\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_8~9_sumout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|op_8~9_sumout\;
+\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_7~5_sumout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|op_7~5_sumout\;
+\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_7~1_sumout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|op_7~1_sumout\;
+\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_10~13_sumout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|op_10~13_sumout\;
+\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_9~9_sumout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|op_9~9_sumout\;
+\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_8~5_sumout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|op_8~5_sumout\;
+\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_8~1_sumout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|op_8~1_sumout\;
+\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_10~9_sumout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|op_10~9_sumout\;
+\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_9~5_sumout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|op_9~5_sumout\;
+\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_9~1_sumout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|op_9~1_sumout\;
+\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_10~5_sumout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|op_10~5_sumout\;
+\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_10~1_sumout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|op_10~1_sumout\;
+\division_function|ALT_INV_Remainder\(9) <= NOT \division_function|Remainder\(9);
+\division_function|ALT_INV_Remainder\(8) <= NOT \division_function|Remainder\(8);
+\division_function|ALT_INV_Remainder\(7) <= NOT \division_function|Remainder\(7);
+\division_function|ALT_INV_Remainder\(6) <= NOT \division_function|Remainder\(6);
+\division_function|ALT_INV_Remainder\(5) <= NOT \division_function|Remainder\(5);
+\division_function|ALT_INV_Remainder\(4) <= NOT \division_function|Remainder\(4);
+\division_function|ALT_INV_Remainder\(3) <= NOT \division_function|Remainder\(3);
+\division_function|ALT_INV_Remainder\(2) <= NOT \division_function|Remainder\(2);
+\division_function|ALT_INV_Remainder\(1) <= NOT \division_function|Remainder\(1);
+\division_function|ALT_INV_Remainder\(0) <= NOT \division_function|Remainder\(0);
+\multiplication_function|ALT_INV_Data_Product\(9) <= NOT \multiplication_function|Data_Product\(9);
+\multiplication_function|ALT_INV_Data_Product\(8) <= NOT \multiplication_function|Data_Product\(8);
+\multiplication_function|ALT_INV_Data_Product\(7) <= NOT \multiplication_function|Data_Product\(7);
+\multiplication_function|ALT_INV_Data_Product\(6) <= NOT \multiplication_function|Data_Product\(6);
+\multiplication_function|ALT_INV_Data_Product\(5) <= NOT \multiplication_function|Data_Product\(5);
+\multiplication_function|ALT_INV_Data_Product\(4) <= NOT \multiplication_function|Data_Product\(4);
+\multiplication_function|ALT_INV_Data_Product\(3) <= NOT \multiplication_function|Data_Product\(3);
+\multiplication_function|ALT_INV_Data_Product\(2) <= NOT \multiplication_function|Data_Product\(2);
+\multiplication_function|ALT_INV_Data_Product\(1) <= NOT \multiplication_function|Data_Product\(1);
+\multiplication_function|ALT_INV_bit_counter\(3) <= NOT \multiplication_function|bit_counter\(3);
+\multiplication_function|ALT_INV_bit_counter\(21) <= NOT \multiplication_function|bit_counter\(21);
+\multiplication_function|ALT_INV_bit_counter\(30) <= NOT \multiplication_function|bit_counter\(30);
+\multiplication_function|ALT_INV_bit_counter\(29) <= NOT \multiplication_function|bit_counter\(29);
+\multiplication_function|ALT_INV_bit_counter\(17) <= NOT \multiplication_function|bit_counter\(17);
+\multiplication_function|ALT_INV_bit_counter\(11) <= NOT \multiplication_function|bit_counter\(11);
+\multiplication_function|ALT_INV_bit_counter\(19) <= NOT \multiplication_function|bit_counter\(19);
+\multiplication_function|ALT_INV_bit_counter\(20) <= NOT \multiplication_function|bit_counter\(20);
+\multiplication_function|ALT_INV_bit_counter\(22) <= NOT \multiplication_function|bit_counter\(22);
+\multiplication_function|ALT_INV_bit_counter\(18) <= NOT \multiplication_function|bit_counter\(18);
+\multiplication_function|ALT_INV_bit_counter\(1) <= NOT \multiplication_function|bit_counter\(1);
+\multiplication_function|ALT_INV_bit_counter\(2) <= NOT \multiplication_function|bit_counter\(2);
+\multiplication_function|ALT_INV_bit_counter\(9) <= NOT \multiplication_function|bit_counter\(9);
+\multiplication_function|ALT_INV_bit_counter\(8) <= NOT \multiplication_function|bit_counter\(8);
+\multiplication_function|ALT_INV_bit_counter\(7) <= NOT \multiplication_function|bit_counter\(7);
+\multiplication_function|ALT_INV_bit_counter\(6) <= NOT \multiplication_function|bit_counter\(6);
+\multiplication_function|ALT_INV_bit_counter\(5) <= NOT \multiplication_function|bit_counter\(5);
+\multiplication_function|ALT_INV_bit_counter\(4) <= NOT \multiplication_function|bit_counter\(4);
+\multiplication_function|ALT_INV_bit_counter\(12) <= NOT \multiplication_function|bit_counter\(12);
+\multiplication_function|ALT_INV_bit_counter\(13) <= NOT \multiplication_function|bit_counter\(13);
+\multiplication_function|ALT_INV_bit_counter\(14) <= NOT \multiplication_function|bit_counter\(14);
+\multiplication_function|ALT_INV_bit_counter\(15) <= NOT \multiplication_function|bit_counter\(15);
+\multiplication_function|ALT_INV_bit_counter\(16) <= NOT \multiplication_function|bit_counter\(16);
+\multiplication_function|ALT_INV_bit_counter\(10) <= NOT \multiplication_function|bit_counter\(10);
+\multiplication_function|ALT_INV_bit_counter\(28) <= NOT \multiplication_function|bit_counter\(28);
+\multiplication_function|ALT_INV_bit_counter\(27) <= NOT \multiplication_function|bit_counter\(27);
+\multiplication_function|ALT_INV_bit_counter\(26) <= NOT \multiplication_function|bit_counter\(26);
+\multiplication_function|ALT_INV_bit_counter\(25) <= NOT \multiplication_function|bit_counter\(25);
+\multiplication_function|ALT_INV_bit_counter\(24) <= NOT \multiplication_function|bit_counter\(24);
+\multiplication_function|ALT_INV_bit_counter\(23) <= NOT \multiplication_function|bit_counter\(23);
+\multiplication_function|ALT_INV_bit_counter\(31) <= NOT \multiplication_function|bit_counter\(31);
+\multiplication_function|ALT_INV_bit_counter\(0) <= NOT \multiplication_function|bit_counter\(0);
+\ALT_INV_Start_division~q\ <= NOT \Start_division~q\;
+\division_function|ALT_INV_Remainder\(10) <= NOT \division_function|Remainder\(10);
+\convert_binary|Div3|auto_generated|divider|divider|ALT_INV_add_sub_6_result_int[7]~1_sumout\ <= NOT \convert_binary|Div3|auto_generated|divider|divider|add_sub_6_result_int[7]~1_sumout\;
+\convert_binary|Div3|auto_generated|divider|divider|ALT_INV_op_8~1_sumout\ <= NOT \convert_binary|Div3|auto_generated|divider|divider|op_8~1_sumout\;
+\convert_binary|Div3|auto_generated|divider|divider|ALT_INV_op_9~1_sumout\ <= NOT \convert_binary|Div3|auto_generated|divider|divider|op_9~1_sumout\;
+\convert_binary|Div3|auto_generated|divider|divider|ALT_INV_op_10~1_sumout\ <= NOT \convert_binary|Div3|auto_generated|divider|divider|op_10~1_sumout\;
+\convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_10~17_sumout\ <= NOT \convert_binary|Mod3|auto_generated|divider|divider|op_10~17_sumout\;
+\convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_9~13_sumout\ <= NOT \convert_binary|Mod3|auto_generated|divider|divider|op_9~13_sumout\;
+\convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_8~9_sumout\ <= NOT \convert_binary|Mod3|auto_generated|divider|divider|op_8~9_sumout\;
+\convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_7~5_sumout\ <= NOT \convert_binary|Mod3|auto_generated|divider|divider|op_7~5_sumout\;
+\convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_7~1_sumout\ <= NOT \convert_binary|Mod3|auto_generated|divider|divider|op_7~1_sumout\;
+\convert_binary|Div2|auto_generated|divider|divider|ALT_INV_op_7~1_sumout\ <= NOT \convert_binary|Div2|auto_generated|divider|divider|op_7~1_sumout\;
+\convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_10~13_sumout\ <= NOT \convert_binary|Mod3|auto_generated|divider|divider|op_10~13_sumout\;
+\convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_9~9_sumout\ <= NOT \convert_binary|Mod3|auto_generated|divider|divider|op_9~9_sumout\;
+\convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_8~5_sumout\ <= NOT \convert_binary|Mod3|auto_generated|divider|divider|op_8~5_sumout\;
+\convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_8~1_sumout\ <= NOT \convert_binary|Mod3|auto_generated|divider|divider|op_8~1_sumout\;
+\convert_binary|Div2|auto_generated|divider|divider|ALT_INV_op_8~1_sumout\ <= NOT \convert_binary|Div2|auto_generated|divider|divider|op_8~1_sumout\;
+\convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_10~9_sumout\ <= NOT \convert_binary|Mod3|auto_generated|divider|divider|op_10~9_sumout\;
+\convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_9~5_sumout\ <= NOT \convert_binary|Mod3|auto_generated|divider|divider|op_9~5_sumout\;
+\convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_9~1_sumout\ <= NOT \convert_binary|Mod3|auto_generated|divider|divider|op_9~1_sumout\;
+\convert_binary|Div2|auto_generated|divider|divider|ALT_INV_op_9~1_sumout\ <= NOT \convert_binary|Div2|auto_generated|divider|divider|op_9~1_sumout\;
+\convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_10~5_sumout\ <= NOT \convert_binary|Mod3|auto_generated|divider|divider|op_10~5_sumout\;
+\convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_10~1_sumout\ <= NOT \convert_binary|Mod3|auto_generated|divider|divider|op_10~1_sumout\;
+\convert_binary|Div2|auto_generated|divider|divider|ALT_INV_op_10~1_sumout\ <= NOT \convert_binary|Div2|auto_generated|divider|divider|op_10~1_sumout\;
+\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_10~17_sumout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|op_10~17_sumout\;
+\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_9~13_sumout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|op_9~13_sumout\;
+\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_8~9_sumout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|op_8~9_sumout\;
+\convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_8~13_sumout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|op_8~13_sumout\;
+\convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_9~17_sumout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|op_9~17_sumout\;
+\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_7~9_sumout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|op_7~9_sumout\;
+\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_8~13_sumout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|op_8~13_sumout\;
+\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_9~17_sumout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|op_9~17_sumout\;
+\division_function|ALT_INV_Add0~17_sumout\ <= NOT \division_function|Add0~17_sumout\;
+\division_function|ALT_INV_Add0~13_sumout\ <= NOT \division_function|Add0~13_sumout\;
+\division_function|ALT_INV_Add0~9_sumout\ <= NOT \division_function|Add0~9_sumout\;
+\division_function|ALT_INV_Add0~5_sumout\ <= NOT \division_function|Add0~5_sumout\;
+\division_function|ALT_INV_Add0~1_sumout\ <= NOT \division_function|Add0~1_sumout\;
+\convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_7~17_sumout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|op_7~17_sumout\;
+\convert_binary|Div0|auto_generated|divider|divider|ALT_INV_add_sub_3_result_int[1]~9_sumout\ <= NOT \convert_binary|Div0|auto_generated|divider|divider|add_sub_3_result_int[1]~9_sumout\;
+\convert_binary|Div0|auto_generated|divider|divider|ALT_INV_op_6~17_sumout\ <= NOT \convert_binary|Div0|auto_generated|divider|divider|op_6~17_sumout\;
+\convert_binary|Div0|auto_generated|divider|divider|ALT_INV_op_5~13_sumout\ <= NOT \convert_binary|Div0|auto_generated|divider|divider|op_5~13_sumout\;
+\convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_8~21_sumout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|op_8~21_sumout\;
+\convert_binary|Div0|auto_generated|divider|divider|ALT_INV_op_5~9_sumout\ <= NOT \convert_binary|Div0|auto_generated|divider|divider|op_5~9_sumout\;
+\convert_binary|Div0|auto_generated|divider|divider|ALT_INV_add_sub_3_result_int[0]~5_sumout\ <= NOT \convert_binary|Div0|auto_generated|divider|divider|add_sub_3_result_int[0]~5_sumout\;
+\convert_binary|Div0|auto_generated|divider|divider|ALT_INV_add_sub_3_result_int[4]~1_sumout\ <= NOT \convert_binary|Div0|auto_generated|divider|divider|add_sub_3_result_int[4]~1_sumout\;
+\convert_binary|Div0|auto_generated|divider|divider|ALT_INV_op_7~17_sumout\ <= NOT \convert_binary|Div0|auto_generated|divider|divider|op_7~17_sumout\;
+\convert_binary|Div0|auto_generated|divider|divider|ALT_INV_op_6~13_sumout\ <= NOT \convert_binary|Div0|auto_generated|divider|divider|op_6~13_sumout\;
+\convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_9~25_sumout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|op_9~25_sumout\;
+\convert_binary|Div0|auto_generated|divider|divider|ALT_INV_op_6~9_sumout\ <= NOT \convert_binary|Div0|auto_generated|divider|divider|op_6~9_sumout\;
+\convert_binary|Div0|auto_generated|divider|divider|ALT_INV_op_5~5_sumout\ <= NOT \convert_binary|Div0|auto_generated|divider|divider|op_5~5_sumout\;
+\convert_binary|Div0|auto_generated|divider|divider|ALT_INV_op_5~1_sumout\ <= NOT \convert_binary|Div0|auto_generated|divider|divider|op_5~1_sumout\;
+\convert_binary|Div0|auto_generated|divider|divider|ALT_INV_op_8~13_sumout\ <= NOT \convert_binary|Div0|auto_generated|divider|divider|op_8~13_sumout\;
+\convert_binary|Div0|auto_generated|divider|divider|ALT_INV_op_7~13_sumout\ <= NOT \convert_binary|Div0|auto_generated|divider|divider|op_7~13_sumout\;
+\convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_add_sub_4_result_int[4]~5_sumout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|add_sub_4_result_int[4]~5_sumout\;
+\convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_add_sub_4_result_int[5]~1_sumout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|add_sub_4_result_int[5]~1_sumout\;
+\convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_6~5_sumout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|op_6~5_sumout\;
+\convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_6~1_sumout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|op_6~1_sumout\;
+\convert_binary|Div0|auto_generated|divider|divider|ALT_INV_op_7~9_sumout\ <= NOT \convert_binary|Div0|auto_generated|divider|divider|op_7~9_sumout\;
+\convert_binary|Div0|auto_generated|divider|divider|ALT_INV_op_6~5_sumout\ <= NOT \convert_binary|Div0|auto_generated|divider|divider|op_6~5_sumout\;
+\convert_binary|Div0|auto_generated|divider|divider|ALT_INV_op_6~1_sumout\ <= NOT \convert_binary|Div0|auto_generated|divider|divider|op_6~1_sumout\;
+\convert_binary|Div0|auto_generated|divider|divider|ALT_INV_op_9~9_sumout\ <= NOT \convert_binary|Div0|auto_generated|divider|divider|op_9~9_sumout\;
+\convert_binary|Div0|auto_generated|divider|divider|ALT_INV_op_8~9_sumout\ <= NOT \convert_binary|Div0|auto_generated|divider|divider|op_8~9_sumout\;
+\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_7~17_sumout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|op_7~17_sumout\;
+\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_8~21_sumout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|op_8~21_sumout\;
+\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_9~25_sumout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|op_9~25_sumout\;
+\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_add_sub_3_result_int[4]~5_sumout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|add_sub_3_result_int[4]~5_sumout\;
+\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_add_sub_3_result_int[3]~1_sumout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|add_sub_3_result_int[3]~1_sumout\;
+\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_5~5_sumout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|op_5~5_sumout\;
+\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_5~1_sumout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|op_5~1_sumout\;
+\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_6~5_sumout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|op_6~5_sumout\;
+\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_6~1_sumout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|op_6~1_sumout\;
+\division_function|ALT_INV_Divisor\(8) <= NOT \division_function|Divisor\(8);
+\division_function|ALT_INV_Divisor\(7) <= NOT \division_function|Divisor\(7);
+\division_function|ALT_INV_Divisor\(6) <= NOT \division_function|Divisor\(6);
+\division_function|ALT_INV_Divisor\(5) <= NOT \division_function|Divisor\(5);
+\multiplication_function|ALT_INV_Data_A\(9) <= NOT \multiplication_function|Data_A\(9);
+\multiplication_function|ALT_INV_Data_A\(8) <= NOT \multiplication_function|Data_A\(8);
+\multiplication_function|ALT_INV_Data_A\(7) <= NOT \multiplication_function|Data_A\(7);
+\multiplication_function|ALT_INV_Data_A\(6) <= NOT \multiplication_function|Data_A\(6);
+\multiplication_function|ALT_INV_Data_A\(5) <= NOT \multiplication_function|Data_A\(5);
+\multiplication_function|ALT_INV_Data_A\(0) <= NOT \multiplication_function|Data_A\(0);
+\division_function|ALT_INV_Add0~41_sumout\ <= NOT \division_function|Add0~41_sumout\;
+\division_function|ALT_INV_Add1~41_sumout\ <= NOT \division_function|Add1~41_sumout\;
+\convert_binary|Div3|auto_generated|divider|divider|ALT_INV_add_sub_6_result_int[6]~5_sumout\ <= NOT \convert_binary|Div3|auto_generated|divider|divider|add_sub_6_result_int[6]~5_sumout\;
+\convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_7~9_sumout\ <= NOT \convert_binary|Mod3|auto_generated|divider|divider|op_7~9_sumout\;
+\convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_8~13_sumout\ <= NOT \convert_binary|Mod3|auto_generated|divider|divider|op_8~13_sumout\;
+\convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_9~17_sumout\ <= NOT \convert_binary|Mod3|auto_generated|divider|divider|op_9~17_sumout\;
+\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_7~9_sumout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|op_7~9_sumout\;
+\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_8~13_sumout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|op_8~13_sumout\;
+\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_9~17_sumout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|op_9~17_sumout\;
+\convert_binary|Div1|auto_generated|divider|divider|ALT_INV_add_sub_6_result_int[6]~5_sumout\ <= NOT \convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[6]~5_sumout\;
+\convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_7~9_sumout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|op_7~9_sumout\;
 \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_9~29_sumout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|op_9~29_sumout\;
 \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_add_sub_4_result_int[3]~9_sumout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|add_sub_4_result_int[3]~9_sumout\;
 \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_6~9_sumout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|op_6~9_sumout\;
@@ -2333,269 +2518,57 @@ ww_devpor <= devpor;
 \convert_binary|Div1|auto_generated|divider|divider|ALT_INV_add_sub_6_result_int[4]~9_sumout\ <= NOT \convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[4]~9_sumout\;
 \convert_binary|Div1|auto_generated|divider|divider|ALT_INV_op_9~9_sumout\ <= NOT \convert_binary|Div1|auto_generated|divider|divider|op_9~9_sumout\;
 \convert_binary|Div1|auto_generated|divider|divider|ALT_INV_op_8~9_sumout\ <= NOT \convert_binary|Div1|auto_generated|divider|divider|op_8~9_sumout\;
-\convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_7~17_sumout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|op_7~17_sumout\;
-\convert_binary|Div0|auto_generated|divider|divider|ALT_INV_add_sub_3_result_int[1]~9_sumout\ <= NOT \convert_binary|Div0|auto_generated|divider|divider|add_sub_3_result_int[1]~9_sumout\;
-\convert_binary|Div0|auto_generated|divider|divider|ALT_INV_op_6~17_sumout\ <= NOT \convert_binary|Div0|auto_generated|divider|divider|op_6~17_sumout\;
-\convert_binary|Div0|auto_generated|divider|divider|ALT_INV_op_5~13_sumout\ <= NOT \convert_binary|Div0|auto_generated|divider|divider|op_5~13_sumout\;
-\convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_8~21_sumout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|op_8~21_sumout\;
-\convert_binary|Div0|auto_generated|divider|divider|ALT_INV_op_5~9_sumout\ <= NOT \convert_binary|Div0|auto_generated|divider|divider|op_5~9_sumout\;
-\convert_binary|Div0|auto_generated|divider|divider|ALT_INV_add_sub_3_result_int[0]~5_sumout\ <= NOT \convert_binary|Div0|auto_generated|divider|divider|add_sub_3_result_int[0]~5_sumout\;
-\convert_binary|Div0|auto_generated|divider|divider|ALT_INV_add_sub_3_result_int[4]~1_sumout\ <= NOT \convert_binary|Div0|auto_generated|divider|divider|add_sub_3_result_int[4]~1_sumout\;
-\convert_binary|Div0|auto_generated|divider|divider|ALT_INV_op_7~17_sumout\ <= NOT \convert_binary|Div0|auto_generated|divider|divider|op_7~17_sumout\;
-\convert_binary|Div0|auto_generated|divider|divider|ALT_INV_op_6~13_sumout\ <= NOT \convert_binary|Div0|auto_generated|divider|divider|op_6~13_sumout\;
-\convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_9~25_sumout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|op_9~25_sumout\;
-\convert_binary|Div0|auto_generated|divider|divider|ALT_INV_op_6~9_sumout\ <= NOT \convert_binary|Div0|auto_generated|divider|divider|op_6~9_sumout\;
-\convert_binary|Div0|auto_generated|divider|divider|ALT_INV_op_5~5_sumout\ <= NOT \convert_binary|Div0|auto_generated|divider|divider|op_5~5_sumout\;
-\convert_binary|Div0|auto_generated|divider|divider|ALT_INV_op_5~1_sumout\ <= NOT \convert_binary|Div0|auto_generated|divider|divider|op_5~1_sumout\;
-\convert_binary|Div0|auto_generated|divider|divider|ALT_INV_op_8~13_sumout\ <= NOT \convert_binary|Div0|auto_generated|divider|divider|op_8~13_sumout\;
-\convert_binary|Div0|auto_generated|divider|divider|ALT_INV_op_7~13_sumout\ <= NOT \convert_binary|Div0|auto_generated|divider|divider|op_7~13_sumout\;
-\convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_add_sub_4_result_int[4]~5_sumout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|add_sub_4_result_int[4]~5_sumout\;
-\convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_add_sub_4_result_int[5]~1_sumout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|add_sub_4_result_int[5]~1_sumout\;
-\convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_6~5_sumout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|op_6~5_sumout\;
-\convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_6~1_sumout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|op_6~1_sumout\;
-\convert_binary|Div0|auto_generated|divider|divider|ALT_INV_op_7~9_sumout\ <= NOT \convert_binary|Div0|auto_generated|divider|divider|op_7~9_sumout\;
-\convert_binary|Div0|auto_generated|divider|divider|ALT_INV_op_6~5_sumout\ <= NOT \convert_binary|Div0|auto_generated|divider|divider|op_6~5_sumout\;
-\convert_binary|Div0|auto_generated|divider|divider|ALT_INV_op_6~1_sumout\ <= NOT \convert_binary|Div0|auto_generated|divider|divider|op_6~1_sumout\;
-\convert_binary|Div0|auto_generated|divider|divider|ALT_INV_op_9~9_sumout\ <= NOT \convert_binary|Div0|auto_generated|divider|divider|op_9~9_sumout\;
-\convert_binary|Div0|auto_generated|divider|divider|ALT_INV_op_8~9_sumout\ <= NOT \convert_binary|Div0|auto_generated|divider|divider|op_8~9_sumout\;
-\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_7~17_sumout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|op_7~17_sumout\;
-\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_8~21_sumout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|op_8~21_sumout\;
-\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_9~25_sumout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|op_9~25_sumout\;
-\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_add_sub_3_result_int[4]~5_sumout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|add_sub_3_result_int[4]~5_sumout\;
-\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_add_sub_3_result_int[3]~1_sumout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|add_sub_3_result_int[3]~1_sumout\;
-\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_5~5_sumout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|op_5~5_sumout\;
-\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_5~1_sumout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|op_5~1_sumout\;
-\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_6~5_sumout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|op_6~5_sumout\;
-\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_6~1_sumout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|op_6~1_sumout\;
-\division_function|ALT_INV_Divisor\(8) <= NOT \division_function|Divisor\(8);
-\division_function|ALT_INV_Divisor\(7) <= NOT \division_function|Divisor\(7);
-\division_function|ALT_INV_Divisor\(6) <= NOT \division_function|Divisor\(6);
-\division_function|ALT_INV_Divisor\(5) <= NOT \division_function|Divisor\(5);
-\multiplication_function|ALT_INV_Data_A\(9) <= NOT \multiplication_function|Data_A\(9);
-\multiplication_function|ALT_INV_Data_A\(8) <= NOT \multiplication_function|Data_A\(8);
-\multiplication_function|ALT_INV_Data_A\(7) <= NOT \multiplication_function|Data_A\(7);
-\multiplication_function|ALT_INV_Data_A\(6) <= NOT \multiplication_function|Data_A\(6);
-\multiplication_function|ALT_INV_Data_A\(5) <= NOT \multiplication_function|Data_A\(5);
-\multiplication_function|ALT_INV_Data_A\(0) <= NOT \multiplication_function|Data_A\(0);
-\division_function|ALT_INV_Add0~41_sumout\ <= NOT \division_function|Add0~41_sumout\;
-\division_function|ALT_INV_Add1~41_sumout\ <= NOT \division_function|Add1~41_sumout\;
-\convert_binary|Div3|auto_generated|divider|divider|ALT_INV_add_sub_6_result_int[6]~5_sumout\ <= NOT \convert_binary|Div3|auto_generated|divider|divider|add_sub_6_result_int[6]~5_sumout\;
-\convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_7~9_sumout\ <= NOT \convert_binary|Mod3|auto_generated|divider|divider|op_7~9_sumout\;
-\convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_8~13_sumout\ <= NOT \convert_binary|Mod3|auto_generated|divider|divider|op_8~13_sumout\;
-\convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_9~17_sumout\ <= NOT \convert_binary|Mod3|auto_generated|divider|divider|op_9~17_sumout\;
-\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_7~9_sumout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|op_7~9_sumout\;
-\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_8~13_sumout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|op_8~13_sumout\;
-\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_9~17_sumout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|op_9~17_sumout\;
-\convert_binary|Div1|auto_generated|divider|divider|ALT_INV_add_sub_6_result_int[6]~5_sumout\ <= NOT \convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[6]~5_sumout\;
-\convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_7~9_sumout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|op_7~9_sumout\;
-\convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_8~13_sumout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|op_8~13_sumout\;
-\convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_9~17_sumout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|op_9~17_sumout\;
-\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_7~9_sumout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|op_7~9_sumout\;
-\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_8~13_sumout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|op_8~13_sumout\;
-\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_9~17_sumout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|op_9~17_sumout\;
-\division_function|ALT_INV_Add0~17_sumout\ <= NOT \division_function|Add0~17_sumout\;
-\division_function|ALT_INV_Add0~13_sumout\ <= NOT \division_function|Add0~13_sumout\;
-\division_function|ALT_INV_Add0~9_sumout\ <= NOT \division_function|Add0~9_sumout\;
-\division_function|ALT_INV_Add0~5_sumout\ <= NOT \division_function|Add0~5_sumout\;
-\division_function|ALT_INV_Add0~1_sumout\ <= NOT \division_function|Add0~1_sumout\;
-\multiplication_function|ALT_INV_bit_counter\(0) <= NOT \multiplication_function|bit_counter\(0);
-\ALT_INV_Start_division~q\ <= NOT \Start_division~q\;
-\division_function|ALT_INV_Remainder\(10) <= NOT \division_function|Remainder\(10);
-\convert_binary|Div3|auto_generated|divider|divider|ALT_INV_add_sub_6_result_int[7]~1_sumout\ <= NOT \convert_binary|Div3|auto_generated|divider|divider|add_sub_6_result_int[7]~1_sumout\;
-\convert_binary|Div3|auto_generated|divider|divider|ALT_INV_op_8~1_sumout\ <= NOT \convert_binary|Div3|auto_generated|divider|divider|op_8~1_sumout\;
-\convert_binary|Div3|auto_generated|divider|divider|ALT_INV_op_9~1_sumout\ <= NOT \convert_binary|Div3|auto_generated|divider|divider|op_9~1_sumout\;
-\convert_binary|Div3|auto_generated|divider|divider|ALT_INV_op_10~1_sumout\ <= NOT \convert_binary|Div3|auto_generated|divider|divider|op_10~1_sumout\;
-\convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_10~17_sumout\ <= NOT \convert_binary|Mod3|auto_generated|divider|divider|op_10~17_sumout\;
-\convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_9~13_sumout\ <= NOT \convert_binary|Mod3|auto_generated|divider|divider|op_9~13_sumout\;
-\convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_8~9_sumout\ <= NOT \convert_binary|Mod3|auto_generated|divider|divider|op_8~9_sumout\;
-\convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_7~5_sumout\ <= NOT \convert_binary|Mod3|auto_generated|divider|divider|op_7~5_sumout\;
-\convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_7~1_sumout\ <= NOT \convert_binary|Mod3|auto_generated|divider|divider|op_7~1_sumout\;
-\convert_binary|Div2|auto_generated|divider|divider|ALT_INV_op_7~1_sumout\ <= NOT \convert_binary|Div2|auto_generated|divider|divider|op_7~1_sumout\;
-\convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_10~13_sumout\ <= NOT \convert_binary|Mod3|auto_generated|divider|divider|op_10~13_sumout\;
-\convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_9~9_sumout\ <= NOT \convert_binary|Mod3|auto_generated|divider|divider|op_9~9_sumout\;
-\convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_8~5_sumout\ <= NOT \convert_binary|Mod3|auto_generated|divider|divider|op_8~5_sumout\;
-\convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_8~1_sumout\ <= NOT \convert_binary|Mod3|auto_generated|divider|divider|op_8~1_sumout\;
-\convert_binary|Div2|auto_generated|divider|divider|ALT_INV_op_8~1_sumout\ <= NOT \convert_binary|Div2|auto_generated|divider|divider|op_8~1_sumout\;
-\convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_10~9_sumout\ <= NOT \convert_binary|Mod3|auto_generated|divider|divider|op_10~9_sumout\;
-\convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_9~5_sumout\ <= NOT \convert_binary|Mod3|auto_generated|divider|divider|op_9~5_sumout\;
-\convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_9~1_sumout\ <= NOT \convert_binary|Mod3|auto_generated|divider|divider|op_9~1_sumout\;
-\convert_binary|Div2|auto_generated|divider|divider|ALT_INV_op_9~1_sumout\ <= NOT \convert_binary|Div2|auto_generated|divider|divider|op_9~1_sumout\;
-\convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_10~5_sumout\ <= NOT \convert_binary|Mod3|auto_generated|divider|divider|op_10~5_sumout\;
-\convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_10~1_sumout\ <= NOT \convert_binary|Mod3|auto_generated|divider|divider|op_10~1_sumout\;
-\convert_binary|Div2|auto_generated|divider|divider|ALT_INV_op_10~1_sumout\ <= NOT \convert_binary|Div2|auto_generated|divider|divider|op_10~1_sumout\;
-\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_10~17_sumout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|op_10~17_sumout\;
-\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_9~13_sumout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|op_9~13_sumout\;
-\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_8~9_sumout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|op_8~9_sumout\;
-\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_7~5_sumout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|op_7~5_sumout\;
-\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_7~1_sumout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|op_7~1_sumout\;
-\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_10~13_sumout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|op_10~13_sumout\;
-\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_9~9_sumout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|op_9~9_sumout\;
-\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_8~5_sumout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|op_8~5_sumout\;
-\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_8~1_sumout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|op_8~1_sumout\;
-\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_10~9_sumout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|op_10~9_sumout\;
-\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_9~5_sumout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|op_9~5_sumout\;
-\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_9~1_sumout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|op_9~1_sumout\;
-\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_10~5_sumout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|op_10~5_sumout\;
-\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_10~1_sumout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|op_10~1_sumout\;
-\convert_binary|Div1|auto_generated|divider|divider|ALT_INV_add_sub_6_result_int[7]~1_sumout\ <= NOT \convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[7]~1_sumout\;
-\convert_binary|Div1|auto_generated|divider|divider|ALT_INV_op_8~1_sumout\ <= NOT \convert_binary|Div1|auto_generated|divider|divider|op_8~1_sumout\;
-\convert_binary|Div1|auto_generated|divider|divider|ALT_INV_op_9~1_sumout\ <= NOT \convert_binary|Div1|auto_generated|divider|divider|op_9~1_sumout\;
-\convert_binary|Div1|auto_generated|divider|divider|ALT_INV_op_10~1_sumout\ <= NOT \convert_binary|Div1|auto_generated|divider|divider|op_10~1_sumout\;
-\convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_10~17_sumout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|op_10~17_sumout\;
-\convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_9~13_sumout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|op_9~13_sumout\;
-\convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_8~9_sumout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|op_8~9_sumout\;
-\convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_7~5_sumout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|op_7~5_sumout\;
-\convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_7~1_sumout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|op_7~1_sumout\;
-\division_function|ALT_INV_bit_counter\(25) <= NOT \division_function|bit_counter\(25);
-\division_function|ALT_INV_bit_counter\(31) <= NOT \division_function|bit_counter\(31);
-\convert_binary|ALT_INV_int_r_3\(2) <= NOT \convert_binary|int_r_3\(2);
-\convert_binary|ALT_INV_int_r_3\(0) <= NOT \convert_binary|int_r_3\(0);
-\convert_binary|ALT_INV_int_r_2\(2) <= NOT \convert_binary|int_r_2\(2);
-\convert_binary|ALT_INV_int_r_2\(0) <= NOT \convert_binary|int_r_2\(0);
-\convert_binary|ALT_INV_int_r_1\(2) <= NOT \convert_binary|int_r_1\(2);
-\convert_binary|ALT_INV_int_r_1\(0) <= NOT \convert_binary|int_r_1\(0);
-\convert_binary|ALT_INV_int_data_3\(2) <= NOT \convert_binary|int_data_3\(2);
-\convert_binary|ALT_INV_int_data_3\(0) <= NOT \convert_binary|int_data_3\(0);
-\convert_binary|ALT_INV_int_data_2\(2) <= NOT \convert_binary|int_data_2\(2);
-\convert_binary|ALT_INV_int_data_2\(0) <= NOT \convert_binary|int_data_2\(0);
-\convert_binary|ALT_INV_int_data_1\(2) <= NOT \convert_binary|int_data_1\(2);
-\convert_binary|ALT_INV_int_data_1\(0) <= NOT \convert_binary|int_data_1\(0);
-\ALT_INV_state~q\ <= NOT \state~q\;
-\convert_binary|Div0|auto_generated|divider|divider|ALT_INV_op_7~1_sumout\ <= NOT \convert_binary|Div0|auto_generated|divider|divider|op_7~1_sumout\;
-\convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_10~13_sumout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|op_10~13_sumout\;
-\convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_9~9_sumout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|op_9~9_sumout\;
-\convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_8~5_sumout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|op_8~5_sumout\;
-\convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_8~1_sumout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|op_8~1_sumout\;
-\convert_binary|Div0|auto_generated|divider|divider|ALT_INV_op_8~1_sumout\ <= NOT \convert_binary|Div0|auto_generated|divider|divider|op_8~1_sumout\;
-\convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_10~9_sumout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|op_10~9_sumout\;
-\convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_9~5_sumout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|op_9~5_sumout\;
-\convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_9~1_sumout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|op_9~1_sumout\;
-\convert_binary|Div0|auto_generated|divider|divider|ALT_INV_op_9~1_sumout\ <= NOT \convert_binary|Div0|auto_generated|divider|divider|op_9~1_sumout\;
-\convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_10~5_sumout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|op_10~5_sumout\;
-\convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_10~1_sumout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|op_10~1_sumout\;
-\convert_binary|Div0|auto_generated|divider|divider|ALT_INV_op_10~1_sumout\ <= NOT \convert_binary|Div0|auto_generated|divider|divider|op_10~1_sumout\;
-\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_10~17_sumout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|op_10~17_sumout\;
-\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_9~13_sumout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|op_9~13_sumout\;
-\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_8~9_sumout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|op_8~9_sumout\;
-\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_7~5_sumout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|op_7~5_sumout\;
-\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_7~1_sumout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|op_7~1_sumout\;
-\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_10~13_sumout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|op_10~13_sumout\;
-\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_9~9_sumout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|op_9~9_sumout\;
-\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_8~5_sumout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|op_8~5_sumout\;
-\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_8~1_sumout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|op_8~1_sumout\;
-\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_10~9_sumout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|op_10~9_sumout\;
-\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_9~5_sumout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|op_9~5_sumout\;
-\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_9~1_sumout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|op_9~1_sumout\;
-\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_10~5_sumout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|op_10~5_sumout\;
-\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_10~1_sumout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|op_10~1_sumout\;
-\division_function|ALT_INV_Remainder\(9) <= NOT \division_function|Remainder\(9);
-\division_function|ALT_INV_Remainder\(8) <= NOT \division_function|Remainder\(8);
-\division_function|ALT_INV_Remainder\(7) <= NOT \division_function|Remainder\(7);
-\division_function|ALT_INV_Remainder\(6) <= NOT \division_function|Remainder\(6);
-\division_function|ALT_INV_Remainder\(5) <= NOT \division_function|Remainder\(5);
-\division_function|ALT_INV_Remainder\(4) <= NOT \division_function|Remainder\(4);
-\division_function|ALT_INV_Remainder\(3) <= NOT \division_function|Remainder\(3);
-\division_function|ALT_INV_Remainder\(2) <= NOT \division_function|Remainder\(2);
-\division_function|ALT_INV_Remainder\(1) <= NOT \division_function|Remainder\(1);
-\division_function|ALT_INV_Remainder\(0) <= NOT \division_function|Remainder\(0);
-\multiplication_function|ALT_INV_Data_Product\(9) <= NOT \multiplication_function|Data_Product\(9);
-\multiplication_function|ALT_INV_Data_Product\(8) <= NOT \multiplication_function|Data_Product\(8);
-\multiplication_function|ALT_INV_Data_Product\(7) <= NOT \multiplication_function|Data_Product\(7);
-\multiplication_function|ALT_INV_Data_Product\(6) <= NOT \multiplication_function|Data_Product\(6);
-\multiplication_function|ALT_INV_Data_Product\(5) <= NOT \multiplication_function|Data_Product\(5);
-\multiplication_function|ALT_INV_Data_Product\(4) <= NOT \multiplication_function|Data_Product\(4);
-\multiplication_function|ALT_INV_Data_Product\(3) <= NOT \multiplication_function|Data_Product\(3);
-\multiplication_function|ALT_INV_Data_Product\(2) <= NOT \multiplication_function|Data_Product\(2);
-\multiplication_function|ALT_INV_Data_Product\(1) <= NOT \multiplication_function|Data_Product\(1);
-\multiplication_function|ALT_INV_bit_counter\(16) <= NOT \multiplication_function|bit_counter\(16);
-\multiplication_function|ALT_INV_bit_counter\(7) <= NOT \multiplication_function|bit_counter\(7);
-\multiplication_function|ALT_INV_bit_counter\(6) <= NOT \multiplication_function|bit_counter\(6);
-\multiplication_function|ALT_INV_bit_counter\(5) <= NOT \multiplication_function|bit_counter\(5);
-\multiplication_function|ALT_INV_bit_counter\(27) <= NOT \multiplication_function|bit_counter\(27);
-\multiplication_function|ALT_INV_bit_counter\(8) <= NOT \multiplication_function|bit_counter\(8);
-\multiplication_function|ALT_INV_bit_counter\(29) <= NOT \multiplication_function|bit_counter\(29);
-\multiplication_function|ALT_INV_bit_counter\(30) <= NOT \multiplication_function|bit_counter\(30);
-\multiplication_function|ALT_INV_bit_counter\(4) <= NOT \multiplication_function|bit_counter\(4);
-\multiplication_function|ALT_INV_bit_counter\(28) <= NOT \multiplication_function|bit_counter\(28);
-\multiplication_function|ALT_INV_bit_counter\(2) <= NOT \multiplication_function|bit_counter\(2);
-\multiplication_function|ALT_INV_bit_counter\(1) <= NOT \multiplication_function|bit_counter\(1);
-\multiplication_function|ALT_INV_bit_counter\(21) <= NOT \multiplication_function|bit_counter\(21);
-\multiplication_function|ALT_INV_bit_counter\(22) <= NOT \multiplication_function|bit_counter\(22);
-\multiplication_function|ALT_INV_bit_counter\(23) <= NOT \multiplication_function|bit_counter\(23);
-\multiplication_function|ALT_INV_bit_counter\(24) <= NOT \multiplication_function|bit_counter\(24);
-\multiplication_function|ALT_INV_bit_counter\(25) <= NOT \multiplication_function|bit_counter\(25);
-\multiplication_function|ALT_INV_bit_counter\(26) <= NOT \multiplication_function|bit_counter\(26);
-\multiplication_function|ALT_INV_bit_counter\(15) <= NOT \multiplication_function|bit_counter\(15);
-\multiplication_function|ALT_INV_bit_counter\(17) <= NOT \multiplication_function|bit_counter\(17);
-\multiplication_function|ALT_INV_bit_counter\(13) <= NOT \multiplication_function|bit_counter\(13);
-\multiplication_function|ALT_INV_bit_counter\(18) <= NOT \multiplication_function|bit_counter\(18);
-\multiplication_function|ALT_INV_bit_counter\(19) <= NOT \multiplication_function|bit_counter\(19);
-\multiplication_function|ALT_INV_bit_counter\(20) <= NOT \multiplication_function|bit_counter\(20);
-\multiplication_function|ALT_INV_bit_counter\(3) <= NOT \multiplication_function|bit_counter\(3);
-\multiplication_function|ALT_INV_bit_counter\(9) <= NOT \multiplication_function|bit_counter\(9);
-\multiplication_function|ALT_INV_bit_counter\(10) <= NOT \multiplication_function|bit_counter\(10);
-\multiplication_function|ALT_INV_bit_counter\(11) <= NOT \multiplication_function|bit_counter\(11);
-\multiplication_function|ALT_INV_bit_counter\(12) <= NOT \multiplication_function|bit_counter\(12);
-\multiplication_function|ALT_INV_bit_counter\(14) <= NOT \multiplication_function|bit_counter\(14);
-\multiplication_function|ALT_INV_bit_counter\(31) <= NOT \multiplication_function|bit_counter\(31);
-\multiplication_function|ALT_INV_Data_Product\(0) <= NOT \multiplication_function|Data_Product\(0);
-\division_function|ALT_INV_state.s1~q\ <= NOT \division_function|state.s1~q\;
-\division_function|ALT_INV_bit_counter\(6) <= NOT \division_function|bit_counter\(6);
-\division_function|ALT_INV_bit_counter\(8) <= NOT \division_function|bit_counter\(8);
-\division_function|ALT_INV_bit_counter\(4) <= NOT \division_function|bit_counter\(4);
-\division_function|ALT_INV_bit_counter\(19) <= NOT \division_function|bit_counter\(19);
-\division_function|ALT_INV_bit_counter\(3) <= NOT \division_function|bit_counter\(3);
-\division_function|ALT_INV_bit_counter\(20) <= NOT \division_function|bit_counter\(20);
-\division_function|ALT_INV_bit_counter\(18) <= NOT \division_function|bit_counter\(18);
-\division_function|ALT_INV_bit_counter\(17) <= NOT \division_function|bit_counter\(17);
-\division_function|ALT_INV_bit_counter\(21) <= NOT \division_function|bit_counter\(21);
-\division_function|ALT_INV_bit_counter\(16) <= NOT \division_function|bit_counter\(16);
-\division_function|ALT_INV_bit_counter\(2) <= NOT \division_function|bit_counter\(2);
-\division_function|ALT_INV_bit_counter\(1) <= NOT \division_function|bit_counter\(1);
-\division_function|ALT_INV_bit_counter\(12) <= NOT \division_function|bit_counter\(12);
-\division_function|ALT_INV_bit_counter\(11) <= NOT \division_function|bit_counter\(11);
-\division_function|ALT_INV_bit_counter\(10) <= NOT \division_function|bit_counter\(10);
-\division_function|ALT_INV_bit_counter\(9) <= NOT \division_function|bit_counter\(9);
-\division_function|ALT_INV_bit_counter\(24) <= NOT \division_function|bit_counter\(24);
-\division_function|ALT_INV_bit_counter\(7) <= NOT \division_function|bit_counter\(7);
-\division_function|ALT_INV_bit_counter\(15) <= NOT \division_function|bit_counter\(15);
-\division_function|ALT_INV_bit_counter\(14) <= NOT \division_function|bit_counter\(14);
-\division_function|ALT_INV_bit_counter\(5) <= NOT \division_function|bit_counter\(5);
-\division_function|ALT_INV_bit_counter\(22) <= NOT \division_function|bit_counter\(22);
-\division_function|ALT_INV_bit_counter\(23) <= NOT \division_function|bit_counter\(23);
-\division_function|ALT_INV_bit_counter\(13) <= NOT \division_function|bit_counter\(13);
-\division_function|ALT_INV_bit_counter\(30) <= NOT \division_function|bit_counter\(30);
-\division_function|ALT_INV_bit_counter\(29) <= NOT \division_function|bit_counter\(29);
-\division_function|ALT_INV_bit_counter\(28) <= NOT \division_function|bit_counter\(28);
-\division_function|ALT_INV_bit_counter\(27) <= NOT \division_function|bit_counter\(27);
-\division_function|ALT_INV_bit_counter\(26) <= NOT \division_function|bit_counter\(26);
-\ALT_INV_Result[5]~reg0_q\ <= NOT \Result[5]~reg0_q\;
-\convert_binary|Div3|auto_generated|divider|divider|ALT_INV_op_9~33_sumout\ <= NOT \convert_binary|Div3|auto_generated|divider|divider|op_9~33_sumout\;
-\convert_binary|Div1|auto_generated|divider|divider|ALT_INV_op_9~33_sumout\ <= NOT \convert_binary|Div1|auto_generated|divider|divider|op_9~33_sumout\;
-\convert_binary|Div3|auto_generated|divider|divider|ALT_INV_op_9~29_sumout\ <= NOT \convert_binary|Div3|auto_generated|divider|divider|op_9~29_sumout\;
-\convert_binary|Div3|auto_generated|divider|divider|ALT_INV_op_8~33_sumout\ <= NOT \convert_binary|Div3|auto_generated|divider|divider|op_8~33_sumout\;
-\convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_6~25_sumout\ <= NOT \convert_binary|Mod3|auto_generated|divider|divider|op_6~25_sumout\;
-\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_6~25_sumout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|op_6~25_sumout\;
-\convert_binary|Div1|auto_generated|divider|divider|ALT_INV_op_9~29_sumout\ <= NOT \convert_binary|Div1|auto_generated|divider|divider|op_9~29_sumout\;
-\convert_binary|Div1|auto_generated|divider|divider|ALT_INV_op_8~33_sumout\ <= NOT \convert_binary|Div1|auto_generated|divider|divider|op_8~33_sumout\;
-\convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_6~25_sumout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|op_6~25_sumout\;
-\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_6~25_sumout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|op_6~25_sumout\;
-\convert_binary|Div3|auto_generated|divider|divider|ALT_INV_add_sub_6_result_int[0]~29_sumout\ <= NOT \convert_binary|Div3|auto_generated|divider|divider|add_sub_6_result_int[0]~29_sumout\;
-\convert_binary|Div3|auto_generated|divider|divider|ALT_INV_op_9~25_sumout\ <= NOT \convert_binary|Div3|auto_generated|divider|divider|op_9~25_sumout\;
-\convert_binary|Div3|auto_generated|divider|divider|ALT_INV_op_8~29_sumout\ <= NOT \convert_binary|Div3|auto_generated|divider|divider|op_8~29_sumout\;
-\convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_7~33_sumout\ <= NOT \convert_binary|Mod3|auto_generated|divider|divider|op_7~33_sumout\;
-\convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_8~37_sumout\ <= NOT \convert_binary|Mod3|auto_generated|divider|divider|op_8~37_sumout\;
-\convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_9~41_sumout\ <= NOT \convert_binary|Mod3|auto_generated|divider|divider|op_9~41_sumout\;
-\convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_add_sub_4_result_int[0]~21_sumout\ <= NOT \convert_binary|Mod3|auto_generated|divider|divider|add_sub_4_result_int[0]~21_sumout\;
-\convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_6~21_sumout\ <= NOT \convert_binary|Mod3|auto_generated|divider|divider|op_6~21_sumout\;
-\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_7~33_sumout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|op_7~33_sumout\;
-\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_8~37_sumout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|op_8~37_sumout\;
-\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_9~41_sumout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|op_9~41_sumout\;
-\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_5~21_sumout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|op_5~21_sumout\;
-\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_6~21_sumout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|op_6~21_sumout\;
-\convert_binary|Div1|auto_generated|divider|divider|ALT_INV_add_sub_6_result_int[0]~29_sumout\ <= NOT \convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[0]~29_sumout\;
-\convert_binary|Div1|auto_generated|divider|divider|ALT_INV_op_9~25_sumout\ <= NOT \convert_binary|Div1|auto_generated|divider|divider|op_9~25_sumout\;
-\convert_binary|Div1|auto_generated|divider|divider|ALT_INV_op_8~29_sumout\ <= NOT \convert_binary|Div1|auto_generated|divider|divider|op_8~29_sumout\;
+\convert_binary|Div2|auto_generated|divider|divider|ALT_INV_add_sub_3_result_int[2]~17_sumout\ <= NOT \convert_binary|Div2|auto_generated|divider|divider|add_sub_3_result_int[2]~17_sumout\;
+\convert_binary|Div2|auto_generated|divider|divider|ALT_INV_op_9~17_sumout\ <= NOT \convert_binary|Div2|auto_generated|divider|divider|op_9~17_sumout\;
+\convert_binary|Div2|auto_generated|divider|divider|ALT_INV_op_8~21_sumout\ <= NOT \convert_binary|Div2|auto_generated|divider|divider|op_8~21_sumout\;
+\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_7~25_sumout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|op_7~25_sumout\;
+\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_8~29_sumout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|op_8~29_sumout\;
+\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_9~33_sumout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|op_9~33_sumout\;
+\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_add_sub_3_result_int[1]~13_sumout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|add_sub_3_result_int[1]~13_sumout\;
+\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_5~13_sumout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|op_5~13_sumout\;
+\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_6~13_sumout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|op_6~13_sumout\;
+\convert_binary|Div1|auto_generated|divider|divider|ALT_INV_add_sub_6_result_int[2]~21_sumout\ <= NOT \convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[2]~21_sumout\;
+\convert_binary|Div1|auto_generated|divider|divider|ALT_INV_op_9~17_sumout\ <= NOT \convert_binary|Div1|auto_generated|divider|divider|op_9~17_sumout\;
+\convert_binary|Div1|auto_generated|divider|divider|ALT_INV_op_8~21_sumout\ <= NOT \convert_binary|Div1|auto_generated|divider|divider|op_8~21_sumout\;
+\convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_7~25_sumout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|op_7~25_sumout\;
+\convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_8~29_sumout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|op_8~29_sumout\;
+\convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_9~33_sumout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|op_9~33_sumout\;
+\convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_add_sub_4_result_int[2]~13_sumout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|add_sub_4_result_int[2]~13_sumout\;
+\convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_6~13_sumout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|op_6~13_sumout\;
+\convert_binary|Div0|auto_generated|divider|divider|ALT_INV_op_5~25_sumout\ <= NOT \convert_binary|Div0|auto_generated|divider|divider|op_5~25_sumout\;
+\convert_binary|Div0|auto_generated|divider|divider|ALT_INV_add_sub_3_result_int[2]~17_sumout\ <= NOT \convert_binary|Div0|auto_generated|divider|divider|add_sub_3_result_int[2]~17_sumout\;
+\convert_binary|Div0|auto_generated|divider|divider|ALT_INV_op_9~17_sumout\ <= NOT \convert_binary|Div0|auto_generated|divider|divider|op_9~17_sumout\;
+\convert_binary|Div0|auto_generated|divider|divider|ALT_INV_op_8~21_sumout\ <= NOT \convert_binary|Div0|auto_generated|divider|divider|op_8~21_sumout\;
+\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_7~25_sumout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|op_7~25_sumout\;
+\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_8~29_sumout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|op_8~29_sumout\;
+\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_9~33_sumout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|op_9~33_sumout\;
+\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_add_sub_3_result_int[1]~13_sumout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|add_sub_3_result_int[1]~13_sumout\;
+\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_5~13_sumout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|op_5~13_sumout\;
+\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_6~13_sumout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|op_6~13_sumout\;
+\convert_binary|Div3|auto_generated|divider|divider|ALT_INV_add_sub_6_result_int[3]~17_sumout\ <= NOT \convert_binary|Div3|auto_generated|divider|divider|add_sub_6_result_int[3]~17_sumout\;
+\convert_binary|Div3|auto_generated|divider|divider|ALT_INV_op_9~13_sumout\ <= NOT \convert_binary|Div3|auto_generated|divider|divider|op_9~13_sumout\;
+\convert_binary|Div3|auto_generated|divider|divider|ALT_INV_op_8~17_sumout\ <= NOT \convert_binary|Div3|auto_generated|divider|divider|op_8~17_sumout\;
+\convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_7~21_sumout\ <= NOT \convert_binary|Mod3|auto_generated|divider|divider|op_7~21_sumout\;
+\convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_8~25_sumout\ <= NOT \convert_binary|Mod3|auto_generated|divider|divider|op_8~25_sumout\;
+\convert_binary|Div2|auto_generated|divider|divider|ALT_INV_add_sub_3_result_int[3]~13_sumout\ <= NOT \convert_binary|Div2|auto_generated|divider|divider|add_sub_3_result_int[3]~13_sumout\;
+\convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_9~29_sumout\ <= NOT \convert_binary|Mod3|auto_generated|divider|divider|op_9~29_sumout\;
+\convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_add_sub_4_result_int[3]~9_sumout\ <= NOT \convert_binary|Mod3|auto_generated|divider|divider|add_sub_4_result_int[3]~9_sumout\;
+\convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_6~9_sumout\ <= NOT \convert_binary|Mod3|auto_generated|divider|divider|op_6~9_sumout\;
+\convert_binary|Div2|auto_generated|divider|divider|ALT_INV_op_7~21_sumout\ <= NOT \convert_binary|Div2|auto_generated|divider|divider|op_7~21_sumout\;
+\convert_binary|Div2|auto_generated|divider|divider|ALT_INV_op_9~13_sumout\ <= NOT \convert_binary|Div2|auto_generated|divider|divider|op_9~13_sumout\;
+\convert_binary|Div2|auto_generated|divider|divider|ALT_INV_op_8~17_sumout\ <= NOT \convert_binary|Div2|auto_generated|divider|divider|op_8~17_sumout\;
+\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_7~21_sumout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|op_7~21_sumout\;
+\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_8~25_sumout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|op_8~25_sumout\;
+\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_9~29_sumout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|op_9~29_sumout\;
+\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_add_sub_3_result_int[2]~9_sumout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|add_sub_3_result_int[2]~9_sumout\;
+\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_5~9_sumout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|op_5~9_sumout\;
+\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_6~9_sumout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|op_6~9_sumout\;
+\convert_binary|Div1|auto_generated|divider|divider|ALT_INV_add_sub_6_result_int[3]~17_sumout\ <= NOT \convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[3]~17_sumout\;
+\convert_binary|Div1|auto_generated|divider|divider|ALT_INV_op_9~13_sumout\ <= NOT \convert_binary|Div1|auto_generated|divider|divider|op_9~13_sumout\;
+\convert_binary|Div1|auto_generated|divider|divider|ALT_INV_op_8~17_sumout\ <= NOT \convert_binary|Div1|auto_generated|divider|divider|op_8~17_sumout\;
+\convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_7~21_sumout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|op_7~21_sumout\;
+\convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_8~25_sumout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|op_8~25_sumout\;
+\convert_binary|Div0|auto_generated|divider|divider|ALT_INV_add_sub_3_result_int[3]~13_sumout\ <= NOT \convert_binary|Div0|auto_generated|divider|divider|add_sub_3_result_int[3]~13_sumout\;
 \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_7~33_sumout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|op_7~33_sumout\;
 \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_8~37_sumout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|op_8~37_sumout\;
 \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_9~41_sumout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|op_9~41_sumout\;
@@ -2608,6 +2581,51 @@ ww_devpor <= devpor;
 \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_6~21_sumout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|op_6~21_sumout\;
 \convert_binary|Div3|auto_generated|divider|divider|ALT_INV_add_sub_6_result_int[1]~25_sumout\ <= NOT \convert_binary|Div3|auto_generated|divider|divider|add_sub_6_result_int[1]~25_sumout\;
 \convert_binary|Div3|auto_generated|divider|divider|ALT_INV_op_9~21_sumout\ <= NOT \convert_binary|Div3|auto_generated|divider|divider|op_9~21_sumout\;
+\convert_binary|Div3|auto_generated|divider|divider|ALT_INV_op_8~25_sumout\ <= NOT \convert_binary|Div3|auto_generated|divider|divider|op_8~25_sumout\;
+\convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_7~29_sumout\ <= NOT \convert_binary|Mod3|auto_generated|divider|divider|op_7~29_sumout\;
+\convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_8~33_sumout\ <= NOT \convert_binary|Mod3|auto_generated|divider|divider|op_8~33_sumout\;
+\convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_9~37_sumout\ <= NOT \convert_binary|Mod3|auto_generated|divider|divider|op_9~37_sumout\;
+\convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_add_sub_4_result_int[1]~17_sumout\ <= NOT \convert_binary|Mod3|auto_generated|divider|divider|add_sub_4_result_int[1]~17_sumout\;
+\convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_6~17_sumout\ <= NOT \convert_binary|Mod3|auto_generated|divider|divider|op_6~17_sumout\;
+\convert_binary|Div2|auto_generated|divider|divider|ALT_INV_op_9~21_sumout\ <= NOT \convert_binary|Div2|auto_generated|divider|divider|op_9~21_sumout\;
+\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_7~29_sumout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|op_7~29_sumout\;
+\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_8~33_sumout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|op_8~33_sumout\;
+\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_9~37_sumout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|op_9~37_sumout\;
+\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_add_sub_3_result_int[0]~17_sumout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|add_sub_3_result_int[0]~17_sumout\;
+\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_5~17_sumout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|op_5~17_sumout\;
+\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_6~17_sumout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|op_6~17_sumout\;
+\convert_binary|Div1|auto_generated|divider|divider|ALT_INV_add_sub_6_result_int[1]~25_sumout\ <= NOT \convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[1]~25_sumout\;
+\convert_binary|Div1|auto_generated|divider|divider|ALT_INV_op_9~21_sumout\ <= NOT \convert_binary|Div1|auto_generated|divider|divider|op_9~21_sumout\;
+\convert_binary|Div1|auto_generated|divider|divider|ALT_INV_op_8~25_sumout\ <= NOT \convert_binary|Div1|auto_generated|divider|divider|op_8~25_sumout\;
+\convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_7~29_sumout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|op_7~29_sumout\;
+\convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_8~33_sumout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|op_8~33_sumout\;
+\convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_9~37_sumout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|op_9~37_sumout\;
+\convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_add_sub_4_result_int[1]~17_sumout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|add_sub_4_result_int[1]~17_sumout\;
+\convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_6~17_sumout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|op_6~17_sumout\;
+\convert_binary|Div0|auto_generated|divider|divider|ALT_INV_op_9~21_sumout\ <= NOT \convert_binary|Div0|auto_generated|divider|divider|op_9~21_sumout\;
+\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_7~29_sumout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|op_7~29_sumout\;
+\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_8~33_sumout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|op_8~33_sumout\;
+\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_9~37_sumout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|op_9~37_sumout\;
+\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_add_sub_3_result_int[0]~17_sumout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|add_sub_3_result_int[0]~17_sumout\;
+\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_5~17_sumout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|op_5~17_sumout\;
+\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_6~17_sumout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|op_6~17_sumout\;
+\convert_binary|Div3|auto_generated|divider|divider|ALT_INV_add_sub_6_result_int[2]~21_sumout\ <= NOT \convert_binary|Div3|auto_generated|divider|divider|add_sub_6_result_int[2]~21_sumout\;
+\convert_binary|Div3|auto_generated|divider|divider|ALT_INV_op_9~17_sumout\ <= NOT \convert_binary|Div3|auto_generated|divider|divider|op_9~17_sumout\;
+\convert_binary|Div3|auto_generated|divider|divider|ALT_INV_op_8~21_sumout\ <= NOT \convert_binary|Div3|auto_generated|divider|divider|op_8~21_sumout\;
+\convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_7~25_sumout\ <= NOT \convert_binary|Mod3|auto_generated|divider|divider|op_7~25_sumout\;
+\convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_8~29_sumout\ <= NOT \convert_binary|Mod3|auto_generated|divider|divider|op_8~29_sumout\;
+\convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_9~33_sumout\ <= NOT \convert_binary|Mod3|auto_generated|divider|divider|op_9~33_sumout\;
+\convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_add_sub_4_result_int[2]~13_sumout\ <= NOT \convert_binary|Mod3|auto_generated|divider|divider|add_sub_4_result_int[2]~13_sumout\;
+\convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_6~13_sumout\ <= NOT \convert_binary|Mod3|auto_generated|divider|divider|op_6~13_sumout\;
+\convert_binary|Div2|auto_generated|divider|divider|ALT_INV_op_5~25_sumout\ <= NOT \convert_binary|Div2|auto_generated|divider|divider|op_5~25_sumout\;
+\convert_binary|ALT_INV_int_r_3\(3) <= NOT \convert_binary|int_r_3\(3);
+\convert_binary|ALT_INV_int_r_3\(1) <= NOT \convert_binary|int_r_3\(1);
+\convert_binary|ALT_INV_int_r_2\(3) <= NOT \convert_binary|int_r_2\(3);
+\convert_binary|ALT_INV_int_r_2\(1) <= NOT \convert_binary|int_r_2\(1);
+\convert_binary|ALT_INV_int_r_1\(3) <= NOT \convert_binary|int_r_1\(3);
+\convert_binary|ALT_INV_int_r_1\(1) <= NOT \convert_binary|int_r_1\(1);
+\convert_binary|ALT_INV_int_data_3\(3) <= NOT \convert_binary|int_data_3\(3);
+\convert_binary|ALT_INV_int_data_3\(1) <= NOT \convert_binary|int_data_3\(1);
 \convert_binary|ALT_INV_int_data_2\(3) <= NOT \convert_binary|int_data_2\(3);
 \convert_binary|ALT_INV_int_data_2\(1) <= NOT \convert_binary|int_data_2\(1);
 \convert_binary|ALT_INV_int_data_1\(3) <= NOT \convert_binary|int_data_1\(3);
@@ -2616,10 +2634,11 @@ ww_devpor <= devpor;
 \multiplication_function|ALT_INV_R\(8) <= NOT \multiplication_function|R\(8);
 \multiplication_function|ALT_INV_R\(7) <= NOT \multiplication_function|R\(7);
 \multiplication_function|ALT_INV_R\(6) <= NOT \multiplication_function|R\(6);
+\ALT_INV_Result~11_combout\ <= NOT \Result~11_combout\;
+\multiplication_function|ALT_INV_R\(5) <= NOT \multiplication_function|R\(5);
 \ALT_INV_Result~10_combout\ <= NOT \Result~10_combout\;
 \ALT_INV_Result~9_combout\ <= NOT \Result~9_combout\;
 \ALT_INV_Result~8_combout\ <= NOT \Result~8_combout\;
-\multiplication_function|ALT_INV_R\(5) <= NOT \multiplication_function|R\(5);
 \addandsub_function|eq_compar:4:sum|ALT_INV_C_out~combout\ <= NOT \addandsub_function|eq_compar:4:sum|C_out~combout\;
 \multiplication_function|ALT_INV_R\(4) <= NOT \multiplication_function|R\(4);
 \addandsub_function|eq_compar:4:sum|ALT_INV_sum~combout\ <= NOT \addandsub_function|eq_compar:4:sum|sum~combout\;
@@ -2646,14 +2665,29 @@ ALT_INV_Data_B_aas(1) <= NOT Data_B_aas(1);
 ALT_INV_Data_A_aas(1) <= NOT Data_A_aas(1);
 \division_function|ALT_INV_Q\(1) <= NOT \division_function|Q\(1);
 \multiplication_function|ALT_INV_R\(0) <= NOT \multiplication_function|R\(0);
-\addandsub_function|eq_compar:0:sum|ALT_INV_sum~0_combout\ <= NOT \addandsub_function|eq_compar:0:sum|sum~0_combout\;
 ALT_INV_Data_B_aas(0) <= NOT Data_B_aas(0);
 ALT_INV_Data_A_aas(0) <= NOT Data_A_aas(0);
-\ALT_INV_Result[0]~1_combout\ <= NOT \Result[0]~1_combout\;
-\ALT_INV_Result[0]~0_combout\ <= NOT \Result[0]~0_combout\;
+\ALT_INV_Result[2]~1_combout\ <= NOT \Result[2]~1_combout\;
+\ALT_INV_Result[2]~0_combout\ <= NOT \Result[2]~0_combout\;
 \division_function|ALT_INV_Q\(0) <= NOT \division_function|Q\(0);
 \ALT_INV_DONE_main~reg0_q\ <= NOT \DONE_main~reg0_q\;
 \ALT_INV_COUT~reg0_q\ <= NOT \COUT~reg0_q\;
+\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_StageOut[44]~8_combout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|StageOut[44]~8_combout\;
+\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_StageOut[55]~7_combout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|StageOut[55]~7_combout\;
+\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_StageOut[66]~6_combout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|StageOut[66]~6_combout\;
+\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_StageOut[77]~5_combout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|StageOut[77]~5_combout\;
+\division_function|ALT_INV_Divisor\(9) <= NOT \division_function|Divisor\(9);
+\division_function|ALT_INV_Divisor\(4) <= NOT \division_function|Divisor\(4);
+\division_function|ALT_INV_Divisor\(3) <= NOT \division_function|Divisor\(3);
+\division_function|ALT_INV_Divisor\(2) <= NOT \division_function|Divisor\(2);
+\division_function|ALT_INV_Divisor\(1) <= NOT \division_function|Divisor\(1);
+\division_function|ALT_INV_Divisor\(0) <= NOT \division_function|Divisor\(0);
+\multiplication_function|ALT_INV_Data_A\(4) <= NOT \multiplication_function|Data_A\(4);
+\multiplication_function|ALT_INV_Data_A\(3) <= NOT \multiplication_function|Data_A\(3);
+\multiplication_function|ALT_INV_Data_A\(2) <= NOT \multiplication_function|Data_A\(2);
+\multiplication_function|ALT_INV_Data_A\(1) <= NOT \multiplication_function|Data_A\(1);
+\ALT_INV_check_zero_divisor~1_combout\ <= NOT \check_zero_divisor~1_combout\;
+\ALT_INV_check_zero_divisor~0_combout\ <= NOT \check_zero_divisor~0_combout\;
 \multiplication_function|ALT_INV_Mux0~0_combout\ <= NOT \multiplication_function|Mux0~0_combout\;
 \multiplication_function|ALT_INV_Data_B\(3) <= NOT \multiplication_function|Data_B\(3);
 \multiplication_function|ALT_INV_Data_B\(2) <= NOT \multiplication_function|Data_B\(2);
@@ -2677,15 +2711,11 @@ ALT_INV_Remainder_input(0) <= NOT Remainder_input(0);
 \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_StageOut[70]~1_combout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|StageOut[70]~1_combout\;
 \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_StageOut[71]~4_combout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|StageOut[71]~4_combout\;
 \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_StageOut[60]~3_combout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|StageOut[60]~3_combout\;
-ALT_INV_Result_input(3) <= NOT Result_input(3);
 \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_StageOut[70]~1_combout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|StageOut[70]~1_combout\;
-ALT_INV_Result_input(2) <= NOT Result_input(2);
-ALT_INV_Result_input(1) <= NOT Result_input(1);
-\convert_binary|ALT_INV_int_r_2[0]~0_combout\ <= NOT \convert_binary|int_r_2[0]~0_combout\;
+\convert_binary|ALT_INV_int_r_2[2]~0_combout\ <= NOT \convert_binary|int_r_2[2]~0_combout\;
 \ALT_INV_check_zero_divisor~q\ <= NOT \check_zero_divisor~q\;
 ALT_INV_Op(0) <= NOT Op(0);
 ALT_INV_Op(1) <= NOT Op(1);
-ALT_INV_Result_input(0) <= NOT Result_input(0);
 \multiplication_function|ALT_INV_LessThan0~5_combout\ <= NOT \multiplication_function|LessThan0~5_combout\;
 \multiplication_function|ALT_INV_LessThan0~4_combout\ <= NOT \multiplication_function|LessThan0~4_combout\;
 \multiplication_function|ALT_INV_LessThan0~3_combout\ <= NOT \multiplication_function|LessThan0~3_combout\;
@@ -2702,14 +2732,50 @@ ALT_INV_Result_input(0) <= NOT Result_input(0);
 \division_function|ALT_INV_state.s0~q\ <= NOT \division_function|state.s0~q\;
 \multiplication_function|ALT_INV_DONE~q\ <= NOT \multiplication_function|DONE~q\;
 \division_function|ALT_INV_DONE~q\ <= NOT \division_function|DONE~q\;
-\convert_binary|ALT_INV_int_r_3\(3) <= NOT \convert_binary|int_r_3\(3);
-\convert_binary|ALT_INV_int_r_3\(1) <= NOT \convert_binary|int_r_3\(1);
-\convert_binary|ALT_INV_int_r_2\(3) <= NOT \convert_binary|int_r_2\(3);
-\convert_binary|ALT_INV_int_r_2\(1) <= NOT \convert_binary|int_r_2\(1);
-\convert_binary|ALT_INV_int_r_1\(3) <= NOT \convert_binary|int_r_1\(3);
-\convert_binary|ALT_INV_int_r_1\(1) <= NOT \convert_binary|int_r_1\(1);
-\convert_binary|ALT_INV_int_data_3\(3) <= NOT \convert_binary|int_data_3\(3);
-\convert_binary|ALT_INV_int_data_3\(1) <= NOT \convert_binary|int_data_3\(1);
+\convert_binary|Div3|auto_generated|divider|divider|ALT_INV_StageOut[51]~9_combout\ <= NOT \convert_binary|Div3|auto_generated|divider|divider|StageOut[51]~9_combout\;
+\convert_binary|Div3|auto_generated|divider|divider|ALT_INV_StageOut[51]~8_combout\ <= NOT \convert_binary|Div3|auto_generated|divider|divider|StageOut[51]~8_combout\;
+\convert_binary|Div3|auto_generated|divider|divider|ALT_INV_StageOut[51]~7_combout\ <= NOT \convert_binary|Div3|auto_generated|divider|divider|StageOut[51]~7_combout\;
+\convert_binary|Div3|auto_generated|divider|divider|ALT_INV_StageOut[60]~6_combout\ <= NOT \convert_binary|Div3|auto_generated|divider|divider|StageOut[60]~6_combout\;
+\convert_binary|Div2|auto_generated|divider|divider|ALT_INV_StageOut[16]~18_combout\ <= NOT \convert_binary|Div2|auto_generated|divider|divider|StageOut[16]~18_combout\;
+\convert_binary|Div2|auto_generated|divider|divider|ALT_INV_StageOut[16]~17_combout\ <= NOT \convert_binary|Div2|auto_generated|divider|divider|StageOut[16]~17_combout\;
+\convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_StageOut[76]~15_combout\ <= NOT \convert_binary|Mod3|auto_generated|divider|divider|StageOut[76]~15_combout\;
+\convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_StageOut[65]~14_combout\ <= NOT \convert_binary|Mod3|auto_generated|divider|divider|StageOut[65]~14_combout\;
+\convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_StageOut[54]~13_combout\ <= NOT \convert_binary|Mod3|auto_generated|divider|divider|StageOut[54]~13_combout\;
+\convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_StageOut[54]~12_combout\ <= NOT \convert_binary|Mod3|auto_generated|divider|divider|StageOut[54]~12_combout\;
+\convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_StageOut[76]~11_combout\ <= NOT \convert_binary|Mod3|auto_generated|divider|divider|StageOut[76]~11_combout\;
+\convert_binary|Div2|auto_generated|divider|divider|ALT_INV_StageOut[36]~16_combout\ <= NOT \convert_binary|Div2|auto_generated|divider|divider|StageOut[36]~16_combout\;
+\convert_binary|Div2|auto_generated|divider|divider|ALT_INV_StageOut[30]~15_combout\ <= NOT \convert_binary|Div2|auto_generated|divider|divider|StageOut[30]~15_combout\;
+\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_StageOut[76]~22_combout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|StageOut[76]~22_combout\;
+\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_StageOut[65]~21_combout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|StageOut[65]~21_combout\;
+\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_StageOut[54]~20_combout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|StageOut[54]~20_combout\;
+\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_StageOut[43]~19_combout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|StageOut[43]~19_combout\;
+\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_StageOut[32]~18_combout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|StageOut[32]~18_combout\;
+\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_StageOut[32]~17_combout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|StageOut[32]~17_combout\;
+\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_StageOut[54]~16_combout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|StageOut[54]~16_combout\;
+\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_StageOut[76]~15_combout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|StageOut[76]~15_combout\;
+\convert_binary|Div1|auto_generated|divider|divider|ALT_INV_StageOut[60]~10_combout\ <= NOT \convert_binary|Div1|auto_generated|divider|divider|StageOut[60]~10_combout\;
+\convert_binary|Div1|auto_generated|divider|divider|ALT_INV_StageOut[51]~9_combout\ <= NOT \convert_binary|Div1|auto_generated|divider|divider|StageOut[51]~9_combout\;
+\convert_binary|Div1|auto_generated|divider|divider|ALT_INV_StageOut[51]~8_combout\ <= NOT \convert_binary|Div1|auto_generated|divider|divider|StageOut[51]~8_combout\;
+\convert_binary|Div1|auto_generated|divider|divider|ALT_INV_StageOut[51]~7_combout\ <= NOT \convert_binary|Div1|auto_generated|divider|divider|StageOut[51]~7_combout\;
+\convert_binary|Div1|auto_generated|divider|divider|ALT_INV_StageOut[60]~6_combout\ <= NOT \convert_binary|Div1|auto_generated|divider|divider|StageOut[60]~6_combout\;
+\convert_binary|Div0|auto_generated|divider|divider|ALT_INV_StageOut[16]~18_combout\ <= NOT \convert_binary|Div0|auto_generated|divider|divider|StageOut[16]~18_combout\;
+\convert_binary|Div0|auto_generated|divider|divider|ALT_INV_StageOut[16]~17_combout\ <= NOT \convert_binary|Div0|auto_generated|divider|divider|StageOut[16]~17_combout\;
+\convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_StageOut[76]~15_combout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|StageOut[76]~15_combout\;
+\convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_StageOut[65]~14_combout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|StageOut[65]~14_combout\;
+\convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_StageOut[54]~13_combout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|StageOut[54]~13_combout\;
+\convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_StageOut[54]~12_combout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|StageOut[54]~12_combout\;
+\convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_StageOut[76]~11_combout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|StageOut[76]~11_combout\;
+\convert_binary|Div0|auto_generated|divider|divider|ALT_INV_StageOut[36]~16_combout\ <= NOT \convert_binary|Div0|auto_generated|divider|divider|StageOut[36]~16_combout\;
+\convert_binary|Div0|auto_generated|divider|divider|ALT_INV_StageOut[30]~15_combout\ <= NOT \convert_binary|Div0|auto_generated|divider|divider|StageOut[30]~15_combout\;
+\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_StageOut[76]~22_combout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|StageOut[76]~22_combout\;
+\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_StageOut[65]~21_combout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|StageOut[65]~21_combout\;
+\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_StageOut[54]~20_combout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|StageOut[54]~20_combout\;
+\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_StageOut[43]~19_combout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|StageOut[43]~19_combout\;
+\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_StageOut[32]~18_combout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|StageOut[32]~18_combout\;
+\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_StageOut[32]~17_combout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|StageOut[32]~17_combout\;
+\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_StageOut[54]~16_combout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|StageOut[54]~16_combout\;
+\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_StageOut[76]~15_combout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|StageOut[76]~15_combout\;
+\division_function|ALT_INV_Selector11~1_combout\ <= NOT \division_function|Selector11~1_combout\;
 \convert_binary|Div3|auto_generated|divider|divider|ALT_INV_StageOut[53]~5_combout\ <= NOT \convert_binary|Div3|auto_generated|divider|divider|StageOut[53]~5_combout\;
 \convert_binary|Div3|auto_generated|divider|divider|ALT_INV_StageOut[53]~4_combout\ <= NOT \convert_binary|Div3|auto_generated|divider|divider|StageOut[53]~4_combout\;
 ALT_INV_Remainder_input(8) <= NOT Remainder_input(8);
@@ -2755,24 +2821,20 @@ ALT_INV_Remainder_input(9) <= NOT Remainder_input(9);
 \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_StageOut[77]~5_combout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|StageOut[77]~5_combout\;
 \convert_binary|Div1|auto_generated|divider|divider|ALT_INV_StageOut[53]~5_combout\ <= NOT \convert_binary|Div1|auto_generated|divider|divider|StageOut[53]~5_combout\;
 \convert_binary|Div1|auto_generated|divider|divider|ALT_INV_StageOut[53]~4_combout\ <= NOT \convert_binary|Div1|auto_generated|divider|divider|StageOut[53]~4_combout\;
-ALT_INV_Result_input(8) <= NOT Result_input(8);
 \convert_binary|Div1|auto_generated|divider|divider|ALT_INV_StageOut[61]~3_combout\ <= NOT \convert_binary|Div1|auto_generated|divider|divider|StageOut[61]~3_combout\;
 \convert_binary|Div1|auto_generated|divider|divider|ALT_INV_StageOut[52]~2_combout\ <= NOT \convert_binary|Div1|auto_generated|divider|divider|StageOut[52]~2_combout\;
 \convert_binary|Div1|auto_generated|divider|divider|ALT_INV_StageOut[52]~1_combout\ <= NOT \convert_binary|Div1|auto_generated|divider|divider|StageOut[52]~1_combout\;
 \convert_binary|Div1|auto_generated|divider|divider|ALT_INV_StageOut[61]~0_combout\ <= NOT \convert_binary|Div1|auto_generated|divider|divider|StageOut[61]~0_combout\;
 \convert_binary|Div0|auto_generated|divider|divider|ALT_INV_StageOut[22]~14_combout\ <= NOT \convert_binary|Div0|auto_generated|divider|divider|StageOut[22]~14_combout\;
 \convert_binary|Div0|auto_generated|divider|divider|ALT_INV_StageOut[16]~13_combout\ <= NOT \convert_binary|Div0|auto_generated|divider|divider|StageOut[16]~13_combout\;
-ALT_INV_Result_input(7) <= NOT Result_input(7);
 \convert_binary|Div0|auto_generated|divider|divider|ALT_INV_StageOut[22]~12_combout\ <= NOT \convert_binary|Div0|auto_generated|divider|divider|StageOut[22]~12_combout\;
 \convert_binary|Div0|auto_generated|divider|divider|ALT_INV_StageOut[27]~11_combout\ <= NOT \convert_binary|Div0|auto_generated|divider|divider|StageOut[27]~11_combout\;
 \convert_binary|Div0|auto_generated|divider|divider|ALT_INV_StageOut[21]~10_combout\ <= NOT \convert_binary|Div0|auto_generated|divider|divider|StageOut[21]~10_combout\;
 \convert_binary|Div0|auto_generated|divider|divider|ALT_INV_StageOut[15]~9_combout\ <= NOT \convert_binary|Div0|auto_generated|divider|divider|StageOut[15]~9_combout\;
-ALT_INV_Result_input(6) <= NOT Result_input(6);
 \convert_binary|Div0|auto_generated|divider|divider|ALT_INV_StageOut[27]~8_combout\ <= NOT \convert_binary|Div0|auto_generated|divider|divider|StageOut[27]~8_combout\;
 \convert_binary|Div0|auto_generated|divider|divider|ALT_INV_StageOut[32]~7_combout\ <= NOT \convert_binary|Div0|auto_generated|divider|divider|StageOut[32]~7_combout\;
 \convert_binary|Div0|auto_generated|divider|divider|ALT_INV_StageOut[26]~6_combout\ <= NOT \convert_binary|Div0|auto_generated|divider|divider|StageOut[26]~6_combout\;
 \convert_binary|Div0|auto_generated|divider|divider|ALT_INV_StageOut[20]~5_combout\ <= NOT \convert_binary|Div0|auto_generated|divider|divider|StageOut[20]~5_combout\;
-ALT_INV_Result_input(5) <= NOT Result_input(5);
 \convert_binary|Div0|auto_generated|divider|divider|ALT_INV_StageOut[32]~4_combout\ <= NOT \convert_binary|Div0|auto_generated|divider|divider|StageOut[32]~4_combout\;
 \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_StageOut[77]~10_combout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|StageOut[77]~10_combout\;
 \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_StageOut[66]~9_combout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|StageOut[66]~9_combout\;
@@ -2783,45 +2845,13 @@ ALT_INV_Result_input(5) <= NOT Result_input(5);
 \convert_binary|Div0|auto_generated|divider|divider|ALT_INV_StageOut[37]~3_combout\ <= NOT \convert_binary|Div0|auto_generated|divider|divider|StageOut[37]~3_combout\;
 \convert_binary|Div0|auto_generated|divider|divider|ALT_INV_StageOut[31]~2_combout\ <= NOT \convert_binary|Div0|auto_generated|divider|divider|StageOut[31]~2_combout\;
 \convert_binary|Div0|auto_generated|divider|divider|ALT_INV_StageOut[25]~1_combout\ <= NOT \convert_binary|Div0|auto_generated|divider|divider|StageOut[25]~1_combout\;
-ALT_INV_Result_input(4) <= NOT Result_input(4);
 \convert_binary|Div0|auto_generated|divider|divider|ALT_INV_StageOut[37]~0_combout\ <= NOT \convert_binary|Div0|auto_generated|divider|divider|StageOut[37]~0_combout\;
 \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_StageOut[77]~14_combout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|StageOut[77]~14_combout\;
 \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_StageOut[66]~13_combout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|StageOut[66]~13_combout\;
 \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_StageOut[55]~12_combout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|StageOut[55]~12_combout\;
 \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_StageOut[44]~11_combout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|StageOut[44]~11_combout\;
 \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_StageOut[33]~10_combout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|StageOut[33]~10_combout\;
-ALT_INV_Result_input(9) <= NOT Result_input(9);
 \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_StageOut[33]~9_combout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|StageOut[33]~9_combout\;
-\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_StageOut[44]~8_combout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|StageOut[44]~8_combout\;
-\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_StageOut[55]~7_combout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|StageOut[55]~7_combout\;
-\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_StageOut[66]~6_combout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|StageOut[66]~6_combout\;
-\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_StageOut[77]~5_combout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|StageOut[77]~5_combout\;
-\division_function|ALT_INV_Divisor\(9) <= NOT \division_function|Divisor\(9);
-\division_function|ALT_INV_Divisor\(4) <= NOT \division_function|Divisor\(4);
-\division_function|ALT_INV_Divisor\(3) <= NOT \division_function|Divisor\(3);
-\division_function|ALT_INV_Divisor\(2) <= NOT \division_function|Divisor\(2);
-\division_function|ALT_INV_Divisor\(1) <= NOT \division_function|Divisor\(1);
-\division_function|ALT_INV_Divisor\(0) <= NOT \division_function|Divisor\(0);
-\multiplication_function|ALT_INV_Data_A\(4) <= NOT \multiplication_function|Data_A\(4);
-\multiplication_function|ALT_INV_Data_A\(3) <= NOT \multiplication_function|Data_A\(3);
-\multiplication_function|ALT_INV_Data_A\(2) <= NOT \multiplication_function|Data_A\(2);
-\multiplication_function|ALT_INV_Data_A\(1) <= NOT \multiplication_function|Data_A\(1);
-\ALT_INV_check_zero_divisor~1_combout\ <= NOT \check_zero_divisor~1_combout\;
-\ALT_INV_check_zero_divisor~0_combout\ <= NOT \check_zero_divisor~0_combout\;
-\ALT_INV_input_B[0]~input_o\ <= NOT \input_B[0]~input_o\;
-\ALT_INV_input_A[0]~input_o\ <= NOT \input_A[0]~input_o\;
-\ALT_INV_input_B[1]~input_o\ <= NOT \input_B[1]~input_o\;
-\ALT_INV_input_A[1]~input_o\ <= NOT \input_A[1]~input_o\;
-\ALT_INV_input_B[2]~input_o\ <= NOT \input_B[2]~input_o\;
-\ALT_INV_input_A[2]~input_o\ <= NOT \input_A[2]~input_o\;
-\ALT_INV_input_B[3]~input_o\ <= NOT \input_B[3]~input_o\;
-\ALT_INV_input_A[3]~input_o\ <= NOT \input_A[3]~input_o\;
-\ALT_INV_input_B[4]~input_o\ <= NOT \input_B[4]~input_o\;
-\ALT_INV_input_A[4]~input_o\ <= NOT \input_A[4]~input_o\;
-\ALT_INV_START_main~input_o\ <= NOT \START_main~input_o\;
-\ALT_INV_RST_main~input_o\ <= NOT \RST_main~input_o\;
-\ALT_INV_Operation[1]~input_o\ <= NOT \Operation[1]~input_o\;
-\ALT_INV_Operation[0]~input_o\ <= NOT \Operation[0]~input_o\;
 \convert_binary|Div3|auto_generated|divider|divider|ALT_INV_StageOut[56]~21_combout\ <= NOT \convert_binary|Div3|auto_generated|divider|divider|StageOut[56]~21_combout\;
 \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_StageOut[72]~34_combout\ <= NOT \convert_binary|Mod3|auto_generated|divider|divider|StageOut[72]~34_combout\;
 \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_StageOut[61]~33_combout\ <= NOT \convert_binary|Mod3|auto_generated|divider|divider|StageOut[61]~33_combout\;
@@ -2943,50 +2973,20 @@ ALT_INV_Result_input(9) <= NOT Result_input(9);
 \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_StageOut[42]~24_combout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|StageOut[42]~24_combout\;
 \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_StageOut[64]~23_combout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|StageOut[64]~23_combout\;
 \convert_binary|Div3|auto_generated|divider|divider|ALT_INV_StageOut[60]~10_combout\ <= NOT \convert_binary|Div3|auto_generated|divider|divider|StageOut[60]~10_combout\;
-\convert_binary|Div3|auto_generated|divider|divider|ALT_INV_StageOut[51]~9_combout\ <= NOT \convert_binary|Div3|auto_generated|divider|divider|StageOut[51]~9_combout\;
-\convert_binary|Div3|auto_generated|divider|divider|ALT_INV_StageOut[51]~8_combout\ <= NOT \convert_binary|Div3|auto_generated|divider|divider|StageOut[51]~8_combout\;
-\convert_binary|Div3|auto_generated|divider|divider|ALT_INV_StageOut[51]~7_combout\ <= NOT \convert_binary|Div3|auto_generated|divider|divider|StageOut[51]~7_combout\;
-\convert_binary|Div3|auto_generated|divider|divider|ALT_INV_StageOut[60]~6_combout\ <= NOT \convert_binary|Div3|auto_generated|divider|divider|StageOut[60]~6_combout\;
-\convert_binary|Div2|auto_generated|divider|divider|ALT_INV_StageOut[16]~18_combout\ <= NOT \convert_binary|Div2|auto_generated|divider|divider|StageOut[16]~18_combout\;
-\convert_binary|Div2|auto_generated|divider|divider|ALT_INV_StageOut[16]~17_combout\ <= NOT \convert_binary|Div2|auto_generated|divider|divider|StageOut[16]~17_combout\;
-\convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_StageOut[76]~15_combout\ <= NOT \convert_binary|Mod3|auto_generated|divider|divider|StageOut[76]~15_combout\;
-\convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_StageOut[65]~14_combout\ <= NOT \convert_binary|Mod3|auto_generated|divider|divider|StageOut[65]~14_combout\;
-\convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_StageOut[54]~13_combout\ <= NOT \convert_binary|Mod3|auto_generated|divider|divider|StageOut[54]~13_combout\;
-\convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_StageOut[54]~12_combout\ <= NOT \convert_binary|Mod3|auto_generated|divider|divider|StageOut[54]~12_combout\;
-\convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_StageOut[76]~11_combout\ <= NOT \convert_binary|Mod3|auto_generated|divider|divider|StageOut[76]~11_combout\;
-\convert_binary|Div2|auto_generated|divider|divider|ALT_INV_StageOut[36]~16_combout\ <= NOT \convert_binary|Div2|auto_generated|divider|divider|StageOut[36]~16_combout\;
-\convert_binary|Div2|auto_generated|divider|divider|ALT_INV_StageOut[30]~15_combout\ <= NOT \convert_binary|Div2|auto_generated|divider|divider|StageOut[30]~15_combout\;
-\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_StageOut[76]~22_combout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|StageOut[76]~22_combout\;
-\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_StageOut[65]~21_combout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|StageOut[65]~21_combout\;
-\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_StageOut[54]~20_combout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|StageOut[54]~20_combout\;
-\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_StageOut[43]~19_combout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|StageOut[43]~19_combout\;
-\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_StageOut[32]~18_combout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|StageOut[32]~18_combout\;
-\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_StageOut[32]~17_combout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|StageOut[32]~17_combout\;
-\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_StageOut[54]~16_combout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|StageOut[54]~16_combout\;
-\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_StageOut[76]~15_combout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|StageOut[76]~15_combout\;
-\convert_binary|Div1|auto_generated|divider|divider|ALT_INV_StageOut[60]~10_combout\ <= NOT \convert_binary|Div1|auto_generated|divider|divider|StageOut[60]~10_combout\;
-\convert_binary|Div1|auto_generated|divider|divider|ALT_INV_StageOut[51]~9_combout\ <= NOT \convert_binary|Div1|auto_generated|divider|divider|StageOut[51]~9_combout\;
-\convert_binary|Div1|auto_generated|divider|divider|ALT_INV_StageOut[51]~8_combout\ <= NOT \convert_binary|Div1|auto_generated|divider|divider|StageOut[51]~8_combout\;
-\convert_binary|Div1|auto_generated|divider|divider|ALT_INV_StageOut[51]~7_combout\ <= NOT \convert_binary|Div1|auto_generated|divider|divider|StageOut[51]~7_combout\;
-\convert_binary|Div1|auto_generated|divider|divider|ALT_INV_StageOut[60]~6_combout\ <= NOT \convert_binary|Div1|auto_generated|divider|divider|StageOut[60]~6_combout\;
-\convert_binary|Div0|auto_generated|divider|divider|ALT_INV_StageOut[16]~18_combout\ <= NOT \convert_binary|Div0|auto_generated|divider|divider|StageOut[16]~18_combout\;
-\convert_binary|Div0|auto_generated|divider|divider|ALT_INV_StageOut[16]~17_combout\ <= NOT \convert_binary|Div0|auto_generated|divider|divider|StageOut[16]~17_combout\;
-\convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_StageOut[76]~15_combout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|StageOut[76]~15_combout\;
-\convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_StageOut[65]~14_combout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|StageOut[65]~14_combout\;
-\convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_StageOut[54]~13_combout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|StageOut[54]~13_combout\;
-\convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_StageOut[54]~12_combout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|StageOut[54]~12_combout\;
-\convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_StageOut[76]~11_combout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|StageOut[76]~11_combout\;
-\convert_binary|Div0|auto_generated|divider|divider|ALT_INV_StageOut[36]~16_combout\ <= NOT \convert_binary|Div0|auto_generated|divider|divider|StageOut[36]~16_combout\;
-\convert_binary|Div0|auto_generated|divider|divider|ALT_INV_StageOut[30]~15_combout\ <= NOT \convert_binary|Div0|auto_generated|divider|divider|StageOut[30]~15_combout\;
-\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_StageOut[76]~22_combout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|StageOut[76]~22_combout\;
-\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_StageOut[65]~21_combout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|StageOut[65]~21_combout\;
-\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_StageOut[54]~20_combout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|StageOut[54]~20_combout\;
-\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_StageOut[43]~19_combout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|StageOut[43]~19_combout\;
-\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_StageOut[32]~18_combout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|StageOut[32]~18_combout\;
-\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_StageOut[32]~17_combout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|StageOut[32]~17_combout\;
-\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_StageOut[54]~16_combout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|StageOut[54]~16_combout\;
-\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_StageOut[76]~15_combout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|StageOut[76]~15_combout\;
-\division_function|ALT_INV_Selector11~1_combout\ <= NOT \division_function|Selector11~1_combout\;
+\ALT_INV_input_B[0]~input_o\ <= NOT \input_B[0]~input_o\;
+\ALT_INV_input_A[0]~input_o\ <= NOT \input_A[0]~input_o\;
+\ALT_INV_input_B[1]~input_o\ <= NOT \input_B[1]~input_o\;
+\ALT_INV_input_A[1]~input_o\ <= NOT \input_A[1]~input_o\;
+\ALT_INV_input_B[2]~input_o\ <= NOT \input_B[2]~input_o\;
+\ALT_INV_input_A[2]~input_o\ <= NOT \input_A[2]~input_o\;
+\ALT_INV_input_B[3]~input_o\ <= NOT \input_B[3]~input_o\;
+\ALT_INV_input_A[3]~input_o\ <= NOT \input_A[3]~input_o\;
+\ALT_INV_input_B[4]~input_o\ <= NOT \input_B[4]~input_o\;
+\ALT_INV_input_A[4]~input_o\ <= NOT \input_A[4]~input_o\;
+\ALT_INV_START_main~input_o\ <= NOT \START_main~input_o\;
+\ALT_INV_RST_main~input_o\ <= NOT \RST_main~input_o\;
+\ALT_INV_Operation[1]~input_o\ <= NOT \Operation[1]~input_o\;
+\ALT_INV_Operation[0]~input_o\ <= NOT \Operation[0]~input_o\;
 
 \Result[0]~output\ : cyclonev_io_obuf
 -- pragma translate_off
@@ -4051,10 +4051,10 @@ PORT MAP (
 	devpor => ww_devpor,
 	q => \division_function|bit_counter\(2));
 
-\division_function|Add2~105\ : cyclonev_lcell_comb
+\division_function|Add2~121\ : cyclonev_lcell_comb
 -- Equation(s):
--- \division_function|Add2~105_sumout\ = SUM(( \division_function|bit_counter\(3) ) + ( GND ) + ( \division_function|Add2~82\ ))
--- \division_function|Add2~106\ = CARRY(( \division_function|bit_counter\(3) ) + ( GND ) + ( \division_function|Add2~82\ ))
+-- \division_function|Add2~121_sumout\ = SUM(( \division_function|bit_counter\(3) ) + ( GND ) + ( \division_function|Add2~82\ ))
+-- \division_function|Add2~122\ = CARRY(( \division_function|bit_counter\(3) ) + ( GND ) + ( \division_function|Add2~82\ ))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -4065,106 +4065,10 @@ GENERIC MAP (
 PORT MAP (
 	datad => \division_function|ALT_INV_bit_counter\(3),
 	cin => \division_function|Add2~82\,
-	sumout => \division_function|Add2~105_sumout\,
-	cout => \division_function|Add2~106\);
-
-\division_function|bit_counter[3]\ : dffeas
--- pragma translate_off
-GENERIC MAP (
-	is_wysiwyg => "true",
-	power_up => "low")
--- pragma translate_on
-PORT MAP (
-	clk => \CLK_main~input_o\,
-	d => \division_function|Add2~105_sumout\,
-	sclr => \division_function|ALT_INV_state.s2~q\,
-	ena => \division_function|bit_counter[1]~1_combout\,
-	devclrn => ww_devclrn,
-	devpor => ww_devpor,
-	q => \division_function|bit_counter\(3));
-
-\division_function|Add2~113\ : cyclonev_lcell_comb
--- Equation(s):
--- \division_function|Add2~113_sumout\ = SUM(( \division_function|bit_counter\(4) ) + ( GND ) + ( \division_function|Add2~106\ ))
--- \division_function|Add2~114\ = CARRY(( \division_function|bit_counter\(4) ) + ( GND ) + ( \division_function|Add2~106\ ))
-
--- pragma translate_off
-GENERIC MAP (
-	extended_lut => "off",
-	lut_mask => "0000000000000000111111111111111100000000000000000000000011111111",
-	shared_arith => "off")
--- pragma translate_on
-PORT MAP (
-	datad => \division_function|ALT_INV_bit_counter\(4),
-	cin => \division_function|Add2~106\,
-	sumout => \division_function|Add2~113_sumout\,
-	cout => \division_function|Add2~114\);
-
-\division_function|bit_counter[4]\ : dffeas
--- pragma translate_off
-GENERIC MAP (
-	is_wysiwyg => "true",
-	power_up => "low")
--- pragma translate_on
-PORT MAP (
-	clk => \CLK_main~input_o\,
-	d => \division_function|Add2~113_sumout\,
-	sclr => \division_function|ALT_INV_state.s2~q\,
-	ena => \division_function|bit_counter[1]~1_combout\,
-	devclrn => ww_devclrn,
-	devpor => ww_devpor,
-	q => \division_function|bit_counter\(4));
-
-\division_function|Add2~41\ : cyclonev_lcell_comb
--- Equation(s):
--- \division_function|Add2~41_sumout\ = SUM(( \division_function|bit_counter\(5) ) + ( GND ) + ( \division_function|Add2~114\ ))
--- \division_function|Add2~42\ = CARRY(( \division_function|bit_counter\(5) ) + ( GND ) + ( \division_function|Add2~114\ ))
-
--- pragma translate_off
-GENERIC MAP (
-	extended_lut => "off",
-	lut_mask => "0000000000000000111111111111111100000000000000000000000011111111",
-	shared_arith => "off")
--- pragma translate_on
-PORT MAP (
-	datad => \division_function|ALT_INV_bit_counter\(5),
-	cin => \division_function|Add2~114\,
-	sumout => \division_function|Add2~41_sumout\,
-	cout => \division_function|Add2~42\);
-
-\division_function|bit_counter[5]\ : dffeas
--- pragma translate_off
-GENERIC MAP (
-	is_wysiwyg => "true",
-	power_up => "low")
--- pragma translate_on
-PORT MAP (
-	clk => \CLK_main~input_o\,
-	d => \division_function|Add2~41_sumout\,
-	sclr => \division_function|ALT_INV_state.s2~q\,
-	ena => \division_function|bit_counter[1]~1_combout\,
-	devclrn => ww_devclrn,
-	devpor => ww_devpor,
-	q => \division_function|bit_counter\(5));
-
-\division_function|Add2~121\ : cyclonev_lcell_comb
--- Equation(s):
--- \division_function|Add2~121_sumout\ = SUM(( \division_function|bit_counter\(6) ) + ( GND ) + ( \division_function|Add2~42\ ))
--- \division_function|Add2~122\ = CARRY(( \division_function|bit_counter\(6) ) + ( GND ) + ( \division_function|Add2~42\ ))
-
--- pragma translate_off
-GENERIC MAP (
-	extended_lut => "off",
-	lut_mask => "0000000000000000111111111111111100000000000000000000000011111111",
-	shared_arith => "off")
--- pragma translate_on
-PORT MAP (
-	datad => \division_function|ALT_INV_bit_counter\(6),
-	cin => \division_function|Add2~42\,
 	sumout => \division_function|Add2~121_sumout\,
 	cout => \division_function|Add2~122\);
 
-\division_function|bit_counter[6]\ : dffeas
+\division_function|bit_counter[3]\ : dffeas
 -- pragma translate_off
 GENERIC MAP (
 	is_wysiwyg => "true",
@@ -4177,12 +4081,12 @@ PORT MAP (
 	ena => \division_function|bit_counter[1]~1_combout\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
-	q => \division_function|bit_counter\(6));
+	q => \division_function|bit_counter\(3));
 
 \division_function|Add2~53\ : cyclonev_lcell_comb
 -- Equation(s):
--- \division_function|Add2~53_sumout\ = SUM(( \division_function|bit_counter\(7) ) + ( GND ) + ( \division_function|Add2~122\ ))
--- \division_function|Add2~54\ = CARRY(( \division_function|bit_counter\(7) ) + ( GND ) + ( \division_function|Add2~122\ ))
+-- \division_function|Add2~53_sumout\ = SUM(( \division_function|bit_counter\(4) ) + ( GND ) + ( \division_function|Add2~122\ ))
+-- \division_function|Add2~54\ = CARRY(( \division_function|bit_counter\(4) ) + ( GND ) + ( \division_function|Add2~122\ ))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -4191,12 +4095,12 @@ GENERIC MAP (
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
-	datad => \division_function|ALT_INV_bit_counter\(7),
+	datad => \division_function|ALT_INV_bit_counter\(4),
 	cin => \division_function|Add2~122\,
 	sumout => \division_function|Add2~53_sumout\,
 	cout => \division_function|Add2~54\);
 
-\division_function|bit_counter[7]\ : dffeas
+\division_function|bit_counter[4]\ : dffeas
 -- pragma translate_off
 GENERIC MAP (
 	is_wysiwyg => "true",
@@ -4209,12 +4113,12 @@ PORT MAP (
 	ena => \division_function|bit_counter[1]~1_combout\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
-	q => \division_function|bit_counter\(7));
+	q => \division_function|bit_counter\(4));
 
-\division_function|Add2~117\ : cyclonev_lcell_comb
+\division_function|Add2~57\ : cyclonev_lcell_comb
 -- Equation(s):
--- \division_function|Add2~117_sumout\ = SUM(( \division_function|bit_counter\(8) ) + ( GND ) + ( \division_function|Add2~54\ ))
--- \division_function|Add2~118\ = CARRY(( \division_function|bit_counter\(8) ) + ( GND ) + ( \division_function|Add2~54\ ))
+-- \division_function|Add2~57_sumout\ = SUM(( \division_function|bit_counter\(5) ) + ( GND ) + ( \division_function|Add2~54\ ))
+-- \division_function|Add2~58\ = CARRY(( \division_function|bit_counter\(5) ) + ( GND ) + ( \division_function|Add2~54\ ))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -4223,12 +4127,12 @@ GENERIC MAP (
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
-	datad => \division_function|ALT_INV_bit_counter\(8),
+	datad => \division_function|ALT_INV_bit_counter\(5),
 	cin => \division_function|Add2~54\,
-	sumout => \division_function|Add2~117_sumout\,
-	cout => \division_function|Add2~118\);
+	sumout => \division_function|Add2~57_sumout\,
+	cout => \division_function|Add2~58\);
 
-\division_function|bit_counter[8]\ : dffeas
+\division_function|bit_counter[5]\ : dffeas
 -- pragma translate_off
 GENERIC MAP (
 	is_wysiwyg => "true",
@@ -4236,17 +4140,17 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	clk => \CLK_main~input_o\,
-	d => \division_function|Add2~117_sumout\,
+	d => \division_function|Add2~57_sumout\,
 	sclr => \division_function|ALT_INV_state.s2~q\,
 	ena => \division_function|bit_counter[1]~1_combout\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
-	q => \division_function|bit_counter\(8));
+	q => \division_function|bit_counter\(5));
 
-\division_function|Add2~61\ : cyclonev_lcell_comb
+\division_function|Add2~105\ : cyclonev_lcell_comb
 -- Equation(s):
--- \division_function|Add2~61_sumout\ = SUM(( \division_function|bit_counter\(9) ) + ( GND ) + ( \division_function|Add2~118\ ))
--- \division_function|Add2~62\ = CARRY(( \division_function|bit_counter\(9) ) + ( GND ) + ( \division_function|Add2~118\ ))
+-- \division_function|Add2~105_sumout\ = SUM(( \division_function|bit_counter\(6) ) + ( GND ) + ( \division_function|Add2~58\ ))
+-- \division_function|Add2~106\ = CARRY(( \division_function|bit_counter\(6) ) + ( GND ) + ( \division_function|Add2~58\ ))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -4255,12 +4159,12 @@ GENERIC MAP (
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
-	datad => \division_function|ALT_INV_bit_counter\(9),
-	cin => \division_function|Add2~118\,
-	sumout => \division_function|Add2~61_sumout\,
-	cout => \division_function|Add2~62\);
+	datad => \division_function|ALT_INV_bit_counter\(6),
+	cin => \division_function|Add2~58\,
+	sumout => \division_function|Add2~105_sumout\,
+	cout => \division_function|Add2~106\);
 
-\division_function|bit_counter[9]\ : dffeas
+\division_function|bit_counter[6]\ : dffeas
 -- pragma translate_off
 GENERIC MAP (
 	is_wysiwyg => "true",
@@ -4268,17 +4172,17 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	clk => \CLK_main~input_o\,
-	d => \division_function|Add2~61_sumout\,
+	d => \division_function|Add2~105_sumout\,
 	sclr => \division_function|ALT_INV_state.s2~q\,
 	ena => \division_function|bit_counter[1]~1_combout\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
-	q => \division_function|bit_counter\(9));
+	q => \division_function|bit_counter\(6));
 
 \division_function|Add2~65\ : cyclonev_lcell_comb
 -- Equation(s):
--- \division_function|Add2~65_sumout\ = SUM(( \division_function|bit_counter\(10) ) + ( GND ) + ( \division_function|Add2~62\ ))
--- \division_function|Add2~66\ = CARRY(( \division_function|bit_counter\(10) ) + ( GND ) + ( \division_function|Add2~62\ ))
+-- \division_function|Add2~65_sumout\ = SUM(( \division_function|bit_counter\(7) ) + ( GND ) + ( \division_function|Add2~106\ ))
+-- \division_function|Add2~66\ = CARRY(( \division_function|bit_counter\(7) ) + ( GND ) + ( \division_function|Add2~106\ ))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -4287,12 +4191,12 @@ GENERIC MAP (
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
-	datad => \division_function|ALT_INV_bit_counter\(10),
-	cin => \division_function|Add2~62\,
+	datad => \division_function|ALT_INV_bit_counter\(7),
+	cin => \division_function|Add2~106\,
 	sumout => \division_function|Add2~65_sumout\,
 	cout => \division_function|Add2~66\);
 
-\division_function|bit_counter[10]\ : dffeas
+\division_function|bit_counter[7]\ : dffeas
 -- pragma translate_off
 GENERIC MAP (
 	is_wysiwyg => "true",
@@ -4305,12 +4209,12 @@ PORT MAP (
 	ena => \division_function|bit_counter[1]~1_combout\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
-	q => \division_function|bit_counter\(10));
+	q => \division_function|bit_counter\(7));
 
 \division_function|Add2~69\ : cyclonev_lcell_comb
 -- Equation(s):
--- \division_function|Add2~69_sumout\ = SUM(( \division_function|bit_counter\(11) ) + ( GND ) + ( \division_function|Add2~66\ ))
--- \division_function|Add2~70\ = CARRY(( \division_function|bit_counter\(11) ) + ( GND ) + ( \division_function|Add2~66\ ))
+-- \division_function|Add2~69_sumout\ = SUM(( \division_function|bit_counter\(8) ) + ( GND ) + ( \division_function|Add2~66\ ))
+-- \division_function|Add2~70\ = CARRY(( \division_function|bit_counter\(8) ) + ( GND ) + ( \division_function|Add2~66\ ))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -4319,12 +4223,12 @@ GENERIC MAP (
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
-	datad => \division_function|ALT_INV_bit_counter\(11),
+	datad => \division_function|ALT_INV_bit_counter\(8),
 	cin => \division_function|Add2~66\,
 	sumout => \division_function|Add2~69_sumout\,
 	cout => \division_function|Add2~70\);
 
-\division_function|bit_counter[11]\ : dffeas
+\division_function|bit_counter[8]\ : dffeas
 -- pragma translate_off
 GENERIC MAP (
 	is_wysiwyg => "true",
@@ -4337,12 +4241,12 @@ PORT MAP (
 	ena => \division_function|bit_counter[1]~1_combout\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
-	q => \division_function|bit_counter\(11));
+	q => \division_function|bit_counter\(8));
 
 \division_function|Add2~73\ : cyclonev_lcell_comb
 -- Equation(s):
--- \division_function|Add2~73_sumout\ = SUM(( \division_function|bit_counter\(12) ) + ( GND ) + ( \division_function|Add2~70\ ))
--- \division_function|Add2~74\ = CARRY(( \division_function|bit_counter\(12) ) + ( GND ) + ( \division_function|Add2~70\ ))
+-- \division_function|Add2~73_sumout\ = SUM(( \division_function|bit_counter\(9) ) + ( GND ) + ( \division_function|Add2~70\ ))
+-- \division_function|Add2~74\ = CARRY(( \division_function|bit_counter\(9) ) + ( GND ) + ( \division_function|Add2~70\ ))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -4351,12 +4255,12 @@ GENERIC MAP (
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
-	datad => \division_function|ALT_INV_bit_counter\(12),
+	datad => \division_function|ALT_INV_bit_counter\(9),
 	cin => \division_function|Add2~70\,
 	sumout => \division_function|Add2~73_sumout\,
 	cout => \division_function|Add2~74\);
 
-\division_function|bit_counter[12]\ : dffeas
+\division_function|bit_counter[9]\ : dffeas
 -- pragma translate_off
 GENERIC MAP (
 	is_wysiwyg => "true",
@@ -4369,44 +4273,12 @@ PORT MAP (
 	ena => \division_function|bit_counter[1]~1_combout\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
-	q => \division_function|bit_counter\(12));
-
-\division_function|Add2~29\ : cyclonev_lcell_comb
--- Equation(s):
--- \division_function|Add2~29_sumout\ = SUM(( \division_function|bit_counter\(13) ) + ( GND ) + ( \division_function|Add2~74\ ))
--- \division_function|Add2~30\ = CARRY(( \division_function|bit_counter\(13) ) + ( GND ) + ( \division_function|Add2~74\ ))
-
--- pragma translate_off
-GENERIC MAP (
-	extended_lut => "off",
-	lut_mask => "0000000000000000111111111111111100000000000000000000000011111111",
-	shared_arith => "off")
--- pragma translate_on
-PORT MAP (
-	datad => \division_function|ALT_INV_bit_counter\(13),
-	cin => \division_function|Add2~74\,
-	sumout => \division_function|Add2~29_sumout\,
-	cout => \division_function|Add2~30\);
-
-\division_function|bit_counter[13]\ : dffeas
--- pragma translate_off
-GENERIC MAP (
-	is_wysiwyg => "true",
-	power_up => "low")
--- pragma translate_on
-PORT MAP (
-	clk => \CLK_main~input_o\,
-	d => \division_function|Add2~29_sumout\,
-	sclr => \division_function|ALT_INV_state.s2~q\,
-	ena => \division_function|bit_counter[1]~1_combout\,
-	devclrn => ww_devclrn,
-	devpor => ww_devpor,
-	q => \division_function|bit_counter\(13));
+	q => \division_function|bit_counter\(9));
 
 \division_function|Add2~45\ : cyclonev_lcell_comb
 -- Equation(s):
--- \division_function|Add2~45_sumout\ = SUM(( \division_function|bit_counter\(14) ) + ( GND ) + ( \division_function|Add2~30\ ))
--- \division_function|Add2~46\ = CARRY(( \division_function|bit_counter\(14) ) + ( GND ) + ( \division_function|Add2~30\ ))
+-- \division_function|Add2~45_sumout\ = SUM(( \division_function|bit_counter\(10) ) + ( GND ) + ( \division_function|Add2~74\ ))
+-- \division_function|Add2~46\ = CARRY(( \division_function|bit_counter\(10) ) + ( GND ) + ( \division_function|Add2~74\ ))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -4415,12 +4287,12 @@ GENERIC MAP (
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
-	datad => \division_function|ALT_INV_bit_counter\(14),
-	cin => \division_function|Add2~30\,
+	datad => \division_function|ALT_INV_bit_counter\(10),
+	cin => \division_function|Add2~74\,
 	sumout => \division_function|Add2~45_sumout\,
 	cout => \division_function|Add2~46\);
 
-\division_function|bit_counter[14]\ : dffeas
+\division_function|bit_counter[10]\ : dffeas
 -- pragma translate_off
 GENERIC MAP (
 	is_wysiwyg => "true",
@@ -4433,12 +4305,140 @@ PORT MAP (
 	ena => \division_function|bit_counter[1]~1_combout\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
+	q => \division_function|bit_counter\(10));
+
+\division_function|Add2~29\ : cyclonev_lcell_comb
+-- Equation(s):
+-- \division_function|Add2~29_sumout\ = SUM(( \division_function|bit_counter\(11) ) + ( GND ) + ( \division_function|Add2~46\ ))
+-- \division_function|Add2~30\ = CARRY(( \division_function|bit_counter\(11) ) + ( GND ) + ( \division_function|Add2~46\ ))
+
+-- pragma translate_off
+GENERIC MAP (
+	extended_lut => "off",
+	lut_mask => "0000000000000000111111111111111100000000000000000000000011111111",
+	shared_arith => "off")
+-- pragma translate_on
+PORT MAP (
+	datad => \division_function|ALT_INV_bit_counter\(11),
+	cin => \division_function|Add2~46\,
+	sumout => \division_function|Add2~29_sumout\,
+	cout => \division_function|Add2~30\);
+
+\division_function|bit_counter[11]\ : dffeas
+-- pragma translate_off
+GENERIC MAP (
+	is_wysiwyg => "true",
+	power_up => "low")
+-- pragma translate_on
+PORT MAP (
+	clk => \CLK_main~input_o\,
+	d => \division_function|Add2~29_sumout\,
+	sclr => \division_function|ALT_INV_state.s2~q\,
+	ena => \division_function|bit_counter[1]~1_combout\,
+	devclrn => ww_devclrn,
+	devpor => ww_devpor,
+	q => \division_function|bit_counter\(11));
+
+\division_function|Add2~33\ : cyclonev_lcell_comb
+-- Equation(s):
+-- \division_function|Add2~33_sumout\ = SUM(( \division_function|bit_counter\(12) ) + ( GND ) + ( \division_function|Add2~30\ ))
+-- \division_function|Add2~34\ = CARRY(( \division_function|bit_counter\(12) ) + ( GND ) + ( \division_function|Add2~30\ ))
+
+-- pragma translate_off
+GENERIC MAP (
+	extended_lut => "off",
+	lut_mask => "0000000000000000111111111111111100000000000000000000000011111111",
+	shared_arith => "off")
+-- pragma translate_on
+PORT MAP (
+	datad => \division_function|ALT_INV_bit_counter\(12),
+	cin => \division_function|Add2~30\,
+	sumout => \division_function|Add2~33_sumout\,
+	cout => \division_function|Add2~34\);
+
+\division_function|bit_counter[12]\ : dffeas
+-- pragma translate_off
+GENERIC MAP (
+	is_wysiwyg => "true",
+	power_up => "low")
+-- pragma translate_on
+PORT MAP (
+	clk => \CLK_main~input_o\,
+	d => \division_function|Add2~33_sumout\,
+	sclr => \division_function|ALT_INV_state.s2~q\,
+	ena => \division_function|bit_counter[1]~1_combout\,
+	devclrn => ww_devclrn,
+	devpor => ww_devpor,
+	q => \division_function|bit_counter\(12));
+
+\division_function|Add2~37\ : cyclonev_lcell_comb
+-- Equation(s):
+-- \division_function|Add2~37_sumout\ = SUM(( \division_function|bit_counter\(13) ) + ( GND ) + ( \division_function|Add2~34\ ))
+-- \division_function|Add2~38\ = CARRY(( \division_function|bit_counter\(13) ) + ( GND ) + ( \division_function|Add2~34\ ))
+
+-- pragma translate_off
+GENERIC MAP (
+	extended_lut => "off",
+	lut_mask => "0000000000000000111111111111111100000000000000000000000011111111",
+	shared_arith => "off")
+-- pragma translate_on
+PORT MAP (
+	datad => \division_function|ALT_INV_bit_counter\(13),
+	cin => \division_function|Add2~34\,
+	sumout => \division_function|Add2~37_sumout\,
+	cout => \division_function|Add2~38\);
+
+\division_function|bit_counter[13]\ : dffeas
+-- pragma translate_off
+GENERIC MAP (
+	is_wysiwyg => "true",
+	power_up => "low")
+-- pragma translate_on
+PORT MAP (
+	clk => \CLK_main~input_o\,
+	d => \division_function|Add2~37_sumout\,
+	sclr => \division_function|ALT_INV_state.s2~q\,
+	ena => \division_function|bit_counter[1]~1_combout\,
+	devclrn => ww_devclrn,
+	devpor => ww_devpor,
+	q => \division_function|bit_counter\(13));
+
+\division_function|Add2~41\ : cyclonev_lcell_comb
+-- Equation(s):
+-- \division_function|Add2~41_sumout\ = SUM(( \division_function|bit_counter\(14) ) + ( GND ) + ( \division_function|Add2~38\ ))
+-- \division_function|Add2~42\ = CARRY(( \division_function|bit_counter\(14) ) + ( GND ) + ( \division_function|Add2~38\ ))
+
+-- pragma translate_off
+GENERIC MAP (
+	extended_lut => "off",
+	lut_mask => "0000000000000000111111111111111100000000000000000000000011111111",
+	shared_arith => "off")
+-- pragma translate_on
+PORT MAP (
+	datad => \division_function|ALT_INV_bit_counter\(14),
+	cin => \division_function|Add2~38\,
+	sumout => \division_function|Add2~41_sumout\,
+	cout => \division_function|Add2~42\);
+
+\division_function|bit_counter[14]\ : dffeas
+-- pragma translate_off
+GENERIC MAP (
+	is_wysiwyg => "true",
+	power_up => "low")
+-- pragma translate_on
+PORT MAP (
+	clk => \CLK_main~input_o\,
+	d => \division_function|Add2~41_sumout\,
+	sclr => \division_function|ALT_INV_state.s2~q\,
+	ena => \division_function|bit_counter[1]~1_combout\,
+	devclrn => ww_devclrn,
+	devpor => ww_devpor,
 	q => \division_function|bit_counter\(14));
 
-\division_function|Add2~49\ : cyclonev_lcell_comb
+\division_function|Add2~13\ : cyclonev_lcell_comb
 -- Equation(s):
--- \division_function|Add2~49_sumout\ = SUM(( \division_function|bit_counter\(15) ) + ( GND ) + ( \division_function|Add2~46\ ))
--- \division_function|Add2~50\ = CARRY(( \division_function|bit_counter\(15) ) + ( GND ) + ( \division_function|Add2~46\ ))
+-- \division_function|Add2~13_sumout\ = SUM(( \division_function|bit_counter\(15) ) + ( GND ) + ( \division_function|Add2~42\ ))
+-- \division_function|Add2~14\ = CARRY(( \division_function|bit_counter\(15) ) + ( GND ) + ( \division_function|Add2~42\ ))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -4448,9 +4448,9 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	datad => \division_function|ALT_INV_bit_counter\(15),
-	cin => \division_function|Add2~46\,
-	sumout => \division_function|Add2~49_sumout\,
-	cout => \division_function|Add2~50\);
+	cin => \division_function|Add2~42\,
+	sumout => \division_function|Add2~13_sumout\,
+	cout => \division_function|Add2~14\);
 
 \division_function|bit_counter[15]\ : dffeas
 -- pragma translate_off
@@ -4460,7 +4460,7 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	clk => \CLK_main~input_o\,
-	d => \division_function|Add2~49_sumout\,
+	d => \division_function|Add2~13_sumout\,
 	sclr => \division_function|ALT_INV_state.s2~q\,
 	ena => \division_function|bit_counter[1]~1_combout\,
 	devclrn => ww_devclrn,
@@ -4469,8 +4469,8 @@ PORT MAP (
 
 \division_function|Add2~85\ : cyclonev_lcell_comb
 -- Equation(s):
--- \division_function|Add2~85_sumout\ = SUM(( \division_function|bit_counter\(16) ) + ( GND ) + ( \division_function|Add2~50\ ))
--- \division_function|Add2~86\ = CARRY(( \division_function|bit_counter\(16) ) + ( GND ) + ( \division_function|Add2~50\ ))
+-- \division_function|Add2~85_sumout\ = SUM(( \division_function|bit_counter\(16) ) + ( GND ) + ( \division_function|Add2~14\ ))
+-- \division_function|Add2~86\ = CARRY(( \division_function|bit_counter\(16) ) + ( GND ) + ( \division_function|Add2~14\ ))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -4480,7 +4480,7 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	datad => \division_function|ALT_INV_bit_counter\(16),
-	cin => \division_function|Add2~50\,
+	cin => \division_function|Add2~14\,
 	sumout => \division_function|Add2~85_sumout\,
 	cout => \division_function|Add2~86\);
 
@@ -4499,10 +4499,10 @@ PORT MAP (
 	devpor => ww_devpor,
 	q => \division_function|bit_counter\(16));
 
-\division_function|Add2~93\ : cyclonev_lcell_comb
+\division_function|Add2~89\ : cyclonev_lcell_comb
 -- Equation(s):
--- \division_function|Add2~93_sumout\ = SUM(( \division_function|bit_counter\(17) ) + ( GND ) + ( \division_function|Add2~86\ ))
--- \division_function|Add2~94\ = CARRY(( \division_function|bit_counter\(17) ) + ( GND ) + ( \division_function|Add2~86\ ))
+-- \division_function|Add2~89_sumout\ = SUM(( \division_function|bit_counter\(17) ) + ( GND ) + ( \division_function|Add2~86\ ))
+-- \division_function|Add2~90\ = CARRY(( \division_function|bit_counter\(17) ) + ( GND ) + ( \division_function|Add2~86\ ))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -4513,10 +4513,42 @@ GENERIC MAP (
 PORT MAP (
 	datad => \division_function|ALT_INV_bit_counter\(17),
 	cin => \division_function|Add2~86\,
+	sumout => \division_function|Add2~89_sumout\,
+	cout => \division_function|Add2~90\);
+
+\division_function|bit_counter[17]\ : dffeas
+-- pragma translate_off
+GENERIC MAP (
+	is_wysiwyg => "true",
+	power_up => "low")
+-- pragma translate_on
+PORT MAP (
+	clk => \CLK_main~input_o\,
+	d => \division_function|Add2~89_sumout\,
+	sclr => \division_function|ALT_INV_state.s2~q\,
+	ena => \division_function|bit_counter[1]~1_combout\,
+	devclrn => ww_devclrn,
+	devpor => ww_devpor,
+	q => \division_function|bit_counter\(17));
+
+\division_function|Add2~93\ : cyclonev_lcell_comb
+-- Equation(s):
+-- \division_function|Add2~93_sumout\ = SUM(( \division_function|bit_counter\(18) ) + ( GND ) + ( \division_function|Add2~90\ ))
+-- \division_function|Add2~94\ = CARRY(( \division_function|bit_counter\(18) ) + ( GND ) + ( \division_function|Add2~90\ ))
+
+-- pragma translate_off
+GENERIC MAP (
+	extended_lut => "off",
+	lut_mask => "0000000000000000111111111111111100000000000000000000000011111111",
+	shared_arith => "off")
+-- pragma translate_on
+PORT MAP (
+	datad => \division_function|ALT_INV_bit_counter\(18),
+	cin => \division_function|Add2~90\,
 	sumout => \division_function|Add2~93_sumout\,
 	cout => \division_function|Add2~94\);
 
-\division_function|bit_counter[17]\ : dffeas
+\division_function|bit_counter[18]\ : dffeas
 -- pragma translate_off
 GENERIC MAP (
 	is_wysiwyg => "true",
@@ -4529,12 +4561,12 @@ PORT MAP (
 	ena => \division_function|bit_counter[1]~1_combout\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
-	q => \division_function|bit_counter\(17));
+	q => \division_function|bit_counter\(18));
 
 \division_function|Add2~97\ : cyclonev_lcell_comb
 -- Equation(s):
--- \division_function|Add2~97_sumout\ = SUM(( \division_function|bit_counter\(18) ) + ( GND ) + ( \division_function|Add2~94\ ))
--- \division_function|Add2~98\ = CARRY(( \division_function|bit_counter\(18) ) + ( GND ) + ( \division_function|Add2~94\ ))
+-- \division_function|Add2~97_sumout\ = SUM(( \division_function|bit_counter\(19) ) + ( GND ) + ( \division_function|Add2~94\ ))
+-- \division_function|Add2~98\ = CARRY(( \division_function|bit_counter\(19) ) + ( GND ) + ( \division_function|Add2~94\ ))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -4543,12 +4575,12 @@ GENERIC MAP (
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
-	datad => \division_function|ALT_INV_bit_counter\(18),
+	datad => \division_function|ALT_INV_bit_counter\(19),
 	cin => \division_function|Add2~94\,
 	sumout => \division_function|Add2~97_sumout\,
 	cout => \division_function|Add2~98\);
 
-\division_function|bit_counter[18]\ : dffeas
+\division_function|bit_counter[19]\ : dffeas
 -- pragma translate_off
 GENERIC MAP (
 	is_wysiwyg => "true",
@@ -4561,44 +4593,12 @@ PORT MAP (
 	ena => \division_function|bit_counter[1]~1_combout\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
-	q => \division_function|bit_counter\(18));
-
-\division_function|Add2~109\ : cyclonev_lcell_comb
--- Equation(s):
--- \division_function|Add2~109_sumout\ = SUM(( \division_function|bit_counter\(19) ) + ( GND ) + ( \division_function|Add2~98\ ))
--- \division_function|Add2~110\ = CARRY(( \division_function|bit_counter\(19) ) + ( GND ) + ( \division_function|Add2~98\ ))
-
--- pragma translate_off
-GENERIC MAP (
-	extended_lut => "off",
-	lut_mask => "0000000000000000111111111111111100000000000000000000000011111111",
-	shared_arith => "off")
--- pragma translate_on
-PORT MAP (
-	datad => \division_function|ALT_INV_bit_counter\(19),
-	cin => \division_function|Add2~98\,
-	sumout => \division_function|Add2~109_sumout\,
-	cout => \division_function|Add2~110\);
-
-\division_function|bit_counter[19]\ : dffeas
--- pragma translate_off
-GENERIC MAP (
-	is_wysiwyg => "true",
-	power_up => "low")
--- pragma translate_on
-PORT MAP (
-	clk => \CLK_main~input_o\,
-	d => \division_function|Add2~109_sumout\,
-	sclr => \division_function|ALT_INV_state.s2~q\,
-	ena => \division_function|bit_counter[1]~1_combout\,
-	devclrn => ww_devclrn,
-	devpor => ww_devpor,
 	q => \division_function|bit_counter\(19));
 
 \division_function|Add2~101\ : cyclonev_lcell_comb
 -- Equation(s):
--- \division_function|Add2~101_sumout\ = SUM(( \division_function|bit_counter\(20) ) + ( GND ) + ( \division_function|Add2~110\ ))
--- \division_function|Add2~102\ = CARRY(( \division_function|bit_counter\(20) ) + ( GND ) + ( \division_function|Add2~110\ ))
+-- \division_function|Add2~101_sumout\ = SUM(( \division_function|bit_counter\(20) ) + ( GND ) + ( \division_function|Add2~98\ ))
+-- \division_function|Add2~102\ = CARRY(( \division_function|bit_counter\(20) ) + ( GND ) + ( \division_function|Add2~98\ ))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -4608,7 +4608,7 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	datad => \division_function|ALT_INV_bit_counter\(20),
-	cin => \division_function|Add2~110\,
+	cin => \division_function|Add2~98\,
 	sumout => \division_function|Add2~101_sumout\,
 	cout => \division_function|Add2~102\);
 
@@ -4627,10 +4627,10 @@ PORT MAP (
 	devpor => ww_devpor,
 	q => \division_function|bit_counter\(20));
 
-\division_function|Add2~89\ : cyclonev_lcell_comb
+\division_function|Add2~113\ : cyclonev_lcell_comb
 -- Equation(s):
--- \division_function|Add2~89_sumout\ = SUM(( \division_function|bit_counter\(21) ) + ( GND ) + ( \division_function|Add2~102\ ))
--- \division_function|Add2~90\ = CARRY(( \division_function|bit_counter\(21) ) + ( GND ) + ( \division_function|Add2~102\ ))
+-- \division_function|Add2~113_sumout\ = SUM(( \division_function|bit_counter\(21) ) + ( GND ) + ( \division_function|Add2~102\ ))
+-- \division_function|Add2~114\ = CARRY(( \division_function|bit_counter\(21) ) + ( GND ) + ( \division_function|Add2~102\ ))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -4641,8 +4641,8 @@ GENERIC MAP (
 PORT MAP (
 	datad => \division_function|ALT_INV_bit_counter\(21),
 	cin => \division_function|Add2~102\,
-	sumout => \division_function|Add2~89_sumout\,
-	cout => \division_function|Add2~90\);
+	sumout => \division_function|Add2~113_sumout\,
+	cout => \division_function|Add2~114\);
 
 \division_function|bit_counter[21]\ : dffeas
 -- pragma translate_off
@@ -4652,17 +4652,17 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	clk => \CLK_main~input_o\,
-	d => \division_function|Add2~89_sumout\,
+	d => \division_function|Add2~113_sumout\,
 	sclr => \division_function|ALT_INV_state.s2~q\,
 	ena => \division_function|bit_counter[1]~1_combout\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
 	q => \division_function|bit_counter\(21));
 
-\division_function|Add2~37\ : cyclonev_lcell_comb
+\division_function|Add2~117\ : cyclonev_lcell_comb
 -- Equation(s):
--- \division_function|Add2~37_sumout\ = SUM(( \division_function|bit_counter\(22) ) + ( GND ) + ( \division_function|Add2~90\ ))
--- \division_function|Add2~38\ = CARRY(( \division_function|bit_counter\(22) ) + ( GND ) + ( \division_function|Add2~90\ ))
+-- \division_function|Add2~117_sumout\ = SUM(( \division_function|bit_counter\(22) ) + ( GND ) + ( \division_function|Add2~114\ ))
+-- \division_function|Add2~118\ = CARRY(( \division_function|bit_counter\(22) ) + ( GND ) + ( \division_function|Add2~114\ ))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -4672,9 +4672,9 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	datad => \division_function|ALT_INV_bit_counter\(22),
-	cin => \division_function|Add2~90\,
-	sumout => \division_function|Add2~37_sumout\,
-	cout => \division_function|Add2~38\);
+	cin => \division_function|Add2~114\,
+	sumout => \division_function|Add2~117_sumout\,
+	cout => \division_function|Add2~118\);
 
 \division_function|bit_counter[22]\ : dffeas
 -- pragma translate_off
@@ -4684,17 +4684,17 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	clk => \CLK_main~input_o\,
-	d => \division_function|Add2~37_sumout\,
+	d => \division_function|Add2~117_sumout\,
 	sclr => \division_function|ALT_INV_state.s2~q\,
 	ena => \division_function|bit_counter[1]~1_combout\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
 	q => \division_function|bit_counter\(22));
 
-\division_function|Add2~33\ : cyclonev_lcell_comb
+\division_function|Add2~61\ : cyclonev_lcell_comb
 -- Equation(s):
--- \division_function|Add2~33_sumout\ = SUM(( \division_function|bit_counter\(23) ) + ( GND ) + ( \division_function|Add2~38\ ))
--- \division_function|Add2~34\ = CARRY(( \division_function|bit_counter\(23) ) + ( GND ) + ( \division_function|Add2~38\ ))
+-- \division_function|Add2~61_sumout\ = SUM(( \division_function|bit_counter\(23) ) + ( GND ) + ( \division_function|Add2~118\ ))
+-- \division_function|Add2~62\ = CARRY(( \division_function|bit_counter\(23) ) + ( GND ) + ( \division_function|Add2~118\ ))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -4704,9 +4704,9 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	datad => \division_function|ALT_INV_bit_counter\(23),
-	cin => \division_function|Add2~38\,
-	sumout => \division_function|Add2~33_sumout\,
-	cout => \division_function|Add2~34\);
+	cin => \division_function|Add2~118\,
+	sumout => \division_function|Add2~61_sumout\,
+	cout => \division_function|Add2~62\);
 
 \division_function|bit_counter[23]\ : dffeas
 -- pragma translate_off
@@ -4716,17 +4716,17 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	clk => \CLK_main~input_o\,
-	d => \division_function|Add2~33_sumout\,
+	d => \division_function|Add2~61_sumout\,
 	sclr => \division_function|ALT_INV_state.s2~q\,
 	ena => \division_function|bit_counter[1]~1_combout\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
 	q => \division_function|bit_counter\(23));
 
-\division_function|Add2~57\ : cyclonev_lcell_comb
+\division_function|Add2~109\ : cyclonev_lcell_comb
 -- Equation(s):
--- \division_function|Add2~57_sumout\ = SUM(( \division_function|bit_counter\(24) ) + ( GND ) + ( \division_function|Add2~34\ ))
--- \division_function|Add2~58\ = CARRY(( \division_function|bit_counter\(24) ) + ( GND ) + ( \division_function|Add2~34\ ))
+-- \division_function|Add2~109_sumout\ = SUM(( \division_function|bit_counter\(24) ) + ( GND ) + ( \division_function|Add2~62\ ))
+-- \division_function|Add2~110\ = CARRY(( \division_function|bit_counter\(24) ) + ( GND ) + ( \division_function|Add2~62\ ))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -4736,9 +4736,9 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	datad => \division_function|ALT_INV_bit_counter\(24),
-	cin => \division_function|Add2~34\,
-	sumout => \division_function|Add2~57_sumout\,
-	cout => \division_function|Add2~58\);
+	cin => \division_function|Add2~62\,
+	sumout => \division_function|Add2~109_sumout\,
+	cout => \division_function|Add2~110\);
 
 \division_function|bit_counter[24]\ : dffeas
 -- pragma translate_off
@@ -4748,17 +4748,17 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	clk => \CLK_main~input_o\,
-	d => \division_function|Add2~57_sumout\,
+	d => \division_function|Add2~109_sumout\,
 	sclr => \division_function|ALT_INV_state.s2~q\,
 	ena => \division_function|bit_counter[1]~1_combout\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
 	q => \division_function|bit_counter\(24));
 
-\division_function|Add2~5\ : cyclonev_lcell_comb
+\division_function|Add2~9\ : cyclonev_lcell_comb
 -- Equation(s):
--- \division_function|Add2~5_sumout\ = SUM(( \division_function|bit_counter\(25) ) + ( GND ) + ( \division_function|Add2~58\ ))
--- \division_function|Add2~6\ = CARRY(( \division_function|bit_counter\(25) ) + ( GND ) + ( \division_function|Add2~58\ ))
+-- \division_function|Add2~9_sumout\ = SUM(( \division_function|bit_counter\(25) ) + ( GND ) + ( \division_function|Add2~110\ ))
+-- \division_function|Add2~10\ = CARRY(( \division_function|bit_counter\(25) ) + ( GND ) + ( \division_function|Add2~110\ ))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -4768,43 +4768,11 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	datad => \division_function|ALT_INV_bit_counter\(25),
-	cin => \division_function|Add2~58\,
-	sumout => \division_function|Add2~5_sumout\,
-	cout => \division_function|Add2~6\);
-
-\division_function|bit_counter[25]\ : dffeas
--- pragma translate_off
-GENERIC MAP (
-	is_wysiwyg => "true",
-	power_up => "low")
--- pragma translate_on
-PORT MAP (
-	clk => \CLK_main~input_o\,
-	d => \division_function|Add2~5_sumout\,
-	sclr => \division_function|ALT_INV_state.s2~q\,
-	ena => \division_function|bit_counter[1]~1_combout\,
-	devclrn => ww_devclrn,
-	devpor => ww_devpor,
-	q => \division_function|bit_counter\(25));
-
-\division_function|Add2~9\ : cyclonev_lcell_comb
--- Equation(s):
--- \division_function|Add2~9_sumout\ = SUM(( \division_function|bit_counter\(26) ) + ( GND ) + ( \division_function|Add2~6\ ))
--- \division_function|Add2~10\ = CARRY(( \division_function|bit_counter\(26) ) + ( GND ) + ( \division_function|Add2~6\ ))
-
--- pragma translate_off
-GENERIC MAP (
-	extended_lut => "off",
-	lut_mask => "0000000000000000111111111111111100000000000000000000000011111111",
-	shared_arith => "off")
--- pragma translate_on
-PORT MAP (
-	datad => \division_function|ALT_INV_bit_counter\(26),
-	cin => \division_function|Add2~6\,
+	cin => \division_function|Add2~110\,
 	sumout => \division_function|Add2~9_sumout\,
 	cout => \division_function|Add2~10\);
 
-\division_function|bit_counter[26]\ : dffeas
+\division_function|bit_counter[25]\ : dffeas
 -- pragma translate_off
 GENERIC MAP (
 	is_wysiwyg => "true",
@@ -4817,12 +4785,44 @@ PORT MAP (
 	ena => \division_function|bit_counter[1]~1_combout\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
+	q => \division_function|bit_counter\(25));
+
+\division_function|Add2~5\ : cyclonev_lcell_comb
+-- Equation(s):
+-- \division_function|Add2~5_sumout\ = SUM(( \division_function|bit_counter\(26) ) + ( GND ) + ( \division_function|Add2~10\ ))
+-- \division_function|Add2~6\ = CARRY(( \division_function|bit_counter\(26) ) + ( GND ) + ( \division_function|Add2~10\ ))
+
+-- pragma translate_off
+GENERIC MAP (
+	extended_lut => "off",
+	lut_mask => "0000000000000000111111111111111100000000000000000000000011111111",
+	shared_arith => "off")
+-- pragma translate_on
+PORT MAP (
+	datad => \division_function|ALT_INV_bit_counter\(26),
+	cin => \division_function|Add2~10\,
+	sumout => \division_function|Add2~5_sumout\,
+	cout => \division_function|Add2~6\);
+
+\division_function|bit_counter[26]\ : dffeas
+-- pragma translate_off
+GENERIC MAP (
+	is_wysiwyg => "true",
+	power_up => "low")
+-- pragma translate_on
+PORT MAP (
+	clk => \CLK_main~input_o\,
+	d => \division_function|Add2~5_sumout\,
+	sclr => \division_function|ALT_INV_state.s2~q\,
+	ena => \division_function|bit_counter[1]~1_combout\,
+	devclrn => ww_devclrn,
+	devpor => ww_devpor,
 	q => \division_function|bit_counter\(26));
 
-\division_function|Add2~13\ : cyclonev_lcell_comb
+\division_function|Add2~49\ : cyclonev_lcell_comb
 -- Equation(s):
--- \division_function|Add2~13_sumout\ = SUM(( \division_function|bit_counter\(27) ) + ( GND ) + ( \division_function|Add2~10\ ))
--- \division_function|Add2~14\ = CARRY(( \division_function|bit_counter\(27) ) + ( GND ) + ( \division_function|Add2~10\ ))
+-- \division_function|Add2~49_sumout\ = SUM(( \division_function|bit_counter\(27) ) + ( GND ) + ( \division_function|Add2~6\ ))
+-- \division_function|Add2~50\ = CARRY(( \division_function|bit_counter\(27) ) + ( GND ) + ( \division_function|Add2~6\ ))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -4832,9 +4832,9 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	datad => \division_function|ALT_INV_bit_counter\(27),
-	cin => \division_function|Add2~10\,
-	sumout => \division_function|Add2~13_sumout\,
-	cout => \division_function|Add2~14\);
+	cin => \division_function|Add2~6\,
+	sumout => \division_function|Add2~49_sumout\,
+	cout => \division_function|Add2~50\);
 
 \division_function|bit_counter[27]\ : dffeas
 -- pragma translate_off
@@ -4844,7 +4844,7 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	clk => \CLK_main~input_o\,
-	d => \division_function|Add2~13_sumout\,
+	d => \division_function|Add2~49_sumout\,
 	sclr => \division_function|ALT_INV_state.s2~q\,
 	ena => \division_function|bit_counter[1]~1_combout\,
 	devclrn => ww_devclrn,
@@ -4853,8 +4853,8 @@ PORT MAP (
 
 \division_function|Add2~17\ : cyclonev_lcell_comb
 -- Equation(s):
--- \division_function|Add2~17_sumout\ = SUM(( \division_function|bit_counter\(28) ) + ( GND ) + ( \division_function|Add2~14\ ))
--- \division_function|Add2~18\ = CARRY(( \division_function|bit_counter\(28) ) + ( GND ) + ( \division_function|Add2~14\ ))
+-- \division_function|Add2~17_sumout\ = SUM(( \division_function|bit_counter\(28) ) + ( GND ) + ( \division_function|Add2~50\ ))
+-- \division_function|Add2~18\ = CARRY(( \division_function|bit_counter\(28) ) + ( GND ) + ( \division_function|Add2~50\ ))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -4864,7 +4864,7 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	datad => \division_function|ALT_INV_bit_counter\(28),
-	cin => \division_function|Add2~14\,
+	cin => \division_function|Add2~50\,
 	sumout => \division_function|Add2~17_sumout\,
 	cout => \division_function|Add2~18\);
 
@@ -4980,7 +4980,7 @@ PORT MAP (
 
 \division_function|LessThan0~0\ : cyclonev_lcell_comb
 -- Equation(s):
--- \division_function|LessThan0~0_combout\ = ( !\division_function|bit_counter\(29) & ( !\division_function|bit_counter\(30) & ( (!\division_function|bit_counter\(25) & (!\division_function|bit_counter\(26) & (!\division_function|bit_counter\(27) & 
+-- \division_function|LessThan0~0_combout\ = ( !\division_function|bit_counter\(29) & ( !\division_function|bit_counter\(30) & ( (!\division_function|bit_counter\(26) & (!\division_function|bit_counter\(25) & (!\division_function|bit_counter\(15) & 
 -- !\division_function|bit_counter\(28)))) ) ) )
 
 -- pragma translate_off
@@ -4990,9 +4990,9 @@ GENERIC MAP (
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
-	dataa => \division_function|ALT_INV_bit_counter\(25),
-	datab => \division_function|ALT_INV_bit_counter\(26),
-	datac => \division_function|ALT_INV_bit_counter\(27),
+	dataa => \division_function|ALT_INV_bit_counter\(26),
+	datab => \division_function|ALT_INV_bit_counter\(25),
+	datac => \division_function|ALT_INV_bit_counter\(15),
 	datad => \division_function|ALT_INV_bit_counter\(28),
 	datae => \division_function|ALT_INV_bit_counter\(29),
 	dataf => \division_function|ALT_INV_bit_counter\(30),
@@ -5000,8 +5000,8 @@ PORT MAP (
 
 \division_function|LessThan0~1\ : cyclonev_lcell_comb
 -- Equation(s):
--- \division_function|LessThan0~1_combout\ = ( !\division_function|bit_counter\(14) & ( !\division_function|bit_counter\(15) & ( (!\division_function|bit_counter\(13) & (!\division_function|bit_counter\(23) & (!\division_function|bit_counter\(22) & 
--- !\division_function|bit_counter\(5)))) ) ) )
+-- \division_function|LessThan0~1_combout\ = ( !\division_function|bit_counter\(10) & ( !\division_function|bit_counter\(27) & ( (!\division_function|bit_counter\(11) & (!\division_function|bit_counter\(12) & (!\division_function|bit_counter\(13) & 
+-- !\division_function|bit_counter\(14)))) ) ) )
 
 -- pragma translate_off
 GENERIC MAP (
@@ -5010,18 +5010,18 @@ GENERIC MAP (
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
-	dataa => \division_function|ALT_INV_bit_counter\(13),
-	datab => \division_function|ALT_INV_bit_counter\(23),
-	datac => \division_function|ALT_INV_bit_counter\(22),
-	datad => \division_function|ALT_INV_bit_counter\(5),
-	datae => \division_function|ALT_INV_bit_counter\(14),
-	dataf => \division_function|ALT_INV_bit_counter\(15),
+	dataa => \division_function|ALT_INV_bit_counter\(11),
+	datab => \division_function|ALT_INV_bit_counter\(12),
+	datac => \division_function|ALT_INV_bit_counter\(13),
+	datad => \division_function|ALT_INV_bit_counter\(14),
+	datae => \division_function|ALT_INV_bit_counter\(10),
+	dataf => \division_function|ALT_INV_bit_counter\(27),
 	combout => \division_function|LessThan0~1_combout\);
 
 \division_function|LessThan0~2\ : cyclonev_lcell_comb
 -- Equation(s):
--- \division_function|LessThan0~2_combout\ = ( !\division_function|bit_counter\(11) & ( !\division_function|bit_counter\(12) & ( (!\division_function|bit_counter\(7) & (!\division_function|bit_counter\(24) & (!\division_function|bit_counter\(9) & 
--- !\division_function|bit_counter\(10)))) ) ) )
+-- \division_function|LessThan0~2_combout\ = ( !\division_function|bit_counter\(8) & ( !\division_function|bit_counter\(9) & ( (!\division_function|bit_counter\(4) & (!\division_function|bit_counter\(5) & (!\division_function|bit_counter\(23) & 
+-- !\division_function|bit_counter\(7)))) ) ) )
 
 -- pragma translate_off
 GENERIC MAP (
@@ -5030,17 +5030,17 @@ GENERIC MAP (
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
-	dataa => \division_function|ALT_INV_bit_counter\(7),
-	datab => \division_function|ALT_INV_bit_counter\(24),
-	datac => \division_function|ALT_INV_bit_counter\(9),
-	datad => \division_function|ALT_INV_bit_counter\(10),
-	datae => \division_function|ALT_INV_bit_counter\(11),
-	dataf => \division_function|ALT_INV_bit_counter\(12),
+	dataa => \division_function|ALT_INV_bit_counter\(4),
+	datab => \division_function|ALT_INV_bit_counter\(5),
+	datac => \division_function|ALT_INV_bit_counter\(23),
+	datad => \division_function|ALT_INV_bit_counter\(7),
+	datae => \division_function|ALT_INV_bit_counter\(8),
+	dataf => \division_function|ALT_INV_bit_counter\(9),
 	combout => \division_function|LessThan0~2_combout\);
 
 \division_function|LessThan0~3\ : cyclonev_lcell_comb
 -- Equation(s):
--- \division_function|LessThan0~3_combout\ = ( !\division_function|bit_counter\(17) & ( !\division_function|bit_counter\(18) & ( (!\division_function|bit_counter\(16) & (!\division_function|bit_counter\(21) & ((!\division_function|bit_counter\(1)) # 
+-- \division_function|LessThan0~3_combout\ = ( !\division_function|bit_counter\(18) & ( !\division_function|bit_counter\(19) & ( (!\division_function|bit_counter\(16) & (!\division_function|bit_counter\(17) & ((!\division_function|bit_counter\(1)) # 
 -- (!\division_function|bit_counter\(2))))) ) ) )
 
 -- pragma translate_off
@@ -5053,15 +5053,15 @@ PORT MAP (
 	dataa => \division_function|ALT_INV_bit_counter\(1),
 	datab => \division_function|ALT_INV_bit_counter\(2),
 	datac => \division_function|ALT_INV_bit_counter\(16),
-	datad => \division_function|ALT_INV_bit_counter\(21),
-	datae => \division_function|ALT_INV_bit_counter\(17),
-	dataf => \division_function|ALT_INV_bit_counter\(18),
+	datad => \division_function|ALT_INV_bit_counter\(17),
+	datae => \division_function|ALT_INV_bit_counter\(18),
+	dataf => \division_function|ALT_INV_bit_counter\(19),
 	combout => \division_function|LessThan0~3_combout\);
 
 \division_function|LessThan0~4\ : cyclonev_lcell_comb
 -- Equation(s):
--- \division_function|LessThan0~4_combout\ = ( !\division_function|bit_counter\(8) & ( !\division_function|bit_counter\(6) & ( (!\division_function|bit_counter\(20) & (!\division_function|bit_counter\(3) & (!\division_function|bit_counter\(19) & 
--- !\division_function|bit_counter\(4)))) ) ) )
+-- \division_function|LessThan0~4_combout\ = ( !\division_function|bit_counter\(22) & ( !\division_function|bit_counter\(3) & ( (!\division_function|bit_counter\(20) & (!\division_function|bit_counter\(6) & (!\division_function|bit_counter\(24) & 
+-- !\division_function|bit_counter\(21)))) ) ) )
 
 -- pragma translate_off
 GENERIC MAP (
@@ -5071,11 +5071,11 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	dataa => \division_function|ALT_INV_bit_counter\(20),
-	datab => \division_function|ALT_INV_bit_counter\(3),
-	datac => \division_function|ALT_INV_bit_counter\(19),
-	datad => \division_function|ALT_INV_bit_counter\(4),
-	datae => \division_function|ALT_INV_bit_counter\(8),
-	dataf => \division_function|ALT_INV_bit_counter\(6),
+	datab => \division_function|ALT_INV_bit_counter\(6),
+	datac => \division_function|ALT_INV_bit_counter\(24),
+	datad => \division_function|ALT_INV_bit_counter\(21),
+	datae => \division_function|ALT_INV_bit_counter\(22),
+	dataf => \division_function|ALT_INV_bit_counter\(3),
 	combout => \division_function|LessThan0~4_combout\);
 
 \division_function|LessThan0~5\ : cyclonev_lcell_comb
@@ -5151,9 +5151,9 @@ PORT MAP (
 	sumout => \multiplication_function|Add1~125_sumout\,
 	cout => \multiplication_function|Add1~126\);
 
-\multiplication_function|bit_counter[17]~0\ : cyclonev_lcell_comb
+\multiplication_function|bit_counter[5]~0\ : cyclonev_lcell_comb
 -- Equation(s):
--- \multiplication_function|bit_counter[17]~0_combout\ = (\RST_main~input_o\ & \multiplication_function|state~q\)
+-- \multiplication_function|bit_counter[5]~0_combout\ = (\RST_main~input_o\ & \multiplication_function|state~q\)
 
 -- pragma translate_off
 GENERIC MAP (
@@ -5164,7 +5164,7 @@ GENERIC MAP (
 PORT MAP (
 	dataa => \ALT_INV_RST_main~input_o\,
 	datab => \multiplication_function|ALT_INV_state~q\,
-	combout => \multiplication_function|bit_counter[17]~0_combout\);
+	combout => \multiplication_function|bit_counter[5]~0_combout\);
 
 \multiplication_function|bit_counter[0]\ : dffeas
 -- pragma translate_off
@@ -5176,15 +5176,15 @@ PORT MAP (
 	clk => \CLK_main~input_o\,
 	d => \multiplication_function|Add1~125_sumout\,
 	sclr => \multiplication_function|LessThan0~5_combout\,
-	ena => \multiplication_function|bit_counter[17]~0_combout\,
+	ena => \multiplication_function|bit_counter[5]~0_combout\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
 	q => \multiplication_function|bit_counter\(0));
 
-\multiplication_function|Add1~77\ : cyclonev_lcell_comb
+\multiplication_function|Add1~81\ : cyclonev_lcell_comb
 -- Equation(s):
--- \multiplication_function|Add1~77_sumout\ = SUM(( \multiplication_function|bit_counter\(1) ) + ( GND ) + ( \multiplication_function|Add1~126\ ))
--- \multiplication_function|Add1~78\ = CARRY(( \multiplication_function|bit_counter\(1) ) + ( GND ) + ( \multiplication_function|Add1~126\ ))
+-- \multiplication_function|Add1~81_sumout\ = SUM(( \multiplication_function|bit_counter\(1) ) + ( GND ) + ( \multiplication_function|Add1~126\ ))
+-- \multiplication_function|Add1~82\ = CARRY(( \multiplication_function|bit_counter\(1) ) + ( GND ) + ( \multiplication_function|Add1~126\ ))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -5195,8 +5195,8 @@ GENERIC MAP (
 PORT MAP (
 	datad => \multiplication_function|ALT_INV_bit_counter\(1),
 	cin => \multiplication_function|Add1~126\,
-	sumout => \multiplication_function|Add1~77_sumout\,
-	cout => \multiplication_function|Add1~78\);
+	sumout => \multiplication_function|Add1~81_sumout\,
+	cout => \multiplication_function|Add1~82\);
 
 \multiplication_function|bit_counter[1]\ : dffeas
 -- pragma translate_off
@@ -5206,17 +5206,17 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	clk => \CLK_main~input_o\,
-	d => \multiplication_function|Add1~77_sumout\,
+	d => \multiplication_function|Add1~81_sumout\,
 	sclr => \multiplication_function|LessThan0~5_combout\,
-	ena => \multiplication_function|bit_counter[17]~0_combout\,
+	ena => \multiplication_function|bit_counter[5]~0_combout\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
 	q => \multiplication_function|bit_counter\(1));
 
-\multiplication_function|Add1~81\ : cyclonev_lcell_comb
+\multiplication_function|Add1~77\ : cyclonev_lcell_comb
 -- Equation(s):
--- \multiplication_function|Add1~81_sumout\ = SUM(( \multiplication_function|bit_counter\(2) ) + ( GND ) + ( \multiplication_function|Add1~78\ ))
--- \multiplication_function|Add1~82\ = CARRY(( \multiplication_function|bit_counter\(2) ) + ( GND ) + ( \multiplication_function|Add1~78\ ))
+-- \multiplication_function|Add1~77_sumout\ = SUM(( \multiplication_function|bit_counter\(2) ) + ( GND ) + ( \multiplication_function|Add1~82\ ))
+-- \multiplication_function|Add1~78\ = CARRY(( \multiplication_function|bit_counter\(2) ) + ( GND ) + ( \multiplication_function|Add1~82\ ))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -5226,9 +5226,9 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	datad => \multiplication_function|ALT_INV_bit_counter\(2),
-	cin => \multiplication_function|Add1~78\,
-	sumout => \multiplication_function|Add1~81_sumout\,
-	cout => \multiplication_function|Add1~82\);
+	cin => \multiplication_function|Add1~82\,
+	sumout => \multiplication_function|Add1~77_sumout\,
+	cout => \multiplication_function|Add1~78\);
 
 \multiplication_function|bit_counter[2]\ : dffeas
 -- pragma translate_off
@@ -5238,17 +5238,17 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	clk => \CLK_main~input_o\,
-	d => \multiplication_function|Add1~81_sumout\,
+	d => \multiplication_function|Add1~77_sumout\,
 	sclr => \multiplication_function|LessThan0~5_combout\,
-	ena => \multiplication_function|bit_counter[17]~0_combout\,
+	ena => \multiplication_function|bit_counter[5]~0_combout\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
 	q => \multiplication_function|bit_counter\(2));
 
-\multiplication_function|Add1~25\ : cyclonev_lcell_comb
+\multiplication_function|Add1~121\ : cyclonev_lcell_comb
 -- Equation(s):
--- \multiplication_function|Add1~25_sumout\ = SUM(( \multiplication_function|bit_counter\(3) ) + ( GND ) + ( \multiplication_function|Add1~82\ ))
--- \multiplication_function|Add1~26\ = CARRY(( \multiplication_function|bit_counter\(3) ) + ( GND ) + ( \multiplication_function|Add1~82\ ))
+-- \multiplication_function|Add1~121_sumout\ = SUM(( \multiplication_function|bit_counter\(3) ) + ( GND ) + ( \multiplication_function|Add1~78\ ))
+-- \multiplication_function|Add1~122\ = CARRY(( \multiplication_function|bit_counter\(3) ) + ( GND ) + ( \multiplication_function|Add1~78\ ))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -5258,9 +5258,9 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	datad => \multiplication_function|ALT_INV_bit_counter\(3),
-	cin => \multiplication_function|Add1~82\,
-	sumout => \multiplication_function|Add1~25_sumout\,
-	cout => \multiplication_function|Add1~26\);
+	cin => \multiplication_function|Add1~78\,
+	sumout => \multiplication_function|Add1~121_sumout\,
+	cout => \multiplication_function|Add1~122\);
 
 \multiplication_function|bit_counter[3]\ : dffeas
 -- pragma translate_off
@@ -5270,17 +5270,17 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	clk => \CLK_main~input_o\,
-	d => \multiplication_function|Add1~25_sumout\,
+	d => \multiplication_function|Add1~121_sumout\,
 	sclr => \multiplication_function|LessThan0~5_combout\,
-	ena => \multiplication_function|bit_counter[17]~0_combout\,
+	ena => \multiplication_function|bit_counter[5]~0_combout\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
 	q => \multiplication_function|bit_counter\(3));
 
-\multiplication_function|Add1~89\ : cyclonev_lcell_comb
+\multiplication_function|Add1~53\ : cyclonev_lcell_comb
 -- Equation(s):
--- \multiplication_function|Add1~89_sumout\ = SUM(( \multiplication_function|bit_counter\(4) ) + ( GND ) + ( \multiplication_function|Add1~26\ ))
--- \multiplication_function|Add1~90\ = CARRY(( \multiplication_function|bit_counter\(4) ) + ( GND ) + ( \multiplication_function|Add1~26\ ))
+-- \multiplication_function|Add1~53_sumout\ = SUM(( \multiplication_function|bit_counter\(4) ) + ( GND ) + ( \multiplication_function|Add1~122\ ))
+-- \multiplication_function|Add1~54\ = CARRY(( \multiplication_function|bit_counter\(4) ) + ( GND ) + ( \multiplication_function|Add1~122\ ))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -5290,9 +5290,9 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	datad => \multiplication_function|ALT_INV_bit_counter\(4),
-	cin => \multiplication_function|Add1~26\,
-	sumout => \multiplication_function|Add1~89_sumout\,
-	cout => \multiplication_function|Add1~90\);
+	cin => \multiplication_function|Add1~122\,
+	sumout => \multiplication_function|Add1~53_sumout\,
+	cout => \multiplication_function|Add1~54\);
 
 \multiplication_function|bit_counter[4]\ : dffeas
 -- pragma translate_off
@@ -5302,17 +5302,17 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	clk => \CLK_main~input_o\,
-	d => \multiplication_function|Add1~89_sumout\,
+	d => \multiplication_function|Add1~53_sumout\,
 	sclr => \multiplication_function|LessThan0~5_combout\,
-	ena => \multiplication_function|bit_counter[17]~0_combout\,
+	ena => \multiplication_function|bit_counter[5]~0_combout\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
 	q => \multiplication_function|bit_counter\(4));
 
-\multiplication_function|Add1~109\ : cyclonev_lcell_comb
+\multiplication_function|Add1~57\ : cyclonev_lcell_comb
 -- Equation(s):
--- \multiplication_function|Add1~109_sumout\ = SUM(( \multiplication_function|bit_counter\(5) ) + ( GND ) + ( \multiplication_function|Add1~90\ ))
--- \multiplication_function|Add1~110\ = CARRY(( \multiplication_function|bit_counter\(5) ) + ( GND ) + ( \multiplication_function|Add1~90\ ))
+-- \multiplication_function|Add1~57_sumout\ = SUM(( \multiplication_function|bit_counter\(5) ) + ( GND ) + ( \multiplication_function|Add1~54\ ))
+-- \multiplication_function|Add1~58\ = CARRY(( \multiplication_function|bit_counter\(5) ) + ( GND ) + ( \multiplication_function|Add1~54\ ))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -5322,9 +5322,9 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	datad => \multiplication_function|ALT_INV_bit_counter\(5),
-	cin => \multiplication_function|Add1~90\,
-	sumout => \multiplication_function|Add1~109_sumout\,
-	cout => \multiplication_function|Add1~110\);
+	cin => \multiplication_function|Add1~54\,
+	sumout => \multiplication_function|Add1~57_sumout\,
+	cout => \multiplication_function|Add1~58\);
 
 \multiplication_function|bit_counter[5]\ : dffeas
 -- pragma translate_off
@@ -5334,17 +5334,17 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	clk => \CLK_main~input_o\,
-	d => \multiplication_function|Add1~109_sumout\,
+	d => \multiplication_function|Add1~57_sumout\,
 	sclr => \multiplication_function|LessThan0~5_combout\,
-	ena => \multiplication_function|bit_counter[17]~0_combout\,
+	ena => \multiplication_function|bit_counter[5]~0_combout\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
 	q => \multiplication_function|bit_counter\(5));
 
-\multiplication_function|Add1~113\ : cyclonev_lcell_comb
+\multiplication_function|Add1~61\ : cyclonev_lcell_comb
 -- Equation(s):
--- \multiplication_function|Add1~113_sumout\ = SUM(( \multiplication_function|bit_counter\(6) ) + ( GND ) + ( \multiplication_function|Add1~110\ ))
--- \multiplication_function|Add1~114\ = CARRY(( \multiplication_function|bit_counter\(6) ) + ( GND ) + ( \multiplication_function|Add1~110\ ))
+-- \multiplication_function|Add1~61_sumout\ = SUM(( \multiplication_function|bit_counter\(6) ) + ( GND ) + ( \multiplication_function|Add1~58\ ))
+-- \multiplication_function|Add1~62\ = CARRY(( \multiplication_function|bit_counter\(6) ) + ( GND ) + ( \multiplication_function|Add1~58\ ))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -5354,9 +5354,9 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	datad => \multiplication_function|ALT_INV_bit_counter\(6),
-	cin => \multiplication_function|Add1~110\,
-	sumout => \multiplication_function|Add1~113_sumout\,
-	cout => \multiplication_function|Add1~114\);
+	cin => \multiplication_function|Add1~58\,
+	sumout => \multiplication_function|Add1~61_sumout\,
+	cout => \multiplication_function|Add1~62\);
 
 \multiplication_function|bit_counter[6]\ : dffeas
 -- pragma translate_off
@@ -5366,17 +5366,17 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	clk => \CLK_main~input_o\,
-	d => \multiplication_function|Add1~113_sumout\,
+	d => \multiplication_function|Add1~61_sumout\,
 	sclr => \multiplication_function|LessThan0~5_combout\,
-	ena => \multiplication_function|bit_counter[17]~0_combout\,
+	ena => \multiplication_function|bit_counter[5]~0_combout\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
 	q => \multiplication_function|bit_counter\(6));
 
-\multiplication_function|Add1~117\ : cyclonev_lcell_comb
+\multiplication_function|Add1~65\ : cyclonev_lcell_comb
 -- Equation(s):
--- \multiplication_function|Add1~117_sumout\ = SUM(( \multiplication_function|bit_counter\(7) ) + ( GND ) + ( \multiplication_function|Add1~114\ ))
--- \multiplication_function|Add1~118\ = CARRY(( \multiplication_function|bit_counter\(7) ) + ( GND ) + ( \multiplication_function|Add1~114\ ))
+-- \multiplication_function|Add1~65_sumout\ = SUM(( \multiplication_function|bit_counter\(7) ) + ( GND ) + ( \multiplication_function|Add1~62\ ))
+-- \multiplication_function|Add1~66\ = CARRY(( \multiplication_function|bit_counter\(7) ) + ( GND ) + ( \multiplication_function|Add1~62\ ))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -5386,9 +5386,9 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	datad => \multiplication_function|ALT_INV_bit_counter\(7),
-	cin => \multiplication_function|Add1~114\,
-	sumout => \multiplication_function|Add1~117_sumout\,
-	cout => \multiplication_function|Add1~118\);
+	cin => \multiplication_function|Add1~62\,
+	sumout => \multiplication_function|Add1~65_sumout\,
+	cout => \multiplication_function|Add1~66\);
 
 \multiplication_function|bit_counter[7]\ : dffeas
 -- pragma translate_off
@@ -5398,17 +5398,17 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	clk => \CLK_main~input_o\,
-	d => \multiplication_function|Add1~117_sumout\,
+	d => \multiplication_function|Add1~65_sumout\,
 	sclr => \multiplication_function|LessThan0~5_combout\,
-	ena => \multiplication_function|bit_counter[17]~0_combout\,
+	ena => \multiplication_function|bit_counter[5]~0_combout\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
 	q => \multiplication_function|bit_counter\(7));
 
-\multiplication_function|Add1~101\ : cyclonev_lcell_comb
+\multiplication_function|Add1~69\ : cyclonev_lcell_comb
 -- Equation(s):
--- \multiplication_function|Add1~101_sumout\ = SUM(( \multiplication_function|bit_counter\(8) ) + ( GND ) + ( \multiplication_function|Add1~118\ ))
--- \multiplication_function|Add1~102\ = CARRY(( \multiplication_function|bit_counter\(8) ) + ( GND ) + ( \multiplication_function|Add1~118\ ))
+-- \multiplication_function|Add1~69_sumout\ = SUM(( \multiplication_function|bit_counter\(8) ) + ( GND ) + ( \multiplication_function|Add1~66\ ))
+-- \multiplication_function|Add1~70\ = CARRY(( \multiplication_function|bit_counter\(8) ) + ( GND ) + ( \multiplication_function|Add1~66\ ))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -5418,9 +5418,9 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	datad => \multiplication_function|ALT_INV_bit_counter\(8),
-	cin => \multiplication_function|Add1~118\,
-	sumout => \multiplication_function|Add1~101_sumout\,
-	cout => \multiplication_function|Add1~102\);
+	cin => \multiplication_function|Add1~66\,
+	sumout => \multiplication_function|Add1~69_sumout\,
+	cout => \multiplication_function|Add1~70\);
 
 \multiplication_function|bit_counter[8]\ : dffeas
 -- pragma translate_off
@@ -5430,17 +5430,17 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	clk => \CLK_main~input_o\,
-	d => \multiplication_function|Add1~101_sumout\,
+	d => \multiplication_function|Add1~69_sumout\,
 	sclr => \multiplication_function|LessThan0~5_combout\,
-	ena => \multiplication_function|bit_counter[17]~0_combout\,
+	ena => \multiplication_function|bit_counter[5]~0_combout\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
 	q => \multiplication_function|bit_counter\(8));
 
-\multiplication_function|Add1~21\ : cyclonev_lcell_comb
+\multiplication_function|Add1~73\ : cyclonev_lcell_comb
 -- Equation(s):
--- \multiplication_function|Add1~21_sumout\ = SUM(( \multiplication_function|bit_counter\(9) ) + ( GND ) + ( \multiplication_function|Add1~102\ ))
--- \multiplication_function|Add1~22\ = CARRY(( \multiplication_function|bit_counter\(9) ) + ( GND ) + ( \multiplication_function|Add1~102\ ))
+-- \multiplication_function|Add1~73_sumout\ = SUM(( \multiplication_function|bit_counter\(9) ) + ( GND ) + ( \multiplication_function|Add1~70\ ))
+-- \multiplication_function|Add1~74\ = CARRY(( \multiplication_function|bit_counter\(9) ) + ( GND ) + ( \multiplication_function|Add1~70\ ))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -5450,9 +5450,9 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	datad => \multiplication_function|ALT_INV_bit_counter\(9),
-	cin => \multiplication_function|Add1~102\,
-	sumout => \multiplication_function|Add1~21_sumout\,
-	cout => \multiplication_function|Add1~22\);
+	cin => \multiplication_function|Add1~70\,
+	sumout => \multiplication_function|Add1~73_sumout\,
+	cout => \multiplication_function|Add1~74\);
 
 \multiplication_function|bit_counter[9]\ : dffeas
 -- pragma translate_off
@@ -5462,17 +5462,17 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	clk => \CLK_main~input_o\,
-	d => \multiplication_function|Add1~21_sumout\,
+	d => \multiplication_function|Add1~73_sumout\,
 	sclr => \multiplication_function|LessThan0~5_combout\,
-	ena => \multiplication_function|bit_counter[17]~0_combout\,
+	ena => \multiplication_function|bit_counter[5]~0_combout\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
 	q => \multiplication_function|bit_counter\(9));
 
-\multiplication_function|Add1~17\ : cyclonev_lcell_comb
+\multiplication_function|Add1~29\ : cyclonev_lcell_comb
 -- Equation(s):
--- \multiplication_function|Add1~17_sumout\ = SUM(( \multiplication_function|bit_counter\(10) ) + ( GND ) + ( \multiplication_function|Add1~22\ ))
--- \multiplication_function|Add1~18\ = CARRY(( \multiplication_function|bit_counter\(10) ) + ( GND ) + ( \multiplication_function|Add1~22\ ))
+-- \multiplication_function|Add1~29_sumout\ = SUM(( \multiplication_function|bit_counter\(10) ) + ( GND ) + ( \multiplication_function|Add1~74\ ))
+-- \multiplication_function|Add1~30\ = CARRY(( \multiplication_function|bit_counter\(10) ) + ( GND ) + ( \multiplication_function|Add1~74\ ))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -5482,9 +5482,9 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	datad => \multiplication_function|ALT_INV_bit_counter\(10),
-	cin => \multiplication_function|Add1~22\,
-	sumout => \multiplication_function|Add1~17_sumout\,
-	cout => \multiplication_function|Add1~18\);
+	cin => \multiplication_function|Add1~74\,
+	sumout => \multiplication_function|Add1~29_sumout\,
+	cout => \multiplication_function|Add1~30\);
 
 \multiplication_function|bit_counter[10]\ : dffeas
 -- pragma translate_off
@@ -5494,17 +5494,17 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	clk => \CLK_main~input_o\,
-	d => \multiplication_function|Add1~17_sumout\,
+	d => \multiplication_function|Add1~29_sumout\,
 	sclr => \multiplication_function|LessThan0~5_combout\,
-	ena => \multiplication_function|bit_counter[17]~0_combout\,
+	ena => \multiplication_function|bit_counter[5]~0_combout\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
 	q => \multiplication_function|bit_counter\(10));
 
-\multiplication_function|Add1~13\ : cyclonev_lcell_comb
+\multiplication_function|Add1~101\ : cyclonev_lcell_comb
 -- Equation(s):
--- \multiplication_function|Add1~13_sumout\ = SUM(( \multiplication_function|bit_counter\(11) ) + ( GND ) + ( \multiplication_function|Add1~18\ ))
--- \multiplication_function|Add1~14\ = CARRY(( \multiplication_function|bit_counter\(11) ) + ( GND ) + ( \multiplication_function|Add1~18\ ))
+-- \multiplication_function|Add1~101_sumout\ = SUM(( \multiplication_function|bit_counter\(11) ) + ( GND ) + ( \multiplication_function|Add1~30\ ))
+-- \multiplication_function|Add1~102\ = CARRY(( \multiplication_function|bit_counter\(11) ) + ( GND ) + ( \multiplication_function|Add1~30\ ))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -5514,9 +5514,9 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	datad => \multiplication_function|ALT_INV_bit_counter\(11),
-	cin => \multiplication_function|Add1~18\,
-	sumout => \multiplication_function|Add1~13_sumout\,
-	cout => \multiplication_function|Add1~14\);
+	cin => \multiplication_function|Add1~30\,
+	sumout => \multiplication_function|Add1~101_sumout\,
+	cout => \multiplication_function|Add1~102\);
 
 \multiplication_function|bit_counter[11]\ : dffeas
 -- pragma translate_off
@@ -5526,17 +5526,17 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	clk => \CLK_main~input_o\,
-	d => \multiplication_function|Add1~13_sumout\,
+	d => \multiplication_function|Add1~101_sumout\,
 	sclr => \multiplication_function|LessThan0~5_combout\,
-	ena => \multiplication_function|bit_counter[17]~0_combout\,
+	ena => \multiplication_function|bit_counter[5]~0_combout\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
 	q => \multiplication_function|bit_counter\(11));
 
-\multiplication_function|Add1~9\ : cyclonev_lcell_comb
+\multiplication_function|Add1~49\ : cyclonev_lcell_comb
 -- Equation(s):
--- \multiplication_function|Add1~9_sumout\ = SUM(( \multiplication_function|bit_counter\(12) ) + ( GND ) + ( \multiplication_function|Add1~14\ ))
--- \multiplication_function|Add1~10\ = CARRY(( \multiplication_function|bit_counter\(12) ) + ( GND ) + ( \multiplication_function|Add1~14\ ))
+-- \multiplication_function|Add1~49_sumout\ = SUM(( \multiplication_function|bit_counter\(12) ) + ( GND ) + ( \multiplication_function|Add1~102\ ))
+-- \multiplication_function|Add1~50\ = CARRY(( \multiplication_function|bit_counter\(12) ) + ( GND ) + ( \multiplication_function|Add1~102\ ))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -5546,9 +5546,9 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	datad => \multiplication_function|ALT_INV_bit_counter\(12),
-	cin => \multiplication_function|Add1~14\,
-	sumout => \multiplication_function|Add1~9_sumout\,
-	cout => \multiplication_function|Add1~10\);
+	cin => \multiplication_function|Add1~102\,
+	sumout => \multiplication_function|Add1~49_sumout\,
+	cout => \multiplication_function|Add1~50\);
 
 \multiplication_function|bit_counter[12]\ : dffeas
 -- pragma translate_off
@@ -5558,17 +5558,17 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	clk => \CLK_main~input_o\,
-	d => \multiplication_function|Add1~9_sumout\,
+	d => \multiplication_function|Add1~49_sumout\,
 	sclr => \multiplication_function|LessThan0~5_combout\,
-	ena => \multiplication_function|bit_counter[17]~0_combout\,
+	ena => \multiplication_function|bit_counter[5]~0_combout\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
 	q => \multiplication_function|bit_counter\(12));
 
-\multiplication_function|Add1~41\ : cyclonev_lcell_comb
+\multiplication_function|Add1~45\ : cyclonev_lcell_comb
 -- Equation(s):
--- \multiplication_function|Add1~41_sumout\ = SUM(( \multiplication_function|bit_counter\(13) ) + ( GND ) + ( \multiplication_function|Add1~10\ ))
--- \multiplication_function|Add1~42\ = CARRY(( \multiplication_function|bit_counter\(13) ) + ( GND ) + ( \multiplication_function|Add1~10\ ))
+-- \multiplication_function|Add1~45_sumout\ = SUM(( \multiplication_function|bit_counter\(13) ) + ( GND ) + ( \multiplication_function|Add1~50\ ))
+-- \multiplication_function|Add1~46\ = CARRY(( \multiplication_function|bit_counter\(13) ) + ( GND ) + ( \multiplication_function|Add1~50\ ))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -5578,9 +5578,9 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	datad => \multiplication_function|ALT_INV_bit_counter\(13),
-	cin => \multiplication_function|Add1~10\,
-	sumout => \multiplication_function|Add1~41_sumout\,
-	cout => \multiplication_function|Add1~42\);
+	cin => \multiplication_function|Add1~50\,
+	sumout => \multiplication_function|Add1~45_sumout\,
+	cout => \multiplication_function|Add1~46\);
 
 \multiplication_function|bit_counter[13]\ : dffeas
 -- pragma translate_off
@@ -5590,17 +5590,17 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	clk => \CLK_main~input_o\,
-	d => \multiplication_function|Add1~41_sumout\,
+	d => \multiplication_function|Add1~45_sumout\,
 	sclr => \multiplication_function|LessThan0~5_combout\,
-	ena => \multiplication_function|bit_counter[17]~0_combout\,
+	ena => \multiplication_function|bit_counter[5]~0_combout\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
 	q => \multiplication_function|bit_counter\(13));
 
-\multiplication_function|Add1~5\ : cyclonev_lcell_comb
+\multiplication_function|Add1~41\ : cyclonev_lcell_comb
 -- Equation(s):
--- \multiplication_function|Add1~5_sumout\ = SUM(( \multiplication_function|bit_counter\(14) ) + ( GND ) + ( \multiplication_function|Add1~42\ ))
--- \multiplication_function|Add1~6\ = CARRY(( \multiplication_function|bit_counter\(14) ) + ( GND ) + ( \multiplication_function|Add1~42\ ))
+-- \multiplication_function|Add1~41_sumout\ = SUM(( \multiplication_function|bit_counter\(14) ) + ( GND ) + ( \multiplication_function|Add1~46\ ))
+-- \multiplication_function|Add1~42\ = CARRY(( \multiplication_function|bit_counter\(14) ) + ( GND ) + ( \multiplication_function|Add1~46\ ))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -5610,9 +5610,9 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	datad => \multiplication_function|ALT_INV_bit_counter\(14),
-	cin => \multiplication_function|Add1~42\,
-	sumout => \multiplication_function|Add1~5_sumout\,
-	cout => \multiplication_function|Add1~6\);
+	cin => \multiplication_function|Add1~46\,
+	sumout => \multiplication_function|Add1~41_sumout\,
+	cout => \multiplication_function|Add1~42\);
 
 \multiplication_function|bit_counter[14]\ : dffeas
 -- pragma translate_off
@@ -5622,17 +5622,17 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	clk => \CLK_main~input_o\,
-	d => \multiplication_function|Add1~5_sumout\,
+	d => \multiplication_function|Add1~41_sumout\,
 	sclr => \multiplication_function|LessThan0~5_combout\,
-	ena => \multiplication_function|bit_counter[17]~0_combout\,
+	ena => \multiplication_function|bit_counter[5]~0_combout\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
 	q => \multiplication_function|bit_counter\(14));
 
-\multiplication_function|Add1~49\ : cyclonev_lcell_comb
+\multiplication_function|Add1~37\ : cyclonev_lcell_comb
 -- Equation(s):
--- \multiplication_function|Add1~49_sumout\ = SUM(( \multiplication_function|bit_counter\(15) ) + ( GND ) + ( \multiplication_function|Add1~6\ ))
--- \multiplication_function|Add1~50\ = CARRY(( \multiplication_function|bit_counter\(15) ) + ( GND ) + ( \multiplication_function|Add1~6\ ))
+-- \multiplication_function|Add1~37_sumout\ = SUM(( \multiplication_function|bit_counter\(15) ) + ( GND ) + ( \multiplication_function|Add1~42\ ))
+-- \multiplication_function|Add1~38\ = CARRY(( \multiplication_function|bit_counter\(15) ) + ( GND ) + ( \multiplication_function|Add1~42\ ))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -5642,9 +5642,9 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	datad => \multiplication_function|ALT_INV_bit_counter\(15),
-	cin => \multiplication_function|Add1~6\,
-	sumout => \multiplication_function|Add1~49_sumout\,
-	cout => \multiplication_function|Add1~50\);
+	cin => \multiplication_function|Add1~42\,
+	sumout => \multiplication_function|Add1~37_sumout\,
+	cout => \multiplication_function|Add1~38\);
 
 \multiplication_function|bit_counter[15]\ : dffeas
 -- pragma translate_off
@@ -5654,17 +5654,17 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	clk => \CLK_main~input_o\,
-	d => \multiplication_function|Add1~49_sumout\,
+	d => \multiplication_function|Add1~37_sumout\,
 	sclr => \multiplication_function|LessThan0~5_combout\,
-	ena => \multiplication_function|bit_counter[17]~0_combout\,
+	ena => \multiplication_function|bit_counter[5]~0_combout\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
 	q => \multiplication_function|bit_counter\(15));
 
-\multiplication_function|Add1~121\ : cyclonev_lcell_comb
+\multiplication_function|Add1~33\ : cyclonev_lcell_comb
 -- Equation(s):
--- \multiplication_function|Add1~121_sumout\ = SUM(( \multiplication_function|bit_counter\(16) ) + ( GND ) + ( \multiplication_function|Add1~50\ ))
--- \multiplication_function|Add1~122\ = CARRY(( \multiplication_function|bit_counter\(16) ) + ( GND ) + ( \multiplication_function|Add1~50\ ))
+-- \multiplication_function|Add1~33_sumout\ = SUM(( \multiplication_function|bit_counter\(16) ) + ( GND ) + ( \multiplication_function|Add1~38\ ))
+-- \multiplication_function|Add1~34\ = CARRY(( \multiplication_function|bit_counter\(16) ) + ( GND ) + ( \multiplication_function|Add1~38\ ))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -5674,9 +5674,9 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	datad => \multiplication_function|ALT_INV_bit_counter\(16),
-	cin => \multiplication_function|Add1~50\,
-	sumout => \multiplication_function|Add1~121_sumout\,
-	cout => \multiplication_function|Add1~122\);
+	cin => \multiplication_function|Add1~38\,
+	sumout => \multiplication_function|Add1~33_sumout\,
+	cout => \multiplication_function|Add1~34\);
 
 \multiplication_function|bit_counter[16]\ : dffeas
 -- pragma translate_off
@@ -5686,17 +5686,17 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	clk => \CLK_main~input_o\,
-	d => \multiplication_function|Add1~121_sumout\,
+	d => \multiplication_function|Add1~33_sumout\,
 	sclr => \multiplication_function|LessThan0~5_combout\,
-	ena => \multiplication_function|bit_counter[17]~0_combout\,
+	ena => \multiplication_function|bit_counter[5]~0_combout\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
 	q => \multiplication_function|bit_counter\(16));
 
-\multiplication_function|Add1~45\ : cyclonev_lcell_comb
+\multiplication_function|Add1~105\ : cyclonev_lcell_comb
 -- Equation(s):
--- \multiplication_function|Add1~45_sumout\ = SUM(( \multiplication_function|bit_counter\(17) ) + ( GND ) + ( \multiplication_function|Add1~122\ ))
--- \multiplication_function|Add1~46\ = CARRY(( \multiplication_function|bit_counter\(17) ) + ( GND ) + ( \multiplication_function|Add1~122\ ))
+-- \multiplication_function|Add1~105_sumout\ = SUM(( \multiplication_function|bit_counter\(17) ) + ( GND ) + ( \multiplication_function|Add1~34\ ))
+-- \multiplication_function|Add1~106\ = CARRY(( \multiplication_function|bit_counter\(17) ) + ( GND ) + ( \multiplication_function|Add1~34\ ))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -5706,9 +5706,9 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	datad => \multiplication_function|ALT_INV_bit_counter\(17),
-	cin => \multiplication_function|Add1~122\,
-	sumout => \multiplication_function|Add1~45_sumout\,
-	cout => \multiplication_function|Add1~46\);
+	cin => \multiplication_function|Add1~34\,
+	sumout => \multiplication_function|Add1~105_sumout\,
+	cout => \multiplication_function|Add1~106\);
 
 \multiplication_function|bit_counter[17]\ : dffeas
 -- pragma translate_off
@@ -5718,17 +5718,17 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	clk => \CLK_main~input_o\,
-	d => \multiplication_function|Add1~45_sumout\,
+	d => \multiplication_function|Add1~105_sumout\,
 	sclr => \multiplication_function|LessThan0~5_combout\,
-	ena => \multiplication_function|bit_counter[17]~0_combout\,
+	ena => \multiplication_function|bit_counter[5]~0_combout\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
 	q => \multiplication_function|bit_counter\(17));
 
-\multiplication_function|Add1~37\ : cyclonev_lcell_comb
+\multiplication_function|Add1~85\ : cyclonev_lcell_comb
 -- Equation(s):
--- \multiplication_function|Add1~37_sumout\ = SUM(( \multiplication_function|bit_counter\(18) ) + ( GND ) + ( \multiplication_function|Add1~46\ ))
--- \multiplication_function|Add1~38\ = CARRY(( \multiplication_function|bit_counter\(18) ) + ( GND ) + ( \multiplication_function|Add1~46\ ))
+-- \multiplication_function|Add1~85_sumout\ = SUM(( \multiplication_function|bit_counter\(18) ) + ( GND ) + ( \multiplication_function|Add1~106\ ))
+-- \multiplication_function|Add1~86\ = CARRY(( \multiplication_function|bit_counter\(18) ) + ( GND ) + ( \multiplication_function|Add1~106\ ))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -5738,9 +5738,9 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	datad => \multiplication_function|ALT_INV_bit_counter\(18),
-	cin => \multiplication_function|Add1~46\,
-	sumout => \multiplication_function|Add1~37_sumout\,
-	cout => \multiplication_function|Add1~38\);
+	cin => \multiplication_function|Add1~106\,
+	sumout => \multiplication_function|Add1~85_sumout\,
+	cout => \multiplication_function|Add1~86\);
 
 \multiplication_function|bit_counter[18]\ : dffeas
 -- pragma translate_off
@@ -5750,17 +5750,17 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	clk => \CLK_main~input_o\,
-	d => \multiplication_function|Add1~37_sumout\,
+	d => \multiplication_function|Add1~85_sumout\,
 	sclr => \multiplication_function|LessThan0~5_combout\,
-	ena => \multiplication_function|bit_counter[17]~0_combout\,
+	ena => \multiplication_function|bit_counter[5]~0_combout\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
 	q => \multiplication_function|bit_counter\(18));
 
-\multiplication_function|Add1~33\ : cyclonev_lcell_comb
+\multiplication_function|Add1~97\ : cyclonev_lcell_comb
 -- Equation(s):
--- \multiplication_function|Add1~33_sumout\ = SUM(( \multiplication_function|bit_counter\(19) ) + ( GND ) + ( \multiplication_function|Add1~38\ ))
--- \multiplication_function|Add1~34\ = CARRY(( \multiplication_function|bit_counter\(19) ) + ( GND ) + ( \multiplication_function|Add1~38\ ))
+-- \multiplication_function|Add1~97_sumout\ = SUM(( \multiplication_function|bit_counter\(19) ) + ( GND ) + ( \multiplication_function|Add1~86\ ))
+-- \multiplication_function|Add1~98\ = CARRY(( \multiplication_function|bit_counter\(19) ) + ( GND ) + ( \multiplication_function|Add1~86\ ))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -5770,9 +5770,9 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	datad => \multiplication_function|ALT_INV_bit_counter\(19),
-	cin => \multiplication_function|Add1~38\,
-	sumout => \multiplication_function|Add1~33_sumout\,
-	cout => \multiplication_function|Add1~34\);
+	cin => \multiplication_function|Add1~86\,
+	sumout => \multiplication_function|Add1~97_sumout\,
+	cout => \multiplication_function|Add1~98\);
 
 \multiplication_function|bit_counter[19]\ : dffeas
 -- pragma translate_off
@@ -5782,17 +5782,17 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	clk => \CLK_main~input_o\,
-	d => \multiplication_function|Add1~33_sumout\,
+	d => \multiplication_function|Add1~97_sumout\,
 	sclr => \multiplication_function|LessThan0~5_combout\,
-	ena => \multiplication_function|bit_counter[17]~0_combout\,
+	ena => \multiplication_function|bit_counter[5]~0_combout\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
 	q => \multiplication_function|bit_counter\(19));
 
-\multiplication_function|Add1~29\ : cyclonev_lcell_comb
+\multiplication_function|Add1~93\ : cyclonev_lcell_comb
 -- Equation(s):
--- \multiplication_function|Add1~29_sumout\ = SUM(( \multiplication_function|bit_counter\(20) ) + ( GND ) + ( \multiplication_function|Add1~34\ ))
--- \multiplication_function|Add1~30\ = CARRY(( \multiplication_function|bit_counter\(20) ) + ( GND ) + ( \multiplication_function|Add1~34\ ))
+-- \multiplication_function|Add1~93_sumout\ = SUM(( \multiplication_function|bit_counter\(20) ) + ( GND ) + ( \multiplication_function|Add1~98\ ))
+-- \multiplication_function|Add1~94\ = CARRY(( \multiplication_function|bit_counter\(20) ) + ( GND ) + ( \multiplication_function|Add1~98\ ))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -5802,9 +5802,9 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	datad => \multiplication_function|ALT_INV_bit_counter\(20),
-	cin => \multiplication_function|Add1~34\,
-	sumout => \multiplication_function|Add1~29_sumout\,
-	cout => \multiplication_function|Add1~30\);
+	cin => \multiplication_function|Add1~98\,
+	sumout => \multiplication_function|Add1~93_sumout\,
+	cout => \multiplication_function|Add1~94\);
 
 \multiplication_function|bit_counter[20]\ : dffeas
 -- pragma translate_off
@@ -5814,17 +5814,17 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	clk => \CLK_main~input_o\,
-	d => \multiplication_function|Add1~29_sumout\,
+	d => \multiplication_function|Add1~93_sumout\,
 	sclr => \multiplication_function|LessThan0~5_combout\,
-	ena => \multiplication_function|bit_counter[17]~0_combout\,
+	ena => \multiplication_function|bit_counter[5]~0_combout\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
 	q => \multiplication_function|bit_counter\(20));
 
-\multiplication_function|Add1~73\ : cyclonev_lcell_comb
+\multiplication_function|Add1~117\ : cyclonev_lcell_comb
 -- Equation(s):
--- \multiplication_function|Add1~73_sumout\ = SUM(( \multiplication_function|bit_counter\(21) ) + ( GND ) + ( \multiplication_function|Add1~30\ ))
--- \multiplication_function|Add1~74\ = CARRY(( \multiplication_function|bit_counter\(21) ) + ( GND ) + ( \multiplication_function|Add1~30\ ))
+-- \multiplication_function|Add1~117_sumout\ = SUM(( \multiplication_function|bit_counter\(21) ) + ( GND ) + ( \multiplication_function|Add1~94\ ))
+-- \multiplication_function|Add1~118\ = CARRY(( \multiplication_function|bit_counter\(21) ) + ( GND ) + ( \multiplication_function|Add1~94\ ))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -5834,9 +5834,9 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	datad => \multiplication_function|ALT_INV_bit_counter\(21),
-	cin => \multiplication_function|Add1~30\,
-	sumout => \multiplication_function|Add1~73_sumout\,
-	cout => \multiplication_function|Add1~74\);
+	cin => \multiplication_function|Add1~94\,
+	sumout => \multiplication_function|Add1~117_sumout\,
+	cout => \multiplication_function|Add1~118\);
 
 \multiplication_function|bit_counter[21]\ : dffeas
 -- pragma translate_off
@@ -5846,17 +5846,17 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	clk => \CLK_main~input_o\,
-	d => \multiplication_function|Add1~73_sumout\,
+	d => \multiplication_function|Add1~117_sumout\,
 	sclr => \multiplication_function|LessThan0~5_combout\,
-	ena => \multiplication_function|bit_counter[17]~0_combout\,
+	ena => \multiplication_function|bit_counter[5]~0_combout\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
 	q => \multiplication_function|bit_counter\(21));
 
-\multiplication_function|Add1~69\ : cyclonev_lcell_comb
+\multiplication_function|Add1~89\ : cyclonev_lcell_comb
 -- Equation(s):
--- \multiplication_function|Add1~69_sumout\ = SUM(( \multiplication_function|bit_counter\(22) ) + ( GND ) + ( \multiplication_function|Add1~74\ ))
--- \multiplication_function|Add1~70\ = CARRY(( \multiplication_function|bit_counter\(22) ) + ( GND ) + ( \multiplication_function|Add1~74\ ))
+-- \multiplication_function|Add1~89_sumout\ = SUM(( \multiplication_function|bit_counter\(22) ) + ( GND ) + ( \multiplication_function|Add1~118\ ))
+-- \multiplication_function|Add1~90\ = CARRY(( \multiplication_function|bit_counter\(22) ) + ( GND ) + ( \multiplication_function|Add1~118\ ))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -5866,9 +5866,9 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	datad => \multiplication_function|ALT_INV_bit_counter\(22),
-	cin => \multiplication_function|Add1~74\,
-	sumout => \multiplication_function|Add1~69_sumout\,
-	cout => \multiplication_function|Add1~70\);
+	cin => \multiplication_function|Add1~118\,
+	sumout => \multiplication_function|Add1~89_sumout\,
+	cout => \multiplication_function|Add1~90\);
 
 \multiplication_function|bit_counter[22]\ : dffeas
 -- pragma translate_off
@@ -5878,17 +5878,17 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	clk => \CLK_main~input_o\,
-	d => \multiplication_function|Add1~69_sumout\,
+	d => \multiplication_function|Add1~89_sumout\,
 	sclr => \multiplication_function|LessThan0~5_combout\,
-	ena => \multiplication_function|bit_counter[17]~0_combout\,
+	ena => \multiplication_function|bit_counter[5]~0_combout\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
 	q => \multiplication_function|bit_counter\(22));
 
-\multiplication_function|Add1~65\ : cyclonev_lcell_comb
+\multiplication_function|Add1~5\ : cyclonev_lcell_comb
 -- Equation(s):
--- \multiplication_function|Add1~65_sumout\ = SUM(( \multiplication_function|bit_counter\(23) ) + ( GND ) + ( \multiplication_function|Add1~70\ ))
--- \multiplication_function|Add1~66\ = CARRY(( \multiplication_function|bit_counter\(23) ) + ( GND ) + ( \multiplication_function|Add1~70\ ))
+-- \multiplication_function|Add1~5_sumout\ = SUM(( \multiplication_function|bit_counter\(23) ) + ( GND ) + ( \multiplication_function|Add1~90\ ))
+-- \multiplication_function|Add1~6\ = CARRY(( \multiplication_function|bit_counter\(23) ) + ( GND ) + ( \multiplication_function|Add1~90\ ))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -5898,9 +5898,9 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	datad => \multiplication_function|ALT_INV_bit_counter\(23),
-	cin => \multiplication_function|Add1~70\,
-	sumout => \multiplication_function|Add1~65_sumout\,
-	cout => \multiplication_function|Add1~66\);
+	cin => \multiplication_function|Add1~90\,
+	sumout => \multiplication_function|Add1~5_sumout\,
+	cout => \multiplication_function|Add1~6\);
 
 \multiplication_function|bit_counter[23]\ : dffeas
 -- pragma translate_off
@@ -5910,17 +5910,17 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	clk => \CLK_main~input_o\,
-	d => \multiplication_function|Add1~65_sumout\,
+	d => \multiplication_function|Add1~5_sumout\,
 	sclr => \multiplication_function|LessThan0~5_combout\,
-	ena => \multiplication_function|bit_counter[17]~0_combout\,
+	ena => \multiplication_function|bit_counter[5]~0_combout\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
 	q => \multiplication_function|bit_counter\(23));
 
-\multiplication_function|Add1~61\ : cyclonev_lcell_comb
+\multiplication_function|Add1~9\ : cyclonev_lcell_comb
 -- Equation(s):
--- \multiplication_function|Add1~61_sumout\ = SUM(( \multiplication_function|bit_counter\(24) ) + ( GND ) + ( \multiplication_function|Add1~66\ ))
--- \multiplication_function|Add1~62\ = CARRY(( \multiplication_function|bit_counter\(24) ) + ( GND ) + ( \multiplication_function|Add1~66\ ))
+-- \multiplication_function|Add1~9_sumout\ = SUM(( \multiplication_function|bit_counter\(24) ) + ( GND ) + ( \multiplication_function|Add1~6\ ))
+-- \multiplication_function|Add1~10\ = CARRY(( \multiplication_function|bit_counter\(24) ) + ( GND ) + ( \multiplication_function|Add1~6\ ))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -5930,9 +5930,9 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	datad => \multiplication_function|ALT_INV_bit_counter\(24),
-	cin => \multiplication_function|Add1~66\,
-	sumout => \multiplication_function|Add1~61_sumout\,
-	cout => \multiplication_function|Add1~62\);
+	cin => \multiplication_function|Add1~6\,
+	sumout => \multiplication_function|Add1~9_sumout\,
+	cout => \multiplication_function|Add1~10\);
 
 \multiplication_function|bit_counter[24]\ : dffeas
 -- pragma translate_off
@@ -5942,17 +5942,17 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	clk => \CLK_main~input_o\,
-	d => \multiplication_function|Add1~61_sumout\,
+	d => \multiplication_function|Add1~9_sumout\,
 	sclr => \multiplication_function|LessThan0~5_combout\,
-	ena => \multiplication_function|bit_counter[17]~0_combout\,
+	ena => \multiplication_function|bit_counter[5]~0_combout\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
 	q => \multiplication_function|bit_counter\(24));
 
-\multiplication_function|Add1~57\ : cyclonev_lcell_comb
+\multiplication_function|Add1~13\ : cyclonev_lcell_comb
 -- Equation(s):
--- \multiplication_function|Add1~57_sumout\ = SUM(( \multiplication_function|bit_counter\(25) ) + ( GND ) + ( \multiplication_function|Add1~62\ ))
--- \multiplication_function|Add1~58\ = CARRY(( \multiplication_function|bit_counter\(25) ) + ( GND ) + ( \multiplication_function|Add1~62\ ))
+-- \multiplication_function|Add1~13_sumout\ = SUM(( \multiplication_function|bit_counter\(25) ) + ( GND ) + ( \multiplication_function|Add1~10\ ))
+-- \multiplication_function|Add1~14\ = CARRY(( \multiplication_function|bit_counter\(25) ) + ( GND ) + ( \multiplication_function|Add1~10\ ))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -5962,9 +5962,9 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	datad => \multiplication_function|ALT_INV_bit_counter\(25),
-	cin => \multiplication_function|Add1~62\,
-	sumout => \multiplication_function|Add1~57_sumout\,
-	cout => \multiplication_function|Add1~58\);
+	cin => \multiplication_function|Add1~10\,
+	sumout => \multiplication_function|Add1~13_sumout\,
+	cout => \multiplication_function|Add1~14\);
 
 \multiplication_function|bit_counter[25]\ : dffeas
 -- pragma translate_off
@@ -5974,17 +5974,17 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	clk => \CLK_main~input_o\,
-	d => \multiplication_function|Add1~57_sumout\,
+	d => \multiplication_function|Add1~13_sumout\,
 	sclr => \multiplication_function|LessThan0~5_combout\,
-	ena => \multiplication_function|bit_counter[17]~0_combout\,
+	ena => \multiplication_function|bit_counter[5]~0_combout\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
 	q => \multiplication_function|bit_counter\(25));
 
-\multiplication_function|Add1~53\ : cyclonev_lcell_comb
+\multiplication_function|Add1~17\ : cyclonev_lcell_comb
 -- Equation(s):
--- \multiplication_function|Add1~53_sumout\ = SUM(( \multiplication_function|bit_counter\(26) ) + ( GND ) + ( \multiplication_function|Add1~58\ ))
--- \multiplication_function|Add1~54\ = CARRY(( \multiplication_function|bit_counter\(26) ) + ( GND ) + ( \multiplication_function|Add1~58\ ))
+-- \multiplication_function|Add1~17_sumout\ = SUM(( \multiplication_function|bit_counter\(26) ) + ( GND ) + ( \multiplication_function|Add1~14\ ))
+-- \multiplication_function|Add1~18\ = CARRY(( \multiplication_function|bit_counter\(26) ) + ( GND ) + ( \multiplication_function|Add1~14\ ))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -5994,9 +5994,9 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	datad => \multiplication_function|ALT_INV_bit_counter\(26),
-	cin => \multiplication_function|Add1~58\,
-	sumout => \multiplication_function|Add1~53_sumout\,
-	cout => \multiplication_function|Add1~54\);
+	cin => \multiplication_function|Add1~14\,
+	sumout => \multiplication_function|Add1~17_sumout\,
+	cout => \multiplication_function|Add1~18\);
 
 \multiplication_function|bit_counter[26]\ : dffeas
 -- pragma translate_off
@@ -6006,17 +6006,17 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	clk => \CLK_main~input_o\,
-	d => \multiplication_function|Add1~53_sumout\,
+	d => \multiplication_function|Add1~17_sumout\,
 	sclr => \multiplication_function|LessThan0~5_combout\,
-	ena => \multiplication_function|bit_counter[17]~0_combout\,
+	ena => \multiplication_function|bit_counter[5]~0_combout\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
 	q => \multiplication_function|bit_counter\(26));
 
-\multiplication_function|Add1~105\ : cyclonev_lcell_comb
+\multiplication_function|Add1~21\ : cyclonev_lcell_comb
 -- Equation(s):
--- \multiplication_function|Add1~105_sumout\ = SUM(( \multiplication_function|bit_counter\(27) ) + ( GND ) + ( \multiplication_function|Add1~54\ ))
--- \multiplication_function|Add1~106\ = CARRY(( \multiplication_function|bit_counter\(27) ) + ( GND ) + ( \multiplication_function|Add1~54\ ))
+-- \multiplication_function|Add1~21_sumout\ = SUM(( \multiplication_function|bit_counter\(27) ) + ( GND ) + ( \multiplication_function|Add1~18\ ))
+-- \multiplication_function|Add1~22\ = CARRY(( \multiplication_function|bit_counter\(27) ) + ( GND ) + ( \multiplication_function|Add1~18\ ))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -6026,9 +6026,9 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	datad => \multiplication_function|ALT_INV_bit_counter\(27),
-	cin => \multiplication_function|Add1~54\,
-	sumout => \multiplication_function|Add1~105_sumout\,
-	cout => \multiplication_function|Add1~106\);
+	cin => \multiplication_function|Add1~18\,
+	sumout => \multiplication_function|Add1~21_sumout\,
+	cout => \multiplication_function|Add1~22\);
 
 \multiplication_function|bit_counter[27]\ : dffeas
 -- pragma translate_off
@@ -6038,17 +6038,17 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	clk => \CLK_main~input_o\,
-	d => \multiplication_function|Add1~105_sumout\,
+	d => \multiplication_function|Add1~21_sumout\,
 	sclr => \multiplication_function|LessThan0~5_combout\,
-	ena => \multiplication_function|bit_counter[17]~0_combout\,
+	ena => \multiplication_function|bit_counter[5]~0_combout\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
 	q => \multiplication_function|bit_counter\(27));
 
-\multiplication_function|Add1~85\ : cyclonev_lcell_comb
+\multiplication_function|Add1~25\ : cyclonev_lcell_comb
 -- Equation(s):
--- \multiplication_function|Add1~85_sumout\ = SUM(( \multiplication_function|bit_counter\(28) ) + ( GND ) + ( \multiplication_function|Add1~106\ ))
--- \multiplication_function|Add1~86\ = CARRY(( \multiplication_function|bit_counter\(28) ) + ( GND ) + ( \multiplication_function|Add1~106\ ))
+-- \multiplication_function|Add1~25_sumout\ = SUM(( \multiplication_function|bit_counter\(28) ) + ( GND ) + ( \multiplication_function|Add1~22\ ))
+-- \multiplication_function|Add1~26\ = CARRY(( \multiplication_function|bit_counter\(28) ) + ( GND ) + ( \multiplication_function|Add1~22\ ))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -6058,9 +6058,9 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	datad => \multiplication_function|ALT_INV_bit_counter\(28),
-	cin => \multiplication_function|Add1~106\,
-	sumout => \multiplication_function|Add1~85_sumout\,
-	cout => \multiplication_function|Add1~86\);
+	cin => \multiplication_function|Add1~22\,
+	sumout => \multiplication_function|Add1~25_sumout\,
+	cout => \multiplication_function|Add1~26\);
 
 \multiplication_function|bit_counter[28]\ : dffeas
 -- pragma translate_off
@@ -6070,17 +6070,17 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	clk => \CLK_main~input_o\,
-	d => \multiplication_function|Add1~85_sumout\,
+	d => \multiplication_function|Add1~25_sumout\,
 	sclr => \multiplication_function|LessThan0~5_combout\,
-	ena => \multiplication_function|bit_counter[17]~0_combout\,
+	ena => \multiplication_function|bit_counter[5]~0_combout\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
 	q => \multiplication_function|bit_counter\(28));
 
-\multiplication_function|Add1~97\ : cyclonev_lcell_comb
+\multiplication_function|Add1~109\ : cyclonev_lcell_comb
 -- Equation(s):
--- \multiplication_function|Add1~97_sumout\ = SUM(( \multiplication_function|bit_counter\(29) ) + ( GND ) + ( \multiplication_function|Add1~86\ ))
--- \multiplication_function|Add1~98\ = CARRY(( \multiplication_function|bit_counter\(29) ) + ( GND ) + ( \multiplication_function|Add1~86\ ))
+-- \multiplication_function|Add1~109_sumout\ = SUM(( \multiplication_function|bit_counter\(29) ) + ( GND ) + ( \multiplication_function|Add1~26\ ))
+-- \multiplication_function|Add1~110\ = CARRY(( \multiplication_function|bit_counter\(29) ) + ( GND ) + ( \multiplication_function|Add1~26\ ))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -6090,9 +6090,9 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	datad => \multiplication_function|ALT_INV_bit_counter\(29),
-	cin => \multiplication_function|Add1~86\,
-	sumout => \multiplication_function|Add1~97_sumout\,
-	cout => \multiplication_function|Add1~98\);
+	cin => \multiplication_function|Add1~26\,
+	sumout => \multiplication_function|Add1~109_sumout\,
+	cout => \multiplication_function|Add1~110\);
 
 \multiplication_function|bit_counter[29]\ : dffeas
 -- pragma translate_off
@@ -6102,17 +6102,17 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	clk => \CLK_main~input_o\,
-	d => \multiplication_function|Add1~97_sumout\,
+	d => \multiplication_function|Add1~109_sumout\,
 	sclr => \multiplication_function|LessThan0~5_combout\,
-	ena => \multiplication_function|bit_counter[17]~0_combout\,
+	ena => \multiplication_function|bit_counter[5]~0_combout\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
 	q => \multiplication_function|bit_counter\(29));
 
-\multiplication_function|Add1~93\ : cyclonev_lcell_comb
+\multiplication_function|Add1~113\ : cyclonev_lcell_comb
 -- Equation(s):
--- \multiplication_function|Add1~93_sumout\ = SUM(( \multiplication_function|bit_counter\(30) ) + ( GND ) + ( \multiplication_function|Add1~98\ ))
--- \multiplication_function|Add1~94\ = CARRY(( \multiplication_function|bit_counter\(30) ) + ( GND ) + ( \multiplication_function|Add1~98\ ))
+-- \multiplication_function|Add1~113_sumout\ = SUM(( \multiplication_function|bit_counter\(30) ) + ( GND ) + ( \multiplication_function|Add1~110\ ))
+-- \multiplication_function|Add1~114\ = CARRY(( \multiplication_function|bit_counter\(30) ) + ( GND ) + ( \multiplication_function|Add1~110\ ))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -6122,9 +6122,9 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	datad => \multiplication_function|ALT_INV_bit_counter\(30),
-	cin => \multiplication_function|Add1~98\,
-	sumout => \multiplication_function|Add1~93_sumout\,
-	cout => \multiplication_function|Add1~94\);
+	cin => \multiplication_function|Add1~110\,
+	sumout => \multiplication_function|Add1~113_sumout\,
+	cout => \multiplication_function|Add1~114\);
 
 \multiplication_function|bit_counter[30]\ : dffeas
 -- pragma translate_off
@@ -6134,16 +6134,16 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	clk => \CLK_main~input_o\,
-	d => \multiplication_function|Add1~93_sumout\,
+	d => \multiplication_function|Add1~113_sumout\,
 	sclr => \multiplication_function|LessThan0~5_combout\,
-	ena => \multiplication_function|bit_counter[17]~0_combout\,
+	ena => \multiplication_function|bit_counter[5]~0_combout\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
 	q => \multiplication_function|bit_counter\(30));
 
 \multiplication_function|Add1~1\ : cyclonev_lcell_comb
 -- Equation(s):
--- \multiplication_function|Add1~1_sumout\ = SUM(( \multiplication_function|bit_counter\(31) ) + ( GND ) + ( \multiplication_function|Add1~94\ ))
+-- \multiplication_function|Add1~1_sumout\ = SUM(( \multiplication_function|bit_counter\(31) ) + ( GND ) + ( \multiplication_function|Add1~114\ ))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -6153,7 +6153,7 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	datad => \multiplication_function|ALT_INV_bit_counter\(31),
-	cin => \multiplication_function|Add1~94\,
+	cin => \multiplication_function|Add1~114\,
 	sumout => \multiplication_function|Add1~1_sumout\);
 
 \multiplication_function|bit_counter[31]\ : dffeas
@@ -6166,15 +6166,15 @@ PORT MAP (
 	clk => \CLK_main~input_o\,
 	d => \multiplication_function|Add1~1_sumout\,
 	sclr => \multiplication_function|LessThan0~5_combout\,
-	ena => \multiplication_function|bit_counter[17]~0_combout\,
+	ena => \multiplication_function|bit_counter[5]~0_combout\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
 	q => \multiplication_function|bit_counter\(31));
 
 \multiplication_function|LessThan0~0\ : cyclonev_lcell_comb
 -- Equation(s):
--- \multiplication_function|LessThan0~0_combout\ = ( !\multiplication_function|bit_counter\(9) & ( !\multiplication_function|bit_counter\(3) & ( (!\multiplication_function|bit_counter\(14) & (!\multiplication_function|bit_counter\(12) & 
--- (!\multiplication_function|bit_counter\(11) & !\multiplication_function|bit_counter\(10)))) ) ) )
+-- \multiplication_function|LessThan0~0_combout\ = ( !\multiplication_function|bit_counter\(27) & ( !\multiplication_function|bit_counter\(28) & ( (!\multiplication_function|bit_counter\(23) & (!\multiplication_function|bit_counter\(24) & 
+-- (!\multiplication_function|bit_counter\(25) & !\multiplication_function|bit_counter\(26)))) ) ) )
 
 -- pragma translate_off
 GENERIC MAP (
@@ -6183,18 +6183,18 @@ GENERIC MAP (
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
-	dataa => \multiplication_function|ALT_INV_bit_counter\(14),
-	datab => \multiplication_function|ALT_INV_bit_counter\(12),
-	datac => \multiplication_function|ALT_INV_bit_counter\(11),
-	datad => \multiplication_function|ALT_INV_bit_counter\(10),
-	datae => \multiplication_function|ALT_INV_bit_counter\(9),
-	dataf => \multiplication_function|ALT_INV_bit_counter\(3),
+	dataa => \multiplication_function|ALT_INV_bit_counter\(23),
+	datab => \multiplication_function|ALT_INV_bit_counter\(24),
+	datac => \multiplication_function|ALT_INV_bit_counter\(25),
+	datad => \multiplication_function|ALT_INV_bit_counter\(26),
+	datae => \multiplication_function|ALT_INV_bit_counter\(27),
+	dataf => \multiplication_function|ALT_INV_bit_counter\(28),
 	combout => \multiplication_function|LessThan0~0_combout\);
 
 \multiplication_function|LessThan0~1\ : cyclonev_lcell_comb
 -- Equation(s):
--- \multiplication_function|LessThan0~1_combout\ = ( !\multiplication_function|bit_counter\(17) & ( !\multiplication_function|bit_counter\(15) & ( (!\multiplication_function|bit_counter\(20) & (!\multiplication_function|bit_counter\(19) & 
--- (!\multiplication_function|bit_counter\(18) & !\multiplication_function|bit_counter\(13)))) ) ) )
+-- \multiplication_function|LessThan0~1_combout\ = ( !\multiplication_function|bit_counter\(13) & ( !\multiplication_function|bit_counter\(12) & ( (!\multiplication_function|bit_counter\(10) & (!\multiplication_function|bit_counter\(16) & 
+-- (!\multiplication_function|bit_counter\(15) & !\multiplication_function|bit_counter\(14)))) ) ) )
 
 -- pragma translate_off
 GENERIC MAP (
@@ -6203,18 +6203,18 @@ GENERIC MAP (
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
-	dataa => \multiplication_function|ALT_INV_bit_counter\(20),
-	datab => \multiplication_function|ALT_INV_bit_counter\(19),
-	datac => \multiplication_function|ALT_INV_bit_counter\(18),
-	datad => \multiplication_function|ALT_INV_bit_counter\(13),
-	datae => \multiplication_function|ALT_INV_bit_counter\(17),
-	dataf => \multiplication_function|ALT_INV_bit_counter\(15),
+	dataa => \multiplication_function|ALT_INV_bit_counter\(10),
+	datab => \multiplication_function|ALT_INV_bit_counter\(16),
+	datac => \multiplication_function|ALT_INV_bit_counter\(15),
+	datad => \multiplication_function|ALT_INV_bit_counter\(14),
+	datae => \multiplication_function|ALT_INV_bit_counter\(13),
+	dataf => \multiplication_function|ALT_INV_bit_counter\(12),
 	combout => \multiplication_function|LessThan0~1_combout\);
 
 \multiplication_function|LessThan0~2\ : cyclonev_lcell_comb
 -- Equation(s):
--- \multiplication_function|LessThan0~2_combout\ = ( !\multiplication_function|bit_counter\(22) & ( !\multiplication_function|bit_counter\(21) & ( (!\multiplication_function|bit_counter\(26) & (!\multiplication_function|bit_counter\(25) & 
--- (!\multiplication_function|bit_counter\(24) & !\multiplication_function|bit_counter\(23)))) ) ) )
+-- \multiplication_function|LessThan0~2_combout\ = ( !\multiplication_function|bit_counter\(8) & ( !\multiplication_function|bit_counter\(9) & ( (!\multiplication_function|bit_counter\(4) & (!\multiplication_function|bit_counter\(5) & 
+-- (!\multiplication_function|bit_counter\(6) & !\multiplication_function|bit_counter\(7)))) ) ) )
 
 -- pragma translate_off
 GENERIC MAP (
@@ -6223,18 +6223,18 @@ GENERIC MAP (
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
-	dataa => \multiplication_function|ALT_INV_bit_counter\(26),
-	datab => \multiplication_function|ALT_INV_bit_counter\(25),
-	datac => \multiplication_function|ALT_INV_bit_counter\(24),
-	datad => \multiplication_function|ALT_INV_bit_counter\(23),
-	datae => \multiplication_function|ALT_INV_bit_counter\(22),
-	dataf => \multiplication_function|ALT_INV_bit_counter\(21),
+	dataa => \multiplication_function|ALT_INV_bit_counter\(4),
+	datab => \multiplication_function|ALT_INV_bit_counter\(5),
+	datac => \multiplication_function|ALT_INV_bit_counter\(6),
+	datad => \multiplication_function|ALT_INV_bit_counter\(7),
+	datae => \multiplication_function|ALT_INV_bit_counter\(8),
+	dataf => \multiplication_function|ALT_INV_bit_counter\(9),
 	combout => \multiplication_function|LessThan0~2_combout\);
 
 \multiplication_function|LessThan0~3\ : cyclonev_lcell_comb
 -- Equation(s):
--- \multiplication_function|LessThan0~3_combout\ = ( !\multiplication_function|bit_counter\(30) & ( !\multiplication_function|bit_counter\(29) & ( (!\multiplication_function|bit_counter\(28) & (!\multiplication_function|bit_counter\(4) & 
--- ((!\multiplication_function|bit_counter\(1)) # (!\multiplication_function|bit_counter\(2))))) ) ) )
+-- \multiplication_function|LessThan0~3_combout\ = ( !\multiplication_function|bit_counter\(20) & ( !\multiplication_function|bit_counter\(19) & ( (!\multiplication_function|bit_counter\(18) & (!\multiplication_function|bit_counter\(22) & 
+-- ((!\multiplication_function|bit_counter\(2)) # (!\multiplication_function|bit_counter\(1))))) ) ) )
 
 -- pragma translate_off
 GENERIC MAP (
@@ -6243,18 +6243,18 @@ GENERIC MAP (
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
-	dataa => \multiplication_function|ALT_INV_bit_counter\(1),
-	datab => \multiplication_function|ALT_INV_bit_counter\(2),
-	datac => \multiplication_function|ALT_INV_bit_counter\(28),
-	datad => \multiplication_function|ALT_INV_bit_counter\(4),
-	datae => \multiplication_function|ALT_INV_bit_counter\(30),
-	dataf => \multiplication_function|ALT_INV_bit_counter\(29),
+	dataa => \multiplication_function|ALT_INV_bit_counter\(2),
+	datab => \multiplication_function|ALT_INV_bit_counter\(1),
+	datac => \multiplication_function|ALT_INV_bit_counter\(18),
+	datad => \multiplication_function|ALT_INV_bit_counter\(22),
+	datae => \multiplication_function|ALT_INV_bit_counter\(20),
+	dataf => \multiplication_function|ALT_INV_bit_counter\(19),
 	combout => \multiplication_function|LessThan0~3_combout\);
 
 \multiplication_function|LessThan0~4\ : cyclonev_lcell_comb
 -- Equation(s):
--- \multiplication_function|LessThan0~4_combout\ = ( !\multiplication_function|bit_counter\(7) & ( !\multiplication_function|bit_counter\(16) & ( (!\multiplication_function|bit_counter\(8) & (!\multiplication_function|bit_counter\(27) & 
--- (!\multiplication_function|bit_counter\(5) & !\multiplication_function|bit_counter\(6)))) ) ) )
+-- \multiplication_function|LessThan0~4_combout\ = ( !\multiplication_function|bit_counter\(21) & ( !\multiplication_function|bit_counter\(3) & ( (!\multiplication_function|bit_counter\(11) & (!\multiplication_function|bit_counter\(17) & 
+-- (!\multiplication_function|bit_counter\(29) & !\multiplication_function|bit_counter\(30)))) ) ) )
 
 -- pragma translate_off
 GENERIC MAP (
@@ -6263,12 +6263,12 @@ GENERIC MAP (
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
-	dataa => \multiplication_function|ALT_INV_bit_counter\(8),
-	datab => \multiplication_function|ALT_INV_bit_counter\(27),
-	datac => \multiplication_function|ALT_INV_bit_counter\(5),
-	datad => \multiplication_function|ALT_INV_bit_counter\(6),
-	datae => \multiplication_function|ALT_INV_bit_counter\(7),
-	dataf => \multiplication_function|ALT_INV_bit_counter\(16),
+	dataa => \multiplication_function|ALT_INV_bit_counter\(11),
+	datab => \multiplication_function|ALT_INV_bit_counter\(17),
+	datac => \multiplication_function|ALT_INV_bit_counter\(29),
+	datad => \multiplication_function|ALT_INV_bit_counter\(30),
+	datae => \multiplication_function|ALT_INV_bit_counter\(21),
+	dataf => \multiplication_function|ALT_INV_bit_counter\(3),
 	combout => \multiplication_function|LessThan0~4_combout\);
 
 \multiplication_function|LessThan0~5\ : cyclonev_lcell_comb
@@ -7267,9 +7267,9 @@ PORT MAP (
 	cout => \division_function|Add0~22\,
 	shareout => \division_function|Add0~23\);
 
-\division_function|Remainder[7]~0\ : cyclonev_lcell_comb
+\division_function|Remainder[6]~0\ : cyclonev_lcell_comb
 -- Equation(s):
--- \division_function|Remainder[7]~0_combout\ = (!\division_function|LessThan0~5_combout\ & (((\division_function|state.s2~q\ & \division_function|Remainder\(10))))) # (\division_function|LessThan0~5_combout\ & (((\division_function|state.s2~q\ & 
+-- \division_function|Remainder[6]~0_combout\ = (!\division_function|LessThan0~5_combout\ & (((\division_function|state.s2~q\ & \division_function|Remainder\(10))))) # (\division_function|LessThan0~5_combout\ & (((\division_function|state.s2~q\ & 
 -- \division_function|Remainder\(10))) # (\division_function|state.s1~q\)))
 
 -- pragma translate_off
@@ -7283,7 +7283,7 @@ PORT MAP (
 	datab => \division_function|ALT_INV_state.s1~q\,
 	datac => \division_function|ALT_INV_state.s2~q\,
 	datad => \division_function|ALT_INV_Remainder\(10),
-	combout => \division_function|Remainder[7]~0_combout\);
+	combout => \division_function|Remainder[6]~0_combout\);
 
 \division_function|Remainder[5]\ : dffeas
 -- pragma translate_off
@@ -7297,7 +7297,7 @@ PORT MAP (
 	asdata => \division_function|Add0~21_sumout\,
 	clrn => \RST_main~input_o\,
 	sload => \division_function|ALT_INV_state.s2~q\,
-	ena => \division_function|Remainder[7]~0_combout\,
+	ena => \division_function|Remainder[6]~0_combout\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
 	q => \division_function|Remainder\(5));
@@ -7353,7 +7353,7 @@ PORT MAP (
 	asdata => \division_function|Add0~25_sumout\,
 	clrn => \RST_main~input_o\,
 	sload => \division_function|ALT_INV_state.s2~q\,
-	ena => \division_function|Remainder[7]~0_combout\,
+	ena => \division_function|Remainder[6]~0_combout\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
 	q => \division_function|Remainder\(6));
@@ -7409,7 +7409,7 @@ PORT MAP (
 	asdata => \division_function|Add0~29_sumout\,
 	clrn => \RST_main~input_o\,
 	sload => \division_function|ALT_INV_state.s2~q\,
-	ena => \division_function|Remainder[7]~0_combout\,
+	ena => \division_function|Remainder[6]~0_combout\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
 	q => \division_function|Remainder\(7));
@@ -7465,7 +7465,7 @@ PORT MAP (
 	asdata => \division_function|Add0~33_sumout\,
 	clrn => \RST_main~input_o\,
 	sload => \division_function|ALT_INV_state.s2~q\,
-	ena => \division_function|Remainder[7]~0_combout\,
+	ena => \division_function|Remainder[6]~0_combout\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
 	q => \division_function|Remainder\(8));
@@ -7521,7 +7521,7 @@ PORT MAP (
 	asdata => \division_function|Add0~37_sumout\,
 	clrn => \RST_main~input_o\,
 	sload => \division_function|ALT_INV_state.s2~q\,
-	ena => \division_function|Remainder[7]~0_combout\,
+	ena => \division_function|Remainder[6]~0_combout\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
 	q => \division_function|Remainder\(9));
@@ -7666,9 +7666,9 @@ PORT MAP (
 	devpor => ww_devpor,
 	q => \division_function|Q\(0));
 
-\Result[0]~0\ : cyclonev_lcell_comb
+\Result[2]~0\ : cyclonev_lcell_comb
 -- Equation(s):
--- \Result[0]~0_combout\ = (\state~q\ & ((\Operation[1]~input_o\) # (\Operation[0]~input_o\)))
+-- \Result[2]~0_combout\ = (\state~q\ & ((\Operation[1]~input_o\) # (\Operation[0]~input_o\)))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -7680,11 +7680,11 @@ PORT MAP (
 	dataa => \ALT_INV_state~q\,
 	datab => \ALT_INV_Operation[0]~input_o\,
 	datac => \ALT_INV_Operation[1]~input_o\,
-	combout => \Result[0]~0_combout\);
+	combout => \Result[2]~0_combout\);
 
-\Result[0]~1\ : cyclonev_lcell_comb
+\Result[2]~1\ : cyclonev_lcell_comb
 -- Equation(s):
--- \Result[0]~1_combout\ = (\state~q\ & ((!\Operation[0]~input_o\) # (\Operation[1]~input_o\)))
+-- \Result[2]~1_combout\ = (\state~q\ & ((!\Operation[0]~input_o\) # (\Operation[1]~input_o\)))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -7696,22 +7696,7 @@ PORT MAP (
 	dataa => \ALT_INV_state~q\,
 	datab => \ALT_INV_Operation[0]~input_o\,
 	datac => \ALT_INV_Operation[1]~input_o\,
-	combout => \Result[0]~1_combout\);
-
-\addandsub_function|eq_compar:0:sum|sum~0\ : cyclonev_lcell_comb
--- Equation(s):
--- \addandsub_function|eq_compar:0:sum|sum~0_combout\ = !Data_A_aas(0) $ (!Data_B_aas(0))
-
--- pragma translate_off
-GENERIC MAP (
-	extended_lut => "off",
-	lut_mask => "0110011001100110011001100110011001100110011001100110011001100110",
-	shared_arith => "off")
--- pragma translate_on
-PORT MAP (
-	dataa => ALT_INV_Data_A_aas(0),
-	datab => ALT_INV_Data_B_aas(0),
-	combout => \addandsub_function|eq_compar:0:sum|sum~0_combout\);
+	combout => \Result[2]~1_combout\);
 
 \multiplication_function|Data_A~0\ : cyclonev_lcell_comb
 -- Equation(s):
@@ -7985,9 +7970,9 @@ PORT MAP (
 	devpor => ww_devpor,
 	q => \multiplication_function|Data_Product\(0));
 
-\multiplication_function|R[1]~0\ : cyclonev_lcell_comb
+\multiplication_function|R[9]~0\ : cyclonev_lcell_comb
 -- Equation(s):
--- \multiplication_function|R[1]~0_combout\ = (\multiplication_function|state~q\ & !\multiplication_function|LessThan0~5_combout\)
+-- \multiplication_function|R[9]~0_combout\ = (\multiplication_function|state~q\ & !\multiplication_function|LessThan0~5_combout\)
 
 -- pragma translate_off
 GENERIC MAP (
@@ -7998,7 +7983,7 @@ GENERIC MAP (
 PORT MAP (
 	dataa => \multiplication_function|ALT_INV_state~q\,
 	datab => \multiplication_function|ALT_INV_LessThan0~5_combout\,
-	combout => \multiplication_function|R[1]~0_combout\);
+	combout => \multiplication_function|R[9]~0_combout\);
 
 \multiplication_function|R[0]\ : dffeas
 -- pragma translate_off
@@ -8010,33 +7995,36 @@ PORT MAP (
 	clk => \CLK_main~input_o\,
 	d => \multiplication_function|Data_Product\(0),
 	clrn => \RST_main~input_o\,
-	ena => \multiplication_function|R[1]~0_combout\,
+	ena => \multiplication_function|R[9]~0_combout\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
 	q => \multiplication_function|R\(0));
 
 \Result~2\ : cyclonev_lcell_comb
 -- Equation(s):
--- \Result~2_combout\ = ( \multiplication_function|R\(0) & ( (!\Result[0]~0_combout\ & (\division_function|Q\(0) & (\Result[0]~1_combout\))) # (\Result[0]~0_combout\ & (((!\Result[0]~1_combout\) # (\addandsub_function|eq_compar:0:sum|sum~0_combout\)))) ) ) # 
--- ( !\multiplication_function|R\(0) & ( (\Result[0]~1_combout\ & ((!\Result[0]~0_combout\ & (\division_function|Q\(0))) # (\Result[0]~0_combout\ & ((\addandsub_function|eq_compar:0:sum|sum~0_combout\))))) ) )
+-- \Result~2_combout\ = ( Data_B_aas(0) & ( \multiplication_function|R\(0) & ( (!\Result[2]~0_combout\ & (\division_function|Q\(0) & (\Result[2]~1_combout\))) # (\Result[2]~0_combout\ & (((!\Result[2]~1_combout\) # (!Data_A_aas(0))))) ) ) ) # ( 
+-- !Data_B_aas(0) & ( \multiplication_function|R\(0) & ( (!\Result[2]~0_combout\ & (\division_function|Q\(0) & (\Result[2]~1_combout\))) # (\Result[2]~0_combout\ & (((!\Result[2]~1_combout\) # (Data_A_aas(0))))) ) ) ) # ( Data_B_aas(0) & ( 
+-- !\multiplication_function|R\(0) & ( (\Result[2]~1_combout\ & ((!\Result[2]~0_combout\ & (\division_function|Q\(0))) # (\Result[2]~0_combout\ & ((!Data_A_aas(0)))))) ) ) ) # ( !Data_B_aas(0) & ( !\multiplication_function|R\(0) & ( (\Result[2]~1_combout\ & 
+-- ((!\Result[2]~0_combout\ & (\division_function|Q\(0))) # (\Result[2]~0_combout\ & ((Data_A_aas(0)))))) ) ) )
 
 -- pragma translate_off
 GENERIC MAP (
 	extended_lut => "off",
-	lut_mask => "0000010000000111001101000011011100000100000001110011010000110111",
+	lut_mask => "0000010000000111000001110000010000110100001101110011011100110100",
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
 	dataa => \division_function|ALT_INV_Q\(0),
-	datab => \ALT_INV_Result[0]~0_combout\,
-	datac => \ALT_INV_Result[0]~1_combout\,
-	datad => \addandsub_function|eq_compar:0:sum|ALT_INV_sum~0_combout\,
-	datae => \multiplication_function|ALT_INV_R\(0),
+	datab => \ALT_INV_Result[2]~0_combout\,
+	datac => \ALT_INV_Result[2]~1_combout\,
+	datad => ALT_INV_Data_A_aas(0),
+	datae => ALT_INV_Data_B_aas(0),
+	dataf => \multiplication_function|ALT_INV_R\(0),
 	combout => \Result~2_combout\);
 
-\Result[0]~3\ : cyclonev_lcell_comb
+\Result[2]~3\ : cyclonev_lcell_comb
 -- Equation(s):
--- \Result[0]~3_combout\ = (!\START_main~input_o\) # (\state~q\)
+-- \Result[2]~3_combout\ = (!\START_main~input_o\) # (\state~q\)
 
 -- pragma translate_off
 GENERIC MAP (
@@ -8047,7 +8035,7 @@ GENERIC MAP (
 PORT MAP (
 	dataa => \ALT_INV_state~q\,
 	datab => \ALT_INV_START_main~input_o\,
-	combout => \Result[0]~3_combout\);
+	combout => \Result[2]~3_combout\);
 
 \Result[0]~reg0\ : dffeas
 -- pragma translate_off
@@ -8059,7 +8047,7 @@ PORT MAP (
 	clk => \CLK_main~input_o\,
 	d => \Result~2_combout\,
 	clrn => \RST_main~input_o\,
-	ena => \Result[0]~3_combout\,
+	ena => \Result[2]~3_combout\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
 	q => \Result[0]~reg0_q\);
@@ -8234,15 +8222,15 @@ PORT MAP (
 	clk => \CLK_main~input_o\,
 	d => \multiplication_function|Data_Product\(1),
 	clrn => \RST_main~input_o\,
-	ena => \multiplication_function|R[1]~0_combout\,
+	ena => \multiplication_function|R[9]~0_combout\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
 	q => \multiplication_function|R\(1));
 
 \Result~4\ : cyclonev_lcell_comb
 -- Equation(s):
--- \Result~4_combout\ = ( \multiplication_function|R\(1) & ( (!\Result[0]~0_combout\ & (\Result[0]~1_combout\ & (\division_function|Q\(1)))) # (\Result[0]~0_combout\ & ((!\Result[0]~1_combout\) # ((\addandsub_function|eq_compar:1:sum|sum~combout\)))) ) ) # ( 
--- !\multiplication_function|R\(1) & ( (\Result[0]~1_combout\ & ((!\Result[0]~0_combout\ & (\division_function|Q\(1))) # (\Result[0]~0_combout\ & ((\addandsub_function|eq_compar:1:sum|sum~combout\))))) ) )
+-- \Result~4_combout\ = ( \multiplication_function|R\(1) & ( (!\Result[2]~0_combout\ & (\Result[2]~1_combout\ & (\division_function|Q\(1)))) # (\Result[2]~0_combout\ & ((!\Result[2]~1_combout\) # ((\addandsub_function|eq_compar:1:sum|sum~combout\)))) ) ) # ( 
+-- !\multiplication_function|R\(1) & ( (\Result[2]~1_combout\ & ((!\Result[2]~0_combout\ & (\division_function|Q\(1))) # (\Result[2]~0_combout\ & ((\addandsub_function|eq_compar:1:sum|sum~combout\))))) ) )
 
 -- pragma translate_off
 GENERIC MAP (
@@ -8251,8 +8239,8 @@ GENERIC MAP (
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
-	dataa => \ALT_INV_Result[0]~0_combout\,
-	datab => \ALT_INV_Result[0]~1_combout\,
+	dataa => \ALT_INV_Result[2]~0_combout\,
+	datab => \ALT_INV_Result[2]~1_combout\,
 	datac => \division_function|ALT_INV_Q\(1),
 	datad => \addandsub_function|eq_compar:1:sum|ALT_INV_sum~combout\,
 	datae => \multiplication_function|ALT_INV_R\(1),
@@ -8268,7 +8256,7 @@ PORT MAP (
 	clk => \CLK_main~input_o\,
 	d => \Result~4_combout\,
 	clrn => \RST_main~input_o\,
-	ena => \Result[0]~3_combout\,
+	ena => \Result[2]~3_combout\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
 	q => \Result[1]~reg0_q\);
@@ -8415,15 +8403,15 @@ PORT MAP (
 	clk => \CLK_main~input_o\,
 	d => \multiplication_function|Data_Product\(2),
 	clrn => \RST_main~input_o\,
-	ena => \multiplication_function|R[1]~0_combout\,
+	ena => \multiplication_function|R[9]~0_combout\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
 	q => \multiplication_function|R\(2));
 
 \Result~5\ : cyclonev_lcell_comb
 -- Equation(s):
--- \Result~5_combout\ = ( \multiplication_function|R\(2) & ( (!\Result[0]~0_combout\ & (\Result[0]~1_combout\ & (\division_function|Q\(2)))) # (\Result[0]~0_combout\ & ((!\Result[0]~1_combout\) # ((\addandsub_function|eq_compar:2:sum|sum~combout\)))) ) ) # ( 
--- !\multiplication_function|R\(2) & ( (\Result[0]~1_combout\ & ((!\Result[0]~0_combout\ & (\division_function|Q\(2))) # (\Result[0]~0_combout\ & ((\addandsub_function|eq_compar:2:sum|sum~combout\))))) ) )
+-- \Result~5_combout\ = ( \multiplication_function|R\(2) & ( (!\Result[2]~0_combout\ & (\Result[2]~1_combout\ & (\division_function|Q\(2)))) # (\Result[2]~0_combout\ & ((!\Result[2]~1_combout\) # ((\addandsub_function|eq_compar:2:sum|sum~combout\)))) ) ) # ( 
+-- !\multiplication_function|R\(2) & ( (\Result[2]~1_combout\ & ((!\Result[2]~0_combout\ & (\division_function|Q\(2))) # (\Result[2]~0_combout\ & ((\addandsub_function|eq_compar:2:sum|sum~combout\))))) ) )
 
 -- pragma translate_off
 GENERIC MAP (
@@ -8432,8 +8420,8 @@ GENERIC MAP (
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
-	dataa => \ALT_INV_Result[0]~0_combout\,
-	datab => \ALT_INV_Result[0]~1_combout\,
+	dataa => \ALT_INV_Result[2]~0_combout\,
+	datab => \ALT_INV_Result[2]~1_combout\,
 	datac => \division_function|ALT_INV_Q\(2),
 	datad => \addandsub_function|eq_compar:2:sum|ALT_INV_sum~combout\,
 	datae => \multiplication_function|ALT_INV_R\(2),
@@ -8449,7 +8437,7 @@ PORT MAP (
 	clk => \CLK_main~input_o\,
 	d => \Result~5_combout\,
 	clrn => \RST_main~input_o\,
-	ena => \Result[0]~3_combout\,
+	ena => \Result[2]~3_combout\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
 	q => \Result[2]~reg0_q\);
@@ -8595,15 +8583,15 @@ PORT MAP (
 	clk => \CLK_main~input_o\,
 	d => \multiplication_function|Data_Product\(3),
 	clrn => \RST_main~input_o\,
-	ena => \multiplication_function|R[1]~0_combout\,
+	ena => \multiplication_function|R[9]~0_combout\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
 	q => \multiplication_function|R\(3));
 
 \Result~6\ : cyclonev_lcell_comb
 -- Equation(s):
--- \Result~6_combout\ = ( \multiplication_function|R\(3) & ( (!\Result[0]~0_combout\ & (\Result[0]~1_combout\ & (\division_function|Q\(3)))) # (\Result[0]~0_combout\ & ((!\Result[0]~1_combout\) # ((\addandsub_function|eq_compar:3:sum|sum~combout\)))) ) ) # ( 
--- !\multiplication_function|R\(3) & ( (\Result[0]~1_combout\ & ((!\Result[0]~0_combout\ & (\division_function|Q\(3))) # (\Result[0]~0_combout\ & ((\addandsub_function|eq_compar:3:sum|sum~combout\))))) ) )
+-- \Result~6_combout\ = ( \multiplication_function|R\(3) & ( (!\Result[2]~0_combout\ & (\Result[2]~1_combout\ & (\division_function|Q\(3)))) # (\Result[2]~0_combout\ & ((!\Result[2]~1_combout\) # ((\addandsub_function|eq_compar:3:sum|sum~combout\)))) ) ) # ( 
+-- !\multiplication_function|R\(3) & ( (\Result[2]~1_combout\ & ((!\Result[2]~0_combout\ & (\division_function|Q\(3))) # (\Result[2]~0_combout\ & ((\addandsub_function|eq_compar:3:sum|sum~combout\))))) ) )
 
 -- pragma translate_off
 GENERIC MAP (
@@ -8612,8 +8600,8 @@ GENERIC MAP (
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
-	dataa => \ALT_INV_Result[0]~0_combout\,
-	datab => \ALT_INV_Result[0]~1_combout\,
+	dataa => \ALT_INV_Result[2]~0_combout\,
+	datab => \ALT_INV_Result[2]~1_combout\,
 	datac => \division_function|ALT_INV_Q\(3),
 	datad => \addandsub_function|eq_compar:3:sum|ALT_INV_sum~combout\,
 	datae => \multiplication_function|ALT_INV_R\(3),
@@ -8629,7 +8617,7 @@ PORT MAP (
 	clk => \CLK_main~input_o\,
 	d => \Result~6_combout\,
 	clrn => \RST_main~input_o\,
-	ena => \Result[0]~3_combout\,
+	ena => \Result[2]~3_combout\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
 	q => \Result[3]~reg0_q\);
@@ -8775,15 +8763,15 @@ PORT MAP (
 	clk => \CLK_main~input_o\,
 	d => \multiplication_function|Data_Product\(4),
 	clrn => \RST_main~input_o\,
-	ena => \multiplication_function|R[1]~0_combout\,
+	ena => \multiplication_function|R[9]~0_combout\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
 	q => \multiplication_function|R\(4));
 
 \Result~7\ : cyclonev_lcell_comb
 -- Equation(s):
--- \Result~7_combout\ = ( \multiplication_function|R\(4) & ( (!\Result[0]~0_combout\ & (\Result[0]~1_combout\ & (\division_function|Q\(4)))) # (\Result[0]~0_combout\ & ((!\Result[0]~1_combout\) # ((\addandsub_function|eq_compar:4:sum|sum~combout\)))) ) ) # ( 
--- !\multiplication_function|R\(4) & ( (\Result[0]~1_combout\ & ((!\Result[0]~0_combout\ & (\division_function|Q\(4))) # (\Result[0]~0_combout\ & ((\addandsub_function|eq_compar:4:sum|sum~combout\))))) ) )
+-- \Result~7_combout\ = ( \multiplication_function|R\(4) & ( (!\Result[2]~0_combout\ & (\Result[2]~1_combout\ & (\division_function|Q\(4)))) # (\Result[2]~0_combout\ & ((!\Result[2]~1_combout\) # ((\addandsub_function|eq_compar:4:sum|sum~combout\)))) ) ) # ( 
+-- !\multiplication_function|R\(4) & ( (\Result[2]~1_combout\ & ((!\Result[2]~0_combout\ & (\division_function|Q\(4))) # (\Result[2]~0_combout\ & ((\addandsub_function|eq_compar:4:sum|sum~combout\))))) ) )
 
 -- pragma translate_off
 GENERIC MAP (
@@ -8792,8 +8780,8 @@ GENERIC MAP (
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
-	dataa => \ALT_INV_Result[0]~0_combout\,
-	datab => \ALT_INV_Result[0]~1_combout\,
+	dataa => \ALT_INV_Result[2]~0_combout\,
+	datab => \ALT_INV_Result[2]~1_combout\,
 	datac => \division_function|ALT_INV_Q\(4),
 	datad => \addandsub_function|eq_compar:4:sum|ALT_INV_sum~combout\,
 	datae => \multiplication_function|ALT_INV_R\(4),
@@ -8809,7 +8797,7 @@ PORT MAP (
 	clk => \CLK_main~input_o\,
 	d => \Result~7_combout\,
 	clrn => \RST_main~input_o\,
-	ena => \Result[0]~3_combout\,
+	ena => \Result[2]~3_combout\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
 	q => \Result[4]~reg0_q\);
@@ -8831,6 +8819,64 @@ PORT MAP (
 	datac => ALT_INV_Data_A_aas(4),
 	datad => ALT_INV_Data_B_aas(4),
 	combout => \addandsub_function|eq_compar:4:sum|C_out~combout\);
+
+\Result~8\ : cyclonev_lcell_comb
+-- Equation(s):
+-- \Result~8_combout\ = ( \input_A[0]~input_o\ & ( \input_B[0]~input_o\ & ( (!\input_A[2]~input_o\ & (((!\input_A[1]~input_o\ & \input_B[1]~input_o\)) # (\input_B[2]~input_o\))) # (\input_A[2]~input_o\ & (\input_B[2]~input_o\ & (!\input_A[1]~input_o\ & 
+-- \input_B[1]~input_o\))) ) ) ) # ( !\input_A[0]~input_o\ & ( \input_B[0]~input_o\ & ( (!\input_A[2]~input_o\ & (((!\input_A[1]~input_o\) # (\input_B[1]~input_o\)) # (\input_B[2]~input_o\))) # (\input_A[2]~input_o\ & (\input_B[2]~input_o\ & 
+-- ((!\input_A[1]~input_o\) # (\input_B[1]~input_o\)))) ) ) ) # ( \input_A[0]~input_o\ & ( !\input_B[0]~input_o\ & ( (!\input_A[2]~input_o\ & (((!\input_A[1]~input_o\ & \input_B[1]~input_o\)) # (\input_B[2]~input_o\))) # (\input_A[2]~input_o\ & 
+-- (\input_B[2]~input_o\ & (!\input_A[1]~input_o\ & \input_B[1]~input_o\))) ) ) ) # ( !\input_A[0]~input_o\ & ( !\input_B[0]~input_o\ & ( (!\input_A[2]~input_o\ & (((!\input_A[1]~input_o\ & \input_B[1]~input_o\)) # (\input_B[2]~input_o\))) # 
+-- (\input_A[2]~input_o\ & (\input_B[2]~input_o\ & (!\input_A[1]~input_o\ & \input_B[1]~input_o\))) ) ) )
+
+-- pragma translate_off
+GENERIC MAP (
+	extended_lut => "off",
+	lut_mask => "0010001010110010001000101011001010110010101110110010001010110010",
+	shared_arith => "off")
+-- pragma translate_on
+PORT MAP (
+	dataa => \ALT_INV_input_A[2]~input_o\,
+	datab => \ALT_INV_input_B[2]~input_o\,
+	datac => \ALT_INV_input_A[1]~input_o\,
+	datad => \ALT_INV_input_B[1]~input_o\,
+	datae => \ALT_INV_input_A[0]~input_o\,
+	dataf => \ALT_INV_input_B[0]~input_o\,
+	combout => \Result~8_combout\);
+
+\Result~9\ : cyclonev_lcell_comb
+-- Equation(s):
+-- \Result~9_combout\ = ( \Result~8_combout\ & ( (!\input_A[4]~input_o\ & (((!\input_A[3]~input_o\) # (\input_B[3]~input_o\)) # (\input_B[4]~input_o\))) # (\input_A[4]~input_o\ & (\input_B[4]~input_o\ & ((!\input_A[3]~input_o\) # (\input_B[3]~input_o\)))) ) 
+-- ) # ( !\Result~8_combout\ & ( (!\input_A[4]~input_o\ & (((!\input_A[3]~input_o\ & \input_B[3]~input_o\)) # (\input_B[4]~input_o\))) # (\input_A[4]~input_o\ & (\input_B[4]~input_o\ & (!\input_A[3]~input_o\ & \input_B[3]~input_o\))) ) )
+
+-- pragma translate_off
+GENERIC MAP (
+	extended_lut => "off",
+	lut_mask => "0010001010110010101100101011101100100010101100101011001010111011",
+	shared_arith => "off")
+-- pragma translate_on
+PORT MAP (
+	dataa => \ALT_INV_input_A[4]~input_o\,
+	datab => \ALT_INV_input_B[4]~input_o\,
+	datac => \ALT_INV_input_A[3]~input_o\,
+	datad => \ALT_INV_input_B[3]~input_o\,
+	datae => \ALT_INV_Result~8_combout\,
+	combout => \Result~9_combout\);
+
+\Result~10\ : cyclonev_lcell_comb
+-- Equation(s):
+-- \Result~10_combout\ = (\Operation[1]~input_o\ & ((\Result~9_combout\) # (\Operation[0]~input_o\)))
+
+-- pragma translate_off
+GENERIC MAP (
+	extended_lut => "off",
+	lut_mask => "0001001100010011000100110001001100010011000100110001001100010011",
+	shared_arith => "off")
+-- pragma translate_on
+PORT MAP (
+	dataa => \ALT_INV_Operation[0]~input_o\,
+	datab => \ALT_INV_Operation[1]~input_o\,
+	datac => \ALT_INV_Result~9_combout\,
+	combout => \Result~10_combout\);
 
 \multiplication_function|Data_A[5]\ : dffeas
 -- pragma translate_off
@@ -8892,91 +8938,50 @@ PORT MAP (
 	clk => \CLK_main~input_o\,
 	d => \multiplication_function|Data_Product\(5),
 	clrn => \RST_main~input_o\,
-	ena => \multiplication_function|R[1]~0_combout\,
+	ena => \multiplication_function|R[9]~0_combout\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
 	q => \multiplication_function|R\(5));
 
-\Result~8\ : cyclonev_lcell_comb
+\Result~11\ : cyclonev_lcell_comb
 -- Equation(s):
--- \Result~8_combout\ = ( \input_A[0]~input_o\ & ( \input_B[0]~input_o\ & ( (!\input_A[2]~input_o\ & (((!\input_A[1]~input_o\ & \input_B[1]~input_o\)) # (\input_B[2]~input_o\))) # (\input_A[2]~input_o\ & (\input_B[2]~input_o\ & (!\input_A[1]~input_o\ & 
--- \input_B[1]~input_o\))) ) ) ) # ( !\input_A[0]~input_o\ & ( \input_B[0]~input_o\ & ( (!\input_A[2]~input_o\ & (((!\input_A[1]~input_o\) # (\input_B[1]~input_o\)) # (\input_B[2]~input_o\))) # (\input_A[2]~input_o\ & (\input_B[2]~input_o\ & 
--- ((!\input_A[1]~input_o\) # (\input_B[1]~input_o\)))) ) ) ) # ( \input_A[0]~input_o\ & ( !\input_B[0]~input_o\ & ( (!\input_A[2]~input_o\ & (((!\input_A[1]~input_o\ & \input_B[1]~input_o\)) # (\input_B[2]~input_o\))) # (\input_A[2]~input_o\ & 
--- (\input_B[2]~input_o\ & (!\input_A[1]~input_o\ & \input_B[1]~input_o\))) ) ) ) # ( !\input_A[0]~input_o\ & ( !\input_B[0]~input_o\ & ( (!\input_A[2]~input_o\ & (((!\input_A[1]~input_o\ & \input_B[1]~input_o\)) # (\input_B[2]~input_o\))) # 
--- (\input_A[2]~input_o\ & (\input_B[2]~input_o\ & (!\input_A[1]~input_o\ & \input_B[1]~input_o\))) ) ) )
+-- \Result~11_combout\ = ( \multiplication_function|R\(5) & ( (!\Operation[0]~input_o\ & (\Result[5]~reg0_q\ & ((!\Operation[1]~input_o\) # (!\Result~9_combout\)))) # (\Operation[0]~input_o\ & (((!\Operation[1]~input_o\)))) ) ) # ( 
+-- !\multiplication_function|R\(5) & ( (\Result[5]~reg0_q\ & (!\Operation[0]~input_o\ & ((!\Operation[1]~input_o\) # (!\Result~9_combout\)))) ) )
 
 -- pragma translate_off
 GENERIC MAP (
 	extended_lut => "off",
-	lut_mask => "0010001010110010001000101011001010110010101110110010001010110010",
-	shared_arith => "off")
--- pragma translate_on
-PORT MAP (
-	dataa => \ALT_INV_input_A[2]~input_o\,
-	datab => \ALT_INV_input_B[2]~input_o\,
-	datac => \ALT_INV_input_A[1]~input_o\,
-	datad => \ALT_INV_input_B[1]~input_o\,
-	datae => \ALT_INV_input_A[0]~input_o\,
-	dataf => \ALT_INV_input_B[0]~input_o\,
-	combout => \Result~8_combout\);
-
-\Result~9\ : cyclonev_lcell_comb
--- Equation(s):
--- \Result~9_combout\ = ( \Result~8_combout\ & ( (!\input_A[4]~input_o\ & (((!\input_A[3]~input_o\) # (\input_B[3]~input_o\)) # (\input_B[4]~input_o\))) # (\input_A[4]~input_o\ & (\input_B[4]~input_o\ & ((!\input_A[3]~input_o\) # (\input_B[3]~input_o\)))) ) 
--- ) # ( !\Result~8_combout\ & ( (!\input_A[4]~input_o\ & (((!\input_A[3]~input_o\ & \input_B[3]~input_o\)) # (\input_B[4]~input_o\))) # (\input_A[4]~input_o\ & (\input_B[4]~input_o\ & (!\input_A[3]~input_o\ & \input_B[3]~input_o\))) ) )
-
--- pragma translate_off
-GENERIC MAP (
-	extended_lut => "off",
-	lut_mask => "0010001010110010101100101011101100100010101100101011001010111011",
-	shared_arith => "off")
--- pragma translate_on
-PORT MAP (
-	dataa => \ALT_INV_input_A[4]~input_o\,
-	datab => \ALT_INV_input_B[4]~input_o\,
-	datac => \ALT_INV_input_A[3]~input_o\,
-	datad => \ALT_INV_input_B[3]~input_o\,
-	datae => \ALT_INV_Result~8_combout\,
-	combout => \Result~9_combout\);
-
-\Result~10\ : cyclonev_lcell_comb
--- Equation(s):
--- \Result~10_combout\ = ( \multiplication_function|R\(5) & ( \Result~9_combout\ & ( (!\Operation[1]~input_o\ & (((\Operation[0]~input_o\)) # (\Result[5]~reg0_q\))) # (\Operation[1]~input_o\ & (((\addandsub_function|eq_compar:4:sum|C_out~combout\)))) ) ) ) # 
--- ( !\multiplication_function|R\(5) & ( \Result~9_combout\ & ( (!\Operation[1]~input_o\ & (\Result[5]~reg0_q\ & (!\Operation[0]~input_o\))) # (\Operation[1]~input_o\ & (((\addandsub_function|eq_compar:4:sum|C_out~combout\)))) ) ) ) # ( 
--- \multiplication_function|R\(5) & ( !\Result~9_combout\ & ( (!\Operation[0]~input_o\ & (\Result[5]~reg0_q\)) # (\Operation[0]~input_o\ & (((!\Operation[1]~input_o\) # (\addandsub_function|eq_compar:4:sum|C_out~combout\)))) ) ) ) # ( 
--- !\multiplication_function|R\(5) & ( !\Result~9_combout\ & ( (!\Operation[0]~input_o\ & (\Result[5]~reg0_q\)) # (\Operation[0]~input_o\ & (((\Operation[1]~input_o\ & \addandsub_function|eq_compar:4:sum|C_out~combout\)))) ) ) )
-
--- pragma translate_off
-GENERIC MAP (
-	extended_lut => "off",
-	lut_mask => "0100010001000111011101000111011101000000010011110111000001111111",
+	lut_mask => "0100010001000000011101000111000001000100010000000111010001110000",
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
 	dataa => \ALT_INV_Result[5]~reg0_q\,
 	datab => \ALT_INV_Operation[0]~input_o\,
 	datac => \ALT_INV_Operation[1]~input_o\,
-	datad => \addandsub_function|eq_compar:4:sum|ALT_INV_C_out~combout\,
+	datad => \ALT_INV_Result~9_combout\,
 	datae => \multiplication_function|ALT_INV_R\(5),
-	dataf => \ALT_INV_Result~9_combout\,
-	combout => \Result~10_combout\);
+	combout => \Result~11_combout\);
 
-\Result~11\ : cyclonev_lcell_comb
+\Result~12\ : cyclonev_lcell_comb
 -- Equation(s):
--- \Result~11_combout\ = (!\state~q\ & (\Result[5]~reg0_q\ & (\START_main~input_o\))) # (\state~q\ & (((\Result~10_combout\))))
+-- \Result~12_combout\ = ( \Result~10_combout\ & ( \Result~11_combout\ & ( ((\Result[5]~reg0_q\ & \START_main~input_o\)) # (\state~q\) ) ) ) # ( !\Result~10_combout\ & ( \Result~11_combout\ & ( ((\Result[5]~reg0_q\ & \START_main~input_o\)) # (\state~q\) ) ) 
+-- ) # ( \Result~10_combout\ & ( !\Result~11_combout\ & ( (!\state~q\ & (\Result[5]~reg0_q\ & (\START_main~input_o\))) # (\state~q\ & (((\addandsub_function|eq_compar:4:sum|C_out~combout\)))) ) ) ) # ( !\Result~10_combout\ & ( !\Result~11_combout\ & ( 
+-- (\Result[5]~reg0_q\ & (!\state~q\ & \START_main~input_o\)) ) ) )
 
 -- pragma translate_off
 GENERIC MAP (
 	extended_lut => "off",
-	lut_mask => "0000010000110111000001000011011100000100001101110000010000110111",
+	lut_mask => "0000010000000100000001000011011100110111001101110011011100110111",
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
 	dataa => \ALT_INV_Result[5]~reg0_q\,
 	datab => \ALT_INV_state~q\,
 	datac => \ALT_INV_START_main~input_o\,
-	datad => \ALT_INV_Result~10_combout\,
-	combout => \Result~11_combout\);
+	datad => \addandsub_function|eq_compar:4:sum|ALT_INV_C_out~combout\,
+	datae => \ALT_INV_Result~10_combout\,
+	dataf => \ALT_INV_Result~11_combout\,
+	combout => \Result~12_combout\);
 
 \Result[5]~reg0\ : dffeas
 -- pragma translate_off
@@ -8986,7 +8991,7 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	clk => \CLK_main~input_o\,
-	d => \Result~11_combout\,
+	d => \Result~12_combout\,
 	clrn => \RST_main~input_o\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
@@ -9052,14 +9057,14 @@ PORT MAP (
 	clk => \CLK_main~input_o\,
 	d => \multiplication_function|Data_Product\(6),
 	clrn => \RST_main~input_o\,
-	ena => \multiplication_function|R[1]~0_combout\,
+	ena => \multiplication_function|R[9]~0_combout\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
 	q => \multiplication_function|R\(6));
 
-\Result~12\ : cyclonev_lcell_comb
+\Result~13\ : cyclonev_lcell_comb
 -- Equation(s):
--- \Result~12_combout\ = (\state~q\ & \multiplication_function|R\(6))
+-- \Result~13_combout\ = (\state~q\ & \multiplication_function|R\(6))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -9070,11 +9075,11 @@ GENERIC MAP (
 PORT MAP (
 	dataa => \ALT_INV_state~q\,
 	datab => \multiplication_function|ALT_INV_R\(6),
-	combout => \Result~12_combout\);
+	combout => \Result~13_combout\);
 
-\Result~13\ : cyclonev_lcell_comb
+\Result~14\ : cyclonev_lcell_comb
 -- Equation(s):
--- \Result~13_combout\ = (!\state~q\ & (((!\START_main~input_o\)))) # (\state~q\ & (\Operation[0]~input_o\ & (!\Operation[1]~input_o\)))
+-- \Result~14_combout\ = (!\state~q\ & (((!\START_main~input_o\)))) # (\state~q\ & (\Operation[0]~input_o\ & (!\Operation[1]~input_o\)))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -9087,7 +9092,7 @@ PORT MAP (
 	datab => \ALT_INV_Operation[0]~input_o\,
 	datac => \ALT_INV_Operation[1]~input_o\,
 	datad => \ALT_INV_START_main~input_o\,
-	combout => \Result~13_combout\);
+	combout => \Result~14_combout\);
 
 \Result[6]~reg0\ : dffeas
 -- pragma translate_off
@@ -9097,9 +9102,9 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	clk => \CLK_main~input_o\,
-	d => \Result~12_combout\,
+	d => \Result~13_combout\,
 	clrn => \RST_main~input_o\,
-	ena => \Result~13_combout\,
+	ena => \Result~14_combout\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
 	q => \Result[6]~reg0_q\);
@@ -9164,14 +9169,14 @@ PORT MAP (
 	clk => \CLK_main~input_o\,
 	d => \multiplication_function|Data_Product\(7),
 	clrn => \RST_main~input_o\,
-	ena => \multiplication_function|R[1]~0_combout\,
+	ena => \multiplication_function|R[9]~0_combout\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
 	q => \multiplication_function|R\(7));
 
-\Result~14\ : cyclonev_lcell_comb
+\Result~15\ : cyclonev_lcell_comb
 -- Equation(s):
--- \Result~14_combout\ = (\state~q\ & \multiplication_function|R\(7))
+-- \Result~15_combout\ = (\state~q\ & \multiplication_function|R\(7))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -9182,7 +9187,7 @@ GENERIC MAP (
 PORT MAP (
 	dataa => \ALT_INV_state~q\,
 	datab => \multiplication_function|ALT_INV_R\(7),
-	combout => \Result~14_combout\);
+	combout => \Result~15_combout\);
 
 \Result[7]~reg0\ : dffeas
 -- pragma translate_off
@@ -9192,9 +9197,9 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	clk => \CLK_main~input_o\,
-	d => \Result~14_combout\,
+	d => \Result~15_combout\,
 	clrn => \RST_main~input_o\,
-	ena => \Result~13_combout\,
+	ena => \Result~14_combout\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
 	q => \Result[7]~reg0_q\);
@@ -9259,14 +9264,14 @@ PORT MAP (
 	clk => \CLK_main~input_o\,
 	d => \multiplication_function|Data_Product\(8),
 	clrn => \RST_main~input_o\,
-	ena => \multiplication_function|R[1]~0_combout\,
+	ena => \multiplication_function|R[9]~0_combout\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
 	q => \multiplication_function|R\(8));
 
-\Result~15\ : cyclonev_lcell_comb
+\Result~16\ : cyclonev_lcell_comb
 -- Equation(s):
--- \Result~15_combout\ = (\state~q\ & \multiplication_function|R\(8))
+-- \Result~16_combout\ = (\state~q\ & \multiplication_function|R\(8))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -9277,7 +9282,7 @@ GENERIC MAP (
 PORT MAP (
 	dataa => \ALT_INV_state~q\,
 	datab => \multiplication_function|ALT_INV_R\(8),
-	combout => \Result~15_combout\);
+	combout => \Result~16_combout\);
 
 \Result[8]~reg0\ : dffeas
 -- pragma translate_off
@@ -9287,9 +9292,9 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	clk => \CLK_main~input_o\,
-	d => \Result~15_combout\,
+	d => \Result~16_combout\,
 	clrn => \RST_main~input_o\,
-	ena => \Result~13_combout\,
+	ena => \Result~14_combout\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
 	q => \Result[8]~reg0_q\);
@@ -9352,14 +9357,14 @@ PORT MAP (
 	clk => \CLK_main~input_o\,
 	d => \multiplication_function|Data_Product\(9),
 	clrn => \RST_main~input_o\,
-	ena => \multiplication_function|R[1]~0_combout\,
+	ena => \multiplication_function|R[9]~0_combout\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
 	q => \multiplication_function|R\(9));
 
-\Result~16\ : cyclonev_lcell_comb
+\Result~17\ : cyclonev_lcell_comb
 -- Equation(s):
--- \Result~16_combout\ = (\state~q\ & \multiplication_function|R\(9))
+-- \Result~17_combout\ = (\state~q\ & \multiplication_function|R\(9))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -9370,7 +9375,7 @@ GENERIC MAP (
 PORT MAP (
 	dataa => \ALT_INV_state~q\,
 	datab => \multiplication_function|ALT_INV_R\(9),
-	combout => \Result~16_combout\);
+	combout => \Result~17_combout\);
 
 \Result[9]~reg0\ : dffeas
 -- pragma translate_off
@@ -9380,9 +9385,9 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	clk => \CLK_main~input_o\,
-	d => \Result~16_combout\,
+	d => \Result~17_combout\,
 	clrn => \RST_main~input_o\,
-	ena => \Result~13_combout\,
+	ena => \Result~14_combout\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
 	q => \Result[9]~reg0_q\);
@@ -9714,120 +9719,10 @@ PORT MAP (
 	devpor => ww_devpor,
 	q => \Remainder[9]~reg0_q\);
 
-\Result_input~0\ : cyclonev_lcell_comb
--- Equation(s):
--- \Result_input~0_combout\ = ( \multiplication_function|R\(0) & ( (!\Operation[1]~input_o\ & (((\Operation[0]~input_o\)) # (\division_function|Q\(0)))) # (\Operation[1]~input_o\ & (((\addandsub_function|eq_compar:0:sum|sum~0_combout\)))) ) ) # ( 
--- !\multiplication_function|R\(0) & ( (!\Operation[1]~input_o\ & (\division_function|Q\(0) & (!\Operation[0]~input_o\))) # (\Operation[1]~input_o\ & (((\addandsub_function|eq_compar:0:sum|sum~0_combout\)))) ) )
-
--- pragma translate_off
-GENERIC MAP (
-	extended_lut => "off",
-	lut_mask => "0100000001001111011100000111111101000000010011110111000001111111",
-	shared_arith => "off")
--- pragma translate_on
-PORT MAP (
-	dataa => \division_function|ALT_INV_Q\(0),
-	datab => \ALT_INV_Operation[0]~input_o\,
-	datac => \ALT_INV_Operation[1]~input_o\,
-	datad => \addandsub_function|eq_compar:0:sum|ALT_INV_sum~0_combout\,
-	datae => \multiplication_function|ALT_INV_R\(0),
-	combout => \Result_input~0_combout\);
-
-\Result_input[0]\ : dffeas
--- pragma translate_off
-GENERIC MAP (
-	is_wysiwyg => "true",
-	power_up => "low")
--- pragma translate_on
-PORT MAP (
-	clk => \CLK_main~input_o\,
-	d => \Result_input~0_combout\,
-	clrn => \RST_main~input_o\,
-	ena => \state~q\,
-	devclrn => ww_devclrn,
-	devpor => ww_devpor,
-	q => Result_input(0));
-
-\Result_input[9]~4\ : cyclonev_lcell_comb
--- Equation(s):
--- \Result_input[9]~4_combout\ = (\state~q\ & (\Operation[0]~input_o\ & !\Operation[1]~input_o\))
-
--- pragma translate_off
-GENERIC MAP (
-	extended_lut => "off",
-	lut_mask => "0001000000010000000100000001000000010000000100000001000000010000",
-	shared_arith => "off")
--- pragma translate_on
-PORT MAP (
-	dataa => \ALT_INV_state~q\,
-	datab => \ALT_INV_Operation[0]~input_o\,
-	datac => \ALT_INV_Operation[1]~input_o\,
-	combout => \Result_input[9]~4_combout\);
-
-\Result_input[9]\ : dffeas
--- pragma translate_off
-GENERIC MAP (
-	is_wysiwyg => "true",
-	power_up => "low")
--- pragma translate_on
-PORT MAP (
-	clk => \CLK_main~input_o\,
-	d => \multiplication_function|R\(9),
-	clrn => \RST_main~input_o\,
-	ena => \Result_input[9]~4_combout\,
-	devclrn => ww_devclrn,
-	devpor => ww_devpor,
-	q => Result_input(9));
-
-\Result_input[8]\ : dffeas
--- pragma translate_off
-GENERIC MAP (
-	is_wysiwyg => "true",
-	power_up => "low")
--- pragma translate_on
-PORT MAP (
-	clk => \CLK_main~input_o\,
-	d => \multiplication_function|R\(8),
-	clrn => \RST_main~input_o\,
-	ena => \Result_input[9]~4_combout\,
-	devclrn => ww_devclrn,
-	devpor => ww_devpor,
-	q => Result_input(8));
-
-\Result_input[7]\ : dffeas
--- pragma translate_off
-GENERIC MAP (
-	is_wysiwyg => "true",
-	power_up => "low")
--- pragma translate_on
-PORT MAP (
-	clk => \CLK_main~input_o\,
-	d => \multiplication_function|R\(7),
-	clrn => \RST_main~input_o\,
-	ena => \Result_input[9]~4_combout\,
-	devclrn => ww_devclrn,
-	devpor => ww_devpor,
-	q => Result_input(7));
-
-\Result_input[6]\ : dffeas
--- pragma translate_off
-GENERIC MAP (
-	is_wysiwyg => "true",
-	power_up => "low")
--- pragma translate_on
-PORT MAP (
-	clk => \CLK_main~input_o\,
-	d => \multiplication_function|R\(6),
-	clrn => \RST_main~input_o\,
-	ena => \Result_input[9]~4_combout\,
-	devclrn => ww_devclrn,
-	devpor => ww_devpor,
-	q => Result_input(6));
-
 \convert_binary|Mod0|auto_generated|divider|divider|add_sub_3_result_int[0]~17\ : cyclonev_lcell_comb
 -- Equation(s):
--- \convert_binary|Mod0|auto_generated|divider|divider|add_sub_3_result_int[0]~17_sumout\ = SUM(( Result_input(6) ) + ( !VCC ) + ( !VCC ))
--- \convert_binary|Mod0|auto_generated|divider|divider|add_sub_3_result_int[0]~18\ = CARRY(( Result_input(6) ) + ( !VCC ) + ( !VCC ))
+-- \convert_binary|Mod0|auto_generated|divider|divider|add_sub_3_result_int[0]~17_sumout\ = SUM(( \Result[6]~reg0_q\ ) + ( !VCC ) + ( !VCC ))
+-- \convert_binary|Mod0|auto_generated|divider|divider|add_sub_3_result_int[0]~18\ = CARRY(( \Result[6]~reg0_q\ ) + ( !VCC ) + ( !VCC ))
 -- \convert_binary|Mod0|auto_generated|divider|divider|add_sub_3_result_int[0]~19\ = SHARE(VCC)
 
 -- pragma translate_off
@@ -9837,7 +9732,7 @@ GENERIC MAP (
 	shared_arith => "on")
 -- pragma translate_on
 PORT MAP (
-	datad => ALT_INV_Result_input(6),
+	datad => \ALT_INV_Result[6]~reg0_q\,
 	cin => GND,
 	sharein => GND,
 	sumout => \convert_binary|Mod0|auto_generated|divider|divider|add_sub_3_result_int[0]~17_sumout\,
@@ -9846,9 +9741,9 @@ PORT MAP (
 
 \convert_binary|Mod0|auto_generated|divider|divider|add_sub_3_result_int[1]~13\ : cyclonev_lcell_comb
 -- Equation(s):
--- \convert_binary|Mod0|auto_generated|divider|divider|add_sub_3_result_int[1]~13_sumout\ = SUM(( Result_input(7) ) + ( \convert_binary|Mod0|auto_generated|divider|divider|add_sub_3_result_int[0]~19\ ) + ( 
+-- \convert_binary|Mod0|auto_generated|divider|divider|add_sub_3_result_int[1]~13_sumout\ = SUM(( \Result[7]~reg0_q\ ) + ( \convert_binary|Mod0|auto_generated|divider|divider|add_sub_3_result_int[0]~19\ ) + ( 
 -- \convert_binary|Mod0|auto_generated|divider|divider|add_sub_3_result_int[0]~18\ ))
--- \convert_binary|Mod0|auto_generated|divider|divider|add_sub_3_result_int[1]~14\ = CARRY(( Result_input(7) ) + ( \convert_binary|Mod0|auto_generated|divider|divider|add_sub_3_result_int[0]~19\ ) + ( 
+-- \convert_binary|Mod0|auto_generated|divider|divider|add_sub_3_result_int[1]~14\ = CARRY(( \Result[7]~reg0_q\ ) + ( \convert_binary|Mod0|auto_generated|divider|divider|add_sub_3_result_int[0]~19\ ) + ( 
 -- \convert_binary|Mod0|auto_generated|divider|divider|add_sub_3_result_int[0]~18\ ))
 -- \convert_binary|Mod0|auto_generated|divider|divider|add_sub_3_result_int[1]~15\ = SHARE(GND)
 
@@ -9859,7 +9754,7 @@ GENERIC MAP (
 	shared_arith => "on")
 -- pragma translate_on
 PORT MAP (
-	datad => ALT_INV_Result_input(7),
+	datad => \ALT_INV_Result[7]~reg0_q\,
 	cin => \convert_binary|Mod0|auto_generated|divider|divider|add_sub_3_result_int[0]~18\,
 	sharein => \convert_binary|Mod0|auto_generated|divider|divider|add_sub_3_result_int[0]~19\,
 	sumout => \convert_binary|Mod0|auto_generated|divider|divider|add_sub_3_result_int[1]~13_sumout\,
@@ -9868,11 +9763,11 @@ PORT MAP (
 
 \convert_binary|Mod0|auto_generated|divider|divider|add_sub_3_result_int[2]~9\ : cyclonev_lcell_comb
 -- Equation(s):
--- \convert_binary|Mod0|auto_generated|divider|divider|add_sub_3_result_int[2]~9_sumout\ = SUM(( !Result_input(8) ) + ( \convert_binary|Mod0|auto_generated|divider|divider|add_sub_3_result_int[1]~15\ ) + ( 
+-- \convert_binary|Mod0|auto_generated|divider|divider|add_sub_3_result_int[2]~9_sumout\ = SUM(( !\Result[8]~reg0_q\ ) + ( \convert_binary|Mod0|auto_generated|divider|divider|add_sub_3_result_int[1]~15\ ) + ( 
 -- \convert_binary|Mod0|auto_generated|divider|divider|add_sub_3_result_int[1]~14\ ))
--- \convert_binary|Mod0|auto_generated|divider|divider|add_sub_3_result_int[2]~10\ = CARRY(( !Result_input(8) ) + ( \convert_binary|Mod0|auto_generated|divider|divider|add_sub_3_result_int[1]~15\ ) + ( 
+-- \convert_binary|Mod0|auto_generated|divider|divider|add_sub_3_result_int[2]~10\ = CARRY(( !\Result[8]~reg0_q\ ) + ( \convert_binary|Mod0|auto_generated|divider|divider|add_sub_3_result_int[1]~15\ ) + ( 
 -- \convert_binary|Mod0|auto_generated|divider|divider|add_sub_3_result_int[1]~14\ ))
--- \convert_binary|Mod0|auto_generated|divider|divider|add_sub_3_result_int[2]~11\ = SHARE(Result_input(8))
+-- \convert_binary|Mod0|auto_generated|divider|divider|add_sub_3_result_int[2]~11\ = SHARE(\Result[8]~reg0_q\)
 
 -- pragma translate_off
 GENERIC MAP (
@@ -9881,7 +9776,7 @@ GENERIC MAP (
 	shared_arith => "on")
 -- pragma translate_on
 PORT MAP (
-	datad => ALT_INV_Result_input(8),
+	datad => \ALT_INV_Result[8]~reg0_q\,
 	cin => \convert_binary|Mod0|auto_generated|divider|divider|add_sub_3_result_int[1]~14\,
 	sharein => \convert_binary|Mod0|auto_generated|divider|divider|add_sub_3_result_int[1]~15\,
 	sumout => \convert_binary|Mod0|auto_generated|divider|divider|add_sub_3_result_int[2]~9_sumout\,
@@ -9890,9 +9785,9 @@ PORT MAP (
 
 \convert_binary|Mod0|auto_generated|divider|divider|add_sub_3_result_int[3]~1\ : cyclonev_lcell_comb
 -- Equation(s):
--- \convert_binary|Mod0|auto_generated|divider|divider|add_sub_3_result_int[3]~1_sumout\ = SUM(( Result_input(9) ) + ( \convert_binary|Mod0|auto_generated|divider|divider|add_sub_3_result_int[2]~11\ ) + ( 
+-- \convert_binary|Mod0|auto_generated|divider|divider|add_sub_3_result_int[3]~1_sumout\ = SUM(( \Result[9]~reg0_q\ ) + ( \convert_binary|Mod0|auto_generated|divider|divider|add_sub_3_result_int[2]~11\ ) + ( 
 -- \convert_binary|Mod0|auto_generated|divider|divider|add_sub_3_result_int[2]~10\ ))
--- \convert_binary|Mod0|auto_generated|divider|divider|add_sub_3_result_int[3]~2\ = CARRY(( Result_input(9) ) + ( \convert_binary|Mod0|auto_generated|divider|divider|add_sub_3_result_int[2]~11\ ) + ( 
+-- \convert_binary|Mod0|auto_generated|divider|divider|add_sub_3_result_int[3]~2\ = CARRY(( \Result[9]~reg0_q\ ) + ( \convert_binary|Mod0|auto_generated|divider|divider|add_sub_3_result_int[2]~11\ ) + ( 
 -- \convert_binary|Mod0|auto_generated|divider|divider|add_sub_3_result_int[2]~10\ ))
 -- \convert_binary|Mod0|auto_generated|divider|divider|add_sub_3_result_int[3]~3\ = SHARE(GND)
 
@@ -9903,7 +9798,7 @@ GENERIC MAP (
 	shared_arith => "on")
 -- pragma translate_on
 PORT MAP (
-	datad => ALT_INV_Result_input(9),
+	datad => \ALT_INV_Result[9]~reg0_q\,
 	cin => \convert_binary|Mod0|auto_generated|divider|divider|add_sub_3_result_int[2]~10\,
 	sharein => \convert_binary|Mod0|auto_generated|divider|divider|add_sub_3_result_int[2]~11\,
 	sumout => \convert_binary|Mod0|auto_generated|divider|divider|add_sub_3_result_int[3]~1_sumout\,
@@ -9943,7 +9838,7 @@ PORT MAP (
 
 \convert_binary|Mod0|auto_generated|divider|divider|StageOut[33]~10\ : cyclonev_lcell_comb
 -- Equation(s):
--- \convert_binary|Mod0|auto_generated|divider|divider|StageOut[33]~10_combout\ = (Result_input(9) & \convert_binary|Mod0|auto_generated|divider|divider|add_sub_3_result_int[4]~5_sumout\)
+-- \convert_binary|Mod0|auto_generated|divider|divider|StageOut[33]~10_combout\ = (\Result[9]~reg0_q\ & \convert_binary|Mod0|auto_generated|divider|divider|add_sub_3_result_int[4]~5_sumout\)
 
 -- pragma translate_off
 GENERIC MAP (
@@ -9952,7 +9847,7 @@ GENERIC MAP (
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
-	dataa => ALT_INV_Result_input(9),
+	dataa => \ALT_INV_Result[9]~reg0_q\,
 	datab => \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_add_sub_3_result_int[4]~5_sumout\,
 	combout => \convert_binary|Mod0|auto_generated|divider|divider|StageOut[33]~10_combout\);
 
@@ -9974,7 +9869,7 @@ PORT MAP (
 
 \convert_binary|Mod0|auto_generated|divider|divider|StageOut[31]~31\ : cyclonev_lcell_comb
 -- Equation(s):
--- \convert_binary|Mod0|auto_generated|divider|divider|StageOut[31]~31_combout\ = (Result_input(7) & \convert_binary|Mod0|auto_generated|divider|divider|add_sub_3_result_int[4]~5_sumout\)
+-- \convert_binary|Mod0|auto_generated|divider|divider|StageOut[31]~31_combout\ = (\Result[7]~reg0_q\ & \convert_binary|Mod0|auto_generated|divider|divider|add_sub_3_result_int[4]~5_sumout\)
 
 -- pragma translate_off
 GENERIC MAP (
@@ -9983,46 +9878,9 @@ GENERIC MAP (
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
-	dataa => ALT_INV_Result_input(7),
+	dataa => \ALT_INV_Result[7]~reg0_q\,
 	datab => \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_add_sub_3_result_int[4]~5_sumout\,
 	combout => \convert_binary|Mod0|auto_generated|divider|divider|StageOut[31]~31_combout\);
-
-\Result_input~6\ : cyclonev_lcell_comb
--- Equation(s):
--- \Result_input~6_combout\ = ( \Result~9_combout\ & ( Result_input(5) & ( (!\Operation[1]~input_o\ & ((!\Operation[0]~input_o\) # ((\multiplication_function|R\(5))))) # (\Operation[1]~input_o\ & (((\addandsub_function|eq_compar:4:sum|C_out~combout\)))) ) ) 
--- ) # ( !\Result~9_combout\ & ( Result_input(5) & ( (!\Operation[0]~input_o\) # ((!\Operation[1]~input_o\ & ((\multiplication_function|R\(5)))) # (\Operation[1]~input_o\ & (\addandsub_function|eq_compar:4:sum|C_out~combout\))) ) ) ) # ( \Result~9_combout\ & 
--- ( !Result_input(5) & ( (!\Operation[1]~input_o\ & (\Operation[0]~input_o\ & ((\multiplication_function|R\(5))))) # (\Operation[1]~input_o\ & (((\addandsub_function|eq_compar:4:sum|C_out~combout\)))) ) ) ) # ( !\Result~9_combout\ & ( !Result_input(5) & ( 
--- (\Operation[0]~input_o\ & ((!\Operation[1]~input_o\ & ((\multiplication_function|R\(5)))) # (\Operation[1]~input_o\ & (\addandsub_function|eq_compar:4:sum|C_out~combout\)))) ) ) )
-
--- pragma translate_off
-GENERIC MAP (
-	extended_lut => "off",
-	lut_mask => "0000000101000101000000110100011110101011111011111000101111001111",
-	shared_arith => "off")
--- pragma translate_on
-PORT MAP (
-	dataa => \ALT_INV_Operation[0]~input_o\,
-	datab => \ALT_INV_Operation[1]~input_o\,
-	datac => \addandsub_function|eq_compar:4:sum|ALT_INV_C_out~combout\,
-	datad => \multiplication_function|ALT_INV_R\(5),
-	datae => \ALT_INV_Result~9_combout\,
-	dataf => ALT_INV_Result_input(5),
-	combout => \Result_input~6_combout\);
-
-\Result_input[5]\ : dffeas
--- pragma translate_off
-GENERIC MAP (
-	is_wysiwyg => "true",
-	power_up => "low")
--- pragma translate_on
-PORT MAP (
-	clk => \CLK_main~input_o\,
-	d => \Result_input~6_combout\,
-	clrn => \RST_main~input_o\,
-	ena => \state~q\,
-	devclrn => ww_devclrn,
-	devpor => ww_devpor,
-	q => Result_input(5));
 
 \convert_binary|Mod0|auto_generated|divider|divider|op_5~26\ : cyclonev_lcell_comb
 -- Equation(s):
@@ -10040,8 +9898,8 @@ PORT MAP (
 
 \convert_binary|Mod0|auto_generated|divider|divider|op_5~21\ : cyclonev_lcell_comb
 -- Equation(s):
--- \convert_binary|Mod0|auto_generated|divider|divider|op_5~21_sumout\ = SUM(( Result_input(5) ) + ( VCC ) + ( \convert_binary|Mod0|auto_generated|divider|divider|op_5~26_cout\ ))
--- \convert_binary|Mod0|auto_generated|divider|divider|op_5~22\ = CARRY(( Result_input(5) ) + ( VCC ) + ( \convert_binary|Mod0|auto_generated|divider|divider|op_5~26_cout\ ))
+-- \convert_binary|Mod0|auto_generated|divider|divider|op_5~21_sumout\ = SUM(( \Result[5]~reg0_q\ ) + ( VCC ) + ( \convert_binary|Mod0|auto_generated|divider|divider|op_5~26_cout\ ))
+-- \convert_binary|Mod0|auto_generated|divider|divider|op_5~22\ = CARRY(( \Result[5]~reg0_q\ ) + ( VCC ) + ( \convert_binary|Mod0|auto_generated|divider|divider|op_5~26_cout\ ))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -10050,7 +9908,7 @@ GENERIC MAP (
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
-	datad => ALT_INV_Result_input(5),
+	datad => \ALT_INV_Result[5]~reg0_q\,
 	cin => \convert_binary|Mod0|auto_generated|divider|divider|op_5~26_cout\,
 	sumout => \convert_binary|Mod0|auto_generated|divider|divider|op_5~21_sumout\,
 	cout => \convert_binary|Mod0|auto_generated|divider|divider|op_5~22\);
@@ -10058,10 +9916,10 @@ PORT MAP (
 \convert_binary|Mod0|auto_generated|divider|divider|op_5~17\ : cyclonev_lcell_comb
 -- Equation(s):
 -- \convert_binary|Mod0|auto_generated|divider|divider|op_5~17_sumout\ = SUM(( (!\convert_binary|Mod0|auto_generated|divider|divider|add_sub_3_result_int[4]~5_sumout\ & 
--- ((\convert_binary|Mod0|auto_generated|divider|divider|add_sub_3_result_int[0]~17_sumout\))) # (\convert_binary|Mod0|auto_generated|divider|divider|add_sub_3_result_int[4]~5_sumout\ & (Result_input(6))) ) + ( GND ) + ( 
+-- ((\convert_binary|Mod0|auto_generated|divider|divider|add_sub_3_result_int[0]~17_sumout\))) # (\convert_binary|Mod0|auto_generated|divider|divider|add_sub_3_result_int[4]~5_sumout\ & (\Result[6]~reg0_q\)) ) + ( GND ) + ( 
 -- \convert_binary|Mod0|auto_generated|divider|divider|op_5~22\ ))
 -- \convert_binary|Mod0|auto_generated|divider|divider|op_5~18\ = CARRY(( (!\convert_binary|Mod0|auto_generated|divider|divider|add_sub_3_result_int[4]~5_sumout\ & ((\convert_binary|Mod0|auto_generated|divider|divider|add_sub_3_result_int[0]~17_sumout\))) # 
--- (\convert_binary|Mod0|auto_generated|divider|divider|add_sub_3_result_int[4]~5_sumout\ & (Result_input(6))) ) + ( GND ) + ( \convert_binary|Mod0|auto_generated|divider|divider|op_5~22\ ))
+-- (\convert_binary|Mod0|auto_generated|divider|divider|add_sub_3_result_int[4]~5_sumout\ & (\Result[6]~reg0_q\)) ) + ( GND ) + ( \convert_binary|Mod0|auto_generated|divider|divider|op_5~22\ ))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -10070,7 +9928,7 @@ GENERIC MAP (
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
-	dataa => ALT_INV_Result_input(6),
+	dataa => \ALT_INV_Result[6]~reg0_q\,
 	datac => \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_add_sub_3_result_int[4]~5_sumout\,
 	datad => \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_add_sub_3_result_int[0]~17_sumout\,
 	cin => \convert_binary|Mod0|auto_generated|divider|divider|op_5~22\,
@@ -10100,9 +9958,9 @@ PORT MAP (
 \convert_binary|Mod0|auto_generated|divider|divider|op_5~9\ : cyclonev_lcell_comb
 -- Equation(s):
 -- \convert_binary|Mod0|auto_generated|divider|divider|op_5~9_sumout\ = SUM(( (!\convert_binary|Mod0|auto_generated|divider|divider|add_sub_3_result_int[4]~5_sumout\ & ((\convert_binary|Mod0|auto_generated|divider|divider|add_sub_3_result_int[2]~9_sumout\))) 
--- # (\convert_binary|Mod0|auto_generated|divider|divider|add_sub_3_result_int[4]~5_sumout\ & (Result_input(8))) ) + ( GND ) + ( \convert_binary|Mod0|auto_generated|divider|divider|op_5~14\ ))
+-- # (\convert_binary|Mod0|auto_generated|divider|divider|add_sub_3_result_int[4]~5_sumout\ & (\Result[8]~reg0_q\)) ) + ( GND ) + ( \convert_binary|Mod0|auto_generated|divider|divider|op_5~14\ ))
 -- \convert_binary|Mod0|auto_generated|divider|divider|op_5~10\ = CARRY(( (!\convert_binary|Mod0|auto_generated|divider|divider|add_sub_3_result_int[4]~5_sumout\ & ((\convert_binary|Mod0|auto_generated|divider|divider|add_sub_3_result_int[2]~9_sumout\))) # 
--- (\convert_binary|Mod0|auto_generated|divider|divider|add_sub_3_result_int[4]~5_sumout\ & (Result_input(8))) ) + ( GND ) + ( \convert_binary|Mod0|auto_generated|divider|divider|op_5~14\ ))
+-- (\convert_binary|Mod0|auto_generated|divider|divider|add_sub_3_result_int[4]~5_sumout\ & (\Result[8]~reg0_q\)) ) + ( GND ) + ( \convert_binary|Mod0|auto_generated|divider|divider|op_5~14\ ))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -10111,7 +9969,7 @@ GENERIC MAP (
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
-	dataa => ALT_INV_Result_input(8),
+	dataa => \ALT_INV_Result[8]~reg0_q\,
 	datac => \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_add_sub_3_result_int[4]~5_sumout\,
 	datad => \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_add_sub_3_result_int[2]~9_sumout\,
 	cin => \convert_binary|Mod0|auto_generated|divider|divider|op_5~14\,
@@ -10169,7 +10027,7 @@ PORT MAP (
 
 \convert_binary|Mod0|auto_generated|divider|divider|StageOut[32]~18\ : cyclonev_lcell_comb
 -- Equation(s):
--- \convert_binary|Mod0|auto_generated|divider|divider|StageOut[32]~18_combout\ = (Result_input(8) & \convert_binary|Mod0|auto_generated|divider|divider|add_sub_3_result_int[4]~5_sumout\)
+-- \convert_binary|Mod0|auto_generated|divider|divider|StageOut[32]~18_combout\ = (\Result[8]~reg0_q\ & \convert_binary|Mod0|auto_generated|divider|divider|add_sub_3_result_int[4]~5_sumout\)
 
 -- pragma translate_off
 GENERIC MAP (
@@ -10178,14 +10036,14 @@ GENERIC MAP (
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
-	dataa => ALT_INV_Result_input(8),
+	dataa => \ALT_INV_Result[8]~reg0_q\,
 	datab => \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_add_sub_3_result_int[4]~5_sumout\,
 	combout => \convert_binary|Mod0|auto_generated|divider|divider|StageOut[32]~18_combout\);
 
 \convert_binary|Mod0|auto_generated|divider|divider|StageOut[31]~25\ : cyclonev_lcell_comb
 -- Equation(s):
 -- \convert_binary|Mod0|auto_generated|divider|divider|StageOut[31]~25_combout\ = (!\convert_binary|Mod0|auto_generated|divider|divider|add_sub_3_result_int[4]~5_sumout\ & 
--- ((\convert_binary|Mod0|auto_generated|divider|divider|add_sub_3_result_int[1]~13_sumout\))) # (\convert_binary|Mod0|auto_generated|divider|divider|add_sub_3_result_int[4]~5_sumout\ & (Result_input(7)))
+-- ((\convert_binary|Mod0|auto_generated|divider|divider|add_sub_3_result_int[1]~13_sumout\))) # (\convert_binary|Mod0|auto_generated|divider|divider|add_sub_3_result_int[4]~5_sumout\ & (\Result[7]~reg0_q\))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -10194,7 +10052,7 @@ GENERIC MAP (
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
-	dataa => ALT_INV_Result_input(7),
+	dataa => \ALT_INV_Result[7]~reg0_q\,
 	datab => \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_add_sub_3_result_int[4]~5_sumout\,
 	datac => \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_add_sub_3_result_int[1]~13_sumout\,
 	combout => \convert_binary|Mod0|auto_generated|divider|divider|StageOut[31]~25_combout\);
@@ -10202,7 +10060,7 @@ PORT MAP (
 \convert_binary|Mod0|auto_generated|divider|divider|StageOut[30]~34\ : cyclonev_lcell_comb
 -- Equation(s):
 -- \convert_binary|Mod0|auto_generated|divider|divider|StageOut[30]~34_combout\ = (!\convert_binary|Mod0|auto_generated|divider|divider|add_sub_3_result_int[4]~5_sumout\ & 
--- ((\convert_binary|Mod0|auto_generated|divider|divider|add_sub_3_result_int[0]~17_sumout\))) # (\convert_binary|Mod0|auto_generated|divider|divider|add_sub_3_result_int[4]~5_sumout\ & (Result_input(6)))
+-- ((\convert_binary|Mod0|auto_generated|divider|divider|add_sub_3_result_int[0]~17_sumout\))) # (\convert_binary|Mod0|auto_generated|divider|divider|add_sub_3_result_int[4]~5_sumout\ & (\Result[6]~reg0_q\))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -10211,44 +10069,10 @@ GENERIC MAP (
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
-	dataa => ALT_INV_Result_input(6),
+	dataa => \ALT_INV_Result[6]~reg0_q\,
 	datab => \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_add_sub_3_result_int[4]~5_sumout\,
 	datac => \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_add_sub_3_result_int[0]~17_sumout\,
 	combout => \convert_binary|Mod0|auto_generated|divider|divider|StageOut[30]~34_combout\);
-
-\Result_input~5\ : cyclonev_lcell_comb
--- Equation(s):
--- \Result_input~5_combout\ = ( \multiplication_function|R\(4) & ( (!\Operation[1]~input_o\ & (((\division_function|Q\(4))) # (\Operation[0]~input_o\))) # (\Operation[1]~input_o\ & (((\addandsub_function|eq_compar:4:sum|sum~combout\)))) ) ) # ( 
--- !\multiplication_function|R\(4) & ( (!\Operation[1]~input_o\ & (!\Operation[0]~input_o\ & (\division_function|Q\(4)))) # (\Operation[1]~input_o\ & (((\addandsub_function|eq_compar:4:sum|sum~combout\)))) ) )
-
--- pragma translate_off
-GENERIC MAP (
-	extended_lut => "off",
-	lut_mask => "0000100000111011010011000111111100001000001110110100110001111111",
-	shared_arith => "off")
--- pragma translate_on
-PORT MAP (
-	dataa => \ALT_INV_Operation[0]~input_o\,
-	datab => \ALT_INV_Operation[1]~input_o\,
-	datac => \division_function|ALT_INV_Q\(4),
-	datad => \addandsub_function|eq_compar:4:sum|ALT_INV_sum~combout\,
-	datae => \multiplication_function|ALT_INV_R\(4),
-	combout => \Result_input~5_combout\);
-
-\Result_input[4]\ : dffeas
--- pragma translate_off
-GENERIC MAP (
-	is_wysiwyg => "true",
-	power_up => "low")
--- pragma translate_on
-PORT MAP (
-	clk => \CLK_main~input_o\,
-	d => \Result_input~5_combout\,
-	clrn => \RST_main~input_o\,
-	ena => \state~q\,
-	devclrn => ww_devclrn,
-	devpor => ww_devpor,
-	q => Result_input(4));
 
 \convert_binary|Mod0|auto_generated|divider|divider|op_6~30\ : cyclonev_lcell_comb
 -- Equation(s):
@@ -10266,8 +10090,8 @@ PORT MAP (
 
 \convert_binary|Mod0|auto_generated|divider|divider|op_6~25\ : cyclonev_lcell_comb
 -- Equation(s):
--- \convert_binary|Mod0|auto_generated|divider|divider|op_6~25_sumout\ = SUM(( Result_input(4) ) + ( VCC ) + ( \convert_binary|Mod0|auto_generated|divider|divider|op_6~30_cout\ ))
--- \convert_binary|Mod0|auto_generated|divider|divider|op_6~26\ = CARRY(( Result_input(4) ) + ( VCC ) + ( \convert_binary|Mod0|auto_generated|divider|divider|op_6~30_cout\ ))
+-- \convert_binary|Mod0|auto_generated|divider|divider|op_6~25_sumout\ = SUM(( \Result[4]~reg0_q\ ) + ( VCC ) + ( \convert_binary|Mod0|auto_generated|divider|divider|op_6~30_cout\ ))
+-- \convert_binary|Mod0|auto_generated|divider|divider|op_6~26\ = CARRY(( \Result[4]~reg0_q\ ) + ( VCC ) + ( \convert_binary|Mod0|auto_generated|divider|divider|op_6~30_cout\ ))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -10276,7 +10100,7 @@ GENERIC MAP (
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
-	datad => ALT_INV_Result_input(4),
+	datad => \ALT_INV_Result[4]~reg0_q\,
 	cin => \convert_binary|Mod0|auto_generated|divider|divider|op_6~30_cout\,
 	sumout => \convert_binary|Mod0|auto_generated|divider|divider|op_6~25_sumout\,
 	cout => \convert_binary|Mod0|auto_generated|divider|divider|op_6~26\);
@@ -10284,9 +10108,9 @@ PORT MAP (
 \convert_binary|Mod0|auto_generated|divider|divider|op_6~21\ : cyclonev_lcell_comb
 -- Equation(s):
 -- \convert_binary|Mod0|auto_generated|divider|divider|op_6~21_sumout\ = SUM(( (!\convert_binary|Mod0|auto_generated|divider|divider|op_5~1_sumout\ & ((\convert_binary|Mod0|auto_generated|divider|divider|op_5~21_sumout\))) # 
--- (\convert_binary|Mod0|auto_generated|divider|divider|op_5~1_sumout\ & (Result_input(5))) ) + ( GND ) + ( \convert_binary|Mod0|auto_generated|divider|divider|op_6~26\ ))
+-- (\convert_binary|Mod0|auto_generated|divider|divider|op_5~1_sumout\ & (\Result[5]~reg0_q\)) ) + ( GND ) + ( \convert_binary|Mod0|auto_generated|divider|divider|op_6~26\ ))
 -- \convert_binary|Mod0|auto_generated|divider|divider|op_6~22\ = CARRY(( (!\convert_binary|Mod0|auto_generated|divider|divider|op_5~1_sumout\ & ((\convert_binary|Mod0|auto_generated|divider|divider|op_5~21_sumout\))) # 
--- (\convert_binary|Mod0|auto_generated|divider|divider|op_5~1_sumout\ & (Result_input(5))) ) + ( GND ) + ( \convert_binary|Mod0|auto_generated|divider|divider|op_6~26\ ))
+-- (\convert_binary|Mod0|auto_generated|divider|divider|op_5~1_sumout\ & (\Result[5]~reg0_q\)) ) + ( GND ) + ( \convert_binary|Mod0|auto_generated|divider|divider|op_6~26\ ))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -10295,7 +10119,7 @@ GENERIC MAP (
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
-	dataa => ALT_INV_Result_input(5),
+	dataa => \ALT_INV_Result[5]~reg0_q\,
 	datab => \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_5~1_sumout\,
 	datad => \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_5~21_sumout\,
 	cin => \convert_binary|Mod0|auto_generated|divider|divider|op_6~26\,
@@ -10506,7 +10330,7 @@ PORT MAP (
 \convert_binary|Mod0|auto_generated|divider|divider|StageOut[40]~40\ : cyclonev_lcell_comb
 -- Equation(s):
 -- \convert_binary|Mod0|auto_generated|divider|divider|StageOut[40]~40_combout\ = (!\convert_binary|Mod0|auto_generated|divider|divider|op_5~1_sumout\ & ((\convert_binary|Mod0|auto_generated|divider|divider|op_5~21_sumout\))) # 
--- (\convert_binary|Mod0|auto_generated|divider|divider|op_5~1_sumout\ & (Result_input(5)))
+-- (\convert_binary|Mod0|auto_generated|divider|divider|op_5~1_sumout\ & (\Result[5]~reg0_q\))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -10515,44 +10339,10 @@ GENERIC MAP (
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
-	dataa => ALT_INV_Result_input(5),
+	dataa => \ALT_INV_Result[5]~reg0_q\,
 	datab => \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_5~1_sumout\,
 	datac => \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_5~21_sumout\,
 	combout => \convert_binary|Mod0|auto_generated|divider|divider|StageOut[40]~40_combout\);
-
-\Result_input~3\ : cyclonev_lcell_comb
--- Equation(s):
--- \Result_input~3_combout\ = ( \multiplication_function|R\(3) & ( (!\Operation[1]~input_o\ & (((\division_function|Q\(3))) # (\Operation[0]~input_o\))) # (\Operation[1]~input_o\ & (((\addandsub_function|eq_compar:3:sum|sum~combout\)))) ) ) # ( 
--- !\multiplication_function|R\(3) & ( (!\Operation[1]~input_o\ & (!\Operation[0]~input_o\ & (\division_function|Q\(3)))) # (\Operation[1]~input_o\ & (((\addandsub_function|eq_compar:3:sum|sum~combout\)))) ) )
-
--- pragma translate_off
-GENERIC MAP (
-	extended_lut => "off",
-	lut_mask => "0000100000111011010011000111111100001000001110110100110001111111",
-	shared_arith => "off")
--- pragma translate_on
-PORT MAP (
-	dataa => \ALT_INV_Operation[0]~input_o\,
-	datab => \ALT_INV_Operation[1]~input_o\,
-	datac => \division_function|ALT_INV_Q\(3),
-	datad => \addandsub_function|eq_compar:3:sum|ALT_INV_sum~combout\,
-	datae => \multiplication_function|ALT_INV_R\(3),
-	combout => \Result_input~3_combout\);
-
-\Result_input[3]\ : dffeas
--- pragma translate_off
-GENERIC MAP (
-	is_wysiwyg => "true",
-	power_up => "low")
--- pragma translate_on
-PORT MAP (
-	clk => \CLK_main~input_o\,
-	d => \Result_input~3_combout\,
-	clrn => \RST_main~input_o\,
-	ena => \state~q\,
-	devclrn => ww_devclrn,
-	devpor => ww_devpor,
-	q => Result_input(3));
 
 \convert_binary|Mod0|auto_generated|divider|divider|op_7~14\ : cyclonev_lcell_comb
 -- Equation(s):
@@ -10570,8 +10360,8 @@ PORT MAP (
 
 \convert_binary|Mod0|auto_generated|divider|divider|op_7~5\ : cyclonev_lcell_comb
 -- Equation(s):
--- \convert_binary|Mod0|auto_generated|divider|divider|op_7~5_sumout\ = SUM(( Result_input(3) ) + ( VCC ) + ( \convert_binary|Mod0|auto_generated|divider|divider|op_7~14_cout\ ))
--- \convert_binary|Mod0|auto_generated|divider|divider|op_7~6\ = CARRY(( Result_input(3) ) + ( VCC ) + ( \convert_binary|Mod0|auto_generated|divider|divider|op_7~14_cout\ ))
+-- \convert_binary|Mod0|auto_generated|divider|divider|op_7~5_sumout\ = SUM(( \Result[3]~reg0_q\ ) + ( VCC ) + ( \convert_binary|Mod0|auto_generated|divider|divider|op_7~14_cout\ ))
+-- \convert_binary|Mod0|auto_generated|divider|divider|op_7~6\ = CARRY(( \Result[3]~reg0_q\ ) + ( VCC ) + ( \convert_binary|Mod0|auto_generated|divider|divider|op_7~14_cout\ ))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -10580,7 +10370,7 @@ GENERIC MAP (
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
-	datad => ALT_INV_Result_input(3),
+	datad => \ALT_INV_Result[3]~reg0_q\,
 	cin => \convert_binary|Mod0|auto_generated|divider|divider|op_7~14_cout\,
 	sumout => \convert_binary|Mod0|auto_generated|divider|divider|op_7~5_sumout\,
 	cout => \convert_binary|Mod0|auto_generated|divider|divider|op_7~6\);
@@ -10588,9 +10378,9 @@ PORT MAP (
 \convert_binary|Mod0|auto_generated|divider|divider|op_7~33\ : cyclonev_lcell_comb
 -- Equation(s):
 -- \convert_binary|Mod0|auto_generated|divider|divider|op_7~33_sumout\ = SUM(( (!\convert_binary|Mod0|auto_generated|divider|divider|op_6~1_sumout\ & ((\convert_binary|Mod0|auto_generated|divider|divider|op_6~25_sumout\))) # 
--- (\convert_binary|Mod0|auto_generated|divider|divider|op_6~1_sumout\ & (Result_input(4))) ) + ( GND ) + ( \convert_binary|Mod0|auto_generated|divider|divider|op_7~6\ ))
+-- (\convert_binary|Mod0|auto_generated|divider|divider|op_6~1_sumout\ & (\Result[4]~reg0_q\)) ) + ( GND ) + ( \convert_binary|Mod0|auto_generated|divider|divider|op_7~6\ ))
 -- \convert_binary|Mod0|auto_generated|divider|divider|op_7~34\ = CARRY(( (!\convert_binary|Mod0|auto_generated|divider|divider|op_6~1_sumout\ & ((\convert_binary|Mod0|auto_generated|divider|divider|op_6~25_sumout\))) # 
--- (\convert_binary|Mod0|auto_generated|divider|divider|op_6~1_sumout\ & (Result_input(4))) ) + ( GND ) + ( \convert_binary|Mod0|auto_generated|divider|divider|op_7~6\ ))
+-- (\convert_binary|Mod0|auto_generated|divider|divider|op_6~1_sumout\ & (\Result[4]~reg0_q\)) ) + ( GND ) + ( \convert_binary|Mod0|auto_generated|divider|divider|op_7~6\ ))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -10599,7 +10389,7 @@ GENERIC MAP (
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
-	dataa => ALT_INV_Result_input(4),
+	dataa => \ALT_INV_Result[4]~reg0_q\,
 	datab => \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_6~1_sumout\,
 	datad => \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_6~25_sumout\,
 	cin => \convert_binary|Mod0|auto_generated|divider|divider|op_7~6\,
@@ -10861,7 +10651,7 @@ PORT MAP (
 \convert_binary|Mod0|auto_generated|divider|divider|StageOut[50]~45\ : cyclonev_lcell_comb
 -- Equation(s):
 -- \convert_binary|Mod0|auto_generated|divider|divider|StageOut[50]~45_combout\ = (!\convert_binary|Mod0|auto_generated|divider|divider|op_6~1_sumout\ & ((\convert_binary|Mod0|auto_generated|divider|divider|op_6~25_sumout\))) # 
--- (\convert_binary|Mod0|auto_generated|divider|divider|op_6~1_sumout\ & (Result_input(4)))
+-- (\convert_binary|Mod0|auto_generated|divider|divider|op_6~1_sumout\ & (\Result[4]~reg0_q\))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -10870,44 +10660,10 @@ GENERIC MAP (
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
-	dataa => ALT_INV_Result_input(4),
+	dataa => \ALT_INV_Result[4]~reg0_q\,
 	datab => \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_6~1_sumout\,
 	datac => \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_6~25_sumout\,
 	combout => \convert_binary|Mod0|auto_generated|divider|divider|StageOut[50]~45_combout\);
-
-\Result_input~2\ : cyclonev_lcell_comb
--- Equation(s):
--- \Result_input~2_combout\ = ( \multiplication_function|R\(2) & ( (!\Operation[1]~input_o\ & (((\division_function|Q\(2))) # (\Operation[0]~input_o\))) # (\Operation[1]~input_o\ & (((\addandsub_function|eq_compar:2:sum|sum~combout\)))) ) ) # ( 
--- !\multiplication_function|R\(2) & ( (!\Operation[1]~input_o\ & (!\Operation[0]~input_o\ & (\division_function|Q\(2)))) # (\Operation[1]~input_o\ & (((\addandsub_function|eq_compar:2:sum|sum~combout\)))) ) )
-
--- pragma translate_off
-GENERIC MAP (
-	extended_lut => "off",
-	lut_mask => "0000100000111011010011000111111100001000001110110100110001111111",
-	shared_arith => "off")
--- pragma translate_on
-PORT MAP (
-	dataa => \ALT_INV_Operation[0]~input_o\,
-	datab => \ALT_INV_Operation[1]~input_o\,
-	datac => \division_function|ALT_INV_Q\(2),
-	datad => \addandsub_function|eq_compar:2:sum|ALT_INV_sum~combout\,
-	datae => \multiplication_function|ALT_INV_R\(2),
-	combout => \Result_input~2_combout\);
-
-\Result_input[2]\ : dffeas
--- pragma translate_off
-GENERIC MAP (
-	is_wysiwyg => "true",
-	power_up => "low")
--- pragma translate_on
-PORT MAP (
-	clk => \CLK_main~input_o\,
-	d => \Result_input~2_combout\,
-	clrn => \RST_main~input_o\,
-	ena => \state~q\,
-	devclrn => ww_devclrn,
-	devpor => ww_devpor,
-	q => Result_input(2));
 
 \convert_binary|Mod0|auto_generated|divider|divider|op_8~18\ : cyclonev_lcell_comb
 -- Equation(s):
@@ -10925,8 +10681,8 @@ PORT MAP (
 
 \convert_binary|Mod0|auto_generated|divider|divider|op_8~5\ : cyclonev_lcell_comb
 -- Equation(s):
--- \convert_binary|Mod0|auto_generated|divider|divider|op_8~5_sumout\ = SUM(( Result_input(2) ) + ( VCC ) + ( \convert_binary|Mod0|auto_generated|divider|divider|op_8~18_cout\ ))
--- \convert_binary|Mod0|auto_generated|divider|divider|op_8~6\ = CARRY(( Result_input(2) ) + ( VCC ) + ( \convert_binary|Mod0|auto_generated|divider|divider|op_8~18_cout\ ))
+-- \convert_binary|Mod0|auto_generated|divider|divider|op_8~5_sumout\ = SUM(( \Result[2]~reg0_q\ ) + ( VCC ) + ( \convert_binary|Mod0|auto_generated|divider|divider|op_8~18_cout\ ))
+-- \convert_binary|Mod0|auto_generated|divider|divider|op_8~6\ = CARRY(( \Result[2]~reg0_q\ ) + ( VCC ) + ( \convert_binary|Mod0|auto_generated|divider|divider|op_8~18_cout\ ))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -10935,7 +10691,7 @@ GENERIC MAP (
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
-	datad => ALT_INV_Result_input(2),
+	datad => \ALT_INV_Result[2]~reg0_q\,
 	cin => \convert_binary|Mod0|auto_generated|divider|divider|op_8~18_cout\,
 	sumout => \convert_binary|Mod0|auto_generated|divider|divider|op_8~5_sumout\,
 	cout => \convert_binary|Mod0|auto_generated|divider|divider|op_8~6\);
@@ -10943,9 +10699,9 @@ PORT MAP (
 \convert_binary|Mod0|auto_generated|divider|divider|op_8~9\ : cyclonev_lcell_comb
 -- Equation(s):
 -- \convert_binary|Mod0|auto_generated|divider|divider|op_8~9_sumout\ = SUM(( (!\convert_binary|Mod0|auto_generated|divider|divider|op_7~1_sumout\ & ((\convert_binary|Mod0|auto_generated|divider|divider|op_7~5_sumout\))) # 
--- (\convert_binary|Mod0|auto_generated|divider|divider|op_7~1_sumout\ & (Result_input(3))) ) + ( GND ) + ( \convert_binary|Mod0|auto_generated|divider|divider|op_8~6\ ))
+-- (\convert_binary|Mod0|auto_generated|divider|divider|op_7~1_sumout\ & (\Result[3]~reg0_q\)) ) + ( GND ) + ( \convert_binary|Mod0|auto_generated|divider|divider|op_8~6\ ))
 -- \convert_binary|Mod0|auto_generated|divider|divider|op_8~10\ = CARRY(( (!\convert_binary|Mod0|auto_generated|divider|divider|op_7~1_sumout\ & ((\convert_binary|Mod0|auto_generated|divider|divider|op_7~5_sumout\))) # 
--- (\convert_binary|Mod0|auto_generated|divider|divider|op_7~1_sumout\ & (Result_input(3))) ) + ( GND ) + ( \convert_binary|Mod0|auto_generated|divider|divider|op_8~6\ ))
+-- (\convert_binary|Mod0|auto_generated|divider|divider|op_7~1_sumout\ & (\Result[3]~reg0_q\)) ) + ( GND ) + ( \convert_binary|Mod0|auto_generated|divider|divider|op_8~6\ ))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -10954,7 +10710,7 @@ GENERIC MAP (
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
-	dataa => ALT_INV_Result_input(3),
+	dataa => \ALT_INV_Result[3]~reg0_q\,
 	datab => \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_7~1_sumout\,
 	datad => \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_7~5_sumout\,
 	cin => \convert_binary|Mod0|auto_generated|divider|divider|op_8~6\,
@@ -11258,7 +11014,7 @@ PORT MAP (
 \convert_binary|Mod0|auto_generated|divider|divider|StageOut[60]~3\ : cyclonev_lcell_comb
 -- Equation(s):
 -- \convert_binary|Mod0|auto_generated|divider|divider|StageOut[60]~3_combout\ = (!\convert_binary|Mod0|auto_generated|divider|divider|op_7~1_sumout\ & ((\convert_binary|Mod0|auto_generated|divider|divider|op_7~5_sumout\))) # 
--- (\convert_binary|Mod0|auto_generated|divider|divider|op_7~1_sumout\ & (Result_input(3)))
+-- (\convert_binary|Mod0|auto_generated|divider|divider|op_7~1_sumout\ & (\Result[3]~reg0_q\))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -11267,44 +11023,10 @@ GENERIC MAP (
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
-	dataa => ALT_INV_Result_input(3),
+	dataa => \ALT_INV_Result[3]~reg0_q\,
 	datab => \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_7~1_sumout\,
 	datac => \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_7~5_sumout\,
 	combout => \convert_binary|Mod0|auto_generated|divider|divider|StageOut[60]~3_combout\);
-
-\Result_input~1\ : cyclonev_lcell_comb
--- Equation(s):
--- \Result_input~1_combout\ = ( \multiplication_function|R\(1) & ( (!\Operation[1]~input_o\ & (((\division_function|Q\(1))) # (\Operation[0]~input_o\))) # (\Operation[1]~input_o\ & (((\addandsub_function|eq_compar:1:sum|sum~combout\)))) ) ) # ( 
--- !\multiplication_function|R\(1) & ( (!\Operation[1]~input_o\ & (!\Operation[0]~input_o\ & (\division_function|Q\(1)))) # (\Operation[1]~input_o\ & (((\addandsub_function|eq_compar:1:sum|sum~combout\)))) ) )
-
--- pragma translate_off
-GENERIC MAP (
-	extended_lut => "off",
-	lut_mask => "0000100000111011010011000111111100001000001110110100110001111111",
-	shared_arith => "off")
--- pragma translate_on
-PORT MAP (
-	dataa => \ALT_INV_Operation[0]~input_o\,
-	datab => \ALT_INV_Operation[1]~input_o\,
-	datac => \division_function|ALT_INV_Q\(1),
-	datad => \addandsub_function|eq_compar:1:sum|ALT_INV_sum~combout\,
-	datae => \multiplication_function|ALT_INV_R\(1),
-	combout => \Result_input~1_combout\);
-
-\Result_input[1]\ : dffeas
--- pragma translate_off
-GENERIC MAP (
-	is_wysiwyg => "true",
-	power_up => "low")
--- pragma translate_on
-PORT MAP (
-	clk => \CLK_main~input_o\,
-	d => \Result_input~1_combout\,
-	clrn => \RST_main~input_o\,
-	ena => \state~q\,
-	devclrn => ww_devclrn,
-	devpor => ww_devpor,
-	q => Result_input(1));
 
 \convert_binary|Mod0|auto_generated|divider|divider|op_9~22\ : cyclonev_lcell_comb
 -- Equation(s):
@@ -11322,8 +11044,8 @@ PORT MAP (
 
 \convert_binary|Mod0|auto_generated|divider|divider|op_9~5\ : cyclonev_lcell_comb
 -- Equation(s):
--- \convert_binary|Mod0|auto_generated|divider|divider|op_9~5_sumout\ = SUM(( Result_input(1) ) + ( VCC ) + ( \convert_binary|Mod0|auto_generated|divider|divider|op_9~22_cout\ ))
--- \convert_binary|Mod0|auto_generated|divider|divider|op_9~6\ = CARRY(( Result_input(1) ) + ( VCC ) + ( \convert_binary|Mod0|auto_generated|divider|divider|op_9~22_cout\ ))
+-- \convert_binary|Mod0|auto_generated|divider|divider|op_9~5_sumout\ = SUM(( \Result[1]~reg0_q\ ) + ( VCC ) + ( \convert_binary|Mod0|auto_generated|divider|divider|op_9~22_cout\ ))
+-- \convert_binary|Mod0|auto_generated|divider|divider|op_9~6\ = CARRY(( \Result[1]~reg0_q\ ) + ( VCC ) + ( \convert_binary|Mod0|auto_generated|divider|divider|op_9~22_cout\ ))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -11332,7 +11054,7 @@ GENERIC MAP (
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
-	datad => ALT_INV_Result_input(1),
+	datad => \ALT_INV_Result[1]~reg0_q\,
 	cin => \convert_binary|Mod0|auto_generated|divider|divider|op_9~22_cout\,
 	sumout => \convert_binary|Mod0|auto_generated|divider|divider|op_9~5_sumout\,
 	cout => \convert_binary|Mod0|auto_generated|divider|divider|op_9~6\);
@@ -11340,9 +11062,9 @@ PORT MAP (
 \convert_binary|Mod0|auto_generated|divider|divider|op_9~9\ : cyclonev_lcell_comb
 -- Equation(s):
 -- \convert_binary|Mod0|auto_generated|divider|divider|op_9~9_sumout\ = SUM(( (!\convert_binary|Mod0|auto_generated|divider|divider|op_8~1_sumout\ & ((\convert_binary|Mod0|auto_generated|divider|divider|op_8~5_sumout\))) # 
--- (\convert_binary|Mod0|auto_generated|divider|divider|op_8~1_sumout\ & (Result_input(2))) ) + ( GND ) + ( \convert_binary|Mod0|auto_generated|divider|divider|op_9~6\ ))
+-- (\convert_binary|Mod0|auto_generated|divider|divider|op_8~1_sumout\ & (\Result[2]~reg0_q\)) ) + ( GND ) + ( \convert_binary|Mod0|auto_generated|divider|divider|op_9~6\ ))
 -- \convert_binary|Mod0|auto_generated|divider|divider|op_9~10\ = CARRY(( (!\convert_binary|Mod0|auto_generated|divider|divider|op_8~1_sumout\ & ((\convert_binary|Mod0|auto_generated|divider|divider|op_8~5_sumout\))) # 
--- (\convert_binary|Mod0|auto_generated|divider|divider|op_8~1_sumout\ & (Result_input(2))) ) + ( GND ) + ( \convert_binary|Mod0|auto_generated|divider|divider|op_9~6\ ))
+-- (\convert_binary|Mod0|auto_generated|divider|divider|op_8~1_sumout\ & (\Result[2]~reg0_q\)) ) + ( GND ) + ( \convert_binary|Mod0|auto_generated|divider|divider|op_9~6\ ))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -11351,7 +11073,7 @@ GENERIC MAP (
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
-	dataa => ALT_INV_Result_input(2),
+	dataa => \ALT_INV_Result[2]~reg0_q\,
 	datab => \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_8~1_sumout\,
 	datad => \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_8~5_sumout\,
 	cin => \convert_binary|Mod0|auto_generated|divider|divider|op_9~6\,
@@ -11706,7 +11428,7 @@ PORT MAP (
 \convert_binary|Mod0|auto_generated|divider|divider|StageOut[70]~1\ : cyclonev_lcell_comb
 -- Equation(s):
 -- \convert_binary|Mod0|auto_generated|divider|divider|StageOut[70]~1_combout\ = (!\convert_binary|Mod0|auto_generated|divider|divider|op_8~1_sumout\ & ((\convert_binary|Mod0|auto_generated|divider|divider|op_8~5_sumout\))) # 
--- (\convert_binary|Mod0|auto_generated|divider|divider|op_8~1_sumout\ & (Result_input(2)))
+-- (\convert_binary|Mod0|auto_generated|divider|divider|op_8~1_sumout\ & (\Result[2]~reg0_q\))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -11715,7 +11437,7 @@ GENERIC MAP (
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
-	dataa => ALT_INV_Result_input(2),
+	dataa => \ALT_INV_Result[2]~reg0_q\,
 	datab => \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_8~1_sumout\,
 	datac => \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_8~5_sumout\,
 	combout => \convert_binary|Mod0|auto_generated|divider|divider|StageOut[70]~1_combout\);
@@ -11736,8 +11458,8 @@ PORT MAP (
 
 \convert_binary|Mod0|auto_generated|divider|divider|op_10~5\ : cyclonev_lcell_comb
 -- Equation(s):
--- \convert_binary|Mod0|auto_generated|divider|divider|op_10~5_sumout\ = SUM(( Result_input(0) ) + ( VCC ) + ( \convert_binary|Mod0|auto_generated|divider|divider|op_10~26_cout\ ))
--- \convert_binary|Mod0|auto_generated|divider|divider|op_10~6\ = CARRY(( Result_input(0) ) + ( VCC ) + ( \convert_binary|Mod0|auto_generated|divider|divider|op_10~26_cout\ ))
+-- \convert_binary|Mod0|auto_generated|divider|divider|op_10~5_sumout\ = SUM(( \Result[0]~reg0_q\ ) + ( VCC ) + ( \convert_binary|Mod0|auto_generated|divider|divider|op_10~26_cout\ ))
+-- \convert_binary|Mod0|auto_generated|divider|divider|op_10~6\ = CARRY(( \Result[0]~reg0_q\ ) + ( VCC ) + ( \convert_binary|Mod0|auto_generated|divider|divider|op_10~26_cout\ ))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -11746,7 +11468,7 @@ GENERIC MAP (
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
-	datad => ALT_INV_Result_input(0),
+	datad => \ALT_INV_Result[0]~reg0_q\,
 	cin => \convert_binary|Mod0|auto_generated|divider|divider|op_10~26_cout\,
 	sumout => \convert_binary|Mod0|auto_generated|divider|divider|op_10~5_sumout\,
 	cout => \convert_binary|Mod0|auto_generated|divider|divider|op_10~6\);
@@ -11754,9 +11476,9 @@ PORT MAP (
 \convert_binary|Mod0|auto_generated|divider|divider|op_10~9\ : cyclonev_lcell_comb
 -- Equation(s):
 -- \convert_binary|Mod0|auto_generated|divider|divider|op_10~9_sumout\ = SUM(( (!\convert_binary|Mod0|auto_generated|divider|divider|op_9~1_sumout\ & ((\convert_binary|Mod0|auto_generated|divider|divider|op_9~5_sumout\))) # 
--- (\convert_binary|Mod0|auto_generated|divider|divider|op_9~1_sumout\ & (Result_input(1))) ) + ( GND ) + ( \convert_binary|Mod0|auto_generated|divider|divider|op_10~6\ ))
+-- (\convert_binary|Mod0|auto_generated|divider|divider|op_9~1_sumout\ & (\Result[1]~reg0_q\)) ) + ( GND ) + ( \convert_binary|Mod0|auto_generated|divider|divider|op_10~6\ ))
 -- \convert_binary|Mod0|auto_generated|divider|divider|op_10~10\ = CARRY(( (!\convert_binary|Mod0|auto_generated|divider|divider|op_9~1_sumout\ & ((\convert_binary|Mod0|auto_generated|divider|divider|op_9~5_sumout\))) # 
--- (\convert_binary|Mod0|auto_generated|divider|divider|op_9~1_sumout\ & (Result_input(1))) ) + ( GND ) + ( \convert_binary|Mod0|auto_generated|divider|divider|op_10~6\ ))
+-- (\convert_binary|Mod0|auto_generated|divider|divider|op_9~1_sumout\ & (\Result[1]~reg0_q\)) ) + ( GND ) + ( \convert_binary|Mod0|auto_generated|divider|divider|op_10~6\ ))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -11765,7 +11487,7 @@ GENERIC MAP (
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
-	dataa => ALT_INV_Result_input(1),
+	dataa => \ALT_INV_Result[1]~reg0_q\,
 	datab => \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_9~1_sumout\,
 	datad => \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_9~5_sumout\,
 	cin => \convert_binary|Mod0|auto_generated|divider|divider|op_10~6\,
@@ -11947,7 +11669,7 @@ PORT MAP (
 \convert_binary|Mod0|auto_generated|divider|divider|StageOut[90]~0\ : cyclonev_lcell_comb
 -- Equation(s):
 -- \convert_binary|Mod0|auto_generated|divider|divider|StageOut[90]~0_combout\ = (!\convert_binary|Mod0|auto_generated|divider|divider|op_10~1_sumout\ & ((\convert_binary|Mod0|auto_generated|divider|divider|op_10~5_sumout\))) # 
--- (\convert_binary|Mod0|auto_generated|divider|divider|op_10~1_sumout\ & (Result_input(0)))
+-- (\convert_binary|Mod0|auto_generated|divider|divider|op_10~1_sumout\ & (\Result[0]~reg0_q\))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -11956,7 +11678,7 @@ GENERIC MAP (
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
-	dataa => ALT_INV_Result_input(0),
+	dataa => \ALT_INV_Result[0]~reg0_q\,
 	datab => \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_10~1_sumout\,
 	datac => \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_10~5_sumout\,
 	combout => \convert_binary|Mod0|auto_generated|divider|divider|StageOut[90]~0_combout\);
@@ -12101,9 +11823,9 @@ PORT MAP (
 	devpor => ww_devpor,
 	q => \check_zero_divisor~q\);
 
-\convert_binary|int_r_2[0]~0\ : cyclonev_lcell_comb
+\convert_binary|int_r_2[2]~0\ : cyclonev_lcell_comb
 -- Equation(s):
--- \convert_binary|int_r_2[0]~0_combout\ = (!Op(0) & ((!Op(1) & ((\check_zero_divisor~q\))) # (Op(1) & (!\COUT~reg0_q\))))
+-- \convert_binary|int_r_2[2]~0_combout\ = (!Op(0) & ((!Op(1) & ((\check_zero_divisor~q\))) # (Op(1) & (!\COUT~reg0_q\))))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -12116,7 +11838,7 @@ PORT MAP (
 	datab => ALT_INV_Op(1),
 	datac => ALT_INV_Op(0),
 	datad => \ALT_INV_check_zero_divisor~q\,
-	combout => \convert_binary|int_r_2[0]~0_combout\);
+	combout => \convert_binary|int_r_2[2]~0_combout\);
 
 \convert_binary|int_data_1[0]\ : dffeas
 -- pragma translate_off
@@ -12128,19 +11850,19 @@ PORT MAP (
 	clk => \CLK_main~input_o\,
 	d => \convert_binary|Mod0|auto_generated|divider|divider|StageOut[90]~0_combout\,
 	clrn => \RST_main~input_o\,
-	sclr => \convert_binary|int_r_2[0]~0_combout\,
+	sclr => \convert_binary|int_r_2[2]~0_combout\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
 	q => \convert_binary|int_data_1\(0));
 
 \convert_binary|int_data_1~0\ : cyclonev_lcell_comb
 -- Equation(s):
--- \convert_binary|int_data_1~0_combout\ = ( \convert_binary|int_r_2[0]~0_combout\ & ( \convert_binary|Mod0|auto_generated|divider|divider|op_10~9_sumout\ ) ) # ( !\convert_binary|int_r_2[0]~0_combout\ & ( 
+-- \convert_binary|int_data_1~0_combout\ = ( \convert_binary|int_r_2[2]~0_combout\ & ( \convert_binary|Mod0|auto_generated|divider|divider|op_10~9_sumout\ ) ) # ( !\convert_binary|int_r_2[2]~0_combout\ & ( 
 -- \convert_binary|Mod0|auto_generated|divider|divider|op_10~9_sumout\ & ( (!\convert_binary|Mod0|auto_generated|divider|divider|op_10~1_sumout\) # ((!\convert_binary|Mod0|auto_generated|divider|divider|op_9~1_sumout\ & 
--- ((\convert_binary|Mod0|auto_generated|divider|divider|op_9~5_sumout\))) # (\convert_binary|Mod0|auto_generated|divider|divider|op_9~1_sumout\ & (Result_input(1)))) ) ) ) # ( \convert_binary|int_r_2[0]~0_combout\ & ( 
--- !\convert_binary|Mod0|auto_generated|divider|divider|op_10~9_sumout\ ) ) # ( !\convert_binary|int_r_2[0]~0_combout\ & ( !\convert_binary|Mod0|auto_generated|divider|divider|op_10~9_sumout\ & ( 
+-- ((\convert_binary|Mod0|auto_generated|divider|divider|op_9~5_sumout\))) # (\convert_binary|Mod0|auto_generated|divider|divider|op_9~1_sumout\ & (\Result[1]~reg0_q\))) ) ) ) # ( \convert_binary|int_r_2[2]~0_combout\ & ( 
+-- !\convert_binary|Mod0|auto_generated|divider|divider|op_10~9_sumout\ ) ) # ( !\convert_binary|int_r_2[2]~0_combout\ & ( !\convert_binary|Mod0|auto_generated|divider|divider|op_10~9_sumout\ & ( 
 -- (\convert_binary|Mod0|auto_generated|divider|divider|op_10~1_sumout\ & ((!\convert_binary|Mod0|auto_generated|divider|divider|op_9~1_sumout\ & ((\convert_binary|Mod0|auto_generated|divider|divider|op_9~5_sumout\))) # 
--- (\convert_binary|Mod0|auto_generated|divider|divider|op_9~1_sumout\ & (Result_input(1))))) ) ) )
+-- (\convert_binary|Mod0|auto_generated|divider|divider|op_9~1_sumout\ & (\Result[1]~reg0_q\)))) ) ) )
 
 -- pragma translate_off
 GENERIC MAP (
@@ -12149,11 +11871,11 @@ GENERIC MAP (
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
-	dataa => ALT_INV_Result_input(1),
+	dataa => \ALT_INV_Result[1]~reg0_q\,
 	datab => \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_9~1_sumout\,
 	datac => \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_9~5_sumout\,
 	datad => \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_10~1_sumout\,
-	datae => \convert_binary|ALT_INV_int_r_2[0]~0_combout\,
+	datae => \convert_binary|ALT_INV_int_r_2[2]~0_combout\,
 	dataf => \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_10~9_sumout\,
 	combout => \convert_binary|int_data_1~0_combout\);
 
@@ -12203,17 +11925,17 @@ PORT MAP (
 	clk => \CLK_main~input_o\,
 	d => \convert_binary|Mod0|auto_generated|divider|divider|StageOut[92]~2_combout\,
 	clrn => \RST_main~input_o\,
-	sclr => \convert_binary|int_r_2[0]~0_combout\,
+	sclr => \convert_binary|int_r_2[2]~0_combout\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
 	q => \convert_binary|int_data_1\(2));
 
 \convert_binary|int_data_1~1\ : cyclonev_lcell_comb
 -- Equation(s):
--- \convert_binary|int_data_1~1_combout\ = ( \convert_binary|int_r_2[0]~0_combout\ & ( \convert_binary|Mod0|auto_generated|divider|divider|op_10~17_sumout\ ) ) # ( !\convert_binary|int_r_2[0]~0_combout\ & ( 
+-- \convert_binary|int_data_1~1_combout\ = ( \convert_binary|int_r_2[2]~0_combout\ & ( \convert_binary|Mod0|auto_generated|divider|divider|op_10~17_sumout\ ) ) # ( !\convert_binary|int_r_2[2]~0_combout\ & ( 
 -- \convert_binary|Mod0|auto_generated|divider|divider|op_10~17_sumout\ & ( (!\convert_binary|Mod0|auto_generated|divider|divider|op_10~1_sumout\) # ((!\convert_binary|Mod0|auto_generated|divider|divider|op_9~1_sumout\ & 
 -- ((\convert_binary|Mod0|auto_generated|divider|divider|op_9~13_sumout\))) # (\convert_binary|Mod0|auto_generated|divider|divider|op_9~1_sumout\ & (\convert_binary|Mod0|auto_generated|divider|divider|StageOut[71]~4_combout\))) ) ) ) # ( 
--- \convert_binary|int_r_2[0]~0_combout\ & ( !\convert_binary|Mod0|auto_generated|divider|divider|op_10~17_sumout\ ) ) # ( !\convert_binary|int_r_2[0]~0_combout\ & ( !\convert_binary|Mod0|auto_generated|divider|divider|op_10~17_sumout\ & ( 
+-- \convert_binary|int_r_2[2]~0_combout\ & ( !\convert_binary|Mod0|auto_generated|divider|divider|op_10~17_sumout\ ) ) # ( !\convert_binary|int_r_2[2]~0_combout\ & ( !\convert_binary|Mod0|auto_generated|divider|divider|op_10~17_sumout\ & ( 
 -- (\convert_binary|Mod0|auto_generated|divider|divider|op_10~1_sumout\ & ((!\convert_binary|Mod0|auto_generated|divider|divider|op_9~1_sumout\ & ((\convert_binary|Mod0|auto_generated|divider|divider|op_9~13_sumout\))) # 
 -- (\convert_binary|Mod0|auto_generated|divider|divider|op_9~1_sumout\ & (\convert_binary|Mod0|auto_generated|divider|divider|StageOut[71]~4_combout\)))) ) ) )
 
@@ -12228,7 +11950,7 @@ PORT MAP (
 	datab => \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_StageOut[71]~4_combout\,
 	datac => \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_9~13_sumout\,
 	datad => \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_10~1_sumout\,
-	datae => \convert_binary|ALT_INV_int_r_2[0]~0_combout\,
+	datae => \convert_binary|ALT_INV_int_r_2[2]~0_combout\,
 	dataf => \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_10~17_sumout\,
 	combout => \convert_binary|int_data_1~1_combout\);
 
@@ -12462,8 +12184,8 @@ PORT MAP (
 
 \convert_binary|Div0|auto_generated|divider|divider|add_sub_3_result_int[0]~5\ : cyclonev_lcell_comb
 -- Equation(s):
--- \convert_binary|Div0|auto_generated|divider|divider|add_sub_3_result_int[0]~5_sumout\ = SUM(( Result_input(6) ) + ( !VCC ) + ( !VCC ))
--- \convert_binary|Div0|auto_generated|divider|divider|add_sub_3_result_int[0]~6\ = CARRY(( Result_input(6) ) + ( !VCC ) + ( !VCC ))
+-- \convert_binary|Div0|auto_generated|divider|divider|add_sub_3_result_int[0]~5_sumout\ = SUM(( \Result[6]~reg0_q\ ) + ( !VCC ) + ( !VCC ))
+-- \convert_binary|Div0|auto_generated|divider|divider|add_sub_3_result_int[0]~6\ = CARRY(( \Result[6]~reg0_q\ ) + ( !VCC ) + ( !VCC ))
 -- \convert_binary|Div0|auto_generated|divider|divider|add_sub_3_result_int[0]~7\ = SHARE(VCC)
 
 -- pragma translate_off
@@ -12473,7 +12195,7 @@ GENERIC MAP (
 	shared_arith => "on")
 -- pragma translate_on
 PORT MAP (
-	datad => ALT_INV_Result_input(6),
+	datad => \ALT_INV_Result[6]~reg0_q\,
 	cin => GND,
 	sharein => GND,
 	sumout => \convert_binary|Div0|auto_generated|divider|divider|add_sub_3_result_int[0]~5_sumout\,
@@ -12482,9 +12204,9 @@ PORT MAP (
 
 \convert_binary|Div0|auto_generated|divider|divider|add_sub_3_result_int[1]~9\ : cyclonev_lcell_comb
 -- Equation(s):
--- \convert_binary|Div0|auto_generated|divider|divider|add_sub_3_result_int[1]~9_sumout\ = SUM(( Result_input(7) ) + ( \convert_binary|Div0|auto_generated|divider|divider|add_sub_3_result_int[0]~7\ ) + ( 
+-- \convert_binary|Div0|auto_generated|divider|divider|add_sub_3_result_int[1]~9_sumout\ = SUM(( \Result[7]~reg0_q\ ) + ( \convert_binary|Div0|auto_generated|divider|divider|add_sub_3_result_int[0]~7\ ) + ( 
 -- \convert_binary|Div0|auto_generated|divider|divider|add_sub_3_result_int[0]~6\ ))
--- \convert_binary|Div0|auto_generated|divider|divider|add_sub_3_result_int[1]~10\ = CARRY(( Result_input(7) ) + ( \convert_binary|Div0|auto_generated|divider|divider|add_sub_3_result_int[0]~7\ ) + ( 
+-- \convert_binary|Div0|auto_generated|divider|divider|add_sub_3_result_int[1]~10\ = CARRY(( \Result[7]~reg0_q\ ) + ( \convert_binary|Div0|auto_generated|divider|divider|add_sub_3_result_int[0]~7\ ) + ( 
 -- \convert_binary|Div0|auto_generated|divider|divider|add_sub_3_result_int[0]~6\ ))
 -- \convert_binary|Div0|auto_generated|divider|divider|add_sub_3_result_int[1]~11\ = SHARE(GND)
 
@@ -12495,7 +12217,7 @@ GENERIC MAP (
 	shared_arith => "on")
 -- pragma translate_on
 PORT MAP (
-	datad => ALT_INV_Result_input(7),
+	datad => \ALT_INV_Result[7]~reg0_q\,
 	cin => \convert_binary|Div0|auto_generated|divider|divider|add_sub_3_result_int[0]~6\,
 	sharein => \convert_binary|Div0|auto_generated|divider|divider|add_sub_3_result_int[0]~7\,
 	sumout => \convert_binary|Div0|auto_generated|divider|divider|add_sub_3_result_int[1]~9_sumout\,
@@ -12504,11 +12226,11 @@ PORT MAP (
 
 \convert_binary|Div0|auto_generated|divider|divider|add_sub_3_result_int[2]~17\ : cyclonev_lcell_comb
 -- Equation(s):
--- \convert_binary|Div0|auto_generated|divider|divider|add_sub_3_result_int[2]~17_sumout\ = SUM(( !Result_input(8) ) + ( \convert_binary|Div0|auto_generated|divider|divider|add_sub_3_result_int[1]~11\ ) + ( 
+-- \convert_binary|Div0|auto_generated|divider|divider|add_sub_3_result_int[2]~17_sumout\ = SUM(( !\Result[8]~reg0_q\ ) + ( \convert_binary|Div0|auto_generated|divider|divider|add_sub_3_result_int[1]~11\ ) + ( 
 -- \convert_binary|Div0|auto_generated|divider|divider|add_sub_3_result_int[1]~10\ ))
--- \convert_binary|Div0|auto_generated|divider|divider|add_sub_3_result_int[2]~18\ = CARRY(( !Result_input(8) ) + ( \convert_binary|Div0|auto_generated|divider|divider|add_sub_3_result_int[1]~11\ ) + ( 
+-- \convert_binary|Div0|auto_generated|divider|divider|add_sub_3_result_int[2]~18\ = CARRY(( !\Result[8]~reg0_q\ ) + ( \convert_binary|Div0|auto_generated|divider|divider|add_sub_3_result_int[1]~11\ ) + ( 
 -- \convert_binary|Div0|auto_generated|divider|divider|add_sub_3_result_int[1]~10\ ))
--- \convert_binary|Div0|auto_generated|divider|divider|add_sub_3_result_int[2]~19\ = SHARE(Result_input(8))
+-- \convert_binary|Div0|auto_generated|divider|divider|add_sub_3_result_int[2]~19\ = SHARE(\Result[8]~reg0_q\)
 
 -- pragma translate_off
 GENERIC MAP (
@@ -12517,7 +12239,7 @@ GENERIC MAP (
 	shared_arith => "on")
 -- pragma translate_on
 PORT MAP (
-	datad => ALT_INV_Result_input(8),
+	datad => \ALT_INV_Result[8]~reg0_q\,
 	cin => \convert_binary|Div0|auto_generated|divider|divider|add_sub_3_result_int[1]~10\,
 	sharein => \convert_binary|Div0|auto_generated|divider|divider|add_sub_3_result_int[1]~11\,
 	sumout => \convert_binary|Div0|auto_generated|divider|divider|add_sub_3_result_int[2]~17_sumout\,
@@ -12526,9 +12248,9 @@ PORT MAP (
 
 \convert_binary|Div0|auto_generated|divider|divider|add_sub_3_result_int[3]~13\ : cyclonev_lcell_comb
 -- Equation(s):
--- \convert_binary|Div0|auto_generated|divider|divider|add_sub_3_result_int[3]~13_sumout\ = SUM(( Result_input(9) ) + ( \convert_binary|Div0|auto_generated|divider|divider|add_sub_3_result_int[2]~19\ ) + ( 
+-- \convert_binary|Div0|auto_generated|divider|divider|add_sub_3_result_int[3]~13_sumout\ = SUM(( \Result[9]~reg0_q\ ) + ( \convert_binary|Div0|auto_generated|divider|divider|add_sub_3_result_int[2]~19\ ) + ( 
 -- \convert_binary|Div0|auto_generated|divider|divider|add_sub_3_result_int[2]~18\ ))
--- \convert_binary|Div0|auto_generated|divider|divider|add_sub_3_result_int[3]~14\ = CARRY(( Result_input(9) ) + ( \convert_binary|Div0|auto_generated|divider|divider|add_sub_3_result_int[2]~19\ ) + ( 
+-- \convert_binary|Div0|auto_generated|divider|divider|add_sub_3_result_int[3]~14\ = CARRY(( \Result[9]~reg0_q\ ) + ( \convert_binary|Div0|auto_generated|divider|divider|add_sub_3_result_int[2]~19\ ) + ( 
 -- \convert_binary|Div0|auto_generated|divider|divider|add_sub_3_result_int[2]~18\ ))
 -- \convert_binary|Div0|auto_generated|divider|divider|add_sub_3_result_int[3]~15\ = SHARE(GND)
 
@@ -12539,7 +12261,7 @@ GENERIC MAP (
 	shared_arith => "on")
 -- pragma translate_on
 PORT MAP (
-	datad => ALT_INV_Result_input(9),
+	datad => \ALT_INV_Result[9]~reg0_q\,
 	cin => \convert_binary|Div0|auto_generated|divider|divider|add_sub_3_result_int[2]~18\,
 	sharein => \convert_binary|Div0|auto_generated|divider|divider|add_sub_3_result_int[2]~19\,
 	sumout => \convert_binary|Div0|auto_generated|divider|divider|add_sub_3_result_int[3]~13_sumout\,
@@ -12580,7 +12302,7 @@ PORT MAP (
 
 \convert_binary|Div0|auto_generated|divider|divider|StageOut[18]~23\ : cyclonev_lcell_comb
 -- Equation(s):
--- \convert_binary|Div0|auto_generated|divider|divider|StageOut[18]~23_combout\ = (Result_input(9) & \convert_binary|Div0|auto_generated|divider|divider|add_sub_3_result_int[4]~1_sumout\)
+-- \convert_binary|Div0|auto_generated|divider|divider|StageOut[18]~23_combout\ = (\Result[9]~reg0_q\ & \convert_binary|Div0|auto_generated|divider|divider|add_sub_3_result_int[4]~1_sumout\)
 
 -- pragma translate_off
 GENERIC MAP (
@@ -12589,7 +12311,7 @@ GENERIC MAP (
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
-	dataa => ALT_INV_Result_input(9),
+	dataa => \ALT_INV_Result[9]~reg0_q\,
 	datab => \convert_binary|Div0|auto_generated|divider|divider|ALT_INV_add_sub_3_result_int[4]~1_sumout\,
 	combout => \convert_binary|Div0|auto_generated|divider|divider|StageOut[18]~23_combout\);
 
@@ -12610,7 +12332,7 @@ PORT MAP (
 
 \convert_binary|Div0|auto_generated|divider|divider|StageOut[16]~18\ : cyclonev_lcell_comb
 -- Equation(s):
--- \convert_binary|Div0|auto_generated|divider|divider|StageOut[16]~18_combout\ = (Result_input(7) & \convert_binary|Div0|auto_generated|divider|divider|add_sub_3_result_int[4]~1_sumout\)
+-- \convert_binary|Div0|auto_generated|divider|divider|StageOut[16]~18_combout\ = (\Result[7]~reg0_q\ & \convert_binary|Div0|auto_generated|divider|divider|add_sub_3_result_int[4]~1_sumout\)
 
 -- pragma translate_off
 GENERIC MAP (
@@ -12619,7 +12341,7 @@ GENERIC MAP (
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
-	dataa => ALT_INV_Result_input(7),
+	dataa => \ALT_INV_Result[7]~reg0_q\,
 	datab => \convert_binary|Div0|auto_generated|divider|divider|ALT_INV_add_sub_3_result_int[4]~1_sumout\,
 	combout => \convert_binary|Div0|auto_generated|divider|divider|StageOut[16]~18_combout\);
 
@@ -12639,8 +12361,8 @@ PORT MAP (
 
 \convert_binary|Div0|auto_generated|divider|divider|op_5~5\ : cyclonev_lcell_comb
 -- Equation(s):
--- \convert_binary|Div0|auto_generated|divider|divider|op_5~5_sumout\ = SUM(( Result_input(5) ) + ( VCC ) + ( \convert_binary|Div0|auto_generated|divider|divider|op_5~22_cout\ ))
--- \convert_binary|Div0|auto_generated|divider|divider|op_5~6\ = CARRY(( Result_input(5) ) + ( VCC ) + ( \convert_binary|Div0|auto_generated|divider|divider|op_5~22_cout\ ))
+-- \convert_binary|Div0|auto_generated|divider|divider|op_5~5_sumout\ = SUM(( \Result[5]~reg0_q\ ) + ( VCC ) + ( \convert_binary|Div0|auto_generated|divider|divider|op_5~22_cout\ ))
+-- \convert_binary|Div0|auto_generated|divider|divider|op_5~6\ = CARRY(( \Result[5]~reg0_q\ ) + ( VCC ) + ( \convert_binary|Div0|auto_generated|divider|divider|op_5~22_cout\ ))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -12649,7 +12371,7 @@ GENERIC MAP (
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
-	datad => ALT_INV_Result_input(5),
+	datad => \ALT_INV_Result[5]~reg0_q\,
 	cin => \convert_binary|Div0|auto_generated|divider|divider|op_5~22_cout\,
 	sumout => \convert_binary|Div0|auto_generated|divider|divider|op_5~5_sumout\,
 	cout => \convert_binary|Div0|auto_generated|divider|divider|op_5~6\);
@@ -12657,9 +12379,9 @@ PORT MAP (
 \convert_binary|Div0|auto_generated|divider|divider|op_5~9\ : cyclonev_lcell_comb
 -- Equation(s):
 -- \convert_binary|Div0|auto_generated|divider|divider|op_5~9_sumout\ = SUM(( (!\convert_binary|Div0|auto_generated|divider|divider|add_sub_3_result_int[4]~1_sumout\ & ((\convert_binary|Div0|auto_generated|divider|divider|add_sub_3_result_int[0]~5_sumout\))) 
--- # (\convert_binary|Div0|auto_generated|divider|divider|add_sub_3_result_int[4]~1_sumout\ & (Result_input(6))) ) + ( GND ) + ( \convert_binary|Div0|auto_generated|divider|divider|op_5~6\ ))
+-- # (\convert_binary|Div0|auto_generated|divider|divider|add_sub_3_result_int[4]~1_sumout\ & (\Result[6]~reg0_q\)) ) + ( GND ) + ( \convert_binary|Div0|auto_generated|divider|divider|op_5~6\ ))
 -- \convert_binary|Div0|auto_generated|divider|divider|op_5~10\ = CARRY(( (!\convert_binary|Div0|auto_generated|divider|divider|add_sub_3_result_int[4]~1_sumout\ & ((\convert_binary|Div0|auto_generated|divider|divider|add_sub_3_result_int[0]~5_sumout\))) # 
--- (\convert_binary|Div0|auto_generated|divider|divider|add_sub_3_result_int[4]~1_sumout\ & (Result_input(6))) ) + ( GND ) + ( \convert_binary|Div0|auto_generated|divider|divider|op_5~6\ ))
+-- (\convert_binary|Div0|auto_generated|divider|divider|add_sub_3_result_int[4]~1_sumout\ & (\Result[6]~reg0_q\)) ) + ( GND ) + ( \convert_binary|Div0|auto_generated|divider|divider|op_5~6\ ))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -12668,7 +12390,7 @@ GENERIC MAP (
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
-	dataa => ALT_INV_Result_input(6),
+	dataa => \ALT_INV_Result[6]~reg0_q\,
 	datac => \convert_binary|Div0|auto_generated|divider|divider|ALT_INV_add_sub_3_result_int[4]~1_sumout\,
 	datad => \convert_binary|Div0|auto_generated|divider|divider|ALT_INV_add_sub_3_result_int[0]~5_sumout\,
 	cin => \convert_binary|Div0|auto_generated|divider|divider|op_5~6\,
@@ -12698,10 +12420,10 @@ PORT MAP (
 \convert_binary|Div0|auto_generated|divider|divider|op_5~25\ : cyclonev_lcell_comb
 -- Equation(s):
 -- \convert_binary|Div0|auto_generated|divider|divider|op_5~25_sumout\ = SUM(( (!\convert_binary|Div0|auto_generated|divider|divider|add_sub_3_result_int[4]~1_sumout\ & 
--- ((\convert_binary|Div0|auto_generated|divider|divider|add_sub_3_result_int[2]~17_sumout\))) # (\convert_binary|Div0|auto_generated|divider|divider|add_sub_3_result_int[4]~1_sumout\ & (Result_input(8))) ) + ( GND ) + ( 
+-- ((\convert_binary|Div0|auto_generated|divider|divider|add_sub_3_result_int[2]~17_sumout\))) # (\convert_binary|Div0|auto_generated|divider|divider|add_sub_3_result_int[4]~1_sumout\ & (\Result[8]~reg0_q\)) ) + ( GND ) + ( 
 -- \convert_binary|Div0|auto_generated|divider|divider|op_5~14\ ))
 -- \convert_binary|Div0|auto_generated|divider|divider|op_5~26\ = CARRY(( (!\convert_binary|Div0|auto_generated|divider|divider|add_sub_3_result_int[4]~1_sumout\ & ((\convert_binary|Div0|auto_generated|divider|divider|add_sub_3_result_int[2]~17_sumout\))) # 
--- (\convert_binary|Div0|auto_generated|divider|divider|add_sub_3_result_int[4]~1_sumout\ & (Result_input(8))) ) + ( GND ) + ( \convert_binary|Div0|auto_generated|divider|divider|op_5~14\ ))
+-- (\convert_binary|Div0|auto_generated|divider|divider|add_sub_3_result_int[4]~1_sumout\ & (\Result[8]~reg0_q\)) ) + ( GND ) + ( \convert_binary|Div0|auto_generated|divider|divider|op_5~14\ ))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -12710,7 +12432,7 @@ GENERIC MAP (
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
-	dataa => ALT_INV_Result_input(8),
+	dataa => \ALT_INV_Result[8]~reg0_q\,
 	datac => \convert_binary|Div0|auto_generated|divider|divider|ALT_INV_add_sub_3_result_int[4]~1_sumout\,
 	datad => \convert_binary|Div0|auto_generated|divider|divider|ALT_INV_add_sub_3_result_int[2]~17_sumout\,
 	cin => \convert_binary|Div0|auto_generated|divider|divider|op_5~14\,
@@ -12766,7 +12488,7 @@ PORT MAP (
 
 \convert_binary|Div0|auto_generated|divider|divider|StageOut[17]~20\ : cyclonev_lcell_comb
 -- Equation(s):
--- \convert_binary|Div0|auto_generated|divider|divider|StageOut[17]~20_combout\ = (Result_input(8) & \convert_binary|Div0|auto_generated|divider|divider|add_sub_3_result_int[4]~1_sumout\)
+-- \convert_binary|Div0|auto_generated|divider|divider|StageOut[17]~20_combout\ = (\Result[8]~reg0_q\ & \convert_binary|Div0|auto_generated|divider|divider|add_sub_3_result_int[4]~1_sumout\)
 
 -- pragma translate_off
 GENERIC MAP (
@@ -12775,14 +12497,14 @@ GENERIC MAP (
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
-	dataa => ALT_INV_Result_input(8),
+	dataa => \ALT_INV_Result[8]~reg0_q\,
 	datab => \convert_binary|Div0|auto_generated|divider|divider|ALT_INV_add_sub_3_result_int[4]~1_sumout\,
 	combout => \convert_binary|Div0|auto_generated|divider|divider|StageOut[17]~20_combout\);
 
 \convert_binary|Div0|auto_generated|divider|divider|StageOut[16]~13\ : cyclonev_lcell_comb
 -- Equation(s):
 -- \convert_binary|Div0|auto_generated|divider|divider|StageOut[16]~13_combout\ = (!\convert_binary|Div0|auto_generated|divider|divider|add_sub_3_result_int[4]~1_sumout\ & 
--- ((\convert_binary|Div0|auto_generated|divider|divider|add_sub_3_result_int[1]~9_sumout\))) # (\convert_binary|Div0|auto_generated|divider|divider|add_sub_3_result_int[4]~1_sumout\ & (Result_input(7)))
+-- ((\convert_binary|Div0|auto_generated|divider|divider|add_sub_3_result_int[1]~9_sumout\))) # (\convert_binary|Div0|auto_generated|divider|divider|add_sub_3_result_int[4]~1_sumout\ & (\Result[7]~reg0_q\))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -12791,7 +12513,7 @@ GENERIC MAP (
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
-	dataa => ALT_INV_Result_input(7),
+	dataa => \ALT_INV_Result[7]~reg0_q\,
 	datab => \convert_binary|Div0|auto_generated|divider|divider|ALT_INV_add_sub_3_result_int[4]~1_sumout\,
 	datac => \convert_binary|Div0|auto_generated|divider|divider|ALT_INV_add_sub_3_result_int[1]~9_sumout\,
 	combout => \convert_binary|Div0|auto_generated|divider|divider|StageOut[16]~13_combout\);
@@ -12799,7 +12521,7 @@ PORT MAP (
 \convert_binary|Div0|auto_generated|divider|divider|StageOut[15]~9\ : cyclonev_lcell_comb
 -- Equation(s):
 -- \convert_binary|Div0|auto_generated|divider|divider|StageOut[15]~9_combout\ = (!\convert_binary|Div0|auto_generated|divider|divider|add_sub_3_result_int[4]~1_sumout\ & 
--- ((\convert_binary|Div0|auto_generated|divider|divider|add_sub_3_result_int[0]~5_sumout\))) # (\convert_binary|Div0|auto_generated|divider|divider|add_sub_3_result_int[4]~1_sumout\ & (Result_input(6)))
+-- ((\convert_binary|Div0|auto_generated|divider|divider|add_sub_3_result_int[0]~5_sumout\))) # (\convert_binary|Div0|auto_generated|divider|divider|add_sub_3_result_int[4]~1_sumout\ & (\Result[6]~reg0_q\))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -12808,7 +12530,7 @@ GENERIC MAP (
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
-	dataa => ALT_INV_Result_input(6),
+	dataa => \ALT_INV_Result[6]~reg0_q\,
 	datab => \convert_binary|Div0|auto_generated|divider|divider|ALT_INV_add_sub_3_result_int[4]~1_sumout\,
 	datac => \convert_binary|Div0|auto_generated|divider|divider|ALT_INV_add_sub_3_result_int[0]~5_sumout\,
 	combout => \convert_binary|Div0|auto_generated|divider|divider|StageOut[15]~9_combout\);
@@ -12829,8 +12551,8 @@ PORT MAP (
 
 \convert_binary|Div0|auto_generated|divider|divider|op_6~5\ : cyclonev_lcell_comb
 -- Equation(s):
--- \convert_binary|Div0|auto_generated|divider|divider|op_6~5_sumout\ = SUM(( Result_input(4) ) + ( VCC ) + ( \convert_binary|Div0|auto_generated|divider|divider|op_6~26_cout\ ))
--- \convert_binary|Div0|auto_generated|divider|divider|op_6~6\ = CARRY(( Result_input(4) ) + ( VCC ) + ( \convert_binary|Div0|auto_generated|divider|divider|op_6~26_cout\ ))
+-- \convert_binary|Div0|auto_generated|divider|divider|op_6~5_sumout\ = SUM(( \Result[4]~reg0_q\ ) + ( VCC ) + ( \convert_binary|Div0|auto_generated|divider|divider|op_6~26_cout\ ))
+-- \convert_binary|Div0|auto_generated|divider|divider|op_6~6\ = CARRY(( \Result[4]~reg0_q\ ) + ( VCC ) + ( \convert_binary|Div0|auto_generated|divider|divider|op_6~26_cout\ ))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -12839,7 +12561,7 @@ GENERIC MAP (
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
-	datad => ALT_INV_Result_input(4),
+	datad => \ALT_INV_Result[4]~reg0_q\,
 	cin => \convert_binary|Div0|auto_generated|divider|divider|op_6~26_cout\,
 	sumout => \convert_binary|Div0|auto_generated|divider|divider|op_6~5_sumout\,
 	cout => \convert_binary|Div0|auto_generated|divider|divider|op_6~6\);
@@ -12847,9 +12569,9 @@ PORT MAP (
 \convert_binary|Div0|auto_generated|divider|divider|op_6~9\ : cyclonev_lcell_comb
 -- Equation(s):
 -- \convert_binary|Div0|auto_generated|divider|divider|op_6~9_sumout\ = SUM(( (!\convert_binary|Div0|auto_generated|divider|divider|op_5~1_sumout\ & ((\convert_binary|Div0|auto_generated|divider|divider|op_5~5_sumout\))) # 
--- (\convert_binary|Div0|auto_generated|divider|divider|op_5~1_sumout\ & (Result_input(5))) ) + ( GND ) + ( \convert_binary|Div0|auto_generated|divider|divider|op_6~6\ ))
+-- (\convert_binary|Div0|auto_generated|divider|divider|op_5~1_sumout\ & (\Result[5]~reg0_q\)) ) + ( GND ) + ( \convert_binary|Div0|auto_generated|divider|divider|op_6~6\ ))
 -- \convert_binary|Div0|auto_generated|divider|divider|op_6~10\ = CARRY(( (!\convert_binary|Div0|auto_generated|divider|divider|op_5~1_sumout\ & ((\convert_binary|Div0|auto_generated|divider|divider|op_5~5_sumout\))) # 
--- (\convert_binary|Div0|auto_generated|divider|divider|op_5~1_sumout\ & (Result_input(5))) ) + ( GND ) + ( \convert_binary|Div0|auto_generated|divider|divider|op_6~6\ ))
+-- (\convert_binary|Div0|auto_generated|divider|divider|op_5~1_sumout\ & (\Result[5]~reg0_q\)) ) + ( GND ) + ( \convert_binary|Div0|auto_generated|divider|divider|op_6~6\ ))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -12858,7 +12580,7 @@ GENERIC MAP (
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
-	dataa => ALT_INV_Result_input(5),
+	dataa => \ALT_INV_Result[5]~reg0_q\,
 	datab => \convert_binary|Div0|auto_generated|divider|divider|ALT_INV_op_5~1_sumout\,
 	datad => \convert_binary|Div0|auto_generated|divider|divider|ALT_INV_op_5~5_sumout\,
 	cin => \convert_binary|Div0|auto_generated|divider|divider|op_6~6\,
@@ -12991,7 +12713,7 @@ PORT MAP (
 \convert_binary|Div0|auto_generated|divider|divider|StageOut[20]~5\ : cyclonev_lcell_comb
 -- Equation(s):
 -- \convert_binary|Div0|auto_generated|divider|divider|StageOut[20]~5_combout\ = (!\convert_binary|Div0|auto_generated|divider|divider|op_5~1_sumout\ & ((\convert_binary|Div0|auto_generated|divider|divider|op_5~5_sumout\))) # 
--- (\convert_binary|Div0|auto_generated|divider|divider|op_5~1_sumout\ & (Result_input(5)))
+-- (\convert_binary|Div0|auto_generated|divider|divider|op_5~1_sumout\ & (\Result[5]~reg0_q\))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -13000,7 +12722,7 @@ GENERIC MAP (
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
-	dataa => ALT_INV_Result_input(5),
+	dataa => \ALT_INV_Result[5]~reg0_q\,
 	datab => \convert_binary|Div0|auto_generated|divider|divider|ALT_INV_op_5~1_sumout\,
 	datac => \convert_binary|Div0|auto_generated|divider|divider|ALT_INV_op_5~5_sumout\,
 	combout => \convert_binary|Div0|auto_generated|divider|divider|StageOut[20]~5_combout\);
@@ -13021,8 +12743,8 @@ PORT MAP (
 
 \convert_binary|Div0|auto_generated|divider|divider|op_7~21\ : cyclonev_lcell_comb
 -- Equation(s):
--- \convert_binary|Div0|auto_generated|divider|divider|op_7~21_sumout\ = SUM(( Result_input(3) ) + ( VCC ) + ( \convert_binary|Div0|auto_generated|divider|divider|op_7~26_cout\ ))
--- \convert_binary|Div0|auto_generated|divider|divider|op_7~22\ = CARRY(( Result_input(3) ) + ( VCC ) + ( \convert_binary|Div0|auto_generated|divider|divider|op_7~26_cout\ ))
+-- \convert_binary|Div0|auto_generated|divider|divider|op_7~21_sumout\ = SUM(( \Result[3]~reg0_q\ ) + ( VCC ) + ( \convert_binary|Div0|auto_generated|divider|divider|op_7~26_cout\ ))
+-- \convert_binary|Div0|auto_generated|divider|divider|op_7~22\ = CARRY(( \Result[3]~reg0_q\ ) + ( VCC ) + ( \convert_binary|Div0|auto_generated|divider|divider|op_7~26_cout\ ))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -13031,7 +12753,7 @@ GENERIC MAP (
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
-	datad => ALT_INV_Result_input(3),
+	datad => \ALT_INV_Result[3]~reg0_q\,
 	cin => \convert_binary|Div0|auto_generated|divider|divider|op_7~26_cout\,
 	sumout => \convert_binary|Div0|auto_generated|divider|divider|op_7~21_sumout\,
 	cout => \convert_binary|Div0|auto_generated|divider|divider|op_7~22\);
@@ -13039,9 +12761,9 @@ PORT MAP (
 \convert_binary|Div0|auto_generated|divider|divider|op_7~9\ : cyclonev_lcell_comb
 -- Equation(s):
 -- \convert_binary|Div0|auto_generated|divider|divider|op_7~9_sumout\ = SUM(( (!\convert_binary|Div0|auto_generated|divider|divider|op_6~1_sumout\ & ((\convert_binary|Div0|auto_generated|divider|divider|op_6~5_sumout\))) # 
--- (\convert_binary|Div0|auto_generated|divider|divider|op_6~1_sumout\ & (Result_input(4))) ) + ( GND ) + ( \convert_binary|Div0|auto_generated|divider|divider|op_7~22\ ))
+-- (\convert_binary|Div0|auto_generated|divider|divider|op_6~1_sumout\ & (\Result[4]~reg0_q\)) ) + ( GND ) + ( \convert_binary|Div0|auto_generated|divider|divider|op_7~22\ ))
 -- \convert_binary|Div0|auto_generated|divider|divider|op_7~10\ = CARRY(( (!\convert_binary|Div0|auto_generated|divider|divider|op_6~1_sumout\ & ((\convert_binary|Div0|auto_generated|divider|divider|op_6~5_sumout\))) # 
--- (\convert_binary|Div0|auto_generated|divider|divider|op_6~1_sumout\ & (Result_input(4))) ) + ( GND ) + ( \convert_binary|Div0|auto_generated|divider|divider|op_7~22\ ))
+-- (\convert_binary|Div0|auto_generated|divider|divider|op_6~1_sumout\ & (\Result[4]~reg0_q\)) ) + ( GND ) + ( \convert_binary|Div0|auto_generated|divider|divider|op_7~22\ ))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -13050,7 +12772,7 @@ GENERIC MAP (
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
-	dataa => ALT_INV_Result_input(4),
+	dataa => \ALT_INV_Result[4]~reg0_q\,
 	datab => \convert_binary|Div0|auto_generated|divider|divider|ALT_INV_op_6~1_sumout\,
 	datad => \convert_binary|Div0|auto_generated|divider|divider|ALT_INV_op_6~5_sumout\,
 	cin => \convert_binary|Div0|auto_generated|divider|divider|op_7~22\,
@@ -13183,7 +12905,7 @@ PORT MAP (
 \convert_binary|Div0|auto_generated|divider|divider|StageOut[25]~1\ : cyclonev_lcell_comb
 -- Equation(s):
 -- \convert_binary|Div0|auto_generated|divider|divider|StageOut[25]~1_combout\ = (!\convert_binary|Div0|auto_generated|divider|divider|op_6~1_sumout\ & ((\convert_binary|Div0|auto_generated|divider|divider|op_6~5_sumout\))) # 
--- (\convert_binary|Div0|auto_generated|divider|divider|op_6~1_sumout\ & (Result_input(4)))
+-- (\convert_binary|Div0|auto_generated|divider|divider|op_6~1_sumout\ & (\Result[4]~reg0_q\))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -13192,7 +12914,7 @@ GENERIC MAP (
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
-	dataa => ALT_INV_Result_input(4),
+	dataa => \ALT_INV_Result[4]~reg0_q\,
 	datab => \convert_binary|Div0|auto_generated|divider|divider|ALT_INV_op_6~1_sumout\,
 	datac => \convert_binary|Div0|auto_generated|divider|divider|ALT_INV_op_6~5_sumout\,
 	combout => \convert_binary|Div0|auto_generated|divider|divider|StageOut[25]~1_combout\);
@@ -13213,8 +12935,8 @@ PORT MAP (
 
 \convert_binary|Div0|auto_generated|divider|divider|op_8~21\ : cyclonev_lcell_comb
 -- Equation(s):
--- \convert_binary|Div0|auto_generated|divider|divider|op_8~21_sumout\ = SUM(( Result_input(2) ) + ( VCC ) + ( \convert_binary|Div0|auto_generated|divider|divider|op_8~26_cout\ ))
--- \convert_binary|Div0|auto_generated|divider|divider|op_8~22\ = CARRY(( Result_input(2) ) + ( VCC ) + ( \convert_binary|Div0|auto_generated|divider|divider|op_8~26_cout\ ))
+-- \convert_binary|Div0|auto_generated|divider|divider|op_8~21_sumout\ = SUM(( \Result[2]~reg0_q\ ) + ( VCC ) + ( \convert_binary|Div0|auto_generated|divider|divider|op_8~26_cout\ ))
+-- \convert_binary|Div0|auto_generated|divider|divider|op_8~22\ = CARRY(( \Result[2]~reg0_q\ ) + ( VCC ) + ( \convert_binary|Div0|auto_generated|divider|divider|op_8~26_cout\ ))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -13223,7 +12945,7 @@ GENERIC MAP (
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
-	datad => ALT_INV_Result_input(2),
+	datad => \ALT_INV_Result[2]~reg0_q\,
 	cin => \convert_binary|Div0|auto_generated|divider|divider|op_8~26_cout\,
 	sumout => \convert_binary|Div0|auto_generated|divider|divider|op_8~21_sumout\,
 	cout => \convert_binary|Div0|auto_generated|divider|divider|op_8~22\);
@@ -13231,9 +12953,9 @@ PORT MAP (
 \convert_binary|Div0|auto_generated|divider|divider|op_8~17\ : cyclonev_lcell_comb
 -- Equation(s):
 -- \convert_binary|Div0|auto_generated|divider|divider|op_8~17_sumout\ = SUM(( (!\convert_binary|Div0|auto_generated|divider|divider|op_7~1_sumout\ & ((\convert_binary|Div0|auto_generated|divider|divider|op_7~21_sumout\))) # 
--- (\convert_binary|Div0|auto_generated|divider|divider|op_7~1_sumout\ & (Result_input(3))) ) + ( GND ) + ( \convert_binary|Div0|auto_generated|divider|divider|op_8~22\ ))
+-- (\convert_binary|Div0|auto_generated|divider|divider|op_7~1_sumout\ & (\Result[3]~reg0_q\)) ) + ( GND ) + ( \convert_binary|Div0|auto_generated|divider|divider|op_8~22\ ))
 -- \convert_binary|Div0|auto_generated|divider|divider|op_8~18\ = CARRY(( (!\convert_binary|Div0|auto_generated|divider|divider|op_7~1_sumout\ & ((\convert_binary|Div0|auto_generated|divider|divider|op_7~21_sumout\))) # 
--- (\convert_binary|Div0|auto_generated|divider|divider|op_7~1_sumout\ & (Result_input(3))) ) + ( GND ) + ( \convert_binary|Div0|auto_generated|divider|divider|op_8~22\ ))
+-- (\convert_binary|Div0|auto_generated|divider|divider|op_7~1_sumout\ & (\Result[3]~reg0_q\)) ) + ( GND ) + ( \convert_binary|Div0|auto_generated|divider|divider|op_8~22\ ))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -13242,7 +12964,7 @@ GENERIC MAP (
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
-	dataa => ALT_INV_Result_input(3),
+	dataa => \ALT_INV_Result[3]~reg0_q\,
 	datab => \convert_binary|Div0|auto_generated|divider|divider|ALT_INV_op_7~1_sumout\,
 	datad => \convert_binary|Div0|auto_generated|divider|divider|ALT_INV_op_7~21_sumout\,
 	cin => \convert_binary|Div0|auto_generated|divider|divider|op_8~22\,
@@ -13375,7 +13097,7 @@ PORT MAP (
 \convert_binary|Div0|auto_generated|divider|divider|StageOut[30]~15\ : cyclonev_lcell_comb
 -- Equation(s):
 -- \convert_binary|Div0|auto_generated|divider|divider|StageOut[30]~15_combout\ = (!\convert_binary|Div0|auto_generated|divider|divider|op_7~1_sumout\ & ((\convert_binary|Div0|auto_generated|divider|divider|op_7~21_sumout\))) # 
--- (\convert_binary|Div0|auto_generated|divider|divider|op_7~1_sumout\ & (Result_input(3)))
+-- (\convert_binary|Div0|auto_generated|divider|divider|op_7~1_sumout\ & (\Result[3]~reg0_q\))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -13384,7 +13106,7 @@ GENERIC MAP (
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
-	dataa => ALT_INV_Result_input(3),
+	dataa => \ALT_INV_Result[3]~reg0_q\,
 	datab => \convert_binary|Div0|auto_generated|divider|divider|ALT_INV_op_7~1_sumout\,
 	datac => \convert_binary|Div0|auto_generated|divider|divider|ALT_INV_op_7~21_sumout\,
 	combout => \convert_binary|Div0|auto_generated|divider|divider|StageOut[30]~15_combout\);
@@ -13405,8 +13127,8 @@ PORT MAP (
 
 \convert_binary|Div0|auto_generated|divider|divider|op_9~21\ : cyclonev_lcell_comb
 -- Equation(s):
--- \convert_binary|Div0|auto_generated|divider|divider|op_9~21_sumout\ = SUM(( Result_input(1) ) + ( VCC ) + ( \convert_binary|Div0|auto_generated|divider|divider|op_9~26_cout\ ))
--- \convert_binary|Div0|auto_generated|divider|divider|op_9~22\ = CARRY(( Result_input(1) ) + ( VCC ) + ( \convert_binary|Div0|auto_generated|divider|divider|op_9~26_cout\ ))
+-- \convert_binary|Div0|auto_generated|divider|divider|op_9~21_sumout\ = SUM(( \Result[1]~reg0_q\ ) + ( VCC ) + ( \convert_binary|Div0|auto_generated|divider|divider|op_9~26_cout\ ))
+-- \convert_binary|Div0|auto_generated|divider|divider|op_9~22\ = CARRY(( \Result[1]~reg0_q\ ) + ( VCC ) + ( \convert_binary|Div0|auto_generated|divider|divider|op_9~26_cout\ ))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -13415,7 +13137,7 @@ GENERIC MAP (
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
-	datad => ALT_INV_Result_input(1),
+	datad => \ALT_INV_Result[1]~reg0_q\,
 	cin => \convert_binary|Div0|auto_generated|divider|divider|op_9~26_cout\,
 	sumout => \convert_binary|Div0|auto_generated|divider|divider|op_9~21_sumout\,
 	cout => \convert_binary|Div0|auto_generated|divider|divider|op_9~22\);
@@ -13423,9 +13145,9 @@ PORT MAP (
 \convert_binary|Div0|auto_generated|divider|divider|op_9~17\ : cyclonev_lcell_comb
 -- Equation(s):
 -- \convert_binary|Div0|auto_generated|divider|divider|op_9~17_sumout\ = SUM(( (!\convert_binary|Div0|auto_generated|divider|divider|op_8~1_sumout\ & ((\convert_binary|Div0|auto_generated|divider|divider|op_8~21_sumout\))) # 
--- (\convert_binary|Div0|auto_generated|divider|divider|op_8~1_sumout\ & (Result_input(2))) ) + ( GND ) + ( \convert_binary|Div0|auto_generated|divider|divider|op_9~22\ ))
+-- (\convert_binary|Div0|auto_generated|divider|divider|op_8~1_sumout\ & (\Result[2]~reg0_q\)) ) + ( GND ) + ( \convert_binary|Div0|auto_generated|divider|divider|op_9~22\ ))
 -- \convert_binary|Div0|auto_generated|divider|divider|op_9~18\ = CARRY(( (!\convert_binary|Div0|auto_generated|divider|divider|op_8~1_sumout\ & ((\convert_binary|Div0|auto_generated|divider|divider|op_8~21_sumout\))) # 
--- (\convert_binary|Div0|auto_generated|divider|divider|op_8~1_sumout\ & (Result_input(2))) ) + ( GND ) + ( \convert_binary|Div0|auto_generated|divider|divider|op_9~22\ ))
+-- (\convert_binary|Div0|auto_generated|divider|divider|op_8~1_sumout\ & (\Result[2]~reg0_q\)) ) + ( GND ) + ( \convert_binary|Div0|auto_generated|divider|divider|op_9~22\ ))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -13434,7 +13156,7 @@ GENERIC MAP (
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
-	dataa => ALT_INV_Result_input(2),
+	dataa => \ALT_INV_Result[2]~reg0_q\,
 	datab => \convert_binary|Div0|auto_generated|divider|divider|ALT_INV_op_8~1_sumout\,
 	datad => \convert_binary|Div0|auto_generated|divider|divider|ALT_INV_op_8~21_sumout\,
 	cin => \convert_binary|Div0|auto_generated|divider|divider|op_9~22\,
@@ -13567,7 +13289,7 @@ PORT MAP (
 \convert_binary|Div0|auto_generated|divider|divider|StageOut[35]~21\ : cyclonev_lcell_comb
 -- Equation(s):
 -- \convert_binary|Div0|auto_generated|divider|divider|StageOut[35]~21_combout\ = (!\convert_binary|Div0|auto_generated|divider|divider|op_8~1_sumout\ & ((\convert_binary|Div0|auto_generated|divider|divider|op_8~21_sumout\))) # 
--- (\convert_binary|Div0|auto_generated|divider|divider|op_8~1_sumout\ & (Result_input(2)))
+-- (\convert_binary|Div0|auto_generated|divider|divider|op_8~1_sumout\ & (\Result[2]~reg0_q\))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -13576,7 +13298,7 @@ GENERIC MAP (
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
-	dataa => ALT_INV_Result_input(2),
+	dataa => \ALT_INV_Result[2]~reg0_q\,
 	datab => \convert_binary|Div0|auto_generated|divider|divider|ALT_INV_op_8~1_sumout\,
 	datac => \convert_binary|Div0|auto_generated|divider|divider|ALT_INV_op_8~21_sumout\,
 	combout => \convert_binary|Div0|auto_generated|divider|divider|StageOut[35]~21_combout\);
@@ -13597,7 +13319,7 @@ PORT MAP (
 
 \convert_binary|Div0|auto_generated|divider|divider|op_10~22\ : cyclonev_lcell_comb
 -- Equation(s):
--- \convert_binary|Div0|auto_generated|divider|divider|op_10~22_cout\ = CARRY(( Result_input(0) ) + ( VCC ) + ( \convert_binary|Div0|auto_generated|divider|divider|op_10~26_cout\ ))
+-- \convert_binary|Div0|auto_generated|divider|divider|op_10~22_cout\ = CARRY(( \Result[0]~reg0_q\ ) + ( VCC ) + ( \convert_binary|Div0|auto_generated|divider|divider|op_10~26_cout\ ))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -13606,14 +13328,14 @@ GENERIC MAP (
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
-	datad => ALT_INV_Result_input(0),
+	datad => \ALT_INV_Result[0]~reg0_q\,
 	cin => \convert_binary|Div0|auto_generated|divider|divider|op_10~26_cout\,
 	cout => \convert_binary|Div0|auto_generated|divider|divider|op_10~22_cout\);
 
 \convert_binary|Div0|auto_generated|divider|divider|op_10~18\ : cyclonev_lcell_comb
 -- Equation(s):
 -- \convert_binary|Div0|auto_generated|divider|divider|op_10~18_cout\ = CARRY(( (!\convert_binary|Div0|auto_generated|divider|divider|op_9~1_sumout\ & ((\convert_binary|Div0|auto_generated|divider|divider|op_9~21_sumout\))) # 
--- (\convert_binary|Div0|auto_generated|divider|divider|op_9~1_sumout\ & (Result_input(1))) ) + ( GND ) + ( \convert_binary|Div0|auto_generated|divider|divider|op_10~22_cout\ ))
+-- (\convert_binary|Div0|auto_generated|divider|divider|op_9~1_sumout\ & (\Result[1]~reg0_q\)) ) + ( GND ) + ( \convert_binary|Div0|auto_generated|divider|divider|op_10~22_cout\ ))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -13622,7 +13344,7 @@ GENERIC MAP (
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
-	dataa => ALT_INV_Result_input(1),
+	dataa => \ALT_INV_Result[1]~reg0_q\,
 	datab => \convert_binary|Div0|auto_generated|divider|divider|ALT_INV_op_9~1_sumout\,
 	datad => \convert_binary|Div0|auto_generated|divider|divider|ALT_INV_op_9~21_sumout\,
 	cin => \convert_binary|Div0|auto_generated|divider|divider|op_10~22_cout\,
@@ -15358,7 +15080,7 @@ PORT MAP (
 	clk => \CLK_main~input_o\,
 	d => \convert_binary|Mod1|auto_generated|divider|divider|StageOut[90]~0_combout\,
 	clrn => \RST_main~input_o\,
-	sclr => \convert_binary|int_r_2[0]~0_combout\,
+	sclr => \convert_binary|int_r_2[2]~0_combout\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
 	q => \convert_binary|int_data_2\(0));
@@ -15367,10 +15089,10 @@ PORT MAP (
 -- Equation(s):
 -- \convert_binary|int_data_2~0_combout\ = ( \convert_binary|Mod1|auto_generated|divider|divider|op_10~1_sumout\ & ( \convert_binary|Mod1|auto_generated|divider|divider|op_10~9_sumout\ & ( ((!\convert_binary|Mod1|auto_generated|divider|divider|op_9~1_sumout\ 
 -- & ((\convert_binary|Mod1|auto_generated|divider|divider|op_9~5_sumout\))) # (\convert_binary|Mod1|auto_generated|divider|divider|op_9~1_sumout\ & (!\convert_binary|Div0|auto_generated|divider|divider|op_9~1_sumout\))) # 
--- (\convert_binary|int_r_2[0]~0_combout\) ) ) ) # ( !\convert_binary|Mod1|auto_generated|divider|divider|op_10~1_sumout\ & ( \convert_binary|Mod1|auto_generated|divider|divider|op_10~9_sumout\ ) ) # ( 
+-- (\convert_binary|int_r_2[2]~0_combout\) ) ) ) # ( !\convert_binary|Mod1|auto_generated|divider|divider|op_10~1_sumout\ & ( \convert_binary|Mod1|auto_generated|divider|divider|op_10~9_sumout\ ) ) # ( 
 -- \convert_binary|Mod1|auto_generated|divider|divider|op_10~1_sumout\ & ( !\convert_binary|Mod1|auto_generated|divider|divider|op_10~9_sumout\ & ( ((!\convert_binary|Mod1|auto_generated|divider|divider|op_9~1_sumout\ & 
 -- ((\convert_binary|Mod1|auto_generated|divider|divider|op_9~5_sumout\))) # (\convert_binary|Mod1|auto_generated|divider|divider|op_9~1_sumout\ & (!\convert_binary|Div0|auto_generated|divider|divider|op_9~1_sumout\))) # 
--- (\convert_binary|int_r_2[0]~0_combout\) ) ) ) # ( !\convert_binary|Mod1|auto_generated|divider|divider|op_10~1_sumout\ & ( !\convert_binary|Mod1|auto_generated|divider|divider|op_10~9_sumout\ & ( \convert_binary|int_r_2[0]~0_combout\ ) ) )
+-- (\convert_binary|int_r_2[2]~0_combout\) ) ) ) # ( !\convert_binary|Mod1|auto_generated|divider|divider|op_10~1_sumout\ & ( !\convert_binary|Mod1|auto_generated|divider|divider|op_10~9_sumout\ & ( \convert_binary|int_r_2[2]~0_combout\ ) ) )
 
 -- pragma translate_off
 GENERIC MAP (
@@ -15379,7 +15101,7 @@ GENERIC MAP (
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
-	dataa => \convert_binary|ALT_INV_int_r_2[0]~0_combout\,
+	dataa => \convert_binary|ALT_INV_int_r_2[2]~0_combout\,
 	datab => \convert_binary|Div0|auto_generated|divider|divider|ALT_INV_op_9~1_sumout\,
 	datac => \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_9~1_sumout\,
 	datad => \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_9~5_sumout\,
@@ -15433,7 +15155,7 @@ PORT MAP (
 	clk => \CLK_main~input_o\,
 	d => \convert_binary|Mod1|auto_generated|divider|divider|StageOut[92]~2_combout\,
 	clrn => \RST_main~input_o\,
-	sclr => \convert_binary|int_r_2[0]~0_combout\,
+	sclr => \convert_binary|int_r_2[2]~0_combout\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
 	q => \convert_binary|int_data_2\(2));
@@ -15442,11 +15164,11 @@ PORT MAP (
 -- Equation(s):
 -- \convert_binary|int_data_2~1_combout\ = ( \convert_binary|Mod1|auto_generated|divider|divider|op_10~1_sumout\ & ( \convert_binary|Mod1|auto_generated|divider|divider|op_10~17_sumout\ & ( 
 -- ((!\convert_binary|Mod1|auto_generated|divider|divider|op_9~1_sumout\ & ((\convert_binary|Mod1|auto_generated|divider|divider|op_9~13_sumout\))) # (\convert_binary|Mod1|auto_generated|divider|divider|op_9~1_sumout\ & 
--- (\convert_binary|Mod1|auto_generated|divider|divider|StageOut[71]~4_combout\))) # (\convert_binary|int_r_2[0]~0_combout\) ) ) ) # ( !\convert_binary|Mod1|auto_generated|divider|divider|op_10~1_sumout\ & ( 
+-- (\convert_binary|Mod1|auto_generated|divider|divider|StageOut[71]~4_combout\))) # (\convert_binary|int_r_2[2]~0_combout\) ) ) ) # ( !\convert_binary|Mod1|auto_generated|divider|divider|op_10~1_sumout\ & ( 
 -- \convert_binary|Mod1|auto_generated|divider|divider|op_10~17_sumout\ ) ) # ( \convert_binary|Mod1|auto_generated|divider|divider|op_10~1_sumout\ & ( !\convert_binary|Mod1|auto_generated|divider|divider|op_10~17_sumout\ & ( 
 -- ((!\convert_binary|Mod1|auto_generated|divider|divider|op_9~1_sumout\ & ((\convert_binary|Mod1|auto_generated|divider|divider|op_9~13_sumout\))) # (\convert_binary|Mod1|auto_generated|divider|divider|op_9~1_sumout\ & 
--- (\convert_binary|Mod1|auto_generated|divider|divider|StageOut[71]~4_combout\))) # (\convert_binary|int_r_2[0]~0_combout\) ) ) ) # ( !\convert_binary|Mod1|auto_generated|divider|divider|op_10~1_sumout\ & ( 
--- !\convert_binary|Mod1|auto_generated|divider|divider|op_10~17_sumout\ & ( \convert_binary|int_r_2[0]~0_combout\ ) ) )
+-- (\convert_binary|Mod1|auto_generated|divider|divider|StageOut[71]~4_combout\))) # (\convert_binary|int_r_2[2]~0_combout\) ) ) ) # ( !\convert_binary|Mod1|auto_generated|divider|divider|op_10~1_sumout\ & ( 
+-- !\convert_binary|Mod1|auto_generated|divider|divider|op_10~17_sumout\ & ( \convert_binary|int_r_2[2]~0_combout\ ) ) )
 
 -- pragma translate_off
 GENERIC MAP (
@@ -15455,7 +15177,7 @@ GENERIC MAP (
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
-	dataa => \convert_binary|ALT_INV_int_r_2[0]~0_combout\,
+	dataa => \convert_binary|ALT_INV_int_r_2[2]~0_combout\,
 	datab => \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_9~1_sumout\,
 	datac => \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_StageOut[71]~4_combout\,
 	datad => \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_9~13_sumout\,
@@ -15693,8 +15415,8 @@ PORT MAP (
 
 \convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[0]~29\ : cyclonev_lcell_comb
 -- Equation(s):
--- \convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[0]~29_sumout\ = SUM(( Result_input(3) ) + ( !VCC ) + ( !VCC ))
--- \convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[0]~30\ = CARRY(( Result_input(3) ) + ( !VCC ) + ( !VCC ))
+-- \convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[0]~29_sumout\ = SUM(( \Result[3]~reg0_q\ ) + ( !VCC ) + ( !VCC ))
+-- \convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[0]~30\ = CARRY(( \Result[3]~reg0_q\ ) + ( !VCC ) + ( !VCC ))
 -- \convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[0]~31\ = SHARE(VCC)
 
 -- pragma translate_off
@@ -15704,7 +15426,7 @@ GENERIC MAP (
 	shared_arith => "on")
 -- pragma translate_on
 PORT MAP (
-	datad => ALT_INV_Result_input(3),
+	datad => \ALT_INV_Result[3]~reg0_q\,
 	cin => GND,
 	sharein => GND,
 	sumout => \convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[0]~29_sumout\,
@@ -15713,11 +15435,11 @@ PORT MAP (
 
 \convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[1]~25\ : cyclonev_lcell_comb
 -- Equation(s):
--- \convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[1]~25_sumout\ = SUM(( !Result_input(4) ) + ( \convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[0]~31\ ) + ( 
+-- \convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[1]~25_sumout\ = SUM(( !\Result[4]~reg0_q\ ) + ( \convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[0]~31\ ) + ( 
 -- \convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[0]~30\ ))
--- \convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[1]~26\ = CARRY(( !Result_input(4) ) + ( \convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[0]~31\ ) + ( 
+-- \convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[1]~26\ = CARRY(( !\Result[4]~reg0_q\ ) + ( \convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[0]~31\ ) + ( 
 -- \convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[0]~30\ ))
--- \convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[1]~27\ = SHARE(Result_input(4))
+-- \convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[1]~27\ = SHARE(\Result[4]~reg0_q\)
 
 -- pragma translate_off
 GENERIC MAP (
@@ -15726,7 +15448,7 @@ GENERIC MAP (
 	shared_arith => "on")
 -- pragma translate_on
 PORT MAP (
-	datad => ALT_INV_Result_input(4),
+	datad => \ALT_INV_Result[4]~reg0_q\,
 	cin => \convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[0]~30\,
 	sharein => \convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[0]~31\,
 	sumout => \convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[1]~25_sumout\,
@@ -15735,9 +15457,9 @@ PORT MAP (
 
 \convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[2]~21\ : cyclonev_lcell_comb
 -- Equation(s):
--- \convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[2]~21_sumout\ = SUM(( Result_input(5) ) + ( \convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[1]~27\ ) + ( 
+-- \convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[2]~21_sumout\ = SUM(( \Result[5]~reg0_q\ ) + ( \convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[1]~27\ ) + ( 
 -- \convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[1]~26\ ))
--- \convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[2]~22\ = CARRY(( Result_input(5) ) + ( \convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[1]~27\ ) + ( 
+-- \convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[2]~22\ = CARRY(( \Result[5]~reg0_q\ ) + ( \convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[1]~27\ ) + ( 
 -- \convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[1]~26\ ))
 -- \convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[2]~23\ = SHARE(GND)
 
@@ -15748,7 +15470,7 @@ GENERIC MAP (
 	shared_arith => "on")
 -- pragma translate_on
 PORT MAP (
-	datad => ALT_INV_Result_input(5),
+	datad => \ALT_INV_Result[5]~reg0_q\,
 	cin => \convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[1]~26\,
 	sharein => \convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[1]~27\,
 	sumout => \convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[2]~21_sumout\,
@@ -15757,11 +15479,11 @@ PORT MAP (
 
 \convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[3]~17\ : cyclonev_lcell_comb
 -- Equation(s):
--- \convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[3]~17_sumout\ = SUM(( !Result_input(6) ) + ( \convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[2]~23\ ) + ( 
+-- \convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[3]~17_sumout\ = SUM(( !\Result[6]~reg0_q\ ) + ( \convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[2]~23\ ) + ( 
 -- \convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[2]~22\ ))
--- \convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[3]~18\ = CARRY(( !Result_input(6) ) + ( \convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[2]~23\ ) + ( 
+-- \convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[3]~18\ = CARRY(( !\Result[6]~reg0_q\ ) + ( \convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[2]~23\ ) + ( 
 -- \convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[2]~22\ ))
--- \convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[3]~19\ = SHARE(Result_input(6))
+-- \convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[3]~19\ = SHARE(\Result[6]~reg0_q\)
 
 -- pragma translate_off
 GENERIC MAP (
@@ -15770,7 +15492,7 @@ GENERIC MAP (
 	shared_arith => "on")
 -- pragma translate_on
 PORT MAP (
-	datad => ALT_INV_Result_input(6),
+	datad => \ALT_INV_Result[6]~reg0_q\,
 	cin => \convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[2]~22\,
 	sharein => \convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[2]~23\,
 	sumout => \convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[3]~17_sumout\,
@@ -15779,11 +15501,11 @@ PORT MAP (
 
 \convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[4]~9\ : cyclonev_lcell_comb
 -- Equation(s):
--- \convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[4]~9_sumout\ = SUM(( !Result_input(7) ) + ( \convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[3]~19\ ) + ( 
+-- \convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[4]~9_sumout\ = SUM(( !\Result[7]~reg0_q\ ) + ( \convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[3]~19\ ) + ( 
 -- \convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[3]~18\ ))
--- \convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[4]~10\ = CARRY(( !Result_input(7) ) + ( \convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[3]~19\ ) + ( 
+-- \convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[4]~10\ = CARRY(( !\Result[7]~reg0_q\ ) + ( \convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[3]~19\ ) + ( 
 -- \convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[3]~18\ ))
--- \convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[4]~11\ = SHARE(Result_input(7))
+-- \convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[4]~11\ = SHARE(\Result[7]~reg0_q\)
 
 -- pragma translate_off
 GENERIC MAP (
@@ -15792,7 +15514,7 @@ GENERIC MAP (
 	shared_arith => "on")
 -- pragma translate_on
 PORT MAP (
-	datad => ALT_INV_Result_input(7),
+	datad => \ALT_INV_Result[7]~reg0_q\,
 	cin => \convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[3]~18\,
 	sharein => \convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[3]~19\,
 	sumout => \convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[4]~9_sumout\,
@@ -15801,9 +15523,9 @@ PORT MAP (
 
 \convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[5]~13\ : cyclonev_lcell_comb
 -- Equation(s):
--- \convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[5]~13_sumout\ = SUM(( Result_input(8) ) + ( \convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[4]~11\ ) + ( 
+-- \convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[5]~13_sumout\ = SUM(( \Result[8]~reg0_q\ ) + ( \convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[4]~11\ ) + ( 
 -- \convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[4]~10\ ))
--- \convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[5]~14\ = CARRY(( Result_input(8) ) + ( \convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[4]~11\ ) + ( 
+-- \convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[5]~14\ = CARRY(( \Result[8]~reg0_q\ ) + ( \convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[4]~11\ ) + ( 
 -- \convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[4]~10\ ))
 -- \convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[5]~15\ = SHARE(GND)
 
@@ -15814,7 +15536,7 @@ GENERIC MAP (
 	shared_arith => "on")
 -- pragma translate_on
 PORT MAP (
-	datad => ALT_INV_Result_input(8),
+	datad => \ALT_INV_Result[8]~reg0_q\,
 	cin => \convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[4]~10\,
 	sharein => \convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[4]~11\,
 	sumout => \convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[5]~13_sumout\,
@@ -15823,9 +15545,9 @@ PORT MAP (
 
 \convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[6]~5\ : cyclonev_lcell_comb
 -- Equation(s):
--- \convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[6]~5_sumout\ = SUM(( Result_input(9) ) + ( \convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[5]~15\ ) + ( 
+-- \convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[6]~5_sumout\ = SUM(( \Result[9]~reg0_q\ ) + ( \convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[5]~15\ ) + ( 
 -- \convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[5]~14\ ))
--- \convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[6]~6\ = CARRY(( Result_input(9) ) + ( \convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[5]~15\ ) + ( 
+-- \convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[6]~6\ = CARRY(( \Result[9]~reg0_q\ ) + ( \convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[5]~15\ ) + ( 
 -- \convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[5]~14\ ))
 -- \convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[6]~7\ = SHARE(GND)
 
@@ -15836,7 +15558,7 @@ GENERIC MAP (
 	shared_arith => "on")
 -- pragma translate_on
 PORT MAP (
-	datad => ALT_INV_Result_input(9),
+	datad => \ALT_INV_Result[9]~reg0_q\,
 	cin => \convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[5]~14\,
 	sharein => \convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[5]~15\,
 	sumout => \convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[6]~5_sumout\,
@@ -15876,7 +15598,7 @@ PORT MAP (
 
 \convert_binary|Div1|auto_generated|divider|divider|StageOut[53]~4\ : cyclonev_lcell_comb
 -- Equation(s):
--- \convert_binary|Div1|auto_generated|divider|divider|StageOut[53]~4_combout\ = (Result_input(8) & \convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[7]~1_sumout\)
+-- \convert_binary|Div1|auto_generated|divider|divider|StageOut[53]~4_combout\ = (\Result[8]~reg0_q\ & \convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[7]~1_sumout\)
 
 -- pragma translate_off
 GENERIC MAP (
@@ -15885,7 +15607,7 @@ GENERIC MAP (
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
-	dataa => ALT_INV_Result_input(8),
+	dataa => \ALT_INV_Result[8]~reg0_q\,
 	datab => \convert_binary|Div1|auto_generated|divider|divider|ALT_INV_add_sub_6_result_int[7]~1_sumout\,
 	combout => \convert_binary|Div1|auto_generated|divider|divider|StageOut[53]~4_combout\);
 
@@ -15906,7 +15628,7 @@ PORT MAP (
 
 \convert_binary|Div1|auto_generated|divider|divider|StageOut[51]~8\ : cyclonev_lcell_comb
 -- Equation(s):
--- \convert_binary|Div1|auto_generated|divider|divider|StageOut[51]~8_combout\ = (Result_input(6) & \convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[7]~1_sumout\)
+-- \convert_binary|Div1|auto_generated|divider|divider|StageOut[51]~8_combout\ = (\Result[6]~reg0_q\ & \convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[7]~1_sumout\)
 
 -- pragma translate_off
 GENERIC MAP (
@@ -15915,7 +15637,7 @@ GENERIC MAP (
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
-	dataa => ALT_INV_Result_input(6),
+	dataa => \ALT_INV_Result[6]~reg0_q\,
 	datab => \convert_binary|Div1|auto_generated|divider|divider|ALT_INV_add_sub_6_result_int[7]~1_sumout\,
 	combout => \convert_binary|Div1|auto_generated|divider|divider|StageOut[51]~8_combout\);
 
@@ -15937,7 +15659,7 @@ PORT MAP (
 
 \convert_binary|Div1|auto_generated|divider|divider|StageOut[49]~16\ : cyclonev_lcell_comb
 -- Equation(s):
--- \convert_binary|Div1|auto_generated|divider|divider|StageOut[49]~16_combout\ = (Result_input(4) & \convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[7]~1_sumout\)
+-- \convert_binary|Div1|auto_generated|divider|divider|StageOut[49]~16_combout\ = (\Result[4]~reg0_q\ & \convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[7]~1_sumout\)
 
 -- pragma translate_off
 GENERIC MAP (
@@ -15946,7 +15668,7 @@ GENERIC MAP (
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
-	dataa => ALT_INV_Result_input(4),
+	dataa => \ALT_INV_Result[4]~reg0_q\,
 	datab => \convert_binary|Div1|auto_generated|divider|divider|ALT_INV_add_sub_6_result_int[7]~1_sumout\,
 	combout => \convert_binary|Div1|auto_generated|divider|divider|StageOut[49]~16_combout\);
 
@@ -15966,8 +15688,8 @@ PORT MAP (
 
 \convert_binary|Div1|auto_generated|divider|divider|op_8~33\ : cyclonev_lcell_comb
 -- Equation(s):
--- \convert_binary|Div1|auto_generated|divider|divider|op_8~33_sumout\ = SUM(( Result_input(2) ) + ( VCC ) + ( \convert_binary|Div1|auto_generated|divider|divider|op_8~38_cout\ ))
--- \convert_binary|Div1|auto_generated|divider|divider|op_8~34\ = CARRY(( Result_input(2) ) + ( VCC ) + ( \convert_binary|Div1|auto_generated|divider|divider|op_8~38_cout\ ))
+-- \convert_binary|Div1|auto_generated|divider|divider|op_8~33_sumout\ = SUM(( \Result[2]~reg0_q\ ) + ( VCC ) + ( \convert_binary|Div1|auto_generated|divider|divider|op_8~38_cout\ ))
+-- \convert_binary|Div1|auto_generated|divider|divider|op_8~34\ = CARRY(( \Result[2]~reg0_q\ ) + ( VCC ) + ( \convert_binary|Div1|auto_generated|divider|divider|op_8~38_cout\ ))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -15976,7 +15698,7 @@ GENERIC MAP (
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
-	datad => ALT_INV_Result_input(2),
+	datad => \ALT_INV_Result[2]~reg0_q\,
 	cin => \convert_binary|Div1|auto_generated|divider|divider|op_8~38_cout\,
 	sumout => \convert_binary|Div1|auto_generated|divider|divider|op_8~33_sumout\,
 	cout => \convert_binary|Div1|auto_generated|divider|divider|op_8~34\);
@@ -15984,10 +15706,10 @@ PORT MAP (
 \convert_binary|Div1|auto_generated|divider|divider|op_8~29\ : cyclonev_lcell_comb
 -- Equation(s):
 -- \convert_binary|Div1|auto_generated|divider|divider|op_8~29_sumout\ = SUM(( (!\convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[7]~1_sumout\ & 
--- ((\convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[0]~29_sumout\))) # (\convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[7]~1_sumout\ & (Result_input(3))) ) + ( VCC ) + ( 
+-- ((\convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[0]~29_sumout\))) # (\convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[7]~1_sumout\ & (\Result[3]~reg0_q\)) ) + ( VCC ) + ( 
 -- \convert_binary|Div1|auto_generated|divider|divider|op_8~34\ ))
 -- \convert_binary|Div1|auto_generated|divider|divider|op_8~30\ = CARRY(( (!\convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[7]~1_sumout\ & ((\convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[0]~29_sumout\))) # 
--- (\convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[7]~1_sumout\ & (Result_input(3))) ) + ( VCC ) + ( \convert_binary|Div1|auto_generated|divider|divider|op_8~34\ ))
+-- (\convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[7]~1_sumout\ & (\Result[3]~reg0_q\)) ) + ( VCC ) + ( \convert_binary|Div1|auto_generated|divider|divider|op_8~34\ ))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -15996,7 +15718,7 @@ GENERIC MAP (
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
-	dataa => ALT_INV_Result_input(3),
+	dataa => \ALT_INV_Result[3]~reg0_q\,
 	datac => \convert_binary|Div1|auto_generated|divider|divider|ALT_INV_add_sub_6_result_int[7]~1_sumout\,
 	datad => \convert_binary|Div1|auto_generated|divider|divider|ALT_INV_add_sub_6_result_int[0]~29_sumout\,
 	cin => \convert_binary|Div1|auto_generated|divider|divider|op_8~34\,
@@ -16026,10 +15748,10 @@ PORT MAP (
 \convert_binary|Div1|auto_generated|divider|divider|op_8~21\ : cyclonev_lcell_comb
 -- Equation(s):
 -- \convert_binary|Div1|auto_generated|divider|divider|op_8~21_sumout\ = SUM(( (!\convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[7]~1_sumout\ & 
--- ((\convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[2]~21_sumout\))) # (\convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[7]~1_sumout\ & (Result_input(5))) ) + ( VCC ) + ( 
+-- ((\convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[2]~21_sumout\))) # (\convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[7]~1_sumout\ & (\Result[5]~reg0_q\)) ) + ( VCC ) + ( 
 -- \convert_binary|Div1|auto_generated|divider|divider|op_8~26\ ))
 -- \convert_binary|Div1|auto_generated|divider|divider|op_8~22\ = CARRY(( (!\convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[7]~1_sumout\ & ((\convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[2]~21_sumout\))) # 
--- (\convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[7]~1_sumout\ & (Result_input(5))) ) + ( VCC ) + ( \convert_binary|Div1|auto_generated|divider|divider|op_8~26\ ))
+-- (\convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[7]~1_sumout\ & (\Result[5]~reg0_q\)) ) + ( VCC ) + ( \convert_binary|Div1|auto_generated|divider|divider|op_8~26\ ))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -16038,7 +15760,7 @@ GENERIC MAP (
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
-	dataa => ALT_INV_Result_input(5),
+	dataa => \ALT_INV_Result[5]~reg0_q\,
 	datac => \convert_binary|Div1|auto_generated|divider|divider|ALT_INV_add_sub_6_result_int[7]~1_sumout\,
 	datad => \convert_binary|Div1|auto_generated|divider|divider|ALT_INV_add_sub_6_result_int[2]~21_sumout\,
 	cin => \convert_binary|Div1|auto_generated|divider|divider|op_8~26\,
@@ -16068,9 +15790,9 @@ PORT MAP (
 \convert_binary|Div1|auto_generated|divider|divider|op_8~9\ : cyclonev_lcell_comb
 -- Equation(s):
 -- \convert_binary|Div1|auto_generated|divider|divider|op_8~9_sumout\ = SUM(( (!\convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[7]~1_sumout\ & ((\convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[4]~9_sumout\))) 
--- # (\convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[7]~1_sumout\ & (Result_input(7))) ) + ( GND ) + ( \convert_binary|Div1|auto_generated|divider|divider|op_8~18\ ))
+-- # (\convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[7]~1_sumout\ & (\Result[7]~reg0_q\)) ) + ( GND ) + ( \convert_binary|Div1|auto_generated|divider|divider|op_8~18\ ))
 -- \convert_binary|Div1|auto_generated|divider|divider|op_8~10\ = CARRY(( (!\convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[7]~1_sumout\ & ((\convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[4]~9_sumout\))) # 
--- (\convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[7]~1_sumout\ & (Result_input(7))) ) + ( GND ) + ( \convert_binary|Div1|auto_generated|divider|divider|op_8~18\ ))
+-- (\convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[7]~1_sumout\ & (\Result[7]~reg0_q\)) ) + ( GND ) + ( \convert_binary|Div1|auto_generated|divider|divider|op_8~18\ ))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -16079,7 +15801,7 @@ GENERIC MAP (
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
-	dataa => ALT_INV_Result_input(7),
+	dataa => \ALT_INV_Result[7]~reg0_q\,
 	datac => \convert_binary|Div1|auto_generated|divider|divider|ALT_INV_add_sub_6_result_int[7]~1_sumout\,
 	datad => \convert_binary|Div1|auto_generated|divider|divider|ALT_INV_add_sub_6_result_int[4]~9_sumout\,
 	cin => \convert_binary|Div1|auto_generated|divider|divider|op_8~18\,
@@ -16109,7 +15831,7 @@ PORT MAP (
 \convert_binary|Div1|auto_generated|divider|divider|op_8~6\ : cyclonev_lcell_comb
 -- Equation(s):
 -- \convert_binary|Div1|auto_generated|divider|divider|op_8~6_cout\ = CARRY(( (!\convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[7]~1_sumout\ & ((\convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[6]~5_sumout\))) 
--- # (\convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[7]~1_sumout\ & (Result_input(9))) ) + ( VCC ) + ( \convert_binary|Div1|auto_generated|divider|divider|op_8~14\ ))
+-- # (\convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[7]~1_sumout\ & (\Result[9]~reg0_q\)) ) + ( VCC ) + ( \convert_binary|Div1|auto_generated|divider|divider|op_8~14\ ))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -16118,7 +15840,7 @@ GENERIC MAP (
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
-	dataa => ALT_INV_Result_input(9),
+	dataa => \ALT_INV_Result[9]~reg0_q\,
 	datac => \convert_binary|Div1|auto_generated|divider|divider|ALT_INV_add_sub_6_result_int[7]~1_sumout\,
 	datad => \convert_binary|Div1|auto_generated|divider|divider|ALT_INV_add_sub_6_result_int[6]~5_sumout\,
 	cin => \convert_binary|Div1|auto_generated|divider|divider|op_8~14\,
@@ -16155,7 +15877,7 @@ PORT MAP (
 
 \convert_binary|Div1|auto_generated|divider|divider|StageOut[52]~2\ : cyclonev_lcell_comb
 -- Equation(s):
--- \convert_binary|Div1|auto_generated|divider|divider|StageOut[52]~2_combout\ = (Result_input(7) & \convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[7]~1_sumout\)
+-- \convert_binary|Div1|auto_generated|divider|divider|StageOut[52]~2_combout\ = (\Result[7]~reg0_q\ & \convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[7]~1_sumout\)
 
 -- pragma translate_off
 GENERIC MAP (
@@ -16164,7 +15886,7 @@ GENERIC MAP (
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
-	dataa => ALT_INV_Result_input(7),
+	dataa => \ALT_INV_Result[7]~reg0_q\,
 	datab => \convert_binary|Div1|auto_generated|divider|divider|ALT_INV_add_sub_6_result_int[7]~1_sumout\,
 	combout => \convert_binary|Div1|auto_generated|divider|divider|StageOut[52]~2_combout\);
 
@@ -16201,7 +15923,7 @@ PORT MAP (
 
 \convert_binary|Div1|auto_generated|divider|divider|StageOut[50]~12\ : cyclonev_lcell_comb
 -- Equation(s):
--- \convert_binary|Div1|auto_generated|divider|divider|StageOut[50]~12_combout\ = (Result_input(5) & \convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[7]~1_sumout\)
+-- \convert_binary|Div1|auto_generated|divider|divider|StageOut[50]~12_combout\ = (\Result[5]~reg0_q\ & \convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[7]~1_sumout\)
 
 -- pragma translate_off
 GENERIC MAP (
@@ -16210,7 +15932,7 @@ GENERIC MAP (
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
-	dataa => ALT_INV_Result_input(5),
+	dataa => \ALT_INV_Result[5]~reg0_q\,
 	datab => \convert_binary|Div1|auto_generated|divider|divider|ALT_INV_add_sub_6_result_int[7]~1_sumout\,
 	combout => \convert_binary|Div1|auto_generated|divider|divider|StageOut[50]~12_combout\);
 
@@ -16232,7 +15954,7 @@ PORT MAP (
 \convert_binary|Div1|auto_generated|divider|divider|StageOut[48]~19\ : cyclonev_lcell_comb
 -- Equation(s):
 -- \convert_binary|Div1|auto_generated|divider|divider|StageOut[48]~19_combout\ = (!\convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[7]~1_sumout\ & 
--- ((\convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[0]~29_sumout\))) # (\convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[7]~1_sumout\ & (Result_input(3)))
+-- ((\convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[0]~29_sumout\))) # (\convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[7]~1_sumout\ & (\Result[3]~reg0_q\))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -16241,7 +15963,7 @@ GENERIC MAP (
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
-	dataa => ALT_INV_Result_input(3),
+	dataa => \ALT_INV_Result[3]~reg0_q\,
 	datab => \convert_binary|Div1|auto_generated|divider|divider|ALT_INV_add_sub_6_result_int[7]~1_sumout\,
 	datac => \convert_binary|Div1|auto_generated|divider|divider|ALT_INV_add_sub_6_result_int[0]~29_sumout\,
 	combout => \convert_binary|Div1|auto_generated|divider|divider|StageOut[48]~19_combout\);
@@ -16262,8 +15984,8 @@ PORT MAP (
 
 \convert_binary|Div1|auto_generated|divider|divider|op_9~33\ : cyclonev_lcell_comb
 -- Equation(s):
--- \convert_binary|Div1|auto_generated|divider|divider|op_9~33_sumout\ = SUM(( Result_input(1) ) + ( VCC ) + ( \convert_binary|Div1|auto_generated|divider|divider|op_9~38_cout\ ))
--- \convert_binary|Div1|auto_generated|divider|divider|op_9~34\ = CARRY(( Result_input(1) ) + ( VCC ) + ( \convert_binary|Div1|auto_generated|divider|divider|op_9~38_cout\ ))
+-- \convert_binary|Div1|auto_generated|divider|divider|op_9~33_sumout\ = SUM(( \Result[1]~reg0_q\ ) + ( VCC ) + ( \convert_binary|Div1|auto_generated|divider|divider|op_9~38_cout\ ))
+-- \convert_binary|Div1|auto_generated|divider|divider|op_9~34\ = CARRY(( \Result[1]~reg0_q\ ) + ( VCC ) + ( \convert_binary|Div1|auto_generated|divider|divider|op_9~38_cout\ ))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -16272,7 +15994,7 @@ GENERIC MAP (
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
-	datad => ALT_INV_Result_input(1),
+	datad => \ALT_INV_Result[1]~reg0_q\,
 	cin => \convert_binary|Div1|auto_generated|divider|divider|op_9~38_cout\,
 	sumout => \convert_binary|Div1|auto_generated|divider|divider|op_9~33_sumout\,
 	cout => \convert_binary|Div1|auto_generated|divider|divider|op_9~34\);
@@ -16280,9 +16002,9 @@ PORT MAP (
 \convert_binary|Div1|auto_generated|divider|divider|op_9~29\ : cyclonev_lcell_comb
 -- Equation(s):
 -- \convert_binary|Div1|auto_generated|divider|divider|op_9~29_sumout\ = SUM(( (!\convert_binary|Div1|auto_generated|divider|divider|op_8~1_sumout\ & ((\convert_binary|Div1|auto_generated|divider|divider|op_8~33_sumout\))) # 
--- (\convert_binary|Div1|auto_generated|divider|divider|op_8~1_sumout\ & (Result_input(2))) ) + ( VCC ) + ( \convert_binary|Div1|auto_generated|divider|divider|op_9~34\ ))
+-- (\convert_binary|Div1|auto_generated|divider|divider|op_8~1_sumout\ & (\Result[2]~reg0_q\)) ) + ( VCC ) + ( \convert_binary|Div1|auto_generated|divider|divider|op_9~34\ ))
 -- \convert_binary|Div1|auto_generated|divider|divider|op_9~30\ = CARRY(( (!\convert_binary|Div1|auto_generated|divider|divider|op_8~1_sumout\ & ((\convert_binary|Div1|auto_generated|divider|divider|op_8~33_sumout\))) # 
--- (\convert_binary|Div1|auto_generated|divider|divider|op_8~1_sumout\ & (Result_input(2))) ) + ( VCC ) + ( \convert_binary|Div1|auto_generated|divider|divider|op_9~34\ ))
+-- (\convert_binary|Div1|auto_generated|divider|divider|op_8~1_sumout\ & (\Result[2]~reg0_q\)) ) + ( VCC ) + ( \convert_binary|Div1|auto_generated|divider|divider|op_9~34\ ))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -16291,7 +16013,7 @@ GENERIC MAP (
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
-	dataa => ALT_INV_Result_input(2),
+	dataa => \ALT_INV_Result[2]~reg0_q\,
 	datab => \convert_binary|Div1|auto_generated|divider|divider|ALT_INV_op_8~1_sumout\,
 	datad => \convert_binary|Div1|auto_generated|divider|divider|ALT_INV_op_8~33_sumout\,
 	cin => \convert_binary|Div1|auto_generated|divider|divider|op_9~34\,
@@ -16573,7 +16295,7 @@ PORT MAP (
 \convert_binary|Div1|auto_generated|divider|divider|StageOut[56]~21\ : cyclonev_lcell_comb
 -- Equation(s):
 -- \convert_binary|Div1|auto_generated|divider|divider|StageOut[56]~21_combout\ = (!\convert_binary|Div1|auto_generated|divider|divider|op_8~1_sumout\ & ((\convert_binary|Div1|auto_generated|divider|divider|op_8~33_sumout\))) # 
--- (\convert_binary|Div1|auto_generated|divider|divider|op_8~1_sumout\ & (Result_input(2)))
+-- (\convert_binary|Div1|auto_generated|divider|divider|op_8~1_sumout\ & (\Result[2]~reg0_q\))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -16582,7 +16304,7 @@ GENERIC MAP (
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
-	dataa => ALT_INV_Result_input(2),
+	dataa => \ALT_INV_Result[2]~reg0_q\,
 	datab => \convert_binary|Div1|auto_generated|divider|divider|ALT_INV_op_8~1_sumout\,
 	datac => \convert_binary|Div1|auto_generated|divider|divider|ALT_INV_op_8~33_sumout\,
 	combout => \convert_binary|Div1|auto_generated|divider|divider|StageOut[56]~21_combout\);
@@ -16603,7 +16325,7 @@ PORT MAP (
 
 \convert_binary|Div1|auto_generated|divider|divider|op_10~34\ : cyclonev_lcell_comb
 -- Equation(s):
--- \convert_binary|Div1|auto_generated|divider|divider|op_10~34_cout\ = CARRY(( Result_input(0) ) + ( VCC ) + ( \convert_binary|Div1|auto_generated|divider|divider|op_10~38_cout\ ))
+-- \convert_binary|Div1|auto_generated|divider|divider|op_10~34_cout\ = CARRY(( \Result[0]~reg0_q\ ) + ( VCC ) + ( \convert_binary|Div1|auto_generated|divider|divider|op_10~38_cout\ ))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -16612,14 +16334,14 @@ GENERIC MAP (
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
-	datad => ALT_INV_Result_input(0),
+	datad => \ALT_INV_Result[0]~reg0_q\,
 	cin => \convert_binary|Div1|auto_generated|divider|divider|op_10~38_cout\,
 	cout => \convert_binary|Div1|auto_generated|divider|divider|op_10~34_cout\);
 
 \convert_binary|Div1|auto_generated|divider|divider|op_10~30\ : cyclonev_lcell_comb
 -- Equation(s):
 -- \convert_binary|Div1|auto_generated|divider|divider|op_10~30_cout\ = CARRY(( (!\convert_binary|Div1|auto_generated|divider|divider|op_9~1_sumout\ & ((\convert_binary|Div1|auto_generated|divider|divider|op_9~33_sumout\))) # 
--- (\convert_binary|Div1|auto_generated|divider|divider|op_9~1_sumout\ & (Result_input(1))) ) + ( VCC ) + ( \convert_binary|Div1|auto_generated|divider|divider|op_10~34_cout\ ))
+-- (\convert_binary|Div1|auto_generated|divider|divider|op_9~1_sumout\ & (\Result[1]~reg0_q\)) ) + ( VCC ) + ( \convert_binary|Div1|auto_generated|divider|divider|op_10~34_cout\ ))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -16628,7 +16350,7 @@ GENERIC MAP (
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
-	dataa => ALT_INV_Result_input(1),
+	dataa => \ALT_INV_Result[1]~reg0_q\,
 	datab => \convert_binary|Div1|auto_generated|divider|divider|ALT_INV_op_9~1_sumout\,
 	datad => \convert_binary|Div1|auto_generated|divider|divider|ALT_INV_op_9~33_sumout\,
 	cin => \convert_binary|Div1|auto_generated|divider|divider|op_10~34_cout\,
@@ -16786,14 +16508,14 @@ PORT MAP (
 	clk => \CLK_main~input_o\,
 	d => \convert_binary|Div1|auto_generated|divider|divider|op_10~1_wirecell_combout\,
 	clrn => \RST_main~input_o\,
-	sclr => \convert_binary|int_r_2[0]~0_combout\,
+	sclr => \convert_binary|int_r_2[2]~0_combout\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
 	q => \convert_binary|int_data_3\(0));
 
 \convert_binary|int_data_3~0\ : cyclonev_lcell_comb
 -- Equation(s):
--- \convert_binary|int_data_3~0_combout\ = (!\convert_binary|Div1|auto_generated|divider|divider|op_9~1_sumout\) # (\convert_binary|int_r_2[0]~0_combout\)
+-- \convert_binary|int_data_3~0_combout\ = (!\convert_binary|Div1|auto_generated|divider|divider|op_9~1_sumout\) # (\convert_binary|int_r_2[2]~0_combout\)
 
 -- pragma translate_off
 GENERIC MAP (
@@ -16802,7 +16524,7 @@ GENERIC MAP (
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
-	dataa => \convert_binary|ALT_INV_int_r_2[0]~0_combout\,
+	dataa => \convert_binary|ALT_INV_int_r_2[2]~0_combout\,
 	datab => \convert_binary|Div1|auto_generated|divider|divider|ALT_INV_op_9~1_sumout\,
 	combout => \convert_binary|int_data_3~0_combout\);
 
@@ -16844,14 +16566,14 @@ PORT MAP (
 	clk => \CLK_main~input_o\,
 	d => \convert_binary|Div1|auto_generated|divider|divider|op_8~1_wirecell_combout\,
 	clrn => \RST_main~input_o\,
-	sclr => \convert_binary|int_r_2[0]~0_combout\,
+	sclr => \convert_binary|int_r_2[2]~0_combout\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
 	q => \convert_binary|int_data_3\(2));
 
 \convert_binary|int_data_3~1\ : cyclonev_lcell_comb
 -- Equation(s):
--- \convert_binary|int_data_3~1_combout\ = (!\convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[7]~1_sumout\) # (\convert_binary|int_r_2[0]~0_combout\)
+-- \convert_binary|int_data_3~1_combout\ = (!\convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[7]~1_sumout\) # (\convert_binary|int_r_2[2]~0_combout\)
 
 -- pragma translate_off
 GENERIC MAP (
@@ -16860,7 +16582,7 @@ GENERIC MAP (
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
-	dataa => \convert_binary|ALT_INV_int_r_2[0]~0_combout\,
+	dataa => \convert_binary|ALT_INV_int_r_2[2]~0_combout\,
 	datab => \convert_binary|Div1|auto_generated|divider|divider|ALT_INV_add_sub_6_result_int[7]~1_sumout\,
 	combout => \convert_binary|int_data_3~1_combout\);
 
@@ -19216,7 +18938,7 @@ PORT MAP (
 	clk => \CLK_main~input_o\,
 	d => \convert_binary|Mod2|auto_generated|divider|divider|StageOut[90]~0_combout\,
 	clrn => \RST_main~input_o\,
-	sclr => \convert_binary|int_r_2[0]~0_combout\,
+	sclr => \convert_binary|int_r_2[2]~0_combout\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
 	q => \convert_binary|int_r_1\(0));
@@ -19224,11 +18946,11 @@ PORT MAP (
 \convert_binary|int_r_1~0\ : cyclonev_lcell_comb
 -- Equation(s):
 -- \convert_binary|int_r_1~0_combout\ = ( \convert_binary|Mod2|auto_generated|divider|divider|op_10~1_sumout\ & ( \convert_binary|Mod2|auto_generated|divider|divider|op_10~9_sumout\ & ( ((!\convert_binary|Mod2|auto_generated|divider|divider|op_9~1_sumout\ & 
--- ((\convert_binary|Mod2|auto_generated|divider|divider|op_9~5_sumout\))) # (\convert_binary|Mod2|auto_generated|divider|divider|op_9~1_sumout\ & (Remainder_input(1)))) # (\convert_binary|int_r_2[0]~0_combout\) ) ) ) # ( 
+-- ((\convert_binary|Mod2|auto_generated|divider|divider|op_9~5_sumout\))) # (\convert_binary|Mod2|auto_generated|divider|divider|op_9~1_sumout\ & (Remainder_input(1)))) # (\convert_binary|int_r_2[2]~0_combout\) ) ) ) # ( 
 -- !\convert_binary|Mod2|auto_generated|divider|divider|op_10~1_sumout\ & ( \convert_binary|Mod2|auto_generated|divider|divider|op_10~9_sumout\ ) ) # ( \convert_binary|Mod2|auto_generated|divider|divider|op_10~1_sumout\ & ( 
 -- !\convert_binary|Mod2|auto_generated|divider|divider|op_10~9_sumout\ & ( ((!\convert_binary|Mod2|auto_generated|divider|divider|op_9~1_sumout\ & ((\convert_binary|Mod2|auto_generated|divider|divider|op_9~5_sumout\))) # 
--- (\convert_binary|Mod2|auto_generated|divider|divider|op_9~1_sumout\ & (Remainder_input(1)))) # (\convert_binary|int_r_2[0]~0_combout\) ) ) ) # ( !\convert_binary|Mod2|auto_generated|divider|divider|op_10~1_sumout\ & ( 
--- !\convert_binary|Mod2|auto_generated|divider|divider|op_10~9_sumout\ & ( \convert_binary|int_r_2[0]~0_combout\ ) ) )
+-- (\convert_binary|Mod2|auto_generated|divider|divider|op_9~1_sumout\ & (Remainder_input(1)))) # (\convert_binary|int_r_2[2]~0_combout\) ) ) ) # ( !\convert_binary|Mod2|auto_generated|divider|divider|op_10~1_sumout\ & ( 
+-- !\convert_binary|Mod2|auto_generated|divider|divider|op_10~9_sumout\ & ( \convert_binary|int_r_2[2]~0_combout\ ) ) )
 
 -- pragma translate_off
 GENERIC MAP (
@@ -19237,7 +18959,7 @@ GENERIC MAP (
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
-	dataa => \convert_binary|ALT_INV_int_r_2[0]~0_combout\,
+	dataa => \convert_binary|ALT_INV_int_r_2[2]~0_combout\,
 	datab => ALT_INV_Remainder_input(1),
 	datac => \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_9~1_sumout\,
 	datad => \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_9~5_sumout\,
@@ -19291,7 +19013,7 @@ PORT MAP (
 	clk => \CLK_main~input_o\,
 	d => \convert_binary|Mod2|auto_generated|divider|divider|StageOut[92]~2_combout\,
 	clrn => \RST_main~input_o\,
-	sclr => \convert_binary|int_r_2[0]~0_combout\,
+	sclr => \convert_binary|int_r_2[2]~0_combout\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
 	q => \convert_binary|int_r_1\(2));
@@ -19300,10 +19022,10 @@ PORT MAP (
 -- Equation(s):
 -- \convert_binary|int_r_1~1_combout\ = ( \convert_binary|Mod2|auto_generated|divider|divider|op_10~1_sumout\ & ( \convert_binary|Mod2|auto_generated|divider|divider|op_10~17_sumout\ & ( ((!\convert_binary|Mod2|auto_generated|divider|divider|op_9~1_sumout\ & 
 -- ((\convert_binary|Mod2|auto_generated|divider|divider|op_9~13_sumout\))) # (\convert_binary|Mod2|auto_generated|divider|divider|op_9~1_sumout\ & (\convert_binary|Mod2|auto_generated|divider|divider|StageOut[71]~4_combout\))) # 
--- (\convert_binary|int_r_2[0]~0_combout\) ) ) ) # ( !\convert_binary|Mod2|auto_generated|divider|divider|op_10~1_sumout\ & ( \convert_binary|Mod2|auto_generated|divider|divider|op_10~17_sumout\ ) ) # ( 
+-- (\convert_binary|int_r_2[2]~0_combout\) ) ) ) # ( !\convert_binary|Mod2|auto_generated|divider|divider|op_10~1_sumout\ & ( \convert_binary|Mod2|auto_generated|divider|divider|op_10~17_sumout\ ) ) # ( 
 -- \convert_binary|Mod2|auto_generated|divider|divider|op_10~1_sumout\ & ( !\convert_binary|Mod2|auto_generated|divider|divider|op_10~17_sumout\ & ( ((!\convert_binary|Mod2|auto_generated|divider|divider|op_9~1_sumout\ & 
 -- ((\convert_binary|Mod2|auto_generated|divider|divider|op_9~13_sumout\))) # (\convert_binary|Mod2|auto_generated|divider|divider|op_9~1_sumout\ & (\convert_binary|Mod2|auto_generated|divider|divider|StageOut[71]~4_combout\))) # 
--- (\convert_binary|int_r_2[0]~0_combout\) ) ) ) # ( !\convert_binary|Mod2|auto_generated|divider|divider|op_10~1_sumout\ & ( !\convert_binary|Mod2|auto_generated|divider|divider|op_10~17_sumout\ & ( \convert_binary|int_r_2[0]~0_combout\ ) ) )
+-- (\convert_binary|int_r_2[2]~0_combout\) ) ) ) # ( !\convert_binary|Mod2|auto_generated|divider|divider|op_10~1_sumout\ & ( !\convert_binary|Mod2|auto_generated|divider|divider|op_10~17_sumout\ & ( \convert_binary|int_r_2[2]~0_combout\ ) ) )
 
 -- pragma translate_off
 GENERIC MAP (
@@ -19312,7 +19034,7 @@ GENERIC MAP (
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
-	dataa => \convert_binary|ALT_INV_int_r_2[0]~0_combout\,
+	dataa => \convert_binary|ALT_INV_int_r_2[2]~0_combout\,
 	datab => \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_9~1_sumout\,
 	datac => \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_StageOut[71]~4_combout\,
 	datad => \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_9~13_sumout\,
@@ -22446,7 +22168,7 @@ PORT MAP (
 	clk => \CLK_main~input_o\,
 	d => \convert_binary|Mod3|auto_generated|divider|divider|StageOut[90]~0_combout\,
 	clrn => \RST_main~input_o\,
-	sclr => \convert_binary|int_r_2[0]~0_combout\,
+	sclr => \convert_binary|int_r_2[2]~0_combout\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
 	q => \convert_binary|int_r_2\(0));
@@ -22455,10 +22177,10 @@ PORT MAP (
 -- Equation(s):
 -- \convert_binary|int_r_2~1_combout\ = ( \convert_binary|Mod3|auto_generated|divider|divider|op_10~1_sumout\ & ( \convert_binary|Mod3|auto_generated|divider|divider|op_10~9_sumout\ & ( ((!\convert_binary|Mod3|auto_generated|divider|divider|op_9~1_sumout\ & 
 -- ((\convert_binary|Mod3|auto_generated|divider|divider|op_9~5_sumout\))) # (\convert_binary|Mod3|auto_generated|divider|divider|op_9~1_sumout\ & (!\convert_binary|Div2|auto_generated|divider|divider|op_9~1_sumout\))) # 
--- (\convert_binary|int_r_2[0]~0_combout\) ) ) ) # ( !\convert_binary|Mod3|auto_generated|divider|divider|op_10~1_sumout\ & ( \convert_binary|Mod3|auto_generated|divider|divider|op_10~9_sumout\ ) ) # ( 
+-- (\convert_binary|int_r_2[2]~0_combout\) ) ) ) # ( !\convert_binary|Mod3|auto_generated|divider|divider|op_10~1_sumout\ & ( \convert_binary|Mod3|auto_generated|divider|divider|op_10~9_sumout\ ) ) # ( 
 -- \convert_binary|Mod3|auto_generated|divider|divider|op_10~1_sumout\ & ( !\convert_binary|Mod3|auto_generated|divider|divider|op_10~9_sumout\ & ( ((!\convert_binary|Mod3|auto_generated|divider|divider|op_9~1_sumout\ & 
 -- ((\convert_binary|Mod3|auto_generated|divider|divider|op_9~5_sumout\))) # (\convert_binary|Mod3|auto_generated|divider|divider|op_9~1_sumout\ & (!\convert_binary|Div2|auto_generated|divider|divider|op_9~1_sumout\))) # 
--- (\convert_binary|int_r_2[0]~0_combout\) ) ) ) # ( !\convert_binary|Mod3|auto_generated|divider|divider|op_10~1_sumout\ & ( !\convert_binary|Mod3|auto_generated|divider|divider|op_10~9_sumout\ & ( \convert_binary|int_r_2[0]~0_combout\ ) ) )
+-- (\convert_binary|int_r_2[2]~0_combout\) ) ) ) # ( !\convert_binary|Mod3|auto_generated|divider|divider|op_10~1_sumout\ & ( !\convert_binary|Mod3|auto_generated|divider|divider|op_10~9_sumout\ & ( \convert_binary|int_r_2[2]~0_combout\ ) ) )
 
 -- pragma translate_off
 GENERIC MAP (
@@ -22467,7 +22189,7 @@ GENERIC MAP (
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
-	dataa => \convert_binary|ALT_INV_int_r_2[0]~0_combout\,
+	dataa => \convert_binary|ALT_INV_int_r_2[2]~0_combout\,
 	datab => \convert_binary|Div2|auto_generated|divider|divider|ALT_INV_op_9~1_sumout\,
 	datac => \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_9~1_sumout\,
 	datad => \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_9~5_sumout\,
@@ -22521,7 +22243,7 @@ PORT MAP (
 	clk => \CLK_main~input_o\,
 	d => \convert_binary|Mod3|auto_generated|divider|divider|StageOut[92]~2_combout\,
 	clrn => \RST_main~input_o\,
-	sclr => \convert_binary|int_r_2[0]~0_combout\,
+	sclr => \convert_binary|int_r_2[2]~0_combout\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
 	q => \convert_binary|int_r_2\(2));
@@ -22530,10 +22252,10 @@ PORT MAP (
 -- Equation(s):
 -- \convert_binary|int_r_2~2_combout\ = ( \convert_binary|Mod3|auto_generated|divider|divider|op_10~1_sumout\ & ( \convert_binary|Mod3|auto_generated|divider|divider|op_10~17_sumout\ & ( ((!\convert_binary|Mod3|auto_generated|divider|divider|op_9~1_sumout\ & 
 -- ((\convert_binary|Mod3|auto_generated|divider|divider|op_9~13_sumout\))) # (\convert_binary|Mod3|auto_generated|divider|divider|op_9~1_sumout\ & (\convert_binary|Mod3|auto_generated|divider|divider|StageOut[71]~4_combout\))) # 
--- (\convert_binary|int_r_2[0]~0_combout\) ) ) ) # ( !\convert_binary|Mod3|auto_generated|divider|divider|op_10~1_sumout\ & ( \convert_binary|Mod3|auto_generated|divider|divider|op_10~17_sumout\ ) ) # ( 
+-- (\convert_binary|int_r_2[2]~0_combout\) ) ) ) # ( !\convert_binary|Mod3|auto_generated|divider|divider|op_10~1_sumout\ & ( \convert_binary|Mod3|auto_generated|divider|divider|op_10~17_sumout\ ) ) # ( 
 -- \convert_binary|Mod3|auto_generated|divider|divider|op_10~1_sumout\ & ( !\convert_binary|Mod3|auto_generated|divider|divider|op_10~17_sumout\ & ( ((!\convert_binary|Mod3|auto_generated|divider|divider|op_9~1_sumout\ & 
 -- ((\convert_binary|Mod3|auto_generated|divider|divider|op_9~13_sumout\))) # (\convert_binary|Mod3|auto_generated|divider|divider|op_9~1_sumout\ & (\convert_binary|Mod3|auto_generated|divider|divider|StageOut[71]~4_combout\))) # 
--- (\convert_binary|int_r_2[0]~0_combout\) ) ) ) # ( !\convert_binary|Mod3|auto_generated|divider|divider|op_10~1_sumout\ & ( !\convert_binary|Mod3|auto_generated|divider|divider|op_10~17_sumout\ & ( \convert_binary|int_r_2[0]~0_combout\ ) ) )
+-- (\convert_binary|int_r_2[2]~0_combout\) ) ) ) # ( !\convert_binary|Mod3|auto_generated|divider|divider|op_10~1_sumout\ & ( !\convert_binary|Mod3|auto_generated|divider|divider|op_10~17_sumout\ & ( \convert_binary|int_r_2[2]~0_combout\ ) ) )
 
 -- pragma translate_off
 GENERIC MAP (
@@ -22542,7 +22264,7 @@ GENERIC MAP (
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
-	dataa => \convert_binary|ALT_INV_int_r_2[0]~0_combout\,
+	dataa => \convert_binary|ALT_INV_int_r_2[2]~0_combout\,
 	datab => \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_9~1_sumout\,
 	datac => \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_StageOut[71]~4_combout\,
 	datad => \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_9~13_sumout\,
@@ -23873,14 +23595,14 @@ PORT MAP (
 	clk => \CLK_main~input_o\,
 	d => \convert_binary|Div3|auto_generated|divider|divider|op_10~1_wirecell_combout\,
 	clrn => \RST_main~input_o\,
-	sclr => \convert_binary|int_r_2[0]~0_combout\,
+	sclr => \convert_binary|int_r_2[2]~0_combout\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
 	q => \convert_binary|int_r_3\(0));
 
 \convert_binary|int_r_3~0\ : cyclonev_lcell_comb
 -- Equation(s):
--- \convert_binary|int_r_3~0_combout\ = (!\convert_binary|Div3|auto_generated|divider|divider|op_9~1_sumout\) # (\convert_binary|int_r_2[0]~0_combout\)
+-- \convert_binary|int_r_3~0_combout\ = (!\convert_binary|Div3|auto_generated|divider|divider|op_9~1_sumout\) # (\convert_binary|int_r_2[2]~0_combout\)
 
 -- pragma translate_off
 GENERIC MAP (
@@ -23889,7 +23611,7 @@ GENERIC MAP (
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
-	dataa => \convert_binary|ALT_INV_int_r_2[0]~0_combout\,
+	dataa => \convert_binary|ALT_INV_int_r_2[2]~0_combout\,
 	datab => \convert_binary|Div3|auto_generated|divider|divider|ALT_INV_op_9~1_sumout\,
 	combout => \convert_binary|int_r_3~0_combout\);
 
@@ -23931,14 +23653,14 @@ PORT MAP (
 	clk => \CLK_main~input_o\,
 	d => \convert_binary|Div3|auto_generated|divider|divider|op_8~1_wirecell_combout\,
 	clrn => \RST_main~input_o\,
-	sclr => \convert_binary|int_r_2[0]~0_combout\,
+	sclr => \convert_binary|int_r_2[2]~0_combout\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
 	q => \convert_binary|int_r_3\(2));
 
 \convert_binary|int_r_3~1\ : cyclonev_lcell_comb
 -- Equation(s):
--- \convert_binary|int_r_3~1_combout\ = (!\convert_binary|Div3|auto_generated|divider|divider|add_sub_6_result_int[7]~1_sumout\) # (\convert_binary|int_r_2[0]~0_combout\)
+-- \convert_binary|int_r_3~1_combout\ = (!\convert_binary|Div3|auto_generated|divider|divider|add_sub_6_result_int[7]~1_sumout\) # (\convert_binary|int_r_2[2]~0_combout\)
 
 -- pragma translate_off
 GENERIC MAP (
@@ -23947,7 +23669,7 @@ GENERIC MAP (
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
-	dataa => \convert_binary|ALT_INV_int_r_2[0]~0_combout\,
+	dataa => \convert_binary|ALT_INV_int_r_2[2]~0_combout\,
 	datab => \convert_binary|Div3|auto_generated|divider|divider|ALT_INV_add_sub_6_result_int[7]~1_sumout\,
 	combout => \convert_binary|int_r_3~1_combout\);
 
